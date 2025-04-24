@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Game Cover Viewer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+        h1 {
+            text-align: center;
+            color: #66c0f4;
+        }
+        .search-container {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+        #search {
+            padding: 10px 15px;
+            width: 60%;
+            border-radius: 20px;
+            border: 1px solid #66c0f4;
+            background-color: #2d2d2d;
+            color: white;
+            font-size: 16px;
+        }
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .game-card {
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .game-cover {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .game-info {
+            padding: 15px;
+        }
+        .game-title {
+            font-weight: bold;
+            margin: 0;
+            color: #66c0f4;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .no-results {
+            text-align: center;
+            grid-column: 1 / -1;
+            color: #ff6b6b;
+            font-size: 18px;
+            margin-top: 50px;
+        }
+        .loading {
+            text-align: center;
+            grid-column: 1 / -1;
+            color: #66c0f4;
+            font-size: 18px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Steam Game Cover Viewer</h1>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search games..." disabled>
+    </div>
+    <div class="games-grid" id="games-container">
+        <div class="loading">Loading games...</div>
+    </div>
+
+    <script>
+        // Global variable to store game data
+        let gamesData = [];
+
+        // Function to display games
+        function displayGames(games) {
+            const container = document.getElementById('games-container');
+            container.innerHTML = '';
+
+            if (games.length === 0) {
+                container.innerHTML = '<div class="no-results">No games found matching your search</div>';
+                return;
+            }
+
+            games.forEach(game => {
+                const appId = game.st_file.replace('.lua', '');
+                const gameCard = document.createElement('div');
+                gameCard.className = 'game-card';
+                gameCard.innerHTML = `
+                    <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${appId}/header.jpg"
+                         alt="${game.name}" class="game-cover"
+                         onerror="this.src='https://via.placeholder.com/460x215?text=Cover+Not+Available'">
+                    <div class="game-info">
+                        <h3 class="game-title" title="${game.name}">${game.name}</h3>
+                    </div>
+                `;
+                container.appendChild(gameCard);
+            });
+        }
+
+        // Function to filter games based on search input
+        function filterGames() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const filteredGames = gamesData.filter(game =>
+                game.name.toLowerCase().includes(searchTerm)
+            );
+            displayGames(filteredGames);
+        }
+
+        // Function to load JSON data
+        async function loadGameData() {
+            try {
+                const response = await fetch('games.json'); // Replace with your JSON file path
+                if (!response.ok) {
+                    throw new Error('Failed to load game data');
+                }
+                gamesData = await response.json();
+
+                // Enable search and display all games
+                document.getElementById('search').disabled = false;
+                document.getElementById('search').addEventListener('input', filterGames);
+                displayGames(gamesData);
+            } catch (error) {
+                console.error('Error loading game data:', error);
+                document.getElementById('games-container').innerHTML =
+                    '<div class="no-results">Error loading game data. Please try again later.</div>';
+            }
+        }
+
+        // Load the game data when the page loads
+        window.addEventListener('DOMContentLoaded', loadGameData);
+    </script>
+</body>
+</html>
