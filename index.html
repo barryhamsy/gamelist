@@ -45,6 +45,42 @@
             font-size: 1.1rem;
         }
 
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: var(--secondary-color);
+        }
+
+        .search-button {
+            padding: 12px 20px;
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .search-button:hover {
+            background-color: #2980b9;
+        }
+
         .games-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -93,8 +129,17 @@
             font-weight: 500;
         }
 
+        .no-results {
+            text-align: center;
+            grid-column: 1 / -1;
+            padding: 40px;
+            font-size: 1.2rem;
+            color: var(--text-light);
+        }
+
         .loading {
             text-align: center;
+            grid-column: 1 / -1;
             padding: 40px;
             font-size: 1.2rem;
             color: var(--text-light);
@@ -116,6 +161,10 @@
 
             h1 {
                 font-size: 2rem;
+            }
+
+            .search-container {
+                flex-direction: column;
             }
         }
 
@@ -140,6 +189,11 @@
         <p class="subtitle">Explore our curated selection of games</p>
     </header>
 
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by game name or AppID...">
+        <button id="searchButton" class="search-button">Search</button>
+    </div>
+
     <main>
         <div class="games-container" id="gamesContainer">
             <div class="loading">Loading games...</div>
@@ -151,7 +205,25 @@
     </footer>
 
     <script>
+        let allGames = []; // Store all games for searching
+
         document.addEventListener('DOMContentLoaded', function() {
+            // Load games initially
+            loadGames();
+
+            // Setup search functionality
+            const searchInput = document.getElementById('searchInput');
+            const searchButton = document.getElementById('searchButton');
+
+            searchButton.addEventListener('click', performSearch);
+            searchInput.addEventListener('keyup', function(event) {
+                if (event.key === 'Enter') {
+                    performSearch();
+                }
+            });
+        });
+
+        function loadGames() {
             fetch('games.json')
                 .then(response => {
                     if (!response.ok) {
@@ -160,23 +232,8 @@
                     return response.json();
                 })
                 .then(games => {
-                    const container = document.getElementById('gamesContainer');
-                    container.innerHTML = ''; // Clear loading message
-
-                    games.forEach(game => {
-                        // Extract just the numeric app ID by removing any file extension
-                        const appId = game.st_file.split('.')[0];
-                        const card = document.createElement('div');
-                        card.className = 'game-card';
-                        card.innerHTML = `
-                            <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
-                            <div class="game-info">
-                                <h2 class="game-title">${game.name}</h2>
-                                <span class="game-id">AppID: ${appId}</span>
-                            </div>
-                        `;
-                        container.appendChild(card);
-                    });
+                    allGames = games; // Store all games for searching
+                    displayGames(games);
                 })
                 .catch(error => {
                     console.error('Error loading games:', error);
@@ -186,7 +243,55 @@
                         </div>
                     `;
                 });
-        });
+        }
+
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+            if (!searchTerm) {
+                displayGames(allGames);
+                return;
+            }
+
+            const filteredGames = allGames.filter(game => {
+                const appId = game.st_file.split('.')[0];
+                return (
+                    game.name.toLowerCase().includes(searchTerm) ||
+                    appId.includes(searchTerm)
+                );
+            });
+
+            displayGames(filteredGames);
+        }
+
+        function displayGames(games) {
+            const container = document.getElementById('gamesContainer');
+
+            if (games.length === 0) {
+                container.innerHTML = `
+                    <div class="no-results">
+                        No games found matching your search.
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = ''; // Clear previous results
+
+            games.forEach(game => {
+                const appId = game.st_file.split('.')[0];
+                const card = document.createElement('div');
+                card.className = 'game-card';
+                card.innerHTML = `
+                    <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
+                    <div class="game-info">
+                        <h2 class="game-title">${game.name}</h2>
+                        <span class="game-id">AppID: ${appId}</span>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
     </script>
 </body>
 </html>
