@@ -164,7 +164,8 @@
                     container.innerHTML = ''; // Clear loading message
 
                     games.forEach(game => {
-                        const appId = game.st_file.replace('.lua', '');
+                        // Extract just the numeric app ID by removing any file extension
+                        const appId = game.st_file.split('.')[0];
                         const card = document.createElement('div');
                         card.className = 'game-card';
                         card.innerHTML = `
