@@ -12,6 +12,7 @@
             --card-bg: #ffffff;
             --text-color: #333333;
             --text-light: #7f8c8d;
+            --denuvo-color: #e74c3c;
         }
 
         * {
@@ -127,6 +128,22 @@
             border-radius: 20px;
             font-size: 0.9rem;
             font-weight: 500;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+
+        .denuvo-tag {
+            display: inline-block;
+            background-color: var(--denuvo-color);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .game-tags {
+            margin-top: 5px;
         }
 
         .no-results {
@@ -341,11 +358,20 @@
                 const appId = game.st_file.split('.')[0];
                 const card = document.createElement('div');
                 card.className = 'game-card';
+
+                // Create Denuvo tag if required
+                const denuvoTag = game.requires_membership
+                    ? `<span class="denuvo-tag">DENUVO PROTECTED</span>`
+                    : '';
+
                 card.innerHTML = `
                     <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
                     <div class="game-info">
                         <h2 class="game-title">${game.name}</h2>
-                        <span class="game-id">AppID: ${appId}</span>
+                        <div class="game-tags">
+                            <span class="game-id">AppID: ${appId}</span>
+                            ${denuvoTag}
+                        </div>
                     </div>
                 `;
                 container.appendChild(card);
