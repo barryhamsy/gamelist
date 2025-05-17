@@ -181,6 +181,33 @@
                 max-width: 100%;
             }
         }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            gap: 5px;
+            grid-column: 1 / -1;
+        }
+
+        .pagination button {
+            padding: 8px 12px;
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            background-color: #2980b9;
+        }
+
+        .pagination button:disabled {
+            background-color: #95a5a6;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 <body>
@@ -204,94 +231,155 @@
         <p>© 2025 Barry's Games Store. All rights reserved.</p>
     </footer>
 
-    <script>
-        let allGames = []; // Store all games for searching
+<script>
+    let allGames = []; // Store all games for searching
+    let currentPage = 1;
+    const gamesPerPage = 50;
 
-        document.addEventListener('DOMContentLoaded', function() {
-            // Load games initially
-            loadGames();
+    document.addEventListener('DOMContentLoaded', function() {
+        // Load games initially
+        loadGames();
 
-            // Setup search functionality
-            const searchInput = document.getElementById('searchInput');
-            const searchButton = document.getElementById('searchButton');
+        // Setup search functionality
+        const searchInput = document.getElementById('searchInput');
+        const searchButton = document.getElementById('searchButton');
 
-            searchButton.addEventListener('click', performSearch);
-            searchInput.addEventListener('keyup', function(event) {
-                if (event.key === 'Enter') {
-                    performSearch();
-                }
-            });
+        searchButton.addEventListener('click', function() {
+            currentPage = 1; // Reset to first page when searching
+            performSearch();
         });
 
-        function loadGames() {
-            fetch('games.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(games => {
-                    allGames = games; // Store all games for searching
-                    displayGames(games);
-                })
-                .catch(error => {
-                    console.error('Error loading games:', error);
-                    document.getElementById('gamesContainer').innerHTML = `
-                        <div class="loading" style="color: #e74c3c;">
-                            Error loading games. Please try again later.
-                        </div>
-                    `;
-                });
-        }
-
-        function performSearch() {
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-
-            if (!searchTerm) {
-                displayGames(allGames);
-                return;
+        searchInput.addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                currentPage = 1; // Reset to first page when searching
+                performSearch();
             }
+        });
+    });
 
-            const filteredGames = allGames.filter(game => {
+    function loadGames() {
+        fetch('games.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(games => {
+                allGames = games; // Store all games for searching
+                displayGames(allGames);
+                setupPagination(allGames.length);
+            })
+            .catch(error => {
+                console.error('Error loading games:', error);
+                document.getElementById('gamesContainer').innerHTML = `
+                    <div class="loading" style="color: #e74c3c;">
+                        Error loading games. Please try again later.
+                    </div>
+                `;
+            });
+    }
+
+    function performSearch() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        let filteredGames;
+
+        if (!searchTerm) {
+            filteredGames = allGames;
+        } else {
+            filteredGames = allGames.filter(game => {
                 const appId = game.st_file.split('.')[0];
                 return (
                     game.name.toLowerCase().includes(searchTerm) ||
                     appId.includes(searchTerm)
                 );
-            });
-
-            displayGames(filteredGames);
         }
 
-        function displayGames(games) {
-            const container = document.getElementById('gamesContainer');
+        displayGames(filteredGames);
+        setupPagination(filteredGames.length);
+    }
 
-            if (games.length === 0) {
-                container.innerHTML = `
-                    <div class="no-results">
-                        No games found matching your search.
-                    </div>
-                `;
-                return;
+    function displayGames(games) {
+        const container = document.getElementById('gamesContainer');
+        const paginationContainer = document.getElementById('paginationContainer');
+
+        // Calculate pagination
+        const startIndex = (currentPage - 1) * gamesPerPage;
+        const paginatedGames = games.slice(startIndex, startIndex + gamesPerPage);
+
+        if (paginatedGames.length === 0) {
+            container.innerHTML = `
+                <div class="no-results">
+                    No games found matching your search.
+                </div>
+            `;
+            return;
+        }
+
+        container.innerHTML = ''; // Clear previous results
+
+        paginatedGames.forEach(game => {
+            const appId = game.st_file.split('.')[0];
+            const card = document.createElement('div');
+            card.className = 'game-card';
+            card.innerHTML = `
+                <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
+                <div class="game-info">
+                    <h2 class="game-title">${game.name}</h2>
+                    <span class="game-id">AppID: ${appId}</span>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    function setupPagination(totalGames) {
+        const totalPages = Math.ceil(totalGames / gamesPerPage);
+        const paginationContainer = document.getElementById('paginationContainer');
+
+        paginationContainer.innerHTML = '';
+
+        if (totalPages <= 1) return; // Don't show pagination if only one page
+
+        // Previous button
+        const prevButton = document.createElement('button');
+        prevButton.textContent = 'Previous';
+        prevButton.disabled = currentPage === 1;
+        prevButton.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                displayGames(allGames);
+                setupPagination(allGames.length);
             }
+        });
+        paginationContainer.appendChild(prevButton);
 
-            container.innerHTML = ''; // Clear previous results
-
-            games.forEach(game => {
-                const appId = game.st_file.split('.')[0];
-                const card = document.createElement('div');
-                card.className = 'game-card';
-                card.innerHTML = `
-                    <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
-                    <div class="game-info">
-                        <h2 class="game-title">${game.name}</h2>
-                        <span class="game-id">AppID: ${appId}</span>
-                    </div>
-                `;
-                container.appendChild(card);
+        // Page numbers
+        for (let i = 1; i <= totalPages; i++) {
+            const pageButton = document.createElement('button');
+            pageButton.textContent = i;
+            pageButton.disabled = i === currentPage;
+            pageButton.addEventListener('click', () => {
+                currentPage = i;
+                displayGames(allGames);
+                setupPagination(allGames.length);
             });
+            paginationContainer.appendChild(pageButton);
         }
-    </script>
+
+        // Next button
+        const nextButton = document.createElement('button');
+        nextButton.textContent = 'Next';
+        nextButton.disabled = currentPage === totalPages;
+        nextButton.addEventListener('click', () => {
+            if (currentPage < totalPages) {
+                currentPage++;
+                displayGames(allGames);
+                setupPagination(allGames.length);
+            }
+        });
+        paginationContainer.appendChild(nextButton);
+    }
+</script>
 </body>
 </html>
