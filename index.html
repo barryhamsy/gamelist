@@ -243,7 +243,14 @@
         <h1>Barry's Game Store Collection</h1>
         <p class="subtitle">Explore our curated selection of games</p>
     </header>
-
+        <section id="branch-section" style="margin-top: 50px;">
+            <h2 style="text-align:center;">Claim your order</h2>
+        <div class="search-container">
+            <input type="text" id="branchSearchInput" class="search-input" placeholder="Input your Shopee orderID...">
+            <button id="branchSearchButton" class="search-button">Search</button>
+        </div>
+            <div id="branchResults" style="margin-top: 20px;"></div>
+        </section>
     <div class="search-container">
         <input type="text" id="searchInput" class="search-input" placeholder="Search by game name or AppID...">
         <button id="searchButton" class="search-button">Search</button>
@@ -520,6 +527,52 @@
                 );
             });
         }
+
+        document.getElementById('branchSearchButton').addEventListener('click', function () {
+    const searchTerm = document.getElementById('branchSearchInput').value.trim();
+    if (!searchTerm) return;
+
+    // Search branches
+    fetch('https://api.github.com/repos/3circledesign/Barry-sGameStore/branches ')
+        .then(res => res.json())
+        .then(branches => {
+            const matchedBranch = branches.find(branch =>
+                branch.name.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+
+            if (!matchedBranch) {
+                document.getElementById('branchResults').innerHTML = '<p>No matching branch found.</p>';
+                return;
+            }
+
+            // Get tree of matched branch
+            fetch(`https://api.github.com/repos/3circledesign/Barry-sGameStore/git/trees/ ${matchedBranch.name}?recursive=1`)
+                .then(res => res.json())
+                .then(tree => {
+                    const files = tree.tree.filter(file => file.type === 'blob');
+                    displayFiles(files, matchedBranch.name);
+                });
+        })
+        .catch(err => {
+            console.error('Error fetching branches:', err);
+            document.getElementById('branchResults').innerHTML = '<p>Error fetching branches.</p>';
+        });
+});
+
+function displayFiles(files, branchName) {
+    const container = document.getElementById('branchResults');
+    container.innerHTML = '<h3>Files:</h3><ul>';
+
+    files.forEach(file => {
+        const url = `https://github.com/3circledesign/Barry-sGameStore/raw/ ${branchName}/${file.path}`;
+        container.innerHTML += `
+            <li>
+                <a href="${url}" target="_blank" download>${file.path}</a>
+            </li>`;
+    });
+
+    container.innerHTML += '</ul>';
+}
     </script>
 </body>
 </html>
