@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barry Game Store Collection</title>
+    <title>Barry's Game Store + Branch Explorer</title>
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -14,45 +14,40 @@
             --text-light: #7f8c8d;
             --denuvo-color: #e74c3c;
         }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-
         body {
             background-color: var(--background-color);
             color: var(--text-color);
             line-height: 1.6;
             padding: 20px;
         }
-
         header {
             text-align: center;
             margin-bottom: 40px;
             padding: 20px 0;
         }
-
         h1 {
             color: var(--primary-color);
             font-size: 2.5rem;
             margin-bottom: 10px;
         }
-
         .subtitle {
             color: var(--text-light);
             font-size: 1.1rem;
         }
-
         .search-container {
             max-width: 600px;
             margin: 0 auto 30px;
             display: flex;
             gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-
         .search-input {
             flex: 1;
             padding: 12px 15px;
@@ -62,11 +57,9 @@
             outline: none;
             transition: border-color 0.3s;
         }
-
         .search-input:focus {
             border-color: var(--secondary-color);
         }
-
         .search-button {
             padding: 12px 20px;
             background-color: var(--secondary-color);
@@ -77,11 +70,9 @@
             font-size: 1rem;
             transition: background-color 0.3s;
         }
-
         .search-button:hover {
             background-color: #2980b9;
         }
-
         .games-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -89,7 +80,6 @@
             max-width: 1400px;
             margin: 0 auto;
         }
-
         .game-card {
             background: var(--card-bg);
             border-radius: 10px;
@@ -97,29 +87,24 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-
         .game-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
         }
-
         .game-image {
             width: 100%;
             height: 200px;
             object-fit: cover;
             display: block;
         }
-
         .game-info {
             padding: 20px;
         }
-
         .game-title {
             font-size: 1.3rem;
             margin-bottom: 10px;
             color: var(--primary-color);
         }
-
         .game-id {
             display: inline-block;
             background-color: var(--secondary-color);
@@ -131,7 +116,6 @@
             margin-right: 8px;
             margin-bottom: 8px;
         }
-
         .denuvo-tag {
             display: inline-block;
             background-color: var(--denuvo-color);
@@ -141,34 +125,22 @@
             font-size: 0.9rem;
             font-weight: 500;
         }
-
         .game-tags {
             margin-top: 5px;
         }
-
-        .no-results {
+        .no-results, .loading {
             text-align: center;
             grid-column: 1 / -1;
             padding: 40px;
             font-size: 1.2rem;
             color: var(--text-light);
         }
-
-        .loading {
-            text-align: center;
-            grid-column: 1 / -1;
-            padding: 40px;
-            font-size: 1.2rem;
-            color: var(--text-light);
-        }
-
         .pagination {
             display: flex;
             justify-content: center;
             margin-top: 30px;
             gap: 10px;
         }
-
         .pagination button {
             padding: 8px 15px;
             background-color: var(--secondary-color);
@@ -179,23 +151,19 @@
             font-size: 1rem;
             transition: background-color 0.3s;
         }
-
         .pagination button:hover:not(:disabled) {
             background-color: #2980b9;
         }
-
         .pagination button:disabled {
             background-color: #95a5a6;
             cursor: not-allowed;
         }
-
         .pagination-info {
             text-align: center;
             margin-top: 15px;
             color: var(--text-light);
             font-size: 0.9rem;
         }
-
         footer {
             text-align: center;
             margin-top: 50px;
@@ -203,323 +171,273 @@
             color: var(--text-light);
             font-size: 0.9rem;
         }
-
         @media (max-width: 768px) {
             .games-container {
                 grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
                 gap: 20px;
             }
-
             h1 {
                 font-size: 2rem;
             }
-
             .search-container {
                 flex-direction: column;
             }
         }
-
         @media (max-width: 480px) {
             body {
                 padding: 10px;
             }
-
             .games-container {
                 grid-template-columns: 1fr;
             }
-
             .game-card {
                 max-width: 100%;
             }
-
             .pagination {
                 flex-wrap: wrap;
             }
         }
+
+        /* New Section for GitHub Branch Search */
+        #branch-section {
+            margin-top: 50px;
+            border-top: 1px solid #ccc;
+            padding-top: 30px;
+        }
+        #branchResults ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        #branchResults li {
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Barry's Game Store Collection</h1>
-        <p class="subtitle">Explore our curated selection of games</p>
-    </header>
 
-    <div class="search-container">
-        <input type="text" id="searchInput" class="search-input" placeholder="Search by game name or AppID...">
-        <button id="searchButton" class="search-button">Search</button>
+<!-- Original Game Store -->
+<header>
+    <h1>Barry's Game Store Collection</h1>
+    <p class="subtitle">Explore our curated selection of games</p>
+</header>
+<div class="search-container">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search by game name or AppID...">
+    <button id="searchButton" class="search-button">Search</button>
+</div>
+<main>
+    <div class="games-container" id="gamesContainer">
+        <div class="loading">Loading games...</div>
     </div>
+    <div class="pagination-info" id="paginationInfo"></div>
+    <div class="pagination" id="paginationControls"></div>
+</main>
 
-    <main>
-        <div class="games-container" id="gamesContainer">
-            <div class="loading">Loading games...</div>
-        </div>
+<!-- GitHub Branch Search Section -->
+<section id="branch-section">
+    <h2 style="text-align:center;">Search GitHub Branches</h2>
+    <div class="search-container">
+        <input type="text" id="branchSearchInput" class="search-input" placeholder="Enter branch name...">
+        <button id="branchSearchButton" class="search-button">Search Branch</button>
+    </div>
+    <div id="branchResults" style="margin-top: 20px;"></div>
+</section>
 
-        <div class="pagination-info" id="paginationInfo"></div>
-        <div class="pagination" id="paginationControls">
-            <!-- Pagination buttons will be added here dynamically -->
-        </div>
-    </main>
+<footer>
+    <p>© 2025 Barry's Games Store. All rights reserved.</p>
+</footer>
 
-    <footer>
-        <p>© 2025 Barry's Games Store. All rights reserved.</p>
-    </footer>
+<script>
+    // --- Original Game Store Logic ---
+    let allGames = [];
+    let currentPage = 1;
+    const gamesPerPage = 12;
 
-    <script>
-        let allGames = []; // Store all games for searching
-        let currentPage = 1;
-        const gamesPerPage = 12; // Number of games to display per page
+    document.addEventListener('DOMContentLoaded', function () {
+        loadGames();
+        setupEventListeners();
+    });
 
-        document.addEventListener('DOMContentLoaded', function() {
-            // Load games initially
-            loadGames();
+    function loadGames() {
+        fetch('games.json')
+            .then(res => res.json())
+            .then(games => {
+                allGames = games;
+                currentPage = 1;
+                displayGames(games);
+                updatePaginationControls(games.length);
+            })
+            .catch(() => {
+                document.getElementById('gamesContainer').innerHTML = `
+                    <div class="loading" style="color: red;">Error loading games. Make sure games.json is uploaded.</div>`;
+            });
+    }
 
-            // Setup search functionality
-            const searchInput = document.getElementById('searchInput');
-            const searchButton = document.getElementById('searchButton');
+    function setupEventListeners() {
+        document.getElementById('searchButton').addEventListener('click', performSearch);
+        document.getElementById('searchInput').addEventListener('keyup', e => {
+            if (e.key === 'Enter') performSearch();
+        });
+    }
 
-            searchButton.addEventListener('click', performSearch);
-            searchInput.addEventListener('keyup', function(event) {
-                if (event.key === 'Enter') {
-                    performSearch();
+    function performSearch() {
+        const term = document.getElementById('searchInput').value.toLowerCase();
+        if (!term) {
+            currentPage = 1;
+            displayGames(allGames);
+            updatePaginationControls(allGames.length);
+            return;
+        }
+        const filtered = allGames.filter(game => {
+            const appId = game.st_file.split('.')[0];
+            return game.name.toLowerCase().includes(term) || appId.includes(term);
+        });
+        currentPage = 1;
+        displayGames(filtered);
+        updatePaginationControls(filtered.length);
+    }
+
+    function displayGames(games) {
+        const container = document.getElementById('gamesContainer');
+        const paginationInfo = document.getElementById('paginationInfo');
+        if (!games.length) {
+            container.innerHTML = `<div class="no-results">No games found</div>`;
+            paginationInfo.textContent = '';
+            return;
+        }
+        const totalPages = Math.ceil(games.length / gamesPerPage);
+        const start = (currentPage - 1) * gamesPerPage;
+        const end = Math.min(start + gamesPerPage, games.length);
+        const paginated = games.slice(start, end);
+        container.innerHTML = '';
+        paginated.forEach(game => {
+            const appId = game.st_file.split('.')[0];
+            const denuvoTag = game.requires_membership ? `<span class="denuvo-tag">DENUVO</span>` : '';
+            const card = document.createElement('div');
+            card.className = 'game-card';
+            card.innerHTML = `
+                <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
+                <div class="game-info">
+                    <h2>${game.name}</h2>
+                    <div class="game-tags">
+                        <span class="game-id">AppID: ${appId}</span>
+                        ${denuvoTag}
+                    </div>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+        paginationInfo.innerText = `Showing ${start + 1}-${end} of ${games.length} games`;
+    }
+
+    function updatePaginationControls(total) {
+        const pages = Math.ceil(total / gamesPerPage);
+        const controls = document.getElementById('paginationControls');
+        controls.innerHTML = '';
+        if (pages <= 1) {
+            controls.style.display = 'none';
+            return;
+        }
+        controls.style.display = 'flex';
+
+        const prevBtn = document.createElement('button');
+        prevBtn.innerHTML = '&laquo; Previous';
+        prevBtn.disabled = currentPage === 1;
+        prevBtn.onclick = () => {
+            currentPage--;
+            displayGames(getCurrentGames());
+            updatePaginationControls(total);
+        };
+        controls.appendChild(prevBtn);
+
+        const maxPagesToShow = 5;
+        let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
+        let endPage = Math.min(pages, startPage + maxPagesToShow - 1);
+
+        for (let i = startPage; i <= endPage; i++) {
+            const btn = document.createElement('button');
+            btn.innerText = i;
+            if (i === currentPage) btn.disabled = true;
+            btn.onclick = () => {
+                currentPage = i;
+                displayGames(getCurrentGames());
+                updatePaginationControls(total);
+            };
+            controls.appendChild(btn);
+        }
+
+        const nextBtn = document.createElement('button');
+        nextBtn.innerHTML = 'Next &raquo;';
+        nextBtn.disabled = currentPage === pages;
+        nextBtn.onclick = () => {
+            currentPage++;
+            displayGames(getCurrentGames());
+            updatePaginationControls(total);
+        };
+        controls.appendChild(nextBtn);
+    }
+
+    function getCurrentGames() {
+        const term = document.getElementById('searchInput').value.toLowerCase();
+        if (!term) return allGames;
+        return allGames.filter(game => {
+            const appId = game.st_file.split('.')[0];
+            return game.name.toLowerCase().includes(term) || appId.includes(term);
+        });
+    }
+
+    // --- GitHub Branch Search Logic ---
+    document.getElementById('branchSearchButton').addEventListener('click', function () {
+        const searchTerm = document.getElementById('branchSearchInput').value.trim();
+        if (!searchTerm) return;
+
+        const owner = '3circledesign'; // ← Change this to target repo owner
+        const repo = 'Barry-sGameStore'; // ← Change this to target repo name
+        const resultsDiv = document.getElementById('branchResults');
+        resultsDiv.innerHTML = '<p>Loading branch contents...</p>';
+
+        // Add rate-limit delay and error handling
+        function safeFetch(url, callback) {
+            setTimeout(() => {
+                fetch(url)
+                    .then(res => {
+                        if (!res.ok) throw new Error("Network response was not ok");
+                        return res.json();
+                    })
+                    .then(callback)
+                    .catch(err => {
+                        console.error(err);
+                        resultsDiv.innerHTML = `<p>Error loading branch data: ${err.message}</p>`;
+                    });
+            }, 1000); // Rate limit delay
+        }
+
+        safeFetch(`https://api.github.com/repos/ ${owner}/${repo}/branches`, branches => {
+            const matchedBranch = branches.find(b =>
+                b.name.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+            if (!matchedBranch) {
+                resultsDiv.innerHTML = '<p>No matching branch found.</p>';
+                return;
+            }
+
+            safeFetch(`https://api.github.com/repos/ ${owner}/${repo}/git/trees/${matchedBranch.name}?recursive=1`, tree => {
+                const files = tree.tree.filter(f => f.type === 'blob');
+                if (!files.length) {
+                    resultsDiv.innerHTML = '<p>No files found in this branch.</p>';
+                    return;
                 }
+
+                let html = '<h3>Files:</h3><ul style="list-style-type: none; padding-left: 0;">';
+                files.forEach(file => {
+                    const url = `https://github.com/ ${owner}/${repo}/raw/${matchedBranch.name}/${file.path}`;
+                    html += `<li style="margin-bottom: 8px;"><a href="${url}" target="_blank" download>${file.path}</a></li>`;
+                });
+                html += '</ul>';
+                resultsDiv.innerHTML = html;
             });
         });
+    });
+</script>
 
-        function loadGames() {
-            fetch('games.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(games => {
-                    allGames = games; // Store all games for searching
-                    currentPage = 1; // Reset to first page when loading new data
-                    displayGames(games);
-                    updatePaginationControls(games.length);
-                })
-                .catch(error => {
-                    console.error('Error loading games:', error);
-                    document.getElementById('gamesContainer').innerHTML = `
-                        <div class="loading" style="color: #e74c3c;">
-                            Error loading games. Please try again later.
-                        </div>
-                    `;
-                });
-        }
-
-        function performSearch() {
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-
-            if (!searchTerm) {
-                currentPage = 1; // Reset to first page when showing all games
-                displayGames(allGames);
-                updatePaginationControls(allGames.length);
-                return;
-            }
-
-            const filteredGames = allGames.filter(game => {
-                const appId = game.st_file.split('.')[0];
-                return (
-                    game.name.toLowerCase().includes(searchTerm) ||
-                    appId.includes(searchTerm)
-                );
-            });
-
-            currentPage = 1; // Reset to first page for new search results
-            displayGames(filteredGames);
-            updatePaginationControls(filteredGames.length);
-        }
-
-        function displayGames(games) {
-            const container = document.getElementById('gamesContainer');
-            const paginationInfo = document.getElementById('paginationInfo');
-
-            if (games.length === 0) {
-                container.innerHTML = `
-                    <div class="no-results">
-                        No games found matching your search.
-                    </div>
-                `;
-                paginationInfo.textContent = '';
-                return;
-            }
-
-            // Calculate pagination
-            const totalPages = Math.ceil(games.length / gamesPerPage);
-            const startIndex = (currentPage - 1) * gamesPerPage;
-            const endIndex = Math.min(startIndex + gamesPerPage, games.length);
-            const paginatedGames = games.slice(startIndex, endIndex);
-
-            container.innerHTML = ''; // Clear previous results
-
-            paginatedGames.forEach(game => {
-                const appId = game.st_file.split('.')[0];
-                const card = document.createElement('div');
-                card.className = 'game-card';
-
-                // Create Denuvo tag if required
-                const denuvoTag = game.requires_membership
-                    ? `<span class="denuvo-tag">DENUVO PROTECTED</span>`
-                    : '';
-
-                card.innerHTML = `
-                    <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
-                    <div class="game-info">
-                        <h2 class="game-title">${game.name}</h2>
-                        <div class="game-tags">
-                            <span class="game-id">AppID: ${appId}</span>
-                            ${denuvoTag}
-                        </div>
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-
-            // Update pagination info
-            paginationInfo.textContent = `Showing ${startIndex + 1}-${endIndex} of ${games.length} games`;
-        }
-
-        function updatePaginationControls(totalGames) {
-            const totalPages = Math.ceil(totalGames / gamesPerPage);
-            const paginationControls = document.getElementById('paginationControls');
-
-            paginationControls.innerHTML = ''; // Clear existing buttons
-
-            if (totalPages <= 1) {
-                // Hide pagination if there's only one page
-                paginationControls.style.display = 'none';
-                return;
-            }
-
-            paginationControls.style.display = 'flex';
-
-            // Previous button
-            const prevButton = document.createElement('button');
-            prevButton.innerHTML = '&laquo; Previous';
-            prevButton.disabled = currentPage === 1;
-            prevButton.addEventListener('click', () => {
-                currentPage--;
-                displayGames(getCurrentGames());
-                updatePaginationControls(totalGames);
-            });
-            paginationControls.appendChild(prevButton);
-
-            // Page buttons
-            const maxVisiblePages = 5; // Maximum number of page buttons to show
-            let startPage, endPage;
-
-            if (totalPages <= maxVisiblePages) {
-                // Show all pages
-                startPage = 1;
-                endPage = totalPages;
-            } else {
-                // Calculate which pages to show
-                const halfVisible = Math.floor(maxVisiblePages / 2);
-
-                if (currentPage <= halfVisible + 1) {
-                    // Near the beginning
-                    startPage = 1;
-                    endPage = maxVisiblePages;
-                } else if (currentPage >= totalPages - halfVisible) {
-                    // Near the end
-                    startPage = totalPages - maxVisiblePages + 1;
-                    endPage = totalPages;
-                } else {
-                    // In the middle
-                    startPage = currentPage - halfVisible;
-                    endPage = currentPage + halfVisible;
-                }
-            }
-
-            // First page button (if needed)
-            if (startPage > 1) {
-                const firstButton = document.createElement('button');
-                firstButton.textContent = '1';
-                firstButton.addEventListener('click', () => {
-                    currentPage = 1;
-                    displayGames(getCurrentGames());
-                    updatePaginationControls(totalGames);
-                });
-                if (currentPage === 1) {
-                    firstButton.disabled = true;
-                }
-                paginationControls.appendChild(firstButton);
-
-                if (startPage > 2) {
-                    const ellipsis = document.createElement('span');
-                    ellipsis.textContent = '...';
-                    ellipsis.style.padding = '8px';
-                    paginationControls.appendChild(ellipsis);
-                }
-            }
-
-            // Page number buttons
-            for (let i = startPage; i <= endPage; i++) {
-                const pageButton = document.createElement('button');
-                pageButton.textContent = i;
-                if (i === currentPage) {
-                    pageButton.disabled = true;
-                    pageButton.style.backgroundColor = '#2c3e50'; // Highlight current page
-                }
-                pageButton.addEventListener('click', () => {
-                    currentPage = i;
-                    displayGames(getCurrentGames());
-                    updatePaginationControls(totalGames);
-                });
-                paginationControls.appendChild(pageButton);
-            }
-
-            // Last page button (if needed)
-            if (endPage < totalPages) {
-                if (endPage < totalPages - 1) {
-                    const ellipsis = document.createElement('span');
-                    ellipsis.textContent = '...';
-                    ellipsis.style.padding = '8px';
-                    paginationControls.appendChild(ellipsis);
-                }
-
-                const lastButton = document.createElement('button');
-                lastButton.textContent = totalPages;
-                lastButton.addEventListener('click', () => {
-                    currentPage = totalPages;
-                    displayGames(getCurrentGames());
-                    updatePaginationControls(totalGames);
-                });
-                if (currentPage === totalPages) {
-                    lastButton.disabled = true;
-                }
-                paginationControls.appendChild(lastButton);
-            }
-
-            // Next button
-            const nextButton = document.createElement('button');
-            nextButton.innerHTML = 'Next &raquo;';
-            nextButton.disabled = currentPage === totalPages;
-            nextButton.addEventListener('click', () => {
-                currentPage++;
-                displayGames(getCurrentGames());
-                updatePaginationControls(totalGames);
-            });
-            paginationControls.appendChild(nextButton);
-        }
-
-        function getCurrentGames() {
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-
-            if (!searchTerm) {
-                return allGames;
-            }
-
-            return allGames.filter(game => {
-                const appId = game.st_file.split('.')[0];
-                return (
-                    game.name.toLowerCase().includes(searchTerm) ||
-                    appId.includes(searchTerm)
-                );
-            });
-        }
-    </script>
 </body>
 </html>
