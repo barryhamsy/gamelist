@@ -218989,15 +218989,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:13",
-        "appid": "791500",
-        "downloads": 0,
-        "name": "Mahjong Riichi Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "791500.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:13",
         "appid": "2913660",
         "downloads": 0,
         "name": "Lower? Higher!",
@@ -227899,15 +227890,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:12",
-        "appid": "2681180",
-        "downloads": 0,
-        "name": "MULTIPLAYER CAVEMEN",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2681180.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:12",
         "appid": "296470",
         "downloads": 0,
         "name": "Mount Your Friends",
@@ -228733,15 +228715,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1047380.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:12",
-        "appid": "2364570",
-        "downloads": 0,
-        "name": "Multiplayer Shooter FPS",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2364570.lua"
     },
     {
         "added_on": "2025-07-04T16:53:12",
@@ -267085,15 +267058,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:10",
-        "appid": "2481890",
-        "downloads": 0,
-        "name": "Real Drift Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2481890.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:10",
         "appid": "1713350",
         "downloads": 0,
         "name": "Project Castaway",
@@ -271892,7 +271856,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2050650",
-        "downloads": 11,
+        "downloads": 15,
         "name": "Resident Evil 4",
         "new": false,
         "requires_membership": true,
