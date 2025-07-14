@@ -1,5 +1,122 @@
 [
     {
+        "added_on": "2025-07-14T02:03:45",
+        "appid": "3168310",
+        "downloads": 1,
+        "name": "True Fear: Forsaken Souls Part 3",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3168310.lua"
+    },
+    {
+        "added_on": "2025-07-14T01:45:55",
+        "appid": "3114900",
+        "downloads": 1,
+        "name": "DREAD FLATS",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3114900.lua"
+    },
+    {
+        "added_on": "2025-07-13T10:01:16",
+        "appid": "3460110",
+        "downloads": 0,
+        "name": "\u5929\u5730\u6709\u79c1\uff0c\u5bbf\u547d\u4e4b\u4e3b",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3460110.lua"
+    },
+    {
+        "added_on": "2025-07-12T13:33:20",
+        "appid": "3496940",
+        "downloads": 1,
+        "name": "Loot Line",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3496940.lua"
+    },
+    {
+        "added_on": "2025-07-11T15:42:36",
+        "appid": "832500",
+        "downloads": 0,
+        "name": "3 Minutes to Midnight",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "832500.lua"
+    },
+    {
+        "added_on": "2025-07-11T15:40:57",
+        "appid": "2836860",
+        "downloads": 0,
+        "name": "The Horror at Highrook",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2836860.lua"
+    },
+    {
+        "added_on": "2025-07-11T15:40:13",
+        "appid": "1835200",
+        "downloads": 0,
+        "name": "Titanic: Fall Of A Legend",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1835200.lua"
+    },
+    {
+        "added_on": "2025-07-11T15:34:48",
+        "appid": "2825530",
+        "downloads": 0,
+        "name": "Beholder: Conductor",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2825530.lua"
+    },
+    {
+        "added_on": "2025-07-11T15:31:07",
+        "appid": "3218530",
+        "downloads": 0,
+        "name": "Best Served Cold",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3218530.lua"
+    },
+    {
+        "added_on": "2025-07-11T12:38:21",
+        "appid": "2545710",
+        "downloads": 0,
+        "name": "Tony Hawk's\u2122 Pro Skater\u2122 3 + 4",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2545710.lua"
+    },
+    {
+        "added_on": "2025-07-11T12:10:18",
+        "appid": "3104970",
+        "downloads": 0,
+        "name": "Backyard Baseball '01",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3104970.lua"
+    },
+    {
+        "added_on": "2025-07-11T05:32:30",
+        "appid": "2383200",
+        "downloads": 4,
+        "name": "PATAPON 1+2 REPLAY",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2383200.lua"
+    },
+    {
+        "added_on": "2025-07-10T15:19:33",
+        "appid": "2178560",
+        "downloads": 0,
+        "name": "Horde Hunters",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2178560.lua"
+    },
+    {
         "added_on": "2025-07-09T14:05:23",
         "appid": "3400930",
         "downloads": 0,
@@ -11,7 +128,7 @@
     {
         "added_on": "2025-07-07T15:44:36",
         "appid": "3063520",
-        "downloads": 0,
+        "downloads": 4,
         "name": "LISC",
         "new": true,
         "requires_membership": false,
@@ -20,7 +137,7 @@
     {
         "added_on": "2025-07-07T09:23:03",
         "appid": "3046600",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Onimusha 2: Samurai's Destiny",
         "new": true,
         "requires_membership": true,
@@ -67,7 +184,7 @@
         "appid": "3015620",
         "downloads": 0,
         "name": "Welcome Back Commander",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3015620.lua"
     },
@@ -76,7 +193,7 @@
         "appid": "3117820",
         "downloads": 4,
         "name": "Sultan's Game",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3117820.lua"
     },
@@ -85,7 +202,7 @@
         "appid": "1313140",
         "downloads": 6,
         "name": "Cult of the Lamb",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1313140.lua"
     },
@@ -94,7 +211,7 @@
         "appid": "492720",
         "downloads": 2,
         "name": "Tropico 6",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "492720.lua"
     },
@@ -103,7 +220,7 @@
         "appid": "3179730",
         "downloads": 0,
         "name": "Deck of Haunts",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3179730.lua"
     },
@@ -112,7 +229,7 @@
         "appid": "2484580",
         "downloads": 0,
         "name": "Mushroom Musume",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2484580.lua"
     },
@@ -121,7 +238,7 @@
         "appid": "2581950",
         "downloads": 2,
         "name": "Tiny Aquarium",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2581950.lua"
     },
@@ -130,7 +247,7 @@
         "appid": "3229690",
         "downloads": 0,
         "name": "\u89c1\u8be1\u5f55\uff1a\u8272\u5b7d Haunting Record: Sins of Lust",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3229690.lua"
     },
@@ -139,7 +256,7 @@
         "appid": "2123310",
         "downloads": 0,
         "name": "\u6d2a\u8352",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2123310.lua"
     },
@@ -148,7 +265,7 @@
         "appid": "2610690",
         "downloads": 0,
         "name": "\u5c11\u4fa0\u7684\u6c5f\u6e56",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2610690.lua"
     },
@@ -157,7 +274,7 @@
         "appid": "1990900",
         "downloads": 0,
         "name": "\u65b9\u5883\u6218\u8bb0BlockFight",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1990900.lua"
     },
@@ -166,7 +283,7 @@
         "appid": "1066290",
         "downloads": 0,
         "name": "\u730e\u9b54\u8005\u6218\u7eaa",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1066290.lua"
     },
@@ -175,7 +292,7 @@
         "appid": "1377550",
         "downloads": 0,
         "name": "~\u5728\u9b54\u754c\u5f53\u5973\u4ec6~\u6076\u9b54\u5929\u4f7f\u4e0e\u52c7\u8005\u7684\u79d8\u5bc6\u55ab\u8336\u5e97",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1377550.lua"
     },
@@ -290,7 +407,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "3014080",
-        "downloads": 0,
+        "downloads": 2,
         "name": "The Hundred Line -Last Defense Academy-",
         "new": false,
         "requires_membership": false,
@@ -326,7 +443,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "3359730",
-        "downloads": 0,
+        "downloads": 1,
         "name": "\u521d\u97f3\u30df\u30af DLC",
         "new": false,
         "requires_membership": false,
@@ -785,7 +902,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "2863640",
-        "downloads": 0,
+        "downloads": 1,
         "name": "The Midnight Walk",
         "new": false,
         "requires_membership": false,
@@ -803,7 +920,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "2623190",
-        "downloads": 4,
+        "downloads": 8,
         "name": "The Elder Scrolls IV: Oblivion Remastered",
         "new": false,
         "requires_membership": false,
@@ -1460,7 +1577,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "1073440",
-        "downloads": 0,
+        "downloads": 1,
         "name": "\u30b3\u30a4\u30ab\u30c4 / Koikatsu Party",
         "new": false,
         "requires_membership": false,
@@ -1694,7 +1811,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "2680010",
-        "downloads": 3,
+        "downloads": 5,
         "name": "The First Berserker: Khazan",
         "new": false,
         "requires_membership": true,
@@ -1991,7 +2108,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "3489700",
-        "downloads": 50,
+        "downloads": 62,
         "name": "Stellar Blade\u2122",
         "new": false,
         "requires_membership": true,
@@ -2963,7 +3080,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "1364780",
-        "downloads": 7,
+        "downloads": 9,
         "name": "Street Fighter\u2122 6",
         "new": false,
         "requires_membership": true,
@@ -3260,7 +3377,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "2225870",
-        "downloads": 0,
+        "downloads": 1,
         "name": "\u9ece\u660e\u524d\u591c",
         "new": false,
         "requires_membership": false,
@@ -5339,7 +5456,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "1601570",
-        "downloads": 3,
+        "downloads": 4,
         "name": "The Alters",
         "new": false,
         "requires_membership": false,
@@ -5510,7 +5627,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "1766420",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Zero Chastity: A Sultry Summer Holiday",
         "new": false,
         "requires_membership": false,
@@ -8102,7 +8219,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "236390",
-        "downloads": 1,
+        "downloads": 3,
         "name": "War Thunder",
         "new": false,
         "requires_membership": false,
@@ -11027,7 +11144,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1235140",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Yakuza: Like a Dragon",
         "new": false,
         "requires_membership": false,
@@ -12557,7 +12674,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "529340",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Victoria 3",
         "new": false,
         "requires_membership": false,
@@ -12890,7 +13007,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1388590",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Yakuza 6: The Song of Life",
         "new": false,
         "requires_membership": false,
@@ -13745,7 +13862,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1424800",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Uncharted Waters IV HD Version",
         "new": false,
         "requires_membership": false,
@@ -14654,7 +14771,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "3050",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Xpand Rally Xtreme",
         "new": false,
         "requires_membership": false,
@@ -16310,7 +16427,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "784150",
-        "downloads": 0,
+        "downloads": 3,
         "name": "Workers & Resources: Soviet Republic",
         "new": false,
         "requires_membership": false,
@@ -16535,7 +16652,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "2226700",
-        "downloads": 0,
+        "downloads": 3,
         "name": "\u6302\u59ec\u6076\u9b54/IdleDevils",
         "new": false,
         "requires_membership": false,
@@ -17345,7 +17462,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1105500",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Yakuza 4 Remastered",
         "new": false,
         "requires_membership": false,
@@ -18803,7 +18920,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1790230",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Wallpaper Engine - Editor Extensions",
         "new": false,
         "requires_membership": false,
@@ -22466,7 +22583,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "2395630",
-        "downloads": 1,
+        "downloads": 3,
         "name": "Uchikano - Living With My Lovers",
         "new": false,
         "requires_membership": false,
@@ -22718,7 +22835,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1127800",
-        "downloads": 0,
+        "downloads": 1,
         "name": "\u5f02\u5316\u4e4b\u6076\u3007Abnormal Treatment - \u539f\u58f0OST",
         "new": false,
         "requires_membership": false,
@@ -27776,7 +27893,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1105510",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Yakuza 5 Remastered",
         "new": false,
         "requires_membership": false,
@@ -28352,7 +28469,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "599590",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Volleyball Fever",
         "new": false,
         "requires_membership": false,
@@ -36038,7 +36155,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "1659420",
-        "downloads": 0,
+        "downloads": 4,
         "name": "UNCHARTED\u2122: Legacy of Thieves Collection",
         "new": false,
         "requires_membership": false,
@@ -37838,7 +37955,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "2878960",
-        "downloads": 10,
+        "downloads": 15,
         "name": "WWE 2K25",
         "new": false,
         "requires_membership": false,
@@ -38027,7 +38144,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "892970",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Valheim",
         "new": false,
         "requires_membership": false,
@@ -38504,7 +38621,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "518040",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Volleyball Unbound",
         "new": false,
         "requires_membership": false,
@@ -39278,7 +39395,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "431960",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Wallpaper Engine",
         "new": false,
         "requires_membership": false,
@@ -40439,7 +40556,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "13580",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Tom Clancy's Splinter Cell: Double Agent",
         "new": false,
         "requires_membership": false,
@@ -40862,7 +40979,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "235600",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Tom Clancy's Splinter Cell Blacklist",
         "new": false,
         "requires_membership": false,
@@ -42383,7 +42500,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "2089600",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Urban Myth Dissolution Center",
         "new": false,
         "requires_membership": false,
@@ -43247,7 +43364,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "2456740",
-        "downloads": 6,
+        "downloads": 8,
         "name": "inZOI",
         "new": false,
         "requires_membership": false,
@@ -49664,7 +49781,7 @@
     {
         "added_on": "2025-07-04T16:53:23",
         "appid": "13570",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Tom Clancy's Splinter Cell: Chaos Theory",
         "new": false,
         "requires_membership": false,
@@ -50357,7 +50474,7 @@
     {
         "added_on": "2025-07-04T16:53:23",
         "appid": "2832400",
-        "downloads": 0,
+        "downloads": 4,
         "name": "The Lust City 2",
         "new": false,
         "requires_membership": false,
@@ -52391,7 +52508,7 @@
     {
         "added_on": "2025-07-04T16:53:23",
         "appid": "553420",
-        "downloads": 1,
+        "downloads": 2,
         "name": "TUNIC",
         "new": false,
         "requires_membership": false,
@@ -52958,7 +53075,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "2348680",
-        "downloads": 0,
+        "downloads": 1,
         "name": "The Lust City",
         "new": false,
         "requires_membership": false,
@@ -53345,7 +53462,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "206440",
-        "downloads": 0,
+        "downloads": 1,
         "name": "To the Moon",
         "new": false,
         "requires_membership": false,
@@ -53768,7 +53885,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "1222670",
-        "downloads": 8,
+        "downloads": 10,
         "name": "The Sims\u2122 4",
         "new": false,
         "requires_membership": false,
@@ -54767,7 +54884,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "2531310",
-        "downloads": 5,
+        "downloads": 7,
         "name": "The Last of Us\u2122 Part II Remastered",
         "new": false,
         "requires_membership": false,
@@ -55748,7 +55865,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "1888930",
-        "downloads": 4,
+        "downloads": 5,
         "name": "The Last of Us\u2122 Part I",
         "new": false,
         "requires_membership": false,
@@ -56207,7 +56324,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "365590",
-        "downloads": 3,
+        "downloads": 6,
         "name": "Tom Clancy's The Division",
         "new": false,
         "requires_membership": false,
@@ -57089,7 +57206,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "1293160",
-        "downloads": 0,
+        "downloads": 1,
         "name": "The Medium",
         "new": false,
         "requires_membership": false,
@@ -58574,7 +58691,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "440420",
-        "downloads": 0,
+        "downloads": 1,
         "name": "True Fear: Forsaken Souls Part 1",
         "new": false,
         "requires_membership": false,
@@ -59519,7 +59636,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "935580",
-        "downloads": 0,
+        "downloads": 1,
         "name": "True Fear: Forsaken Souls Part 2",
         "new": false,
         "requires_membership": false,
@@ -59627,7 +59744,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "13560",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Tom Clancy's Splinter Cell",
         "new": false,
         "requires_membership": false,
@@ -60419,7 +60536,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "1785650",
-        "downloads": 0,
+        "downloads": 1,
         "name": "TopSpin 2K25",
         "new": false,
         "requires_membership": false,
@@ -62273,7 +62390,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "33220",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Tom Clancy's Splinter Cell: Conviction",
         "new": false,
         "requires_membership": false,
@@ -64001,7 +64118,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "2497930",
-        "downloads": 0,
+        "downloads": 1,
         "name": "The Grey Dream",
         "new": false,
         "requires_membership": false,
@@ -64631,7 +64748,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "738550",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Spike Volleyball",
         "new": false,
         "requires_membership": false,
@@ -65072,7 +65189,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "972660",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Spiritfarer\u00ae: Farewell Edition",
         "new": false,
         "requires_membership": false,
@@ -75053,7 +75170,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "2140020",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Stronghold: Definitive Edition",
         "new": false,
         "requires_membership": false,
@@ -75620,7 +75737,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "1778820",
-        "downloads": 2,
+        "downloads": 6,
         "name": "TEKKEN 8",
         "new": false,
         "requires_membership": false,
@@ -82676,7 +82793,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "458830",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Snooker Nation Championship",
         "new": false,
         "requires_membership": false,
@@ -86699,7 +86816,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "887800",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Snooker 19",
         "new": false,
         "requires_membership": false,
@@ -87122,7 +87239,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "3416690",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Tales Beyond The Tomb - The Last Vigil",
         "new": false,
         "requires_membership": false,
@@ -88391,7 +88508,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1769270",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Spikair Volleyball",
         "new": false,
         "requires_membership": false,
@@ -90074,7 +90191,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "916440",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Anno 1800",
         "new": false,
         "requires_membership": false,
@@ -90614,7 +90731,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1629520",
-        "downloads": 0,
+        "downloads": 1,
         "name": "A Little to the Left",
         "new": false,
         "requires_membership": false,
@@ -92216,7 +92333,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "502500",
-        "downloads": 22,
+        "downloads": 24,
         "name": "ACE COMBAT\u21227: SKIES UNKNOWN",
         "new": false,
         "requires_membership": false,
@@ -95105,7 +95222,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "646570",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Slay the Spire",
         "new": false,
         "requires_membership": false,
@@ -95681,7 +95798,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "462590",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Taekwondo Grand Prix",
         "new": false,
         "requires_membership": false,
@@ -100064,7 +100181,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1182900",
-        "downloads": 1,
+        "downloads": 3,
         "name": "A Plague Tale: Requiem",
         "new": false,
         "requires_membership": false,
@@ -100181,7 +100298,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "2138710",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Sifu",
         "new": false,
         "requires_membership": false,
@@ -101954,7 +102071,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1614440",
-        "downloads": 1,
+        "downloads": 4,
         "name": "B\u014d: Path of the Teal Lotus",
         "new": false,
         "requires_membership": false,
@@ -103988,7 +104105,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "244210",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Assetto Corsa",
         "new": false,
         "requires_membership": false,
@@ -106292,7 +106409,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "284160",
-        "downloads": 1,
+        "downloads": 4,
         "name": "BeamNG.drive",
         "new": false,
         "requires_membership": false,
@@ -106364,7 +106481,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1888160",
-        "downloads": 0,
+        "downloads": 2,
         "name": "ARMORED CORE\u2122 VI FIRES OF RUBICON\u2122",
         "new": false,
         "requires_membership": false,
@@ -106427,7 +106544,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "3159330",
-        "downloads": 7,
+        "downloads": 10,
         "name": "Assassin's Creed Shadows",
         "new": false,
         "requires_membership": true,
@@ -109109,7 +109226,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1942280",
-        "downloads": 16,
+        "downloads": 17,
         "name": "Brotato",
         "new": false,
         "requires_membership": false,
@@ -111701,7 +111818,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "208670",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Blades of Time",
         "new": false,
         "requires_membership": false,
@@ -112052,7 +112169,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "2358720",
-        "downloads": 16,
+        "downloads": 21,
         "name": "Black Myth: Wukong",
         "new": false,
         "requires_membership": true,
@@ -112403,7 +112520,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "668580",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Atomic Heart",
         "new": false,
         "requires_membership": true,
@@ -112502,7 +112619,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "107100",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Bastion",
         "new": false,
         "requires_membership": false,
@@ -113321,7 +113438,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "960090",
-        "downloads": 0,
+        "downloads": 2,
         "name": "Bloons TD 6",
         "new": false,
         "requires_membership": false,
@@ -113636,7 +113753,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1449500",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Bassmaster\u00ae Fishing",
         "new": false,
         "requires_membership": false,
@@ -114347,7 +114464,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "2379780",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Balatro",
         "new": false,
         "requires_membership": false,
@@ -119891,7 +120008,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1280930",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Astral Ascent",
         "new": false,
         "requires_membership": false,
@@ -123275,7 +123392,7 @@
     {
         "added_on": "2025-07-04T16:53:18",
         "appid": "10180",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Call of Duty: Modern Warfare 2 (2009)",
         "new": false,
         "requires_membership": false,
@@ -123383,7 +123500,7 @@
     {
         "added_on": "2025-07-04T16:53:18",
         "appid": "2404880",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Car Dealer Simulator",
         "new": false,
         "requires_membership": false,
@@ -125372,7 +125489,7 @@
     {
         "added_on": "2025-07-04T16:53:18",
         "appid": "2000950",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Call of Duty\u00ae: Modern Warfare\u00ae",
         "new": false,
         "requires_membership": false,
@@ -126695,7 +126812,7 @@
     {
         "added_on": "2025-07-04T16:53:18",
         "appid": "1985820",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Call of Duty\u00ae: Vanguard",
         "new": false,
         "requires_membership": false,
@@ -126938,7 +127055,7 @@
     {
         "added_on": "2025-07-04T16:53:18",
         "appid": "1122340",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Chef Life: A Restaurant Simulator",
         "new": false,
         "requires_membership": false,
@@ -127595,7 +127712,7 @@
     {
         "added_on": "2025-07-04T16:53:18",
         "appid": "1114150",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CarX Street",
         "new": false,
         "requires_membership": false,
@@ -128450,7 +128567,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2201320",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Date Everything!",
         "new": false,
         "requires_membership": false,
@@ -130403,7 +130520,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2138330",
-        "downloads": 6,
+        "downloads": 10,
         "name": "Cyberpunk 2077: Phantom Liberty",
         "new": false,
         "requires_membership": false,
@@ -132329,7 +132446,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1158310",
-        "downloads": 9,
+        "downloads": 11,
         "name": "Crusader Kings III",
         "new": false,
         "requires_membership": false,
@@ -132554,7 +132671,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1903340",
-        "downloads": 17,
+        "downloads": 18,
         "name": "Clair Obscur: Expedition 33",
         "new": false,
         "requires_membership": false,
@@ -134075,7 +134192,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1222140",
-        "downloads": 0,
+        "downloads": 3,
         "name": "Detroit: Become Human",
         "new": false,
         "requires_membership": false,
@@ -135047,7 +135164,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "47780",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Dead Space 2",
         "new": false,
         "requires_membership": false,
@@ -136424,7 +136541,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1238070",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Dead Space\u2122 3 Awakened",
         "new": false,
         "requires_membership": false,
@@ -136658,7 +136775,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2560650",
-        "downloads": 0,
+        "downloads": 1,
         "name": "College Sex Party \ud83d\udd1e",
         "new": false,
         "requires_membership": false,
@@ -139439,7 +139556,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2229850",
-        "downloads": 2,
+        "downloads": 5,
         "name": "Command & Conquer: Red Alert\u2122 2 and Yuri\u2019s Revenge\u2122",
         "new": false,
         "requires_membership": false,
@@ -140915,7 +141032,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1091500",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Cyberpunk 2077",
         "new": false,
         "requires_membership": false,
@@ -141572,7 +141689,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1677280",
-        "downloads": 3,
+        "downloads": 5,
         "name": "Company of Heroes 3",
         "new": false,
         "requires_membership": false,
@@ -141752,7 +141869,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "366690",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Cue Club 2: Pool & Snooker",
         "new": false,
         "requires_membership": false,
@@ -141887,7 +142004,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3301060",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Desktop Mate",
         "new": false,
         "requires_membership": false,
@@ -144263,7 +144380,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "381210",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Dead by Daylight",
         "new": false,
         "requires_membership": false,
@@ -144713,7 +144830,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "332950",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Dark Deception",
         "new": false,
         "requires_membership": false,
@@ -144992,7 +145109,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "588650",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Dead Cells",
         "new": false,
         "requires_membership": false,
@@ -148034,7 +148151,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "3017860",
-        "downloads": 5,
+        "downloads": 8,
         "name": "DOOM: The Dark Ages",
         "new": false,
         "requires_membership": true,
@@ -148106,7 +148223,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2086360",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Double Dragon Advance",
         "new": false,
         "requires_membership": false,
@@ -149024,7 +149141,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "252350",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Double Dragon Neon",
         "new": false,
         "requires_membership": false,
@@ -150824,7 +150941,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "314150",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Double Dragon Trilogy",
         "new": false,
         "requires_membership": false,
@@ -151238,7 +151355,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2622380",
-        "downloads": 2,
+        "downloads": 4,
         "name": "ELDEN RING NIGHTREIGN",
         "new": false,
         "requires_membership": false,
@@ -152102,7 +152219,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "960170",
-        "downloads": 2,
+        "downloads": 3,
         "name": "DJMAX RESPECT V",
         "new": false,
         "requires_membership": false,
@@ -152300,7 +152417,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2625420",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Drive Beyond Horizons",
         "new": false,
         "requires_membership": false,
@@ -153938,7 +154055,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2637990",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Duck Detective: The Secret Salami",
         "new": false,
         "requires_membership": false,
@@ -154397,7 +154514,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "528610",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Double Dragon IV",
         "new": false,
         "requires_membership": false,
@@ -155018,7 +155135,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2669320",
-        "downloads": 0,
+        "downloads": 2,
         "name": "EA SPORTS FC 25",
         "new": false,
         "requires_membership": false,
@@ -156647,7 +156764,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2344520",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Diablo\u00ae IV",
         "new": false,
         "requires_membership": false,
@@ -157394,7 +157511,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "1605220",
-        "downloads": 0,
+        "downloads": 2,
         "name": "Dune: Spice Wars",
         "new": false,
         "requires_membership": false,
@@ -157817,7 +157934,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "1967260",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Double Dragon Gaiden: Rise of the Dragons",
         "new": false,
         "requires_membership": false,
@@ -157943,7 +158060,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "1038250",
-        "downloads": 0,
+        "downloads": 1,
         "name": "DIRT 5",
         "new": false,
         "requires_membership": false,
@@ -160688,7 +160805,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2144740",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Ghostrunner 2",
         "new": false,
         "requires_membership": false,
@@ -160985,7 +161102,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1748620",
-        "downloads": 1,
+        "downloads": 2,
         "name": "FlipWitch - Forbidden Sex Hex",
         "new": false,
         "requires_membership": false,
@@ -161660,7 +161777,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2749770",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Galaxy Burger",
         "new": false,
         "requires_membership": false,
@@ -163847,7 +163964,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2369390",
-        "downloads": 9,
+        "downloads": 10,
         "name": "Far Cry 6",
         "new": false,
         "requires_membership": false,
@@ -164378,7 +164495,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2477340",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Expeditions: A MudRunner Game",
         "new": false,
         "requires_membership": false,
@@ -164783,7 +164900,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1402110",
-        "downloads": 0,
+        "downloads": 2,
         "name": "Eternights",
         "new": false,
         "requires_membership": false,
@@ -166007,7 +166124,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "3446990",
-        "downloads": 0,
+        "downloads": 1,
         "name": "FUBUKI \uff5ezero in on Holoearth\uff5e HOLOLIVE ALTERNATIVE",
         "new": false,
         "requires_membership": false,
@@ -166340,7 +166457,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1551360",
-        "downloads": 3,
+        "downloads": 7,
         "name": "Forza Horizon 5",
         "new": false,
         "requires_membership": false,
@@ -168878,7 +168995,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2440510",
-        "downloads": 0,
+        "downloads": 3,
         "name": "Forza Motorsport",
         "new": false,
         "requires_membership": false,
@@ -169931,7 +170048,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2215430",
-        "downloads": 9,
+        "downloads": 11,
         "name": "Ghost of Tsushima DIRECTOR'S CUT",
         "new": false,
         "requires_membership": false,
@@ -170570,7 +170687,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "3183280",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Game of Thrones: Kingsroad",
         "new": false,
         "requires_membership": false,
@@ -170993,7 +171110,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2215390",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Five Nights at Freddy's: Secret of the Mimic",
         "new": false,
         "requires_membership": false,
@@ -174557,7 +174674,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2488620",
-        "downloads": 1,
+        "downloads": 2,
         "name": "F1\u00ae 24",
         "new": false,
         "requires_membership": false,
@@ -175862,7 +175979,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "324090",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Football Club Simulator - FCS #21",
         "new": false,
         "requires_membership": false,
@@ -176429,7 +176546,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1203620",
-        "downloads": 3,
+        "downloads": 5,
         "name": "Enshrouded",
         "new": false,
         "requires_membership": false,
@@ -176564,7 +176681,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "377160",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Fallout 4",
         "new": false,
         "requires_membership": false,
@@ -176843,7 +176960,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2993780",
-        "downloads": 0,
+        "downloads": 1,
         "name": "FANTASY LIFE i: The Girl Who Steals Time",
         "new": false,
         "requires_membership": false,
@@ -178121,7 +178238,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "227300",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Euro Truck Simulator 2",
         "new": false,
         "requires_membership": false,
@@ -179417,7 +179534,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2909400",
-        "downloads": 17,
+        "downloads": 20,
         "name": "FINAL FANTASY VII REBIRTH",
         "new": false,
         "requires_membership": false,
@@ -179435,7 +179552,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2591280",
-        "downloads": 0,
+        "downloads": 1,
         "name": "F1\u00ae Manager 2024",
         "new": false,
         "requires_membership": false,
@@ -180020,7 +180137,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1128920",
-        "downloads": 4,
+        "downloads": 5,
         "name": "EVERSPACE\u2122 2",
         "new": false,
         "requires_membership": false,
@@ -180038,7 +180155,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2252570",
-        "downloads": 1,
+        "downloads": 3,
         "name": "Football Manager 2024",
         "new": false,
         "requires_membership": false,
@@ -186752,7 +186869,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "990080",
-        "downloads": 5,
+        "downloads": 8,
         "name": "Hogwarts Legacy",
         "new": false,
         "requires_membership": false,
@@ -187337,7 +187454,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1145350",
-        "downloads": 0,
+        "downloads": 3,
         "name": "Hades II",
         "new": false,
         "requires_membership": false,
@@ -187508,7 +187625,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "236870",
-        "downloads": 0,
+        "downloads": 1,
         "name": "HITMAN",
         "new": false,
         "requires_membership": false,
@@ -188309,7 +188426,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "863550",
-        "downloads": 0,
+        "downloads": 1,
         "name": "HITMAN 2",
         "new": false,
         "requires_membership": false,
@@ -191459,7 +191576,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "394360",
-        "downloads": 0,
+        "downloads": 3,
         "name": "Hearts of Iron IV",
         "new": false,
         "requires_membership": false,
@@ -191756,7 +191873,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1384160",
-        "downloads": 0,
+        "downloads": 1,
         "name": "GUILTY GEAR -STRIVE-",
         "new": false,
         "requires_membership": false,
@@ -192125,7 +192242,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "3240220",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Grand Theft Auto V Enhanced",
         "new": false,
         "requires_membership": false,
@@ -195383,7 +195500,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "367520",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Hollow Knight",
         "new": false,
         "requires_membership": false,
@@ -196166,7 +196283,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "6900",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Hitman: Codename 47",
         "new": false,
         "requires_membership": false,
@@ -196670,7 +196787,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "2470300",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Hookah Haze",
         "new": false,
         "requires_membership": false,
@@ -197102,7 +197219,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "220200",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Kerbal Space Program",
         "new": false,
         "requires_membership": false,
@@ -197642,7 +197759,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2228280",
-        "downloads": 0,
+        "downloads": 2,
         "name": "MEMORIA POLIS",
         "new": false,
         "requires_membership": false,
@@ -201404,7 +201521,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1550600",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Living with Temptation 1 - REDUX",
         "new": false,
         "requires_membership": false,
@@ -202727,7 +202844,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "210350",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Max Payne RU",
         "new": false,
         "requires_membership": false,
@@ -203627,7 +203744,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2058190",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Lost Judgment",
         "new": false,
         "requires_membership": false,
@@ -203753,7 +203870,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "383780",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Judgement",
         "new": false,
         "requires_membership": false,
@@ -203906,7 +204023,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1244460",
-        "downloads": 2,
+        "downloads": 5,
         "name": "Jurassic World Evolution 2",
         "new": false,
         "requires_membership": true,
@@ -203924,7 +204041,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1771300",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Kingdom Come: Deliverance II",
         "new": false,
         "requires_membership": false,
@@ -204869,7 +204986,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2060280",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Lost Judgment - The Kaito Files Story Expansion",
         "new": false,
         "requires_membership": false,
@@ -206399,7 +206516,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1128860",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Men of War II",
         "new": false,
         "requires_membership": false,
@@ -209711,7 +209828,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1372110",
-        "downloads": 0,
+        "downloads": 1,
         "name": "JoJo's Bizarre Adventure: All-Star Battle R",
         "new": false,
         "requires_membership": false,
@@ -211754,7 +211871,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2000890",
-        "downloads": 0,
+        "downloads": 1,
         "name": "MechWarrior 5: Clans",
         "new": false,
         "requires_membership": false,
@@ -212096,7 +212213,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "12260",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Max Payne 2 (RU)",
         "new": false,
         "requires_membership": false,
@@ -214880,7 +214997,7 @@
         "downloads": 0,
         "name": "Kunitsu-Gami: Path of the Goddess",
         "new": false,
-        "requires_membership": true,
+        "requires_membership": false,
         "st_file": "2510710.lua"
     },
     {
@@ -215723,7 +215840,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2651280",
-        "downloads": 17,
+        "downloads": 20,
         "name": "Marvel's Spider-Man 2",
         "new": false,
         "requires_membership": false,
@@ -216434,7 +216551,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "252110",
-        "downloads": 0,
+        "downloads": 2,
         "name": "Lovers in a Dangerous Spacetime",
         "new": false,
         "requires_membership": false,
@@ -219638,7 +219755,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2677660",
-        "downloads": 14,
+        "downloads": 18,
         "name": "Indiana Jones and the Great Circle",
         "new": false,
         "requires_membership": false,
@@ -221627,7 +221744,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "234140",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Mad Max",
         "new": false,
         "requires_membership": false,
@@ -222023,7 +222140,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "859580",
-        "downloads": 0,
+        "downloads": 3,
         "name": "Imperator: Rome",
         "new": false,
         "requires_membership": false,
@@ -223409,7 +223526,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "12150",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Max Payne 2: The Fall of Max Payne",
         "new": false,
         "requires_membership": false,
@@ -223625,7 +223742,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "299500",
-        "downloads": 0,
+        "downloads": 1,
         "name": "International Snooker",
         "new": false,
         "requires_membership": false,
@@ -225083,7 +225200,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "204100",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Max Payne 3",
         "new": false,
         "requires_membership": false,
@@ -226793,7 +226910,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "675010",
-        "downloads": 0,
+        "downloads": 1,
         "name": "MudRunner",
         "new": false,
         "requires_membership": false,
@@ -227360,7 +227477,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "205350",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Mortal Kombat Kollection",
         "new": false,
         "requires_membership": false,
@@ -227387,7 +227504,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "1971870",
-        "downloads": 5,
+        "downloads": 7,
         "name": "Mortal Kombat 1",
         "new": false,
         "requires_membership": true,
@@ -227684,7 +227801,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "237110",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Mortal Kombat Komplete Edition",
         "new": false,
         "requires_membership": false,
@@ -227693,7 +227810,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "2246340",
-        "downloads": 8,
+        "downloads": 11,
         "name": "Monster Hunter Wilds",
         "new": false,
         "requires_membership": true,
@@ -229547,7 +229664,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "3201360",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Miss\uff01Don't Affect my Rank",
         "new": false,
         "requires_membership": false,
@@ -229997,7 +230114,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "3077390",
-        "downloads": 1,
+        "downloads": 2,
         "name": "MotoGP\u212225",
         "new": false,
         "requires_membership": false,
@@ -230375,7 +230492,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "1038670",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Mind's Eye: Secrets of the Forgotten",
         "new": false,
         "requires_membership": false,
@@ -233066,7 +233183,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "774171",
-        "downloads": 6,
+        "downloads": 9,
         "name": "Muse Dash",
         "new": false,
         "requires_membership": false,
@@ -233372,7 +233489,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "976310",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Mortal Kombat 11",
         "new": false,
         "requires_membership": false,
@@ -233867,7 +233984,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "311340",
-        "downloads": 0,
+        "downloads": 1,
         "name": "METAL GEAR SOLID V: GROUND ZEROES",
         "new": false,
         "requires_membership": false,
@@ -235182,7 +235299,7 @@
         "added_on": "2025-07-04T16:53:11",
         "appid": "850000",
         "downloads": 0,
-        "name": "Noel the Mortal Fate S1-7",
+        "name": "Noel the Mortal Fate Complete Edition",
         "new": false,
         "requires_membership": false,
         "st_file": "850000.lua"
@@ -235586,7 +235703,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "400080",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Out of Space",
         "new": false,
         "requires_membership": false,
@@ -240167,7 +240284,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "2695940",
-        "downloads": 0,
+        "downloads": 2,
         "name": "PANICORE",
         "new": false,
         "requires_membership": false,
@@ -240356,7 +240473,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1439300",
-        "downloads": 0,
+        "downloads": 1,
         "name": "NASCAR 21_ Ignition",
         "new": false,
         "requires_membership": false,
@@ -240725,7 +240842,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1265860",
-        "downloads": 0,
+        "downloads": 1,
         "name": "NASCAR Heat 5",
         "new": false,
         "requires_membership": false,
@@ -241697,7 +241814,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "2634560",
-        "downloads": 0,
+        "downloads": 1,
         "name": "OMUSUBI",
         "new": false,
         "requires_membership": false,
@@ -242696,7 +242813,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1919590",
-        "downloads": 0,
+        "downloads": 1,
         "name": "NBA 2K23",
         "new": false,
         "requires_membership": false,
@@ -244802,7 +244919,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "3287520",
-        "downloads": 0,
+        "downloads": 2,
         "name": "NINJA GAIDEN 2 Black",
         "new": false,
         "requires_membership": false,
@@ -244982,7 +245099,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1451940",
-        "downloads": 0,
+        "downloads": 1,
         "name": "NEEDY GIRL OVERDOSE",
         "new": false,
         "requires_membership": false,
@@ -245873,7 +245990,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "2694490",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Path of Exile 2",
         "new": false,
         "requires_membership": false,
@@ -249869,7 +249986,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "345890",
-        "downloads": 0,
+        "downloads": 1,
         "name": "NASCAR 15 Victory Edition",
         "new": false,
         "requires_membership": false,
@@ -250760,7 +250877,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "466560",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Northgard",
         "new": false,
         "requires_membership": false,
@@ -251840,7 +251957,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1374490",
-        "downloads": 0,
+        "downloads": 1,
         "name": "RuneScape: Dragonwilds",
         "new": false,
         "requires_membership": false,
@@ -252659,7 +252776,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1649240",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Returnal\u2122",
         "new": false,
         "requires_membership": false,
@@ -256376,7 +256493,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2597580",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Porno Empire [18+]",
         "new": false,
         "requires_membership": false,
@@ -260255,7 +260372,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1340990",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Rise of the Ronin",
         "new": false,
         "requires_membership": false,
@@ -261965,7 +262082,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "294100",
-        "downloads": 0,
+        "downloads": 3,
         "name": "RimWorld",
         "new": false,
         "requires_membership": false,
@@ -262658,7 +262775,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1174180",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Red Dead Redemption 2",
         "new": false,
         "requires_membership": false,
@@ -263621,7 +263738,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "3416070",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Ropuka's Idle Island",
         "new": false,
         "requires_membership": false,
@@ -263720,7 +263837,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1196590",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Resident Evil Village",
         "new": false,
         "requires_membership": false,
@@ -264422,7 +264539,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "883710",
-        "downloads": 0,
+        "downloads": 4,
         "name": "Resident Evil 2",
         "new": false,
         "requires_membership": false,
@@ -266051,7 +266168,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "391220",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Rise of the Tomb Raider",
         "new": false,
         "requires_membership": false,
@@ -266141,7 +266258,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "388980",
-        "downloads": 1,
+        "downloads": 5,
         "name": "Race Track Builder",
         "new": false,
         "requires_membership": false,
@@ -268733,7 +268850,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "692890",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Roboquest",
         "new": false,
         "requires_membership": false,
@@ -269687,7 +269804,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "254700",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Resident Evil 4 (2005)",
         "new": false,
         "requires_membership": false,
@@ -270668,7 +270785,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1272080",
-        "downloads": 8,
+        "downloads": 10,
         "name": "PAYDAY 3",
         "new": false,
         "requires_membership": false,
@@ -271163,7 +271280,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2073250",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Rift of the NecroDancer",
         "new": false,
         "requires_membership": false,
@@ -271973,7 +272090,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2050650",
-        "downloads": 9,
+        "downloads": 11,
         "name": "Resident Evil 4",
         "new": false,
         "requires_membership": true,
@@ -272684,7 +272801,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "108600",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Project Zomboid",
         "new": false,
         "requires_membership": false,
@@ -274331,7 +274448,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1144200",
-        "downloads": 13,
+        "downloads": 15,
         "name": "Ready or Not",
         "new": false,
         "requires_membership": false,
@@ -275105,7 +275222,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1111810",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Sex Simulator",
         "new": false,
         "requires_membership": false,
@@ -275348,7 +275465,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "3000280",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Sexcalibur: Knights of the Pound Table",
         "new": false,
         "requires_membership": false,
@@ -275375,7 +275492,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2246850",
-        "downloads": 0,
+        "downloads": 1,
         "name": "SEX Room [18+]",
         "new": false,
         "requires_membership": false,
@@ -275456,7 +275573,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2909780",
-        "downloads": 0,
+        "downloads": 1,
         "name": "SONIC X SHADOW GENERATIONS: Sonic Adventure Legacy Skin",
         "new": false,
         "requires_membership": false,
@@ -276779,7 +276896,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2909770",
-        "downloads": 0,
+        "downloads": 1,
         "name": "SONIC X SHADOW GENERATIONS: Extra Content Pack",
         "new": false,
         "requires_membership": false,
@@ -277769,7 +277886,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2124490",
-        "downloads": 10,
+        "downloads": 11,
         "name": "SILENT HILL 2",
         "new": false,
         "requires_membership": false,
@@ -278606,7 +278723,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "3377310",
-        "downloads": 4,
+        "downloads": 5,
         "name": "SEX EXIT \ud83d\udd1e",
         "new": false,
         "requires_membership": false,
@@ -278651,7 +278768,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1153410",
-        "downloads": 1,
+        "downloads": 3,
         "name": "JDM: Japanese Drift Master",
         "new": false,
         "requires_membership": false,
@@ -278750,7 +278867,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "281990",
-        "downloads": 0,
+        "downloads": 2,
         "name": "Stellaris",
         "new": false,
         "requires_membership": false,
@@ -279245,7 +279362,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "3125250",
-        "downloads": 2,
+        "downloads": 3,
         "name": "STORROR Parkour Pro",
         "new": false,
         "requires_membership": false,
@@ -279281,7 +279398,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "544750",
-        "downloads": 0,
+        "downloads": 1,
         "name": "SOULCALIBUR VI",
         "new": false,
         "requires_membership": false,
@@ -279506,7 +279623,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2461850",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Senua\u2019s Saga: Hellblade II",
         "new": false,
         "requires_membership": false,
@@ -280541,7 +280658,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2492120",
-        "downloads": 1,
+        "downloads": 2,
         "name": "SAEKO: Giantess Dating Sim",
         "new": false,
         "requires_membership": false,
@@ -281774,7 +281891,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "3164500",
-        "downloads": 2,
+        "downloads": 5,
         "name": "Schedule I",
         "new": false,
         "requires_membership": false,
@@ -282341,7 +282458,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "740130",
-        "downloads": 29,
+        "downloads": 30,
         "name": "Tales of Arise",
         "new": false,
         "requires_membership": false,
@@ -282377,7 +282494,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "3044740",
-        "downloads": 15,
+        "downloads": 18,
         "name": "V-LOVER!",
         "new": false,
         "requires_membership": false,
@@ -282872,7 +282989,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2983600",
-        "downloads": 4,
+        "downloads": 7,
         "name": "SONIC X SHADOW GENERATIONS: Sonic the Hedgehog 3 Movie Pack",
         "new": false,
         "requires_membership": false,
@@ -282926,7 +283043,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2513280",
-        "downloads": 0,
+        "downloads": 1,
         "name": "SONIC X SHADOW GENERATIONS",
         "new": false,
         "requires_membership": false,
@@ -285176,7 +285293,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1623730",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Palworld",
         "new": false,
         "requires_membership": false,
