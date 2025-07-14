@@ -38989,15 +38989,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:24",
-        "appid": "2818980",
-        "downloads": 0,
-        "name": "The Gravedigger",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2818980.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:24",
         "appid": "322460",
         "downloads": 0,
         "name": "Winning Post 8 2015",
@@ -40336,15 +40327,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "2010370.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:24",
-        "appid": "2672570",
-        "downloads": 0,
-        "name": "Ultimate Admiral: Dreadnoughts \"Multiplayer\"",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2672570.lua"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -56437,15 +56419,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "2123800.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:22",
-        "appid": "2160420",
-        "downloads": 0,
-        "name": "The Backrooms Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2160420.lua"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -75490,15 +75463,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1694750.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:21",
-        "appid": "243750",
-        "downloads": 0,
-        "name": "Source SDK Base 2013 Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "243750.lua"
     },
     {
         "added_on": "2025-07-04T16:53:21",
@@ -122545,15 +122509,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:18",
-        "appid": "10190",
-        "downloads": 0,
-        "name": "Call of Duty: Modern Warfare 2 (2009) - Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "10190.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
         "appid": "1714660",
         "downloads": 0,
         "name": "Camellia Train",
@@ -122587,15 +122542,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1265870.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
-        "appid": "393100",
-        "downloads": 0,
-        "name": "Call of Duty: Modern Warfare Remastered - Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "393100.lua"
     },
     {
         "added_on": "2025-07-04T16:53:18",
@@ -123211,15 +123157,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:18",
-        "appid": "202990",
-        "downloads": 0,
-        "name": "Call of Duty: Black Ops II - Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "202990.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
         "appid": "275470",
         "downloads": 0,
         "name": "Chip",
@@ -123343,15 +123280,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1879680.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
-        "appid": "42690",
-        "downloads": 0,
-        "name": "Call of Duty\u00ae: Modern Warfare\u00ae 3 (2011) - Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "42690.lua"
     },
     {
         "added_on": "2025-07-04T16:53:18",
@@ -125533,15 +125461,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:18",
-        "appid": "42710",
-        "downloads": 0,
-        "name": "Call of Duty: Black Ops - Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "42710.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
         "appid": "941790",
         "downloads": 0,
         "name": "Chocolate makes you happy: Halloween",
@@ -125944,15 +125863,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1496210.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
-        "appid": "209660",
-        "downloads": 0,
-        "name": "Call of Duty: Advanced Warfare - Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "209660.lua"
     },
     {
         "added_on": "2025-07-04T16:53:18",
@@ -127315,15 +127225,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:18",
-        "appid": "476620",
-        "downloads": 1,
-        "name": "Call of Duty: WWII - Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "476620.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
         "appid": "1872130",
         "downloads": 0,
         "name": "Cat and fish",
@@ -127339,15 +127240,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1503410.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
-        "appid": "209170",
-        "downloads": 0,
-        "name": "Call of Duty: Ghosts - Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "209170.lua"
     },
     {
         "added_on": "2025-07-04T16:53:18",
@@ -131173,15 +131065,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "981750.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:17",
-        "appid": "2585530",
-        "downloads": 0,
-        "name": "Crawlspace Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2585530.lua"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -146296,15 +146179,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:16",
-        "appid": "1255347",
-        "downloads": 0,
-        "name": "Dragon Age Inquisition - Destruction Multiplayer Expansion",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1255347.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:16",
         "appid": "715010",
         "downloads": 0,
         "name": "Diamo XL",
@@ -151072,15 +150946,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "2798880.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:16",
-        "appid": "1255342",
-        "downloads": 0,
-        "name": "Dragon Age Inquisition - Dragonslayer Multiplayer Expansion",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1255342.lua"
     },
     {
         "added_on": "2025-07-04T16:53:16",
@@ -159748,15 +159613,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1638750.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:15",
-        "appid": "1092050",
-        "downloads": 0,
-        "name": "Fire On Fight : Online Multiplayer Shooter",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1092050.lua"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -204157,15 +204013,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:13",
-        "appid": "47830",
-        "downloads": 0,
-        "name": "Medal of Honor(TM) Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "47830.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:13",
         "appid": "433320",
         "downloads": 0,
         "name": "Marvel: Ultimate Alliance 2",
@@ -229375,15 +229222,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:12",
-        "appid": "2613250",
-        "downloads": 0,
-        "name": "Multiplayer Drone Simulator",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2613250.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:12",
         "appid": "956060",
         "downloads": 0,
         "name": "Mittelborg",
@@ -232624,15 +232462,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:12",
-        "appid": "2306160",
-        "downloads": 0,
-        "name": "MULTIPLAYER KNIGHTS",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2306160.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:12",
         "appid": "1673220",
         "downloads": 0,
         "name": "Meteor Genocide",
@@ -233584,15 +233413,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1363350.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:12",
-        "appid": "2263920",
-        "downloads": 0,
-        "name": "Multiplayer Platform Golf",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2263920.lua"
     },
     {
         "added_on": "2025-07-04T16:53:12",
@@ -243115,15 +242935,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "981890.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:11",
-        "appid": "1531720",
-        "downloads": 0,
-        "name": "Need for Drive - Open World Multiplayer Racing Price history",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1531720.lua"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -268498,15 +268309,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:10",
-        "appid": "663390",
-        "downloads": 0,
-        "name": "Rento Fortune - Multiplayer Board Game",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "663390.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:10",
         "appid": "673600",
         "downloads": 0,
         "name": "Prison Boss VR",
@@ -274930,15 +274732,6 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1717250.lua"
-    },
-    {
-        "added_on": "2025-07-04T16:53:10",
-        "appid": "35450",
-        "downloads": 0,
-        "name": "Rising Storm/Red Orchestra 2 Multiplayer",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "35450.lua"
     },
     {
         "added_on": "2025-07-04T16:53:10",
