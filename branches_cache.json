@@ -1,5 +1,23 @@
 [
     {
+        "added_on": "2025-07-19T18:10:08",
+        "appid": "2768100",
+        "downloads": 0,
+        "name": "Slendrina Remake",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2768100.lua"
+    },
+    {
+        "added_on": "2025-07-19T18:07:03",
+        "appid": "3699970",
+        "downloads": 0,
+        "name": "Blasfemia",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3699970.lua"
+    },
+    {
         "added_on": "2025-07-19T17:55:38",
         "appid": "3249650",
         "downloads": 0,
@@ -166,7 +184,7 @@
         "appid": "3209480",
         "downloads": 0,
         "name": "Last Report",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3209480.lua"
     },
@@ -175,7 +193,7 @@
         "appid": "3168310",
         "downloads": 1,
         "name": "True Fear: Forsaken Souls Part 3",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3168310.lua"
     },
