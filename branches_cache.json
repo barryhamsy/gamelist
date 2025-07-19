@@ -1,5 +1,14 @@
 [
     {
+        "added_on": "2025-07-19T18:17:28",
+        "appid": "2429050",
+        "downloads": 0,
+        "name": "Fretless - The Wrath of Riffson",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2429050.lua"
+    },
+    {
         "added_on": "2025-07-19T18:10:08",
         "appid": "2768100",
         "downloads": 0,
@@ -175,7 +184,7 @@
         "appid": "3586660",
         "downloads": 1,
         "name": "Word Play",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3586660.lua"
     },
