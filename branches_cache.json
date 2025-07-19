@@ -1,8 +1,53 @@
 [
     {
+        "added_on": "2025-07-19T17:55:38",
+        "appid": "3249650",
+        "downloads": 0,
+        "name": "Little Fighter 2 Remastered",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3249650.lua"
+    },
+    {
+        "added_on": "2025-07-19T17:53:41",
+        "appid": "3408570",
+        "downloads": 0,
+        "name": "Harmony Of Fear",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3408570.lua"
+    },
+    {
+        "added_on": "2025-07-19T17:49:54",
+        "appid": "3690010",
+        "downloads": 0,
+        "name": "Who's at the door?",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3690010.lua"
+    },
+    {
+        "added_on": "2025-07-19T17:45:05",
+        "appid": "3125750",
+        "downloads": 0,
+        "name": "EDENS ZERO",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3125750.lua"
+    },
+    {
+        "added_on": "2025-07-19T17:39:52",
+        "appid": "2479740",
+        "downloads": 0,
+        "name": "Pieces of me",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2479740.lua"
+    },
+    {
         "added_on": "2025-07-19T02:51:59",
         "appid": "3527760",
-        "downloads": 0,
+        "downloads": 2,
         "name": "RoboCop: Rogue City - Unfinished Business",
         "new": true,
         "requires_membership": false,
@@ -11,7 +56,7 @@
     {
         "added_on": "2025-07-19T02:25:21",
         "appid": "3718550",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Don\u2019t Tell Mom: I Fed My Stepsister \ud83d\udca6\ud83d\ude33",
         "new": true,
         "requires_membership": false,
@@ -20,7 +65,7 @@
     {
         "added_on": "2025-07-19T02:25:05",
         "appid": "3478020",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Living with my Little Sister",
         "new": true,
         "requires_membership": false,
@@ -29,7 +74,7 @@
     {
         "added_on": "2025-07-17T09:55:29",
         "appid": "3401920",
-        "downloads": 31,
+        "downloads": 32,
         "name": "Upin & Ipin Universe",
         "new": true,
         "requires_membership": false,
@@ -139,7 +184,7 @@
         "appid": "3114900",
         "downloads": 1,
         "name": "DREAD FLATS",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3114900.lua"
     },
@@ -148,7 +193,7 @@
         "appid": "3460110",
         "downloads": 0,
         "name": "\u5929\u5730\u6709\u79c1\uff0c\u5bbf\u547d\u4e4b\u4e3b",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3460110.lua"
     },
@@ -157,7 +202,7 @@
         "appid": "3496940",
         "downloads": 1,
         "name": "Loot Line",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3496940.lua"
     },
@@ -166,7 +211,7 @@
         "appid": "832500",
         "downloads": 0,
         "name": "3 Minutes to Midnight",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "832500.lua"
     },
@@ -175,7 +220,7 @@
         "appid": "2836860",
         "downloads": 0,
         "name": "The Horror at Highrook",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2836860.lua"
     },
@@ -227,7 +272,7 @@
     {
         "added_on": "2025-07-11T05:32:30",
         "appid": "2383200",
-        "downloads": 5,
+        "downloads": 7,
         "name": "PATAPON 1+2 REPLAY",
         "new": false,
         "requires_membership": false,
@@ -470,7 +515,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "2185060",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Two Point Museum",
         "new": false,
         "requires_membership": true,
@@ -2234,7 +2279,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "3489700",
-        "downloads": 70,
+        "downloads": 71,
         "name": "Stellar Blade\u2122",
         "new": false,
         "requires_membership": true,
@@ -12755,7 +12800,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "650500",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Wolfenstein II: The New Colossus German Edition",
         "new": false,
         "requires_membership": false,
@@ -38189,7 +38234,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "1526480",
-        "downloads": 4,
+        "downloads": 7,
         "name": "battle Tank",
         "new": false,
         "requires_membership": false,
@@ -45344,7 +45389,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "2172260",
-        "downloads": 0,
+        "downloads": 1,
         "name": "The Complex: Expedition",
         "new": false,
         "requires_membership": false,
@@ -45560,7 +45605,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "1468720",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Ultimate Epic Battle Simulator 2",
         "new": false,
         "requires_membership": false,
@@ -50771,7 +50816,7 @@
     {
         "added_on": "2025-07-04T16:53:23",
         "appid": "1544020",
-        "downloads": 2,
+        "downloads": 3,
         "name": "The Callisto Protocol",
         "new": false,
         "requires_membership": false,
@@ -55973,7 +56018,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "1888930",
-        "downloads": 5,
+        "downloads": 6,
         "name": "The Last of Us\u2122 Part I",
         "new": false,
         "requires_membership": false,
@@ -69518,7 +69563,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "2473480",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Tails of Iron 2: Whiskers of Winter",
         "new": false,
         "requires_membership": false,
@@ -71921,7 +71966,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "212480",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Sonic & All-Stars Racing Transformed Collection",
         "new": false,
         "requires_membership": false,
@@ -76052,7 +76097,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "637100",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Sonic Forces",
         "new": false,
         "requires_membership": false,
@@ -83729,7 +83774,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "24780",
-        "downloads": 0,
+        "downloads": 1,
         "name": "SimCity 4 Deluxe",
         "new": false,
         "requires_membership": false,
@@ -84674,7 +84719,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1336490",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Against the Storm",
         "new": false,
         "requires_membership": false,
@@ -92288,7 +92333,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "315210",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Suicide Squad: Kill the Justice League",
         "new": false,
         "requires_membership": false,
@@ -112259,7 +112304,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "2358720",
-        "downloads": 21,
+        "downloads": 22,
         "name": "Black Myth: Wukong",
         "new": false,
         "requires_membership": true,
@@ -112682,7 +112727,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1517290",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Battlefield\u2122 2042",
         "new": false,
         "requires_membership": false,
@@ -130493,7 +130538,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2138330",
-        "downloads": 10,
+        "downloads": 14,
         "name": "Cyberpunk 2077: Phantom Liberty",
         "new": false,
         "requires_membership": false,
@@ -132635,7 +132680,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1903340",
-        "downloads": 20,
+        "downloads": 21,
         "name": "Clair Obscur: Expedition 33",
         "new": false,
         "requires_membership": false,
@@ -136055,7 +136100,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "949230",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Cities: Skylines II",
         "new": false,
         "requires_membership": false,
@@ -140996,7 +141041,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1091500",
-        "downloads": 10,
+        "downloads": 11,
         "name": "Cyberpunk 2077",
         "new": false,
         "requires_membership": false,
@@ -159914,7 +159959,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "527230",
-        "downloads": 0,
+        "downloads": 1,
         "name": "For The King",
         "new": false,
         "requires_membership": false,
@@ -170912,7 +170957,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "3158270",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Football Life Simulator",
         "new": false,
         "requires_membership": false,
@@ -186707,7 +186752,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1217060",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Gunfire Reborn",
         "new": false,
         "requires_membership": false,
@@ -186806,7 +186851,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "990080",
-        "downloads": 8,
+        "downloads": 9,
         "name": "Hogwarts Legacy",
         "new": false,
         "requires_membership": false,
@@ -198677,7 +198722,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "993090",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Lossless Scaling",
         "new": false,
         "requires_membership": false,
@@ -235209,7 +235254,7 @@
         "added_on": "2025-07-04T16:53:11",
         "appid": "3279160",
         "downloads": 0,
-        "name": "Only Up_ LIZARDS MUST FALL",
+        "name": "Only Up: LIZARDS MUST FALL",
         "new": false,
         "requires_membership": false,
         "st_file": "3279160.lua"
@@ -236973,7 +237018,7 @@
         "added_on": "2025-07-04T16:53:11",
         "appid": "2928650",
         "downloads": 0,
-        "name": "Only Up_ SKIBIDI TOGETHER",
+        "name": "Only Up: SKIBIDI TOGETHER",
         "new": false,
         "requires_membership": false,
         "st_file": "2928650.lua"
@@ -249879,7 +249924,7 @@
         "added_on": "2025-07-04T16:53:11",
         "appid": "1426090",
         "downloads": 0,
-        "name": "My Yandere Sister loves me too much!",
+        "name": "My Yandere Sister Loves Me Too Much!",
         "new": false,
         "requires_membership": false,
         "st_file": "1426090.lua"
@@ -251822,7 +251867,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1374490",
-        "downloads": 1,
+        "downloads": 2,
         "name": "RuneScape: Dragonwilds",
         "new": false,
         "requires_membership": false,
@@ -256304,7 +256349,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1276790",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Ruined King: A League of Legends Story\u2122",
         "new": false,
         "requires_membership": false,
@@ -264404,7 +264449,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "883710",
-        "downloads": 9,
+        "downloads": 10,
         "name": "Resident Evil 2",
         "new": false,
         "requires_membership": false,
@@ -271937,7 +271982,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2050650",
-        "downloads": 23,
+        "downloads": 24,
         "name": "Resident Evil 4",
         "new": false,
         "requires_membership": true,
