@@ -15,7 +15,6 @@
       --denuvo-color:#e74c3c;
       --badge-new:#27ae60;
       --accent:#2ecc71;
-      --warning:#f39c12;
       --glow:#9be7ff;
     }
 
@@ -282,6 +281,14 @@
       margin-top:8px;
     }
 
+    /* Comparison table */
+    .package-table{width:100%;border-collapse:collapse;margin-top:15px;font-size:.95rem}
+    .package-table th,.package-table td{border:1px solid #ddd;padding:10px 14px;text-align:left}
+    .package-table th{background:var(--secondary-color);color:#fff;text-align:center}
+    .package-table tr:nth-child(even) td{background:#f9fbfd}
+    .package-table td:nth-child(2){text-align:center;color:#e74c3c;font-weight:600}
+    .package-table td:nth-child(3){text-align:center;color:#27ae60;font-weight:600}
+
     /* Pricing */
     .pricing-wrap{
       max-width:1000px;
@@ -419,40 +426,69 @@
       .purchase-link{right:15px; left:15px; bottom:15px; max-width:unset}
     }
 
-    .package-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
-  font-size: 0.95rem;
-}
-.package-table th,
-.package-table td {
-  border: 1px solid #ddd;
-  padding: 10px 14px;
-  text-align: left;
-}
-.package-table th {
-  background: var(--secondary-color);
-  color: #fff;
-  text-align: center;
-}
-.package-table td {
-  background: #fff;
-}
-.package-table tr:nth-child(even) td {
-  background: #f9fbfd;
-}
-.package-table td:nth-child(2) {
-  text-align: center;
-  color: #e74c3c; /* monthly red accent */
-  font-weight: 600;
-}
-.package-table td:nth-child(3) {
-  text-align: center;
-  color: #27ae60; /* lifetime green accent */
-  font-weight: 600;
-}
+    /* Floating WhatsApp button */
+    .whatsapp-btn{
+      position:fixed;
+      bottom:90px; /* sits above Purchase button */
+      right:25px;
+      z-index:1000;
 
+      background:#25D366;
+      color:#fff;
+      font-weight:bold;
+      text-decoration:none;
+      padding:12px 20px;
+      border-radius:25px;
+      font-size:.95rem;
+
+      box-shadow:0 4px 12px rgba(0,0,0,.2);
+      transition:all .3s ease;
+    }
+    .whatsapp-btn:hover{
+      background:#20b955;
+      transform:translateY(-3px);
+      box-shadow:0 8px 20px rgba(0,0,0,.3);
+    }
+
+    /* Tiny prompt for manual receipt entry */
+    .receipt-toast{
+      position:fixed;
+      bottom:160px;
+      right:25px;
+      z-index:1100;
+      background:#ffffff;
+      border:1px solid #e1e5ea;
+      box-shadow:0 8px 22px rgba(0,0,0,.12);
+      border-radius:12px;
+      padding:10px;
+      display:none;
+      width:260px;
+    }
+    .receipt-toast h4{
+      margin:0 0 8px;
+      font-size:.95rem;
+      color:var(--primary-color);
+    }
+    .receipt-row{
+      display:flex;
+      gap:8px;
+    }
+    .receipt-row input{
+      flex:1;
+      padding:8px 10px;
+      border:1px solid #dcdfe3;
+      border-radius:8px;
+      font-size:.9rem;
+    }
+    .receipt-row button{
+      padding:8px 10px;
+      border:none;
+      border-radius:8px;
+      background:var(--secondary-color);
+      color:#fff;
+      cursor:pointer;
+    }
+    .receipt-row button:hover{background:#2980b9}
   </style>
 </head>
 <body>
@@ -539,51 +575,51 @@
         </ul>
       </div>
 
-<div class="about-section">
-  <h3>Package Comparison</h3>
-  <table class="package-table">
-    <thead>
-      <tr>
-        <th>Feature</th>
-        <th>Monthly</th>
-        <th>Lifetime</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>SteamID Binding</td>
-        <td>1 SteamID per CD Key</td>
-        <td>1 / 2 / 3 SteamIDs per CD Key (depending on plan)</td>
-      </tr>
-      <tr>
-        <td>Validity</td>
-        <td>1 Month</td>
-        <td>Forever</td>
-      </tr>
-      <tr>
-        <td>Re-activations</td>
-        <td>Unlimited (same SteamID)</td>
-        <td>Unlimited (same SteamID(s))</td>
-      </tr>
-      <tr>
-        <td>Denuvo Games</td>
-        <td>❌ Not Supported</td>
-        <td>⚠️ Limited Support (not all titles)</td>
-      </tr>
-      <tr>
-        <td>Online Patch & Bypass</td>
-        <td>❌ Not Available</td>
-        <td>✅ Available</td>
-      </tr>
-      <tr>
-        <td>Hardware Lock</td>
-        <td>No (can change PC)</td>
-        <td>No (can change PC)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
+      <!-- Package comparison -->
+      <div class="about-section">
+        <h3>Package Comparison</h3>
+        <table class="package-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Monthly</th>
+              <th>Lifetime</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SteamID Binding</td>
+              <td>1 SteamID per CD Key</td>
+              <td>1 / 2 / 3 SteamIDs per CD Key (plan-based)</td>
+            </tr>
+            <tr>
+              <td>Validity</td>
+              <td>1 Month</td>
+              <td>Forever</td>
+            </tr>
+            <tr>
+              <td>Re-activations</td>
+              <td>Unlimited (same SteamID)</td>
+              <td>Unlimited (same SteamID(s))</td>
+            </tr>
+            <tr>
+              <td>Denuvo Games</td>
+              <td>Not Supported</td>
+              <td>Limited Support (not all titles)</td>
+            </tr>
+            <tr>
+              <td>Online Patch & Bypass</td>
+              <td>Not Available</td>
+              <td>Available</td>
+            </tr>
+            <tr>
+              <td>Hardware Lock</td>
+              <td>No (change PC freely)</td>
+              <td>No (change PC freely)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <div class="about-section">
         <h3>Limitations</h3>
@@ -606,54 +642,68 @@
     </div>
   </div>
 
-<!-- Pricing Page -->
-<div id="pricing" class="page">
-  <div class="pricing-wrap">
-    <h2>Pricing Plans</h2>
-    <div class="pricing-container">
-      <div class="pricing-card">
-        <h3>Monthly</h3>
-        <div class="pricing-price">RM50</div>
-        <p>1 SteamID per CD Key (valid for 1 month)</p>
-        <p style="font-size:0.85rem; color:var(--text-light);">Games revert to “Purchase” after expiry. No Denuvo, no online patch/launcher bypass.</p>
-        <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
-      </div>
+  <!-- Pricing Page -->
+  <div id="pricing" class="page">
+    <div class="pricing-wrap">
+      <h2>Pricing Plans</h2>
+      <div class="pricing-container">
+        <div class="pricing-card">
+          <h3>Monthly</h3>
+          <div class="pricing-price">Contact</div>
+          <p>1 SteamID per CD Key (1 month)</p>
+          <p style="font-size:0.85rem; color:var(--text-light);">Games revert to “Purchase” after expiry. No Denuvo. No online patch/launcher bypass.</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Monthly">Buy Now</a>
+        </div>
 
-      <div class="pricing-card">
-        <h3>Basic</h3>
-        <div class="pricing-price">RM120</div>
-        <p>1 SteamID per CD Key (Lifetime)</p>
-        <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
-      </div>
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <div class="pricing-price">RM120</div>
+          <p>1 SteamID per CD Key (Lifetime)</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Basic">Buy Now</a>
+        </div>
 
-      <div class="pricing-card">
-        <h3>Standard</h3>
-        <div class="pricing-price">RM150</div>
-        <p>2 SteamIDs per CD Key (Lifetime)</p>
-        <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
-      </div>
+        <div class="pricing-card featured" aria-label="Most popular plan">
+          <span class="badge-featured">Most Popular</span>
+          <h3>Premium</h3>
+          <div class="pricing-price">RM250</div>
+          <p>3 SteamIDs per CD Key (Lifetime)</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Premium">Buy Now</a>
+        </div>
 
-      <div class="pricing-card featured" aria-label="Most popular plan">
-        <span class="badge-featured">Most Popular</span>
-        <h3>Premium</h3>
-        <div class="pricing-price">RM250</div>
-        <p>3 SteamIDs per CD Key (Lifetime)</p>
-        <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
+        <div class="pricing-card">
+          <h3>Standard</h3>
+          <div class="pricing-price">RM150</div>
+          <p>2 SteamIDs per CD Key (Lifetime)</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Standard">Buy Now</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
 
   <footer>
     <p>© 2025 Barry's Games Store. All rights reserved.</p>
   </footer>
 
+  <!-- Floating WhatsApp CTA -->
+  <a id="whatsappBtn"
+     href="https://wa.me/60123456789?text=Hi%20Barry,%20I%20am%20interested%20in%20Steam%20Unlock%20Onennabe!"
+     target="_blank"
+     class="whatsapp-btn">💬 WhatsApp Us</a>
+
   <!-- Floating Purchase CTA -->
-  <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="purchase-link">
+  <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="purchase-link" id="purchaseCta">
     <div class="purchase-main">Purchase App</div>
     <div class="purchase-sub">Done browsing games? Unlock them all!</div>
   </a>
+
+  <!-- Manual receipt mini prompt -->
+  <div class="receipt-toast" id="receiptToast" aria-live="polite">
+    <h4>Add receipt to WhatsApp?</h4>
+    <div class="receipt-row">
+      <input type="text" id="receiptInput" placeholder="Enter receipt / transaction ID">
+      <button id="receiptSaveBtn">Save</button>
+    </div>
+  </div>
 
   <script>
     const GENRE_MAP = {
@@ -676,16 +726,50 @@
       window.scrollTo({top:0, behavior:'smooth'});
     }
 
-    // Simple image opener (new tab)
-    function openImage(src){
-      window.open(src, '_blank');
-    }
+    function openImage(src){ window.open(src, '_blank'); }
 
     document.addEventListener('DOMContentLoaded', ()=>{
+      // Games list
       loadGames();
       document.getElementById('searchButton').addEventListener('click', performSearch);
       document.getElementById('searchInput').addEventListener('keyup', e=>{
         if(e.key==='Enter') performSearch();
+      });
+
+      // Track plan click before PayPal
+      document.querySelectorAll('.buy-btn').forEach(btn=>{
+        btn.addEventListener('click', ()=>{
+          const plan = btn.getAttribute('data-plan') || 'Purchase';
+          localStorage.setItem('lastPlan', plan);
+          // We rely on PayPal opening in new tab. User may come back with receipt params.
+        });
+      });
+
+      // Try auto-detect receipt from query params
+      const receipt = getReceiptFromURL();
+      if(receipt){
+        localStorage.setItem('lastReceipt', receipt);
+      }
+
+      // If we have any info, update WhatsApp link
+      const knownReceipt = localStorage.getItem('lastReceipt') || '';
+      const knownPlan = localStorage.getItem('lastPlan') || '';
+      updateWhatsAppLink(knownReceipt, knownPlan);
+
+      // If user has plan but no receipt, show mini prompt (once)
+      if(knownPlan && !knownReceipt && !localStorage.getItem('receiptPromptShown')){
+        showReceiptToast();
+        localStorage.setItem('receiptPromptShown','1');
+      }
+
+      // Manual receipt save
+      document.getElementById('receiptSaveBtn').addEventListener('click', ()=>{
+        const r = (document.getElementById('receiptInput').value || '').trim();
+        if(r){
+          localStorage.setItem('lastReceipt', r);
+          updateWhatsAppLink(r, localStorage.getItem('lastPlan')||'');
+          hideReceiptToast();
+        }
       });
     });
 
@@ -798,7 +882,7 @@
       // Prev
       addButton('« Prev', currentPage - 1, currentPage === 1);
 
-      // Truncated page window with ellipses
+      // Truncated numeric window
       const maxVisible = 5;
       let start = Math.max(1, currentPage - Math.floor(maxVisible/2));
       let end = Math.min(totalPages, start + maxVisible - 1);
@@ -830,6 +914,37 @@
 
       // Next
       addButton('Next »', currentPage + 1, currentPage === totalPages);
+    }
+
+    /* ---------- WhatsApp helper logic ---------- */
+    function getReceiptFromURL(){
+      try{
+        const p = new URLSearchParams(window.location.search);
+        return p.get('receipt') || p.get('tx') || p.get('paymentId') || p.get('payment_id') || p.get('token') || '';
+      }catch(e){ return ''; }
+    }
+
+    function updateWhatsAppLink(receipt, plan){
+      const base = "https://wa.me/60123456789";
+      const parts = [];
+      if(plan) parts.push(`Plan: ${plan}`);
+      if(receipt) parts.push(`Receipt: ${receipt}`);
+      const info = parts.length ? ` (${parts.join(' | ')})` : '';
+      const msg = `Hi Barry, I am interested in Steam Unlock Onennabe${info}.`;
+      const url = base + "?text=" + encodeURIComponent(msg);
+      const a = document.getElementById('whatsappBtn');
+      if(a) a.href = url;
+    }
+
+    function showReceiptToast(){
+      const el = document.getElementById('receiptToast');
+      if(!el) return;
+      el.style.display = 'block';
+    }
+    function hideReceiptToast(){
+      const el = document.getElementById('receiptToast');
+      if(!el) return;
+      el.style.display = 'none';
     }
   </script>
 </body>
