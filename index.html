@@ -15,6 +15,8 @@
       --denuvo-color:#e74c3c;
       --badge-new:#27ae60;
       --accent:#2ecc71;
+      --warning:#f39c12;
+      --glow:#9be7ff;
     }
 
     *{box-sizing:border-box}
@@ -294,12 +296,14 @@
       gap:20px;
     }
     .pricing-card{
+      position:relative;
       background:var(--card-bg);
       padding:25px;
       border-radius:15px;
       box-shadow:0 5px 15px rgba(0,0,0,.1);
       text-align:center;
-      transition:transform .3s, box-shadow .3s;
+      transition:transform .3s, box-shadow .3s, border-color .3s;
+      border:1px solid rgba(0,0,0,0.06);
     }
     .pricing-card:hover{
       transform:translateY(-5px);
@@ -316,6 +320,54 @@
       font-size:.95rem;
       color:var(--text-light);
       margin:0;
+    }
+    /* Buy buttons in pricing */
+    .buy-btn{
+      display:inline-block;
+      margin-top:15px;
+      padding:10px 20px;
+      background:linear-gradient(135deg,#3498db,#2ecc71);
+      color:#fff;
+      font-weight:bold;
+      border-radius:25px;
+      text-decoration:none;
+      transition:all .3s ease;
+      box-shadow:0 3px 10px rgba(0,0,0,.15);
+    }
+    .buy-btn:hover{
+      background:linear-gradient(135deg,#2ecc71,#3498db);
+      transform:translateY(-3px);
+      box-shadow:0 6px 15px rgba(0,0,0,.25);
+    }
+
+    /* Featured (Premium) */
+    .pricing-card.featured{
+      border-color:transparent;
+      background:
+        linear-gradient(#fff,#fff) padding-box,
+        linear-gradient(135deg, #3498db, #2ecc71) border-box;
+      border:2px solid transparent;
+      transform:translateY(-4px) scale(1.02);
+      box-shadow:0 12px 30px rgba(0,0,0,.12), 0 0 0 6px rgba(155,231,255,.18);
+    }
+    .pricing-card.featured:hover{
+      transform:translateY(-6px) scale(1.035);
+      box-shadow:0 16px 36px rgba(0,0,0,.16), 0 0 0 8px rgba(155,231,255,.22);
+    }
+    .badge-featured{
+      position:absolute;
+      top:12px;
+      right:-10px;
+      background:linear-gradient(135deg,#f39c12,#f1c40f);
+      color:#2c3e50;
+      font-weight:800;
+      font-size:.72rem;
+      padding:6px 12px;
+      border-top-left-radius:8px;
+      border-bottom-left-radius:8px;
+      box-shadow:0 4px 12px rgba(0,0,0,.15);
+      letter-spacing:.4px;
+      text-transform:uppercase;
     }
 
     footer{
@@ -404,7 +456,7 @@
   <div id="about" class="page">
     <div class="about-wrap">
       <h2>About Our App</h2>
-      <p class="about-tagline">Tool ini dibuat oleh local Malaysian developer! <strong>#SUPPORTLOCAL 🇲🇾</strong></p>
+      <p class="about-tagline">Built by an independent local developer. Support innovation!</p>
 
       <!-- Image Preview Gallery -->
       <div class="gallery">
@@ -427,28 +479,28 @@
         <h3>What’s inside the package?</h3>
         <ul class="about-list">
           <li>Steam Unlock <strong>ONENNABE</strong> software 🔓</li>
-          <li>🆓 Free helper tools for online play (with certain bypass launchers)</li>
-          <li>♾️ <strong>Lifetime</strong> activation (eligible tiers)</li>
-          <li>♾️ Format PC? We’ll help reset CD Key — <strong>FREE reinstall</strong> (same motherboard)</li>
-          <li>⚙️ Super lightweight software</li>
-          <li>❎ No malware. No shady data capture — we respect your privacy</li>
-          <li>✅ 32,000+ Game & DLC entries supported</li>
-          <li>✅ Denuvo-protected titles support (where available)</li>
-          <li>✅ 18+ & VR titles support (on request)</li>
-          <li>✅ Sleek New UI Overhaul – Clean. Modern. Stylish.</li>
-          <li>✅ Auto Game Updates – Stay ahead, no manual hassle!</li>
+          <li>Free helper tools for online play (with certain bypass launchers)</li>
+          <li>Activation tiers by SteamID (1/2/3 IDs per key)</li>
+          <li>Unlimited re-activations for the same SteamID(s)</li>
+          <li>Super lightweight software</li>
+          <li>No malware. No data harvesting — we respect your privacy</li>
+          <li>32,000+ Game & DLC entries supported</li>
+          <li>Denuvo-protected titles: limited support (not all key types)</li>
+          <li>18+ & VR titles support (on request)</li>
+          <li>Sleek new UI – Clean. Modern. Stylish.</li>
+          <li>Auto game updates – stay ahead with no manual hassle</li>
         </ul>
-        <p class="about-note">*Support scope depends on title/platform requirements and your chosen tier.</p>
+        <p class="about-note">*Support scope varies by title/platform and key type.</p>
       </div>
 
       <div class="about-section">
         <h3>Featured Series You’ll Love</h3>
         <ul class="about-list">
-          <li>✅ Call of Duty (BO1–3, MW2–MW3, classics)</li>
-          <li>✅ Grand Theft Auto Collection (GTA V & classics)</li>
-          <li>✅ Watch Dogs • Assassin’s Creed • Far Cry</li>
-          <li>✅ Red Dead Redemption 1 & 2 • Star Wars Jedi</li>
-          <li>…and MUCH MORE! 🚀</li>
+          <li>Call of Duty (BO1–3, MW2–MW3, classics)</li>
+          <li>Grand Theft Auto Collection (GTA V & classics)</li>
+          <li>Watch Dogs • Assassin’s Creed • Far Cry</li>
+          <li>Red Dead Redemption 1 & 2 • Star Wars Jedi</li>
+          <li>…and much more! 🚀</li>
         </ul>
       </div>
 
@@ -457,29 +509,28 @@
         <h4 style="margin:6px 0;color:var(--accent);">LIFETIME</h4>
         <ul class="about-list">
           <li><strong>CD Key binds to SteamID(s)</strong> according to your plan (1 / 2 / 3 SteamIDs per key).</li>
-          <li><strong>Unlimited activations</strong> allowed as long as you use the same SteamID(s) tied to that key.</li>
-          <li><strong>No monthly keys</strong> — there is no time-based expiry.</li>
-          <li><strong>Not tied to motherboard/PC</strong> — swap PC freely; keep the same SteamID.</li>
-          <li>Built-in online patcher and game bypasses</li>
+          <li><strong>Unlimited activations</strong> as long as you use the same bound SteamID(s).</li>
+          <li><strong>Not tied to hardware</strong> — change PCs freely; keep the same SteamID.</li>
+          <li>Built-in online patcher and certain launcher bypasses.</li>
         </ul>
       </div>
 
       <div class="about-section">
         <h3>Limitations</h3>
         <ul class="about-list">
-          <li>❌ EA App / Blizzard live-service titles are not supported</li>
-          <li>❌ Ubisoft titles are not supported if without patch</li>
+          <li>EA App / Blizzard live-service titles are not supported</li>
+          <li>Ubisoft titles not supported unless a specific patch is available</li>
         </ul>
       </div>
 
       <div class="about-section">
         <h3>Why Us (vs others)?</h3>
         <ul class="about-list">
-          <li>✅ Achievements supported (where applicable)</li>
-          <li>✅ Fewer content config issues — and cepat fix kalau ada</li>
-          <li>✅ Faster add-to-server pipeline</li>
-          <li>✅ Minimal dependency on external “steamless auto” flows</li>
-          <li>✅ Online helper tool included (free)</li>
+          <li>Achievements supported (where applicable)</li>
+          <li>Fewer content configuration issues — fast fixes when they appear</li>
+          <li>Faster add-to-server pipeline</li>
+          <li>Minimal dependency on external “steamless auto” flows</li>
+          <li>Online helper tool included (free)</li>
         </ul>
       </div>
     </div>
@@ -494,16 +545,22 @@
           <h3>Basic</h3>
           <div class="pricing-price">RM120</div>
           <p>1 SteamID per CD Key</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
         </div>
+
+        <div class="pricing-card featured" aria-label="Most popular plan">
+          <span class="badge-featured">Most Popular</span>
+          <h3>Premium</h3>
+          <div class="pricing-price">RM250</div>
+          <p>3 SteamIDs per CD Key</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
+        </div>
+
         <div class="pricing-card">
           <h3>Standard</h3>
           <div class="pricing-price">RM150</div>
           <p>2 SteamIDs per CD Key</p>
-        </div>
-        <div class="pricing-card">
-          <h3>Premium</h3>
-          <div class="pricing-price">RM250</div>
-          <p>3 SteamIDs per CD Key</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
         </div>
       </div>
     </div>
