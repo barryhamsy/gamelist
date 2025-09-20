@@ -37,545 +37,194 @@
       gap:15px;
     }
 
-    .logo-title{
-      display:flex;
-      align-items:center;
-      gap:12px;
-    }
+    .logo-title{display:flex; align-items:center; gap:12px;}
+    .logo-title img{height:50px; width:auto;}
 
-    .logo-title img{
-      height:50px;
-      width:auto;
-    }
+    h1{color:var(--primary-color); font-size:2rem; margin:0;}
 
-    h1{
-      color:var(--primary-color);
-      font-size:2rem;
-      margin:0;
-    }
-
-    nav{
-      margin-top:8px;
-      display:flex;
-      gap:15px;
-      flex-wrap:wrap;
-    }
-
+    nav{margin-top:8px; display:flex; gap:15px; flex-wrap:wrap;}
     nav a{
-      text-decoration:none;
-      font-weight:bold;
-      color:var(--secondary-color);
+      text-decoration:none; font-weight:bold; color:var(--secondary-color);
       transition:color .3s;
     }
     nav a:hover{color:#2980b9}
 
-    .search-container{
-      max-width:600px;
-      margin:20px auto 40px;
-      display:flex;
-      gap:10px;
-    }
-
+    .search-container{max-width:600px; margin:20px auto 40px; display:flex; gap:10px;}
     .search-input{
-      flex:1;
-      padding:12px 15px;
-      border:1px solid #ddd;
-      border-radius:25px;
-      font-size:1rem;
-      outline:none;
+      flex:1; padding:12px 15px; border:1px solid #ddd; border-radius:25px; font-size:1rem; outline:none;
       transition:border-color .3s;
     }
     .search-input:focus{border-color:var(--secondary-color)}
-
     .search-button{
-      padding:12px 20px;
-      background:var(--secondary-color);
-      border:none;
-      color:#fff;
-      border-radius:25px;
-      cursor:pointer;
-      transition:background .3s;
+      padding:12px 20px; background:var(--secondary-color); border:none; color:#fff; border-radius:25px; cursor:pointer; transition:background .3s;
     }
     .search-button:hover{background:#2980b9}
 
     .games-container{
-      display:grid;
-      grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
-      gap:25px;
-      max-width:1400px;
-      margin:0 auto;
+      display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+      gap:25px; max-width:1400px; margin:0 auto;
     }
 
     .game-card{
-      background:var(--card-bg);
-      border-radius:15px;
-      overflow:hidden;
+      background:var(--card-bg); border-radius:15px; overflow:hidden;
       box-shadow:0 5px 15px rgba(0,0,0,.1);
       transition:transform .3s ease, box-shadow .3s ease;
-      display:flex;
-      flex-direction:column;
+      display:flex; flex-direction:column;
     }
-    .game-card:hover{
-      transform:translateY(-8px);
-      box-shadow:0 12px 25px rgba(0,0,0,.15);
-    }
-
-    .game-image{
-      width:100%;
-      height:200px;
-      object-fit:cover;
-      display:block;
-    }
-
-    .game-info{
-      padding:18px;
-      flex:1;
-      display:flex;
-      flex-direction:column;
-      gap:8px;
-    }
-
-    .game-title{
-      font-size:1.3rem;
-      font-weight:bold;
-      color:var(--primary-color);
-      margin-bottom:6px;
-      display:flex;
-      align-items:center;
-      gap:10px;
-    }
-
-    .badge-new{
-      background:var(--badge-new);
-      color:#fff;
-      font-size:.7rem;
-      font-weight:bold;
-      padding:3px 8px;
-      border-radius:12px;
-      text-transform:uppercase;
-    }
-
-    .game-tags{
-      display:flex;
-      flex-wrap:wrap;
-      gap:6px;
-    }
-    .game-id,.denuvo-tag{
-      padding:4px 10px;
-      border-radius:20px;
-      font-size:.8rem;
-      color:#fff;
-      display:inline-block;
-    }
-    .game-id{background:var(--secondary-color)}
-    .denuvo-tag{background:var(--denuvo-color)}
-
-    .game-meta{
-      font-size:.9rem;
-      color:var(--text-light);
-      line-height:1.4;
-    }
-
-    .steam-link{
-      margin-top:10px;
-      text-decoration:none;
-      color:var(--secondary-color);
-      font-weight:bold;
-      transition:color .3s;
-      align-self:flex-start;
-    }
+    .game-card:hover{transform:translateY(-8px); box-shadow:0 12px 25px rgba(0,0,0,.15);}
+    .game-image{width:100%; height:200px; object-fit:cover; display:block;}
+    .game-info{padding:18px; flex:1; display:flex; flex-direction:column; gap:8px;}
+    .game-title{font-size:1.3rem; font-weight:bold; color:var(--primary-color); margin-bottom:6px; display:flex; align-items:center; gap:10px;}
+    .badge-new{background:var(--badge-new); color:#fff; font-size:.7rem; font-weight:bold; padding:3px 8px; border-radius:12px; text-transform:uppercase;}
+    .game-tags{display:flex; flex-wrap:wrap; gap:6px;}
+    .game-id,.denuvo-tag{padding:4px 10px; border-radius:20px; font-size:.8rem; color:#fff; display:inline-block;}
+    .game-id{background:var(--secondary-color)} .denuvo-tag{background:var(--denuvo-color)}
+    .game-meta{font-size:.9rem; color:var(--text-light); line-height:1.4;}
+    .steam-link{margin-top:10px; text-decoration:none; color:var(--secondary-color); font-weight:bold; transition:color .3s; align-self:flex-start;}
     .steam-link:hover{color:#2980b9; text-decoration:underline}
 
-    .pagination{
-      display:flex;
-      justify-content:center;
-      gap:10px;
-      margin-top:30px;
-      flex-wrap:wrap;
-    }
+    .pagination{display:flex; justify-content:center; gap:10px; margin-top:30px; flex-wrap:wrap;}
     .pagination button{
-      padding:8px 15px;
-      border:none;
-      border-radius:5px;
-      background:var(--secondary-color);
-      color:#fff;
-      cursor:pointer;
-      transition:background .3s;
+      padding:8px 15px; border:none; border-radius:5px; background:var(--secondary-color); color:#fff; cursor:pointer; transition:background .3s;
     }
     .pagination button:hover:not(:disabled){background:#2980b9}
     .pagination button:disabled{background:#95a5a6; cursor:not-allowed}
     .pagination .is-active{background:#2c3e50}
+    .pagination-info{text-align:center; margin-top:15px; font-size:.9rem; color:var(--text-light);}
 
-    .pagination-info{
-      text-align:center;
-      margin-top:15px;
-      font-size:.9rem;
-      color:var(--text-light);
-    }
+    .page{display:none} .page.active{display:block}
 
-    .page{display:none}
-    .page.active{display:block}
-
-    /* About: gallery */
-    .about-wrap{
-      max-width:1000px;
-      margin:0 auto;
-      text-align:center;
-    }
-    .about-tagline{
-      color:var(--text-light);
-      margin-bottom:20px;
-    }
-    .gallery{
-      display:grid;
-      grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
-      gap:16px;
-      margin:22px 0 10px;
-    }
+    /* About page gallery */
+    .about-wrap{max-width:1000px; margin:0 auto; text-align:center;}
+    .about-tagline{color:var(--text-light); margin-bottom:20px;}
+    .gallery{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px; margin:22px 0 10px;}
     .gallery figure{
-      margin:0;
-      background:var(--card-bg);
-      border-radius:12px;
-      overflow:hidden;
-      box-shadow:0 4px 12px rgba(0,0,0,.08);
-      transition:transform .25s ease, box-shadow .25s ease;
-      cursor:pointer;
+      margin:0; background:var(--card-bg); border-radius:12px; overflow:hidden;
+      box-shadow:0 4px 12px rgba(0,0,0,.08); transition:transform .25s ease, box-shadow .25s ease; cursor:pointer;
     }
-    .gallery figure:hover{
-      transform:translateY(-4px);
-      box-shadow:0 10px 22px rgba(0,0,0,.12);
-    }
-    .gallery img{
-      width:100%;
-      height:160px;
-      object-fit:cover;
-      display:block;
-    }
-    .gallery figcaption{
-      padding:10px 12px;
-      font-size:.9rem;
-      color:var(--text-light);
-      text-align:left;
-    }
+    .gallery figure:hover{transform:translateY(-4px); box-shadow:0 10px 22px rgba(0,0,0,.12);}
+    .gallery img{width:100%; height:160px; object-fit:cover; display:block;}
+    .gallery figcaption{padding:10px 12px; font-size:.9rem; color:var(--text-light); text-align:left;}
 
     .about-section{
-      text-align:left;
-      background:var(--card-bg);
-      border-radius:12px;
-      padding:18px;
-      box-shadow:0 4px 12px rgba(0,0,0,.08);
-      margin-top:18px;
+      text-align:left; background:var(--card-bg); border-radius:12px; padding:18px;
+      box-shadow:0 4px 12px rgba(0,0,0,.08); margin-top:18px;
     }
-    .about-section h3{
-      margin:0 0 8px;
-      color:var(--primary-color);
-    }
-    .about-list{
-      margin:0;
-      padding-left:18px;
-      line-height:1.6;
-    }
-    .about-note{
-      color:var(--text-light);
-      font-size:.9rem;
-      margin-top:8px;
-    }
+    .about-section h3{margin:0 0 8px; color:var(--primary-color);}
+    .about-list{margin:0; padding-left:18px; line-height:1.6;}
+    .about-note{color:var(--text-light); font-size:.9rem; margin-top:8px;}
 
     /* Comparison table */
-    .package-table{width:100%;border-collapse:collapse;margin-top:15px;font-size:.95rem}
-    .package-table th,.package-table td{border:1px solid #ddd;padding:10px 14px;text-align:left}
-    .package-table th{background:var(--secondary-color);color:#fff;text-align:center}
+    .package-table{width:100%; border-collapse:collapse; margin-top:15px; font-size:.95rem}
+    .package-table th,.package-table td{border:1px solid #ddd; padding:10px 14px; text-align:left}
+    .package-table th{background:var(--secondary-color); color:#fff; text-align:center}
     .package-table tr:nth-child(even) td{background:#f9fbfd}
-    .package-table td:nth-child(2){text-align:center;color:#e74c3c;font-weight:600}
-    .package-table td:nth-child(3){text-align:center;color:#27ae60;font-weight:600}
+    .package-table td:nth-child(2){text-align:center; color:#e74c3c; font-weight:600}
+    .package-table td:nth-child(3){text-align:center; color:#27ae60; font-weight:600}
 
-    /* Pricing */
-    .pricing-wrap{
-      max-width:1000px;
-      margin:20px auto 0;
-      text-align:center;
-    }
+    /* Pricing layout: horizontal tall rectangles */
+    .pricing-wrap{max-width:1100px; margin:20px auto 0; text-align:center;}
     .pricing-container{
-      max-width:1000px;
-      margin:20px auto 40px;
-      display:grid;
-      grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
-      gap:20px;
+      max-width:1100px; margin:20px auto 40px;
+      display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:20px;
     }
     .pricing-card{
-      position:relative;
-      background:var(--card-bg);
-      padding:25px;
-      border-radius:15px;
-      box-shadow:0 5px 15px rgba(0,0,0,.1);
-      text-align:center;
-      transition:transform .3s, box-shadow .3s, border-color .3s;
-      border:1px solid rgba(0,0,0,0.06);
+      position:relative; display:flex; flex-direction:column; justify-content:space-between;
+      min-height:380px; height:100%;
+      background:var(--card-bg); padding:25px; border-radius:15px;
+      box-shadow:0 5px 15px rgba(0,0,0,.1); text-align:center;
+      transition:transform .3s, box-shadow .3s; border:1px solid rgba(0,0,0,0.06);
     }
-    .pricing-card:hover{
-      transform:translateY(-5px);
-      box-shadow:0 12px 25px rgba(0,0,0,.15);
-    }
+    .pricing-card:hover{transform:translateY(-6px); box-shadow:0 14px 28px rgba(0,0,0,.15);}
     .pricing-card h3{color:var(--primary-color); margin:0 0 10px}
-    .pricing-price{
-      font-size:1.8rem;
-      font-weight:bold;
-      margin:15px 0;
-      color:var(--secondary-color);
-    }
-    .pricing-card p{
-      font-size:.95rem;
-      color:var(--text-light);
-      margin:0;
-    }
-    /* Buy buttons in pricing */
+    .pricing-price{font-size:1.8rem; font-weight:bold; margin:15px 0; color:var(--secondary-color);}
+    .pricing-card p{font-size:.95rem; color:var(--text-light); margin:6px 0;}
     .buy-btn{
-      display:inline-block;
-      margin-top:15px;
-      padding:10px 20px;
-      background:linear-gradient(135deg,#3498db,#2ecc71);
-      color:#fff;
-      font-weight:bold;
-      border-radius:25px;
-      text-decoration:none;
-      transition:all .3s ease;
-      box-shadow:0 3px 10px rgba(0,0,0,.15);
+      display:inline-block; margin-top:auto; padding:10px 20px;
+      background:linear-gradient(135deg,#3498db,#2ecc71); color:#fff; font-weight:bold; border-radius:25px; text-decoration:none;
+      transition:all .3s ease; box-shadow:0 3px 10px rgba(0,0,0,.15);
+      align-self:center;
     }
-    .buy-btn:hover{
-      background:linear-gradient(135deg,#2ecc71,#3498db);
-      transform:translateY(-3px);
-      box-shadow:0 6px 15px rgba(0,0,0,.25);
-    }
-
-    /* Featured (Premium) */
+    .buy-btn:hover{background:linear-gradient(135deg,#2ecc71,#3498db); transform:translateY(-3px); box-shadow:0 6px 15px rgba(0,0,0,.25);}
     .pricing-card.featured{
-      border-color:transparent;
-      background:
-        linear-gradient(#fff,#fff) padding-box,
-        linear-gradient(135deg, #3498db, #2ecc71) border-box;
       border:2px solid transparent;
-      transform:translateY(-4px) scale(1.02);
+      background:linear-gradient(#fff,#fff) padding-box, linear-gradient(135deg, #3498db, #2ecc71) border-box;
       box-shadow:0 12px 30px rgba(0,0,0,.12), 0 0 0 6px rgba(155,231,255,.18);
     }
-    .pricing-card.featured:hover{
-      transform:translateY(-6px) scale(1.035);
-      box-shadow:0 16px 36px rgba(0,0,0,.16), 0 0 0 8px rgba(155,231,255,.22);
-    }
     .badge-featured{
-      position:absolute;
-      top:12px;
-      right:-10px;
+      position:absolute; top:-12px; left:50%; transform:translateX(-50%);
       background:linear-gradient(135deg,#f39c12,#f1c40f);
-      color:#2c3e50;
-      font-weight:800;
-      font-size:.72rem;
-      padding:6px 12px;
-      border-top-left-radius:8px;
-      border-bottom-left-radius:8px;
-      box-shadow:0 4px 12px rgba(0,0,0,.15);
-      letter-spacing:.4px;
-      text-transform:uppercase;
+      color:#2c3e50; font-weight:800; font-size:.72rem; padding:6px 12px; border-radius:6px;
+      box-shadow:0 4px 12px rgba(0,0,0,.15); letter-spacing:.4px; text-transform:uppercase;
     }
 
-    footer{
-      margin-top:40px;
-      text-align:center;
-      color:var(--text-light);
-      font-size:.9rem;
+    /* Payment page */
+    .pay-wrap{max-width:1000px; margin:0 auto;}
+    .pay-grid{
+      display:grid; grid-template-columns:1.1fr .9fr; gap:22px; align-items:start;
     }
+    @media (max-width:860px){ .pay-grid{grid-template-columns:1fr; } }
 
-    /* Floating Purchase CTA */
+    .pay-card{
+      background:var(--card-bg); border-radius:12px; padding:18px;
+      box-shadow:0 4px 12px rgba(0,0,0,.08);
+    }
+    .pay-card h3{margin:0 0 8px; color:var(--primary-color);}
+    .pay-note{font-size:.9rem; color:var(--text-light); margin-top:6px;}
+
+    .paypal-box{
+      background:#fbfdff; border:1px dashed #cfe6ff; padding:18px; border-radius:12px;
+    }
+    .paypal-placeholder{
+      display:flex; gap:12px; align-items:center; padding:10px 0 0; color:var(--text-light); font-size:.9rem;
+    }
+    .paypal-placeholder code{background:#f3f6fb; padding:2px 6px; border-radius:6px;}
+
+    .qr-grid{
+      display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px;
+      margin-top:10px;
+    }
+    .qr-card{
+      text-align:center; background:#fff; border:1px solid #eee; border-radius:12px; padding:12px;
+      box-shadow:0 2px 8px rgba(0,0,0,.06);
+    }
+    .qr-card img{
+      width:100%; height:260px; object-fit:contain; image-rendering:-webkit-optimize-contrast;
+    }
+    .qr-card h4{margin:10px 0 4px; color:var(--primary-color);}
+    .qr-card p{margin:0; font-size:.9rem; color:var(--text-light);}
+
+    footer{margin-top:40px; text-align:center; color:var(--text-light); font-size:.9rem;}
+
+    /* Floating CTAs */
     .purchase-link{
-      position:fixed;
-      bottom:25px;
-      right:25px;
-      z-index:1000;
-
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-
-      padding:14px 22px;
-      border-radius:15px;
-      background:linear-gradient(135deg,#3498db,#2ecc71);
-      color:#fff;
-      font-weight:bold;
-      text-decoration:none;
-
-      transition:all .3s ease;
-      box-shadow:0 4px 12px rgba(0,0,0,.2);
-      max-width:240px;
-      animation:pulse 4s ease-in-out infinite;
+      position:fixed; bottom:25px; right:25px; z-index:1000;
+      display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
+      padding:14px 22px; border-radius:15px; background:linear-gradient(135deg,#3498db,#2ecc71); color:#fff; font-weight:bold; text-decoration:none;
+      transition:all .3s ease; box-shadow:0 4px 12px rgba(0,0,0,.2); max-width:240px; animation:pulse 4s ease-in-out infinite;
     }
     .purchase-main{font-size:1.1rem; margin-bottom:4px}
     .purchase-sub{font-size:.8rem; font-weight:normal; color:#f5f7fa}
-    .purchase-link:hover{
-      transform:translateY(-3px) scale(1.05);
-      background:linear-gradient(135deg,#2ecc71,#3498db);
-      box-shadow:0 8px 20px rgba(0,0,0,.3), 0 0 12px rgba(52,152,219,.7);
-      animation:none;
+    .purchase-link:hover{transform:translateY(-3px) scale(1.05); background:linear-gradient(135deg,#2ecc71,#3498db); box-shadow:0 8px 20px rgba(0,0,0,.3), 0 0 12px rgba(52,152,219,.7); animation:none;}
+    @keyframes pulse{0%{transform:translateY(0) scale(1)} 50%{transform:translateY(-2px) scale(1.02)} 100%{transform:translateY(0) scale(1)}}
+    @media (max-width:480px){ .purchase-link{right:15px; left:15px; bottom:15px; max-width:unset} }
+
+    .whatsapp-btn{
+      position:fixed; bottom:120px; right:25px; z-index:2000;
+      background:#25D366; color:#fff; font-weight:bold; text-decoration:none; padding:12px 20px; border-radius:25px; font-size:.95rem;
+      box-shadow:0 4px 12px rgba(0,0,0,.2); transition:all .3s ease;
     }
-    @keyframes pulse{
-      0%{transform:translateY(0) scale(1)}
-      50%{transform:translateY(-2px) scale(1.02)}
-      100%{transform:translateY(0) scale(1)}
-    }
-    @media (max-width:480px){
-      .purchase-link{right:15px; left:15px; bottom:15px; max-width:unset}
-    }
+    .whatsapp-btn:hover{background:#20b955; transform:translateY(-3px); box-shadow:0 8px 20px rgba(0,0,0,.3);}
+    @media (max-width:480px){ .whatsapp-btn{right:15px; bottom:110px;} }
 
-    /* Floating WhatsApp button – keep above Purchase CTA and never overlap */
-.whatsapp-btn{
-  position: fixed;
-  /* sits above the purchase button height (approx 56px) + gap */
-  bottom: 120px;           /* was 90px */
-  right: 25px;
-  z-index: 2000;          /* higher than .purchase-link (1000) */
-
-  background:#25D366;
-  color:#fff;
-  font-weight:bold;
-  text-decoration:none;
-  padding:12px 20px;
-  border-radius:25px;
-  font-size:.95rem;
-
-  box-shadow:0 4px 12px rgba(0,0,0,.2);
-  transition:all .3s ease;
-}
-.whatsapp-btn:hover{
-  background:#20b955;
-  transform:translateY(-3px);
-  box-shadow:0 8px 20px rgba(0,0,0,.3);
-}
-
-/* On very small screens, move it up a bit more so it never sits on the CTA */
-@media (max-width:480px){
-  .whatsapp-btn{
-    right:15px;
-    bottom: 110px;   /* extra clearance for the wider Purchase CTA on mobile */
-  }
-}
-
-    /* Tiny prompt for manual receipt entry */
     .receipt-toast{
-      position:fixed;
-      bottom:160px;
-      right:25px;
-      z-index:1100;
-      background:#ffffff;
-      border:1px solid #e1e5ea;
-      box-shadow:0 8px 22px rgba(0,0,0,.12);
-      border-radius:12px;
-      padding:10px;
-      display:none;
-      width:260px;
+      position:fixed; bottom:160px; right:25px; z-index:1100; background:#ffffff; border:1px solid #e1e5ea;
+      box-shadow:0 8px 22px rgba(0,0,0,.12); border-radius:12px; padding:10px; display:none; width:260px;
     }
-    .receipt-toast h4{
-      margin:0 0 8px;
-      font-size:.95rem;
-      color:var(--primary-color);
-    }
-    .receipt-row{
-      display:flex;
-      gap:8px;
-    }
-    .receipt-row input{
-      flex:1;
-      padding:8px 10px;
-      border:1px solid #dcdfe3;
-      border-radius:8px;
-      font-size:.9rem;
-    }
-    .receipt-row button{
-      padding:8px 10px;
-      border:none;
-      border-radius:8px;
-      background:var(--secondary-color);
-      color:#fff;
-      cursor:pointer;
-    }
-
-    /* Horizontal row of tall vertical cards */
-.pricing-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  max-width: 1000px;
-  margin: 20px auto 40px;
-}
-
-.pricing-card {
-  position: relative;
-  display: flex;
-  flex-direction: column; /* make it vertical */
-  justify-content: space-between;
-  height: 100%;  /* allow equal height */
-  min-height: 380px; /* makes them look like tall rectangles */
-  background: var(--card-bg);
-  padding: 25px;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,.1);
-  text-align: center;
-  transition: transform .3s, box-shadow .3s;
-  border: 1px solid rgba(0,0,0,0.06);
-}
-
-.pricing-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 14px 28px rgba(0,0,0,.15);
-}
-
-.pricing-card h3 {
-  color: var(--primary-color);
-  margin: 0 0 10px;
-}
-
-.pricing-card .pricing-price {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 15px 0;
-  color: var(--secondary-color);
-}
-
-.pricing-card p {
-  font-size: .95rem;
-  color: var(--text-light);
-  margin: 6px 0;
-}
-
-.pricing-card .buy-btn {
-  margin-top: auto; /* pushes button to bottom */
-  align-self: center;
-}
-
-/* Featured Premium */
-.pricing-card.featured {
-  border: 2px solid transparent;
-  background:
-    linear-gradient(#fff,#fff) padding-box,
-    linear-gradient(135deg, #3498db, #2ecc71) border-box;
-  box-shadow: 0 12px 30px rgba(0,0,0,.12), 0 0 0 6px rgba(155,231,255,.18);
-}
-
-.pricing-card.featured .badge-featured {
-  position: absolute;
-  top: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: linear-gradient(135deg,#f39c12,#f1c40f);
-  color: #2c3e50;
-  font-weight: 800;
-  font-size: .72rem;
-  padding: 6px 12px;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.15);
-  letter-spacing: .4px;
-  text-transform: uppercase;
-}
-
+    .receipt-toast h4{margin:0 0 8px; font-size:.95rem; color:var(--primary-color);}
+    .receipt-row{display:flex; gap:8px;}
+    .receipt-row input{flex:1; padding:8px 10px; border:1px solid #dcdfe3; border-radius:8px; font-size:.9rem;}
+    .receipt-row button{padding:8px 10px; border:none; border-radius:8px; background:var(--secondary-color); color:#fff; cursor:pointer;}
     .receipt-row button:hover{background:#2980b9}
   </style>
 </head>
@@ -589,6 +238,7 @@
           <a href="#" onclick="showPage('home')">Home</a>
           <a href="#" onclick="showPage('about')">About App</a>
           <a href="#" onclick="showPage('pricing')">Pricing</a>
+          <a href="#" onclick="showPage('payment')">Payment</a>
         </nav>
       </div>
     </div>
@@ -675,36 +325,12 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>SteamID Binding</td>
-              <td>1 SteamID per CD Key</td>
-              <td>1 / 2 / 3 SteamIDs per CD Key (plan-based)</td>
-            </tr>
-            <tr>
-              <td>Validity</td>
-              <td>1 Month</td>
-              <td>Forever</td>
-            </tr>
-            <tr>
-              <td>Re-activations</td>
-              <td>Unlimited (same SteamID)</td>
-              <td>Unlimited (same SteamID(s))</td>
-            </tr>
-            <tr>
-              <td>Denuvo Games</td>
-              <td>Not Supported</td>
-              <td>Limited Support (not all titles)</td>
-            </tr>
-            <tr>
-              <td>Online Patch & Bypass</td>
-              <td>Not Available</td>
-              <td>Available</td>
-            </tr>
-            <tr>
-              <td>Hardware Lock</td>
-              <td>No (change PC freely)</td>
-              <td>No (change PC freely)</td>
-            </tr>
+            <tr><td>SteamID Binding</td><td>1 SteamID per CD Key</td><td>1 / 2 / 3 SteamIDs per CD Key (plan-based)</td></tr>
+            <tr><td>Validity</td><td>1 Month</td><td>Forever</td></tr>
+            <tr><td>Re-activations</td><td>Unlimited (same SteamID)</td><td>Unlimited (same SteamID(s))</td></tr>
+            <tr><td>Denuvo Games</td><td>Not Supported</td><td>Limited Support (not all titles)</td></tr>
+            <tr><td>Online Patch & Bypass</td><td>Not Available</td><td>Available</td></tr>
+            <tr><td>Hardware Lock</td><td>No (change PC freely)</td><td>No (change PC freely)</td></tr>
           </tbody>
         </table>
       </div>
@@ -768,13 +394,62 @@
     </div>
   </div>
 
+  <!-- Payment Page -->
+  <div id="payment" class="page">
+    <div class="pay-wrap">
+      <h2>Payment Options</h2>
+      <div class="pay-grid">
+        <!-- PayPal -->
+        <div class="pay-card">
+          <h3>PayPal Checkout</h3>
+          <div class="paypal-box">
+            <!-- 1) Include PayPal SDK (replace YOUR_CLIENT_ID and set your currency as needed) -->
+            <!--
+            <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=MYR" data-sdk-integration-source="button-factory"></script>
+            -->
+            <!-- 2) Buttons container -->
+            <div id="paypal-button-container"></div>
+
+            <!-- 3) Fallback placeholder if SDK not yet configured -->
+            <div class="paypal-placeholder" id="paypal-fallback">
+              <span>⚙️</span>
+              <div>
+                Add your PayPal <code>client-id</code> to enable Smart Buttons.<br/>
+                Or use the “Purchase App” button / QR options.
+              </div>
+            </div>
+          </div>
+          <p class="pay-note">Tip: After successful payment, your receipt/transaction ID can be auto-attached to WhatsApp for faster activation.</p>
+        </div>
+
+        <!-- QR Pay -->
+        <div class="pay-card">
+          <h3>QR Pay</h3>
+          <div class="qr-grid">
+            <div class="qr-card">
+              <img src="qr_tng.png" alt="TNG QR" onerror="this.src='placeholder.jpg'"/>
+              <h4>TNG (Touch ’n Go)</h4>
+              <p>Scan & pay. Send receipt on WhatsApp.</p>
+            </div>
+            <div class="qr-card">
+              <img src="qr_wise.png" alt="Wise QR" onerror="this.src='placeholder.jpg'"/>
+              <h4>Wise</h4>
+              <p>Scan & pay. Send receipt on WhatsApp.</p>
+            </div>
+          </div>
+          <p class="pay-note">If the QR image doesn’t load, make sure the file is named <code>qr_tng.png</code> or <code>qr_wise.png</code> and placed next to this HTML file.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer>
     <p>© 2025 Barry's Games Store. All rights reserved.</p>
   </footer>
 
   <!-- Floating WhatsApp CTA -->
   <a id="whatsappBtn"
-     href="https://wa.me/60123456789?text=Hi%20Barry,%20I%20am%20interested%20in%20Steam%20Unlock%20Onennabe!"
+     href="https://wa.me/60138254541?text=Hi%20Barry,%20I%20am%20interested%20in%20Steam%20Unlock%20Onennabe!"
      target="_blank"
      class="whatsapp-btn">💬 WhatsApp Us</a>
 
@@ -829,25 +504,21 @@
         btn.addEventListener('click', ()=>{
           const plan = btn.getAttribute('data-plan') || 'Purchase';
           localStorage.setItem('lastPlan', plan);
-          // We rely on PayPal opening in new tab. User may come back with receipt params.
         });
       });
 
       // Try auto-detect receipt from query params
       const receipt = getReceiptFromURL();
-      if(receipt){
-        localStorage.setItem('lastReceipt', receipt);
-      }
+      if(receipt){ localStorage.setItem('lastReceipt', receipt); }
 
-      // If we have any info, update WhatsApp link
+      // Update WhatsApp link with known info
       const knownReceipt = localStorage.getItem('lastReceipt') || '';
       const knownPlan = localStorage.getItem('lastPlan') || '';
       updateWhatsAppLink(knownReceipt, knownPlan);
 
-      // If user has plan but no receipt, show mini prompt (once)
+      // If user has plan but no receipt, show small prompt (once)
       if(knownPlan && !knownReceipt && !localStorage.getItem('receiptPromptShown')){
-        showReceiptToast();
-        localStorage.setItem('receiptPromptShown','1');
+        showReceiptToast(); localStorage.setItem('receiptPromptShown','1');
       }
 
       // Manual receipt save
@@ -859,6 +530,36 @@
           hideReceiptToast();
         }
       });
+
+      // If PayPal SDK present, render buttons; else show fallback
+      if (window.paypal && paypal.Buttons) {
+        try{
+          document.getElementById('paypal-fallback').style.display = 'none';
+          paypal.Buttons({
+            style: { layout: 'vertical', color: 'gold', shape: 'rect', label: 'pay' },
+            createOrder: (data, actions) => {
+              // Example order – you can override or pass dynamic amount/description
+              return actions.order.create({
+                purchase_units: [{ amount: { value: '35.00', currency_code: 'MYR' }, description: 'Steam Unlock Onennabe' }]
+              });
+            },
+            onApprove: async (data, actions) => {
+              const details = await actions.order.capture();
+              // Prefer transaction/ID if available
+              const tx = details?.id || data?.orderID || '';
+              localStorage.setItem('lastReceipt', tx);
+              updateWhatsAppLink(tx, localStorage.getItem('lastPlan')||'');
+              alert('Payment successful! Transaction: ' + tx);
+            },
+            onError: (err) => {
+              console.error('PayPal error:', err);
+              alert('PayPal error. You can try the QR options or contact us on WhatsApp.');
+            }
+          }).render('#paypal-button-container');
+        }catch(e){
+          console.warn('PayPal render error:', e);
+        }
+      }
     });
 
     function loadGames(){
@@ -947,10 +648,7 @@
       const controls = document.getElementById('paginationControls');
       controls.innerHTML = '';
 
-      if(totalPages <= 1){
-        controls.style.display = 'none';
-        return;
-      }
+      if(totalPages <= 1){ controls.style.display = 'none'; return; }
       controls.style.display = 'flex';
 
       const addButton = (label, page, disabled=false, isActive=false)=>{
@@ -967,10 +665,8 @@
         controls.appendChild(btn);
       };
 
-      // Prev
       addButton('« Prev', currentPage - 1, currentPage === 1);
 
-      // Truncated numeric window
       const maxVisible = 5;
       let start = Math.max(1, currentPage - Math.floor(maxVisible/2));
       let end = Math.min(totalPages, start + maxVisible - 1);
@@ -978,33 +674,20 @@
 
       if(start > 1){
         addButton('1', 1, false, currentPage === 1);
-        if(start > 2){
-          const span = document.createElement('span');
-          span.textContent = '...';
-          span.style.padding = '8px';
-          controls.appendChild(span);
-        }
+        if(start > 2){ const span = document.createElement('span'); span.textContent = '...'; span.style.padding = '8px'; controls.appendChild(span); }
       }
 
-      for(let i=start; i<=end; i++){
-        addButton(String(i), i, false, i === currentPage);
-      }
+      for(let i=start; i<=end; i++){ addButton(String(i), i, false, i === currentPage); }
 
       if(end < totalPages){
-        if(end < totalPages - 1){
-          const span = document.createElement('span');
-          span.textContent = '...';
-          span.style.padding = '8px';
-          controls.appendChild(span);
-        }
+        if(end < totalPages - 1){ const span = document.createElement('span'); span.textContent = '...'; span.style.padding = '8px'; controls.appendChild(span); }
         addButton(String(totalPages), totalPages, false, currentPage === totalPages);
       }
 
-      // Next
       addButton('Next »', currentPage + 1, currentPage === totalPages);
     }
 
-    /* ---------- WhatsApp helper logic ---------- */
+    /* WhatsApp helper */
     function getReceiptFromURL(){
       try{
         const p = new URLSearchParams(window.location.search);
@@ -1024,16 +707,8 @@
       if(a) a.href = url;
     }
 
-    function showReceiptToast(){
-      const el = document.getElementById('receiptToast');
-      if(!el) return;
-      el.style.display = 'block';
-    }
-    function hideReceiptToast(){
-      const el = document.getElementById('receiptToast');
-      if(!el) return;
-      el.style.display = 'none';
-    }
+    function showReceiptToast(){ const el = document.getElementById('receiptToast'); if(el) el.style.display = 'block'; }
+    function hideReceiptToast(){ const el = document.getElementById('receiptToast'); if(el) el.style.display = 'none'; }
   </script>
 </body>
 </html>
