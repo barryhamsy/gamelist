@@ -1,324 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barry Game Store Collection</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Steam Unlock Onennabe</title>
   <style>
-    :root {
-      --primary-color: #2c3e50;
-      --secondary-color: #3498db;
-      --background-color: #f5f7fa;
-      --card-bg: #ffffff;
-      --text-color: #333;
-      --text-light: #7f8c8d;
-      --denuvo-color: #e74c3c;
-      --badge-new: #27ae60;
+    :root{
+      --primary-color:#2c3e50;
+      --secondary-color:#3498db;
+      --background-color:#f5f7fa;
+      --card-bg:#ffffff;
+      --text-color:#333;
+      --text-light:#7f8c8d;
+      --denuvo-color:#e74c3c;
+      --badge-new:#27ae60;
     }
 
-    body {
-      background: var(--background-color);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: var(--text-color);
-      padding: 20px;
+    *{box-sizing:border-box}
+
+    body{
+      background:var(--background-color);
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:var(--text-color);
+      padding:20px;
+      margin:0;
     }
 
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-      gap: 15px;
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:20px;
+      flex-wrap:wrap;
+      gap:15px;
     }
 
-    .logo-title {
-      display: flex;
-      align-items: center;
-      gap: 12px;
+    .logo-title{
+      display:flex;
+      align-items:center;
+      gap:12px;
     }
 
-    .logo-title img {
-      height: 50px;
-      width: auto;
+    .logo-title img{
+      height:50px;
+      width:auto;
     }
 
-    h1 {
-      color: var(--primary-color);
-      font-size: 2rem;
-      margin: 0;
+    h1{
+      color:var(--primary-color);
+      font-size:2rem;
+      margin:0;
     }
 
-    nav {
-      margin-top: 10px;
-      display: flex;
-      gap: 15px;
+    nav{
+      margin-top:8px;
+      display:flex;
+      gap:15px;
     }
 
-    nav a {
-      text-decoration: none;
-      font-weight: bold;
-      color: var(--secondary-color);
-      transition: color 0.3s;
+    nav a{
+      text-decoration:none;
+      font-weight:bold;
+      color:var(--secondary-color);
+      transition:color .3s;
+    }
+    nav a:hover{color:#2980b9}
+
+    .search-container{
+      max-width:600px;
+      margin:20px auto 40px;
+      display:flex;
+      gap:10px;
     }
 
-    nav a:hover {
-      color: #2980b9;
+    .search-input{
+      flex:1;
+      padding:12px 15px;
+      border:1px solid #ddd;
+      border-radius:25px;
+      font-size:1rem;
+      outline:none;
+      transition:border-color .3s;
+    }
+    .search-input:focus{border-color:var(--secondary-color)}
+
+    .search-button{
+      padding:12px 20px;
+      background:var(--secondary-color);
+      border:none;
+      color:#fff;
+      border-radius:25px;
+      cursor:pointer;
+      transition:background .3s;
+    }
+    .search-button:hover{background:#2980b9}
+
+    .games-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+      gap:25px;
+      max-width:1400px;
+      margin:0 auto;
     }
 
-.purchase-link {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  z-index: 1000;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-  padding: 14px 22px;
-  border-radius: 15px;
-  background: linear-gradient(135deg, #3498db, #2ecc71);
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  max-width: 220px;
-}
-
-.purchase-main {
-  font-size: 1.1rem;
-  margin-bottom: 4px;
-}
-
-.purchase-sub {
-  font-size: 0.8rem;
-  font-weight: normal;
-  color: #f5f7fa;
-}
-
-.purchase-link:hover {
-  transform: translateY(-3px) scale(1.05);
-  background: linear-gradient(135deg, #2ecc71, #3498db);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3), 0 0 12px rgba(52, 152, 219, 0.7);
-}
-
-
-
-    .search-container {
-      max-width: 600px;
-      margin: 20px auto 40px;
-      display: flex;
-      gap: 10px;
+    .game-card{
+      background:var(--card-bg);
+      border-radius:15px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,.1);
+      transition:transform .3s ease, box-shadow .3s ease;
+      display:flex;
+      flex-direction:column;
+    }
+    .game-card:hover{
+      transform:translateY(-8px);
+      box-shadow:0 12px 25px rgba(0,0,0,.15);
     }
 
-    .search-input {
-      flex: 1;
-      padding: 12px 15px;
-      border: 1px solid #ddd;
-      border-radius: 25px;
-      font-size: 1rem;
-      outline: none;
-      transition: border-color 0.3s;
+    .game-image{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+      display:block;
     }
 
-    .search-input:focus {
-      border-color: var(--secondary-color);
+    .game-info{
+      padding:18px;
+      flex:1;
+      display:flex;
+      flex-direction:column;
+      gap:8px;
     }
 
-    .search-button {
-      padding: 12px 20px;
-      background: var(--secondary-color);
-      border: none;
-      color: #fff;
-      border-radius: 25px;
-      cursor: pointer;
-      transition: background 0.3s;
+    .game-title{
+      font-size:1.3rem;
+      font-weight:bold;
+      color:var(--primary-color);
+      margin-bottom:6px;
+      display:flex;
+      align-items:center;
+      gap:10px;
     }
 
-    .search-button:hover {
-      background: #2980b9;
+    .badge-new{
+      background:var(--badge-new);
+      color:#fff;
+      font-size:.7rem;
+      font-weight:bold;
+      padding:3px 8px;
+      border-radius:12px;
+      text-transform:uppercase;
     }
 
-    .games-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 25px;
-      max-width: 1400px;
-      margin: 0 auto;
+    .game-tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:6px;
+    }
+    .game-id,.denuvo-tag{
+      padding:4px 10px;
+      border-radius:20px;
+      font-size:.8rem;
+      color:#fff;
+      display:inline-block;
+    }
+    .game-id{background:var(--secondary-color)}
+    .denuvo-tag{background:var(--denuvo-color)}
+
+    .game-meta{
+      font-size:.9rem;
+      color:var(--text-light);
+      line-height:1.4;
     }
 
-    .game-card {
-      background: var(--card-bg);
-      border-radius: 15px;
-      overflow: hidden;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      display: flex;
-      flex-direction: column;
+    .steam-link{
+      margin-top:10px;
+      text-decoration:none;
+      color:var(--secondary-color);
+      font-weight:bold;
+      transition:color .3s;
+      align-self:flex-start;
+    }
+    .steam-link:hover{color:#2980b9; text-decoration:underline}
+
+    .pagination{
+      display:flex;
+      justify-content:center;
+      gap:10px;
+      margin-top:30px;
+      flex-wrap:wrap;
+    }
+    .pagination button{
+      padding:8px 15px;
+      border:none;
+      border-radius:5px;
+      background:var(--secondary-color);
+      color:#fff;
+      cursor:pointer;
+      transition:background .3s;
+    }
+    .pagination button:hover:not(:disabled){background:#2980b9}
+    .pagination button:disabled{background:#95a5a6; cursor:not-allowed}
+    .pagination .is-active{background:#2c3e50}
+
+    .pagination-info{
+      text-align:center;
+      margin-top:15px;
+      font-size:.9rem;
+      color:var(--text-light);
     }
 
-    .game-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    .page{display:none}
+    .page.active{display:block}
+
+    /* Pricing */
+    .pricing-wrap{
+      max-width:1000px;
+      margin:20px auto 0;
+      text-align:center;
+    }
+    .pricing-container{
+      max-width:1000px;
+      margin:20px auto 40px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+      gap:20px;
+    }
+    .pricing-card{
+      background:var(--card-bg);
+      padding:25px;
+      border-radius:15px;
+      box-shadow:0 5px 15px rgba(0,0,0,.1);
+      text-align:center;
+      transition:transform .3s, box-shadow .3s;
+    }
+    .pricing-card:hover{
+      transform:translateY(-5px);
+      box-shadow:0 12px 25px rgba(0,0,0,.15);
+    }
+    .pricing-card h3{color:var(--primary-color); margin:0 0 10px}
+    .pricing-price{
+      font-size:1.8rem;
+      font-weight:bold;
+      margin:15px 0;
+      color:var(--secondary-color);
+    }
+    .pricing-card p{
+      font-size:.95rem;
+      color:var(--text-light);
+      margin:0;
     }
 
-    .game-image {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      display: block;
+    footer{
+      margin-top:40px;
+      text-align:center;
+      color:var(--text-light);
+      font-size:.9rem;
     }
 
-    .game-info {
-      padding: 18px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
+    /* Floating Purchase CTA */
+    .purchase-link{
+      position:fixed;
+      bottom:25px;
+      right:25px;
+      z-index:1000;
+
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+
+      padding:14px 22px;
+      border-radius:15px;
+      background:linear-gradient(135deg,#3498db,#2ecc71);
+      color:#fff;
+      font-weight:bold;
+      text-decoration:none;
+
+      transition:all .3s ease;
+      box-shadow:0 4px 12px rgba(0,0,0,.2);
+      max-width:240px;
     }
-
-    .game-title {
-      font-size: 1.3rem;
-      font-weight: bold;
-      color: var(--primary-color);
-      margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
+    .purchase-main{font-size:1.1rem; margin-bottom:4px}
+    .purchase-sub{font-size:.8rem; font-weight:normal; color:#f5f7fa}
+    .purchase-link:hover{
+      transform:translateY(-3px) scale(1.05);
+      background:linear-gradient(135deg,#2ecc71,#3498db);
+      box-shadow:0 8px 20px rgba(0,0,0,.3), 0 0 12px rgba(52,152,219,.7);
     }
-
-    .badge-new {
-      background: var(--badge-new);
-      color: #fff;
-      font-size: 0.7rem;
-      font-weight: bold;
-      padding: 3px 8px;
-      border-radius: 12px;
-      text-transform: uppercase;
+    /* Gentle pulse to attract attention */
+    @keyframes pulse {
+      0%{transform:translateY(0) scale(1)}
+      50%{transform:translateY(-2px) scale(1.02)}
+      100%{transform:translateY(0) scale(1)}
     }
-
-    .game-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .game-id, .denuvo-tag {
-      padding: 4px 10px;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      color: #fff;
-      display: inline-block;
-    }
-
-    .game-id { background: var(--secondary-color); }
-    .denuvo-tag { background: var(--denuvo-color); }
-
-    .game-meta {
-      font-size: 0.9rem;
-      color: var(--text-light);
-      line-height: 1.4;
-    }
-
-    .steam-link {
-      margin-top: 10px;
-      text-decoration: none;
-      color: var(--secondary-color);
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    .steam-link:hover {
-      color: #2980b9;
-      text-decoration: underline;
-    }
-
-    .pagination {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 30px;
-      flex-wrap: wrap;
-    }
-
-    .pagination button {
-      padding: 8px 15px;
-      border: none;
-      border-radius: 5px;
-      background: var(--secondary-color);
-      color: #fff;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-
-    .pagination button:hover:not(:disabled) {
-      background: #2980b9;
-    }
-
-    .pagination button:disabled {
-      background: #95a5a6;
-      cursor: not-allowed;
-    }
-
-    .pagination-info {
-      text-align: center;
-      margin-top: 15px;
-      font-size: 0.9rem;
-      color: var(--text-light);
-    }
-
-    .page {
-      display: none;
-    }
-
-    .page.active {
-      display: block;
-    }
-
-    footer {
-      margin-top: 40px;
-      text-align: center;
-      color: var(--text-light);
-      font-size: 0.9rem;
+    .purchase-link{animation:pulse 4s ease-in-out infinite}
+    .purchase-link:hover{animation:none}
+    @media (max-width:480px){
+      .purchase-link{right:15px; left:15px; bottom:15px; max-width:unset}
     }
   </style>
 </head>
 <body>
-<header>
-  <div class="logo-title">
-    <img src="steamunlock_wannabe.png" alt="Logo" />
-    <div>
-      <h1>Steam Unlock Onennabe</h1>
-      <nav>
-        <a href="#" onclick="showPage('home')">Home</a>
-        <a href="#" onclick="showPage('about')">About App</a>
-      </nav>
+  <header>
+    <div class="logo-title">
+      <img src="splashscreen.png" alt="Logo"/>
+      <div>
+        <h1>Steam Unlock Onennabe</h1>
+        <nav>
+          <a href="#" onclick="showPage('home')">Home</a>
+          <a href="#" onclick="showPage('about')">About App</a>
+          <a href="#" onclick="showPage('pricing')">Pricing</a>
+        </nav>
+      </div>
     </div>
-  </div>
-</header>
-
-<!-- Floating Purchase Button -->
-<a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="purchase-link">
-  <div class="purchase-main">Purchase App</div>
-  <div class="purchase-sub">Done browsing games? Unlock them all!</div>
-</a>
-
+  </header>
 
   <!-- Home Page -->
   <div id="home" class="page active">
     <div class="search-container">
-      <input id="searchInput" type="search" class="search-input" placeholder="Search by game name or AppID...">
+      <input id="searchInput" type="search" class="search-input" placeholder="Search by game name or AppID..."/>
       <button id="searchButton" class="search-button">Search</button>
     </div>
 
     <main>
       <div class="games-container" id="gamesContainer">
-        <div class="loading">Loading games...</div>
+        <div class="loading" style="text-align:center; color:var(--text-light); grid-column:1/-1;">Loading games...</div>
       </div>
 
       <div class="pagination-info" id="paginationInfo"></div>
@@ -328,12 +336,12 @@
 
   <!-- About Page -->
   <div id="about" class="page">
-    <main style="max-width:800px;margin:0 auto;text-align:center;">
+    <main style="max-width:800px; margin:0 auto; text-align:center;">
       <h2>About Our App</h2>
-      <p style="margin:20px 0;color:var(--text-light);">
-        Steam Unlock Onennabe is a game unlocking tool for your Steam Library, this app unlocks the game in steam and you can enjoy playing games just like you own it.
-        Unlocked DLC, early access, online patch and many more.
-        Think about the saving you have throughout the year, spend 1 time and enjoy limitless of games.
+      <p style="margin:20px 0; color:var(--text-light);">
+        Steam Unlock Onennabe is a game unlocking tool for your Steam Library.<br/>
+        Unlock games, DLCs, early access, and online patches with ease.<br/>
+        One-time purchase, endless gaming freedom.
       </p>
       <p style="color:var(--text-light);">
         We built this app to simplify how gamers interact with their collection,
@@ -342,103 +350,110 @@
     </main>
   </div>
 
+  <!-- Pricing Page -->
+  <div id="pricing" class="page">
+    <div class="pricing-wrap">
+      <h2>Pricing Plans</h2>
+      <div class="pricing-container">
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <div class="pricing-price">RM120</div>
+          <p>1 SteamID per CD Key</p>
+        </div>
+        <div class="pricing-card">
+          <h3>Standard</h3>
+          <div class="pricing-price">RM150</div>
+          <p>2 SteamIDs per CD Key</p>
+        </div>
+        <div class="pricing-card">
+          <h3>Premium</h3>
+          <div class="pricing-price">RM250</div>
+          <p>3 SteamIDs per CD Key</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer>
     <p>© 2025 Barry's Games Store. All rights reserved.</p>
   </footer>
 
+  <!-- Floating Purchase CTA -->
+  <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="purchase-link">
+    <div class="purchase-main">Purchase App</div>
+    <div class="purchase-sub">Done browsing games? Unlock them all!</div>
+  </a>
+
   <script>
     const GENRE_MAP = {
-      0: "Unknown Genre",
-      1: "Action",
-      2: "Strategy",
-      3: "RPG",
-      4: "Casual",
-      5: "Strategy",
-      28: "Simulation",
-      18: "Sports",
-      9: "Racing",
-      10: "MMO",
-      11: "FPS",
-      12: "Puzzle",
-      23: "Indie",
-      25: "Adventure",
-      29: "Massively Multiplayer",
-      33: "Indie",
-      34: "Indie",
-      37: "Free To Play",
-      50: "Indie",
-      51: "Animation & Modeling",
-      52: "Music",
-      53: "Software & Tools",
-      54: "Education",
-      55: "Software & Tools",
-      57: "Software & Tools",
-      58: "Software & Tools",
-      59: "Software & Tools",
-      70: "Early Access",
-      71: "Sexual Content",
-      72: "Sexual Content",
-      73: "Adventure",
-      74: "Gore",
-      60: "Software & Tools"
+      0:"Unknown Genre",1:"Action",2:"Strategy",3:"RPG",4:"Casual",5:"Strategy",
+      28:"Simulation",18:"Sports",9:"Racing",10:"MMO",11:"FPS",12:"Puzzle",
+      23:"Indie",25:"Adventure",29:"Massively Multiplayer",33:"Indie",34:"Indie",
+      37:"Free To Play",50:"Indie",51:"Animation & Modeling",52:"Music",
+      53:"Software & Tools",54:"Education",55:"Software & Tools",57:"Software & Tools",
+      58:"Software & Tools",59:"Software & Tools",70:"Early Access",71:"Sexual Content",
+      72:"Sexual Content",73:"Adventure",74:"Gore",60:"Software & Tools"
     };
 
     let allGames = [];
     let currentPage = 1;
     const gamesPerPage = 12;
 
-    function showPage(pageId) {
-      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    function showPage(pageId){
+      document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
       document.getElementById(pageId).classList.add('active');
+      // Optional: scroll to top when switching pages
+      window.scrollTo({top:0, behavior:'smooth'});
     }
 
-    document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener('DOMContentLoaded', ()=>{
       loadGames();
-      document.getElementById("searchButton").addEventListener("click", performSearch);
-      document.getElementById("searchInput").addEventListener("keyup", e => {
-        if (e.key === "Enter") performSearch();
+      document.getElementById('searchButton').addEventListener('click', performSearch);
+      document.getElementById('searchInput').addEventListener('keyup', e=>{
+        if(e.key==='Enter') performSearch();
       });
     });
 
-    function loadGames() {
-      fetch("branches_cache.json")
-        .then(r => r.json())
-        .then(games => {
+    function loadGames(){
+      fetch('branches_cache.json')
+        .then(r=>r.json())
+        .then(games=>{
           allGames = games;
           currentPage = 1;
           displayGames(getCurrentGames());
           updatePaginationControls(getCurrentGames().length);
         })
-        .catch(err => {
-          console.error("Error loading:", err);
-          document.getElementById("gamesContainer").innerHTML =
-            "<p style='color:red;text-align:center;'>Failed to load games.</p>";
+        .catch(err=>{
+          console.error('Error loading:', err);
+          document.getElementById('gamesContainer').innerHTML =
+            "<p style='color:red;text-align:center; grid-column:1/-1;'>Failed to load games.</p>";
         });
     }
 
-    function performSearch() {
+    function performSearch(){
       currentPage = 1;
       displayGames(getCurrentGames());
       updatePaginationControls(getCurrentGames().length);
+      window.scrollTo({top:0, behavior:'smooth'});
     }
 
-    function getCurrentGames() {
-      const term = document.getElementById("searchInput").value.toLowerCase();
-      if (!term) return allGames;
-      return allGames.filter(game => {
-        const appId = game.st_file.split(".")[0];
-        return game.name.toLowerCase().includes(term) || appId.includes(term);
+    function getCurrentGames(){
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      if(!term) return allGames;
+      return allGames.filter(game=>{
+        const appId = (game.st_file||'').split('.')[0];
+        return (game.name||'').toLowerCase().includes(term) || (appId||'').includes(term);
       });
     }
 
-    function displayGames(games) {
-      const container = document.getElementById("gamesContainer");
-      const paginationInfo = document.getElementById("paginationInfo");
-      container.innerHTML = "";
+    function displayGames(games){
+      const container = document.getElementById('gamesContainer');
+      const paginationInfo = document.getElementById('paginationInfo');
+      container.innerHTML = '';
 
-      if (!games.length) {
-        container.innerHTML = `<p style="text-align:center;color:var(--text-light);">No games found.</p>`;
-        paginationInfo.textContent = "";
+      if(!games.length){
+        container.innerHTML = `<p style="text-align:center;color:var(--text-light); grid-column:1/-1;">No games found.</p>`;
+        paginationInfo.textContent = '';
         return;
       }
 
@@ -447,29 +462,29 @@
       const endIndex = Math.min(startIndex + gamesPerPage, games.length);
       const pageGames = games.slice(startIndex, endIndex);
 
-      pageGames.forEach(game => {
-        const appId = game.st_file.split(".")[0];
-        const dateAdded = new Date(game.added_on).toLocaleDateString();
-        const denuvoTag = game.requires_membership ? `<span class="denuvo-tag">DENUVO</span>` : "";
-        const newBadge = game.new ? `<span class="badge-new">NEW</span>` : "";
-        const genreName = GENRE_MAP[game.primary_genre] || "Unknown Genre";
+      pageGames.forEach(game=>{
+        const appId = (game.st_file||'').split('.')[0];
+        const dateAdded = game.added_on ? new Date(game.added_on).toLocaleDateString() : '-';
+        const denuvoTag = game.requires_membership ? `<span class="denuvo-tag">DENUVO</span>` : '';
+        const newBadge = game.new ? `<span class="badge-new">NEW</span>` : '';
+        const genreName = GENRE_MAP[Number(game.primary_genre)] || 'Unknown Genre';
 
-        const card = document.createElement("div");
-        card.className = "game-card";
+        const card = document.createElement('div');
+        card.className = 'game-card';
         card.innerHTML = `
-          <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
+          <img src="${appId}.jpg" alt="${game.name||''}" class="game-image" onerror="this.src='placeholder.jpg'">
           <div class="game-info">
-            <div class="game-title">${game.name} ${newBadge}</div>
+            <div class="game-title">${game.name||''} ${newBadge}</div>
             <div class="game-tags">
               <span class="game-id">AppID: ${appId}</span>
               ${denuvoTag}
             </div>
             <div class="game-meta">
               <strong>Added on:</strong> ${dateAdded}<br>
-              <strong>Size:</strong> ${game.size_gb || "Unknown"}<br>
-              <strong>Downloads:</strong> ${game.downloads}<br>
+              <strong>Size:</strong> ${game.size_gb || 'Unknown'}<br>
+              <strong>Downloads:</strong> ${game.downloads ?? 0}<br>
               <strong>Genre:</strong> ${genreName}<br>
-              <strong>Online Supported:</strong> ${game.online_supported}
+              <strong>Online Supported:</strong> ${game.online_supported || 'Unknown'}
             </div>
             <a href="https://store.steampowered.com/app/${appId}" target="_blank" class="steam-link">View on Steam Store</a>
           </div>
@@ -480,64 +495,66 @@
       paginationInfo.textContent = `Showing ${startIndex + 1}-${endIndex} of ${games.length} games`;
     }
 
-    function updatePaginationControls(totalGames) {
+    function updatePaginationControls(totalGames){
       const totalPages = Math.ceil(totalGames / gamesPerPage);
-      const controls = document.getElementById("paginationControls");
-      controls.innerHTML = "";
+      const controls = document.getElementById('paginationControls');
+      controls.innerHTML = '';
 
-      if (totalPages <= 1) {
-        controls.style.display = "none";
+      if(totalPages <= 1){
+        controls.style.display = 'none';
         return;
       }
-      controls.style.display = "flex";
+      controls.style.display = 'flex';
 
-      const addButton = (label, page, disabled = false, isActive = false) => {
-        const btn = document.createElement("button");
+      const addButton = (label, page, disabled=false, isActive=false)=>{
+        const btn = document.createElement('button');
         btn.textContent = label;
-        if (disabled) btn.disabled = true;
-        if (isActive) btn.style.backgroundColor = "#2c3e50";
-        btn.onclick = () => {
+        if(disabled) btn.disabled = true;
+        if(isActive) btn.classList.add('is-active');
+        btn.onclick = ()=>{
           currentPage = page;
           displayGames(getCurrentGames());
           updatePaginationControls(getCurrentGames().length);
+          window.scrollTo({top:0, behavior:'smooth'});
         };
         controls.appendChild(btn);
       };
 
-      // Prev button
-      addButton("« Prev", currentPage - 1, currentPage === 1);
+      // Prev
+      addButton('« Prev', currentPage - 1, currentPage === 1);
 
+      // Truncated page window with ellipses
       const maxVisible = 5;
-      let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+      let start = Math.max(1, currentPage - Math.floor(maxVisible/2));
       let end = Math.min(totalPages, start + maxVisible - 1);
-      if (end - start < maxVisible - 1) start = Math.max(1, end - maxVisible + 1);
+      if(end - start < maxVisible - 1) start = Math.max(1, end - maxVisible + 1);
 
-      if (start > 1) {
-        addButton("1", 1, false, currentPage === 1);
-        if (start > 2) {
-          const span = document.createElement("span");
-          span.textContent = "...";
-          span.style.padding = "8px";
+      if(start > 1){
+        addButton('1', 1, false, currentPage === 1);
+        if(start > 2){
+          const span = document.createElement('span');
+          span.textContent = '...';
+          span.style.padding = '8px';
           controls.appendChild(span);
         }
       }
 
-      for (let i = start; i <= end; i++) {
-        addButton(i, i, false, i === currentPage);
+      for(let i=start; i<=end; i++){
+        addButton(String(i), i, false, i === currentPage);
       }
 
-      if (end < totalPages) {
-        if (end < totalPages - 1) {
-          const span = document.createElement("span");
-          span.textContent = "...";
-          span.style.padding = "8px";
+      if(end < totalPages){
+        if(end < totalPages - 1){
+          const span = document.createElement('span');
+          span.textContent = '...';
+          span.style.padding = '8px';
           controls.appendChild(span);
         }
-        addButton(totalPages, totalPages, false, currentPage === totalPages);
+        addButton(String(totalPages), totalPages, false, currentPage === totalPages);
       }
 
-      // Next button
-      addButton("Next »", currentPage + 1, currentPage === totalPages);
+      // Next
+      addButton('Next »', currentPage + 1, currentPage === totalPages);
     }
   </script>
 </body>
