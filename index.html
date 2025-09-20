@@ -24,23 +24,44 @@
     }
 
     header {
-      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin-bottom: 30px;
+      flex-wrap: wrap;
+      gap: 15px;
     }
 
     h1 {
       color: var(--primary-color);
-      font-size: 2.5rem;
-      margin-bottom: 8px;
+      font-size: 2.2rem;
+      margin: 0;
     }
 
     .subtitle {
       color: var(--text-light);
+      font-size: 0.95rem;
+    }
+
+    .purchase-link {
+      background: var(--secondary-color);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 25px;
+      font-size: 0.95rem;
+      font-weight: bold;
+      transition: background 0.3s;
+      white-space: nowrap;
+    }
+
+    .purchase-link:hover {
+      background: #2980b9;
     }
 
     .search-container {
       max-width: 600px;
-      margin: 20px auto 40px;
+      margin: 0 auto 40px;
       display: flex;
       gap: 10px;
     }
@@ -172,6 +193,7 @@
       justify-content: center;
       gap: 10px;
       margin-top: 30px;
+      flex-wrap: wrap;
     }
 
     .pagination button {
@@ -210,8 +232,11 @@
 </head>
 <body>
   <header>
-    <h1>Barry's Game Store Collection</h1>
-    <p class="subtitle">Explore our curated selection of games</p>
+    <div>
+      <h1>Barry's Game Store Collection</h1>
+      <p class="subtitle">Explore our curated selection of games</p>
+    </div>
+    <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="purchase-link">Purchase</a>
   </header>
 
   <div class="search-container">
@@ -232,158 +257,194 @@
     <p>© 2025 Barry's Games Store. All rights reserved.</p>
   </footer>
 
-<script>
-  let allGames = [];
-  let currentPage = 1;
-  const gamesPerPage = 12;
-
-  document.addEventListener("DOMContentLoaded", () => {
-    loadGames();
-    document.getElementById("searchButton").addEventListener("click", performSearch);
-    document.getElementById("searchInput").addEventListener("keyup", e => {
-      if (e.key === "Enter") performSearch();
-    });
-  });
-
-  function loadGames() {
-    fetch("branches_cache.json")
-      .then(r => r.json())
-      .then(games => {
-        allGames = games;
-        currentPage = 1;
-        displayGames(getCurrentGames());
-        updatePaginationControls(getCurrentGames().length);
-      })
-      .catch(err => {
-        console.error("Error loading:", err);
-        document.getElementById("gamesContainer").innerHTML =
-          "<p style='color:red;text-align:center;'>Failed to load games.</p>";
-      });
-  }
-
-  function performSearch() {
-    currentPage = 1;
-    displayGames(getCurrentGames());
-    updatePaginationControls(getCurrentGames().length);
-  }
-
-  function getCurrentGames() {
-    const term = document.getElementById("searchInput").value.toLowerCase();
-    if (!term) return allGames;
-    return allGames.filter(game => {
-      const appId = game.st_file.split(".")[0];
-      return game.name.toLowerCase().includes(term) || appId.includes(term);
-    });
-  }
-
-  function displayGames(games) {
-    const container = document.getElementById("gamesContainer");
-    const paginationInfo = document.getElementById("paginationInfo");
-    container.innerHTML = "";
-
-    if (!games.length) {
-      container.innerHTML = `<p style="text-align:center;color:var(--text-light);">No games found.</p>`;
-      paginationInfo.textContent = "";
-      return;
-    }
-
-    const totalPages = Math.ceil(games.length / gamesPerPage);
-    const startIndex = (currentPage - 1) * gamesPerPage;
-    const endIndex = Math.min(startIndex + gamesPerPage, games.length);
-    const pageGames = games.slice(startIndex, endIndex);
-
-    pageGames.forEach(game => {
-      const appId = game.st_file.split(".")[0];
-      const dateAdded = new Date(game.added_on).toLocaleDateString();
-      const denuvoTag = game.requires_membership ? `<span class="denuvo-tag">DENUVO</span>` : "";
-      const newBadge = game.new ? `<span class="badge-new">NEW</span>` : "";
-
-      const card = document.createElement("div");
-      card.className = "game-card";
-      card.innerHTML = `
-        <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
-        <div class="game-info">
-          <div class="game-title">${game.name} ${newBadge}</div>
-          <div class="game-tags">
-            <span class="game-id">AppID: ${appId}</span>
-            ${denuvoTag}
-          </div>
-          <div class="game-meta">
-            <strong>Added on:</strong> ${dateAdded}<br>
-            <strong>Size:</strong> ${game.size_gb || "Unknown"}<br>
-            <strong>Downloads:</strong> ${game.downloads}<br>
-            <strong>Genre:</strong> ${game.primary_genre}<br>
-            <strong>Online Supported:</strong> ${game.online_supported}
-          </div>
-          <a href="https://store.steampowered.com/app/${appId}" target="_blank" class="steam-link">View on Steam Store</a>
-        </div>
-      `;
-      container.appendChild(card);
-    });
-
-    paginationInfo.textContent = `Showing ${startIndex + 1}-${endIndex} of ${games.length} games`;
-  }
-
-  function updatePaginationControls(totalGames) {
-    const totalPages = Math.ceil(totalGames / gamesPerPage);
-    const controls = document.getElementById("paginationControls");
-    controls.innerHTML = "";
-
-    if (totalPages <= 1) {
-      controls.style.display = "none";
-      return;
-    }
-    controls.style.display = "flex";
-
-    const addButton = (label, page, disabled = false, isActive = false) => {
-      const btn = document.createElement("button");
-      btn.textContent = label;
-      if (disabled) btn.disabled = true;
-      if (isActive) btn.style.backgroundColor = "#2c3e50";
-      btn.onclick = () => {
-        currentPage = page;
-        displayGames(getCurrentGames());
-        updatePaginationControls(getCurrentGames().length);
-      };
-      controls.appendChild(btn);
+  <script>
+    const GENRE_MAP = {
+      0: "Unknown Genre",
+      1: "Action",
+      2: "Strategy",
+      3: "RPG",
+      4: "Casual",
+      5: "Strategy",
+      28: "Simulation",
+      18: "Sports",
+      9: "Racing",
+      10: "MMO",
+      11: "FPS",
+      12: "Puzzle",
+      23: "Indie",
+      25: "Adventure",
+      29: "Massively Multiplayer",
+      33: "Indie",
+      34: "Indie",
+      37: "Free To Play",
+      50: "Indie",
+      51: "Animation & Modeling",
+      52: "Music",
+      53: "Software & Tools",
+      54: "Education",
+      55: "Software & Tools",
+      57: "Software & Tools",
+      58: "Software & Tools",
+      59: "Software & Tools",
+      70: "Early Access",
+      71: "Sexual Content",
+      72: "Sexual Content",
+      73: "Adventure",
+      74: "Gore",
+      60: "Software & Tools"
     };
 
-    // Prev button
-    addButton("« Prev", currentPage - 1, currentPage === 1);
+    let allGames = [];
+    let currentPage = 1;
+    const gamesPerPage = 12;
 
-    const maxVisible = 5;
-    let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
-    let end = Math.min(totalPages, start + maxVisible - 1);
-    if (end - start < maxVisible - 1) start = Math.max(1, end - maxVisible + 1);
+    document.addEventListener("DOMContentLoaded", () => {
+      loadGames();
+      document.getElementById("searchButton").addEventListener("click", performSearch);
+      document.getElementById("searchInput").addEventListener("keyup", e => {
+        if (e.key === "Enter") performSearch();
+      });
+    });
 
-    if (start > 1) {
-      addButton("1", 1, false, currentPage === 1);
-      if (start > 2) {
-        const span = document.createElement("span");
-        span.textContent = "...";
-        span.style.padding = "8px";
-        controls.appendChild(span);
+    function loadGames() {
+      fetch("branches_cache.json")
+        .then(r => r.json())
+        .then(games => {
+          allGames = games;
+          currentPage = 1;
+          displayGames(getCurrentGames());
+          updatePaginationControls(getCurrentGames().length);
+        })
+        .catch(err => {
+          console.error("Error loading:", err);
+          document.getElementById("gamesContainer").innerHTML =
+            "<p style='color:red;text-align:center;'>Failed to load games.</p>";
+        });
+    }
+
+    function performSearch() {
+      currentPage = 1;
+      displayGames(getCurrentGames());
+      updatePaginationControls(getCurrentGames().length);
+    }
+
+    function getCurrentGames() {
+      const term = document.getElementById("searchInput").value.toLowerCase();
+      if (!term) return allGames;
+      return allGames.filter(game => {
+        const appId = game.st_file.split(".")[0];
+        return game.name.toLowerCase().includes(term) || appId.includes(term);
+      });
+    }
+
+    function displayGames(games) {
+      const container = document.getElementById("gamesContainer");
+      const paginationInfo = document.getElementById("paginationInfo");
+      container.innerHTML = "";
+
+      if (!games.length) {
+        container.innerHTML = `<p style="text-align:center;color:var(--text-light);">No games found.</p>`;
+        paginationInfo.textContent = "";
+        return;
       }
+
+      const totalPages = Math.ceil(games.length / gamesPerPage);
+      const startIndex = (currentPage - 1) * gamesPerPage;
+      const endIndex = Math.min(startIndex + gamesPerPage, games.length);
+      const pageGames = games.slice(startIndex, endIndex);
+
+      pageGames.forEach(game => {
+        const appId = game.st_file.split(".")[0];
+        const dateAdded = new Date(game.added_on).toLocaleDateString();
+        const denuvoTag = game.requires_membership ? `<span class="denuvo-tag">DENUVO</span>` : "";
+        const newBadge = game.new ? `<span class="badge-new">NEW</span>` : "";
+        const genreName = GENRE_MAP[game.primary_genre] || "Unknown Genre";
+
+        const card = document.createElement("div");
+        card.className = "game-card";
+        card.innerHTML = `
+          <img src="${appId}.jpg" alt="${game.name}" class="game-image" onerror="this.src='placeholder.jpg'">
+          <div class="game-info">
+            <div class="game-title">${game.name} ${newBadge}</div>
+            <div class="game-tags">
+              <span class="game-id">AppID: ${appId}</span>
+              ${denuvoTag}
+            </div>
+            <div class="game-meta">
+              <strong>Added on:</strong> ${dateAdded}<br>
+              <strong>Size:</strong> ${game.size_gb || "Unknown"}<br>
+              <strong>Downloads:</strong> ${game.downloads}<br>
+              <strong>Genre:</strong> ${genreName}<br>
+              <strong>Online Supported:</strong> ${game.online_supported}
+            </div>
+            <a href="https://store.steampowered.com/app/${appId}" target="_blank" class="steam-link">View on Steam Store</a>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+
+      paginationInfo.textContent = `Showing ${startIndex + 1}-${endIndex} of ${games.length} games`;
     }
 
-    for (let i = start; i <= end; i++) {
-      addButton(i, i, false, i === currentPage);
-    }
+    function updatePaginationControls(totalGames) {
+      const totalPages = Math.ceil(totalGames / gamesPerPage);
+      const controls = document.getElementById("paginationControls");
+      controls.innerHTML = "";
 
-    if (end < totalPages) {
-      if (end < totalPages - 1) {
-        const span = document.createElement("span");
-        span.textContent = "...";
-        span.style.padding = "8px";
-        controls.appendChild(span);
+      if (totalPages <= 1) {
+        controls.style.display = "none";
+        return;
       }
-      addButton(totalPages, totalPages, false, currentPage === totalPages);
+      controls.style.display = "flex";
+
+      const addButton = (label, page, disabled = false, isActive = false) => {
+        const btn = document.createElement("button");
+        btn.textContent = label;
+        if (disabled) btn.disabled = true;
+        if (isActive) btn.style.backgroundColor = "#2c3e50";
+        btn.onclick = () => {
+          currentPage = page;
+          displayGames(getCurrentGames());
+          updatePaginationControls(getCurrentGames().length);
+        };
+        controls.appendChild(btn);
+      };
+
+      // Prev button
+      addButton("« Prev", currentPage - 1, currentPage === 1);
+
+      const maxVisible = 5;
+      let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+      let end = Math.min(totalPages, start + maxVisible - 1);
+      if (end - start < maxVisible - 1) start = Math.max(1, end - maxVisible + 1);
+
+      if (start > 1) {
+        addButton("1", 1, false, currentPage === 1);
+        if (start > 2) {
+          const span = document.createElement("span");
+          span.textContent = "...";
+          span.style.padding = "8px";
+          controls.appendChild(span);
+        }
+      }
+
+      for (let i = start; i <= end; i++) {
+        addButton(i, i, false, i === currentPage);
+      }
+
+      if (end < totalPages) {
+        if (end < totalPages - 1) {
+          const span = document.createElement("span");
+          span.textContent = "...";
+          span.style.padding = "8px";
+          controls.appendChild(span);
+        }
+        addButton(totalPages, totalPages, false, currentPage === totalPages);
+      }
+
+      // Next button
+      addButton("Next »", currentPage + 1, currentPage === totalPages);
     }
-
-    // Next button
-    addButton("Next »", currentPage + 1, currentPage === totalPages);
-  }
-</script>
-
+  </script>
 </body>
 </html>
