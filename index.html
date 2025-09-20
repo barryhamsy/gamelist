@@ -418,6 +418,41 @@
     @media (max-width:480px){
       .purchase-link{right:15px; left:15px; bottom:15px; max-width:unset}
     }
+
+    .package-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+.package-table th,
+.package-table td {
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  text-align: left;
+}
+.package-table th {
+  background: var(--secondary-color);
+  color: #fff;
+  text-align: center;
+}
+.package-table td {
+  background: #fff;
+}
+.package-table tr:nth-child(even) td {
+  background: #f9fbfd;
+}
+.package-table td:nth-child(2) {
+  text-align: center;
+  color: #e74c3c; /* monthly red accent */
+  font-weight: 600;
+}
+.package-table td:nth-child(3) {
+  text-align: center;
+  color: #27ae60; /* lifetime green accent */
+  font-weight: 600;
+}
+
   </style>
 </head>
 <body>
@@ -504,16 +539,51 @@
         </ul>
       </div>
 
-      <div class="about-section">
-        <h3>Package</h3>
-        <h4 style="margin:6px 0;color:var(--accent);">LIFETIME</h4>
-        <ul class="about-list">
-          <li><strong>CD Key binds to SteamID(s)</strong> according to your plan (1 / 2 / 3 SteamIDs per key).</li>
-          <li><strong>Unlimited activations</strong> as long as you use the same bound SteamID(s).</li>
-          <li><strong>Not tied to hardware</strong> — change PCs freely; keep the same SteamID.</li>
-          <li>Built-in online patcher and certain launcher bypasses.</li>
-        </ul>
-      </div>
+<div class="about-section">
+  <h3>Package Comparison</h3>
+  <table class="package-table">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Monthly</th>
+        <th>Lifetime</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>SteamID Binding</td>
+        <td>1 SteamID per CD Key</td>
+        <td>1 / 2 / 3 SteamIDs per CD Key (depending on plan)</td>
+      </tr>
+      <tr>
+        <td>Validity</td>
+        <td>1 Month</td>
+        <td>Forever</td>
+      </tr>
+      <tr>
+        <td>Re-activations</td>
+        <td>Unlimited (same SteamID)</td>
+        <td>Unlimited (same SteamID(s))</td>
+      </tr>
+      <tr>
+        <td>Denuvo Games</td>
+        <td>❌ Not Supported</td>
+        <td>⚠️ Limited Support (not all titles)</td>
+      </tr>
+      <tr>
+        <td>Online Patch & Bypass</td>
+        <td>❌ Not Available</td>
+        <td>✅ Available</td>
+      </tr>
+      <tr>
+        <td>Hardware Lock</td>
+        <td>No (can change PC)</td>
+        <td>No (can change PC)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
       <div class="about-section">
         <h3>Limitations</h3>
@@ -536,35 +606,44 @@
     </div>
   </div>
 
-  <!-- Pricing Page -->
-  <div id="pricing" class="page">
-    <div class="pricing-wrap">
-      <h2>Pricing Plans</h2>
-      <div class="pricing-container">
-        <div class="pricing-card">
-          <h3>Basic</h3>
-          <div class="pricing-price">RM120</div>
-          <p>1 SteamID per CD Key</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
-        </div>
+<!-- Pricing Page -->
+<div id="pricing" class="page">
+  <div class="pricing-wrap">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-container">
+      <div class="pricing-card">
+        <h3>Monthly</h3>
+        <div class="pricing-price">RM50</div>
+        <p>1 SteamID per CD Key (valid for 1 month)</p>
+        <p style="font-size:0.85rem; color:var(--text-light);">Games revert to “Purchase” after expiry. No Denuvo, no online patch/launcher bypass.</p>
+        <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
+      </div>
 
-        <div class="pricing-card featured" aria-label="Most popular plan">
-          <span class="badge-featured">Most Popular</span>
-          <h3>Premium</h3>
-          <div class="pricing-price">RM250</div>
-          <p>3 SteamIDs per CD Key</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
-        </div>
+      <div class="pricing-card">
+        <h3>Basic</h3>
+        <div class="pricing-price">RM120</div>
+        <p>1 SteamID per CD Key (Lifetime)</p>
+        <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
+      </div>
 
-        <div class="pricing-card">
-          <h3>Standard</h3>
-          <div class="pricing-price">RM150</div>
-          <p>2 SteamIDs per CD Key</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
-        </div>
+      <div class="pricing-card">
+        <h3>Standard</h3>
+        <div class="pricing-price">RM150</div>
+        <p>2 SteamIDs per CD Key (Lifetime)</p>
+        <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
+      </div>
+
+      <div class="pricing-card featured" aria-label="Most popular plan">
+        <span class="badge-featured">Most Popular</span>
+        <h3>Premium</h3>
+        <div class="pricing-price">RM250</div>
+        <p>3 SteamIDs per CD Key (Lifetime)</p>
+        <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn">Buy Now</a>
       </div>
     </div>
   </div>
+</div>
+
 
   <footer>
     <p>© 2025 Barry's Games Store. All rights reserved.</p>
