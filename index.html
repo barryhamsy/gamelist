@@ -426,29 +426,38 @@
       .purchase-link{right:15px; left:15px; bottom:15px; max-width:unset}
     }
 
-    /* Floating WhatsApp button */
-    .whatsapp-btn{
-      position:fixed;
-      bottom:90px; /* sits above Purchase button */
-      right:25px;
-      z-index:1000;
+    /* Floating WhatsApp button – keep above Purchase CTA and never overlap */
+.whatsapp-btn{
+  position: fixed;
+  /* sits above the purchase button height (approx 56px) + gap */
+  bottom: 96px;           /* was 90px */
+  right: 25px;
+  z-index: 2000;          /* higher than .purchase-link (1000) */
 
-      background:#25D366;
-      color:#fff;
-      font-weight:bold;
-      text-decoration:none;
-      padding:12px 20px;
-      border-radius:25px;
-      font-size:.95rem;
+  background:#25D366;
+  color:#fff;
+  font-weight:bold;
+  text-decoration:none;
+  padding:12px 20px;
+  border-radius:25px;
+  font-size:.95rem;
 
-      box-shadow:0 4px 12px rgba(0,0,0,.2);
-      transition:all .3s ease;
-    }
-    .whatsapp-btn:hover{
-      background:#20b955;
-      transform:translateY(-3px);
-      box-shadow:0 8px 20px rgba(0,0,0,.3);
-    }
+  box-shadow:0 4px 12px rgba(0,0,0,.2);
+  transition:all .3s ease;
+}
+.whatsapp-btn:hover{
+  background:#20b955;
+  transform:translateY(-3px);
+  box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+
+/* On very small screens, move it up a bit more so it never sits on the CTA */
+@media (max-width:480px){
+  .whatsapp-btn{
+    right:15px;
+    bottom: 110px;   /* extra clearance for the wider Purchase CTA on mobile */
+  }
+}
 
     /* Tiny prompt for manual receipt entry */
     .receipt-toast{
