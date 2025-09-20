@@ -14,6 +14,7 @@
       --text-light:#7f8c8d;
       --denuvo-color:#e74c3c;
       --badge-new:#27ae60;
+      --accent:#2ecc71;
     }
 
     *{box-sizing:border-box}
@@ -56,6 +57,7 @@
       margin-top:8px;
       display:flex;
       gap:15px;
+      flex-wrap:wrap;
     }
 
     nav a{
@@ -213,6 +215,71 @@
     .page{display:none}
     .page.active{display:block}
 
+    /* About: gallery */
+    .about-wrap{
+      max-width:1000px;
+      margin:0 auto;
+      text-align:center;
+    }
+    .about-tagline{
+      color:var(--text-light);
+      margin-bottom:20px;
+    }
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+      gap:16px;
+      margin:22px 0 10px;
+    }
+    .gallery figure{
+      margin:0;
+      background:var(--card-bg);
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 4px 12px rgba(0,0,0,.08);
+      transition:transform .25s ease, box-shadow .25s ease;
+      cursor:pointer;
+    }
+    .gallery figure:hover{
+      transform:translateY(-4px);
+      box-shadow:0 10px 22px rgba(0,0,0,.12);
+    }
+    .gallery img{
+      width:100%;
+      height:160px;
+      object-fit:cover;
+      display:block;
+    }
+    .gallery figcaption{
+      padding:10px 12px;
+      font-size:.9rem;
+      color:var(--text-light);
+      text-align:left;
+    }
+
+    .about-section{
+      text-align:left;
+      background:var(--card-bg);
+      border-radius:12px;
+      padding:18px;
+      box-shadow:0 4px 12px rgba(0,0,0,.08);
+      margin-top:18px;
+    }
+    .about-section h3{
+      margin:0 0 8px;
+      color:var(--primary-color);
+    }
+    .about-list{
+      margin:0;
+      padding-left:18px;
+      line-height:1.6;
+    }
+    .about-note{
+      color:var(--text-light);
+      font-size:.9rem;
+      margin-top:8px;
+    }
+
     /* Pricing */
     .pricing-wrap{
       max-width:1000px;
@@ -281,6 +348,7 @@
       transition:all .3s ease;
       box-shadow:0 4px 12px rgba(0,0,0,.2);
       max-width:240px;
+      animation:pulse 4s ease-in-out infinite;
     }
     .purchase-main{font-size:1.1rem; margin-bottom:4px}
     .purchase-sub{font-size:.8rem; font-weight:normal; color:#f5f7fa}
@@ -288,15 +356,13 @@
       transform:translateY(-3px) scale(1.05);
       background:linear-gradient(135deg,#2ecc71,#3498db);
       box-shadow:0 8px 20px rgba(0,0,0,.3), 0 0 12px rgba(52,152,219,.7);
+      animation:none;
     }
-    /* Gentle pulse to attract attention */
-    @keyframes pulse {
+    @keyframes pulse{
       0%{transform:translateY(0) scale(1)}
       50%{transform:translateY(-2px) scale(1.02)}
       100%{transform:translateY(0) scale(1)}
     }
-    .purchase-link{animation:pulse 4s ease-in-out infinite}
-    .purchase-link:hover{animation:none}
     @media (max-width:480px){
       .purchase-link{right:15px; left:15px; bottom:15px; max-width:unset}
     }
@@ -336,18 +402,93 @@
 
   <!-- About Page -->
   <div id="about" class="page">
-    <main style="max-width:800px; margin:0 auto; text-align:center;">
+    <div class="about-wrap">
       <h2>About Our App</h2>
-      <p style="margin:20px 0; color:var(--text-light);">
-        Steam Unlock Onennabe is a game unlocking tool for your Steam Library.<br/>
-        Unlock games, DLCs, early access, and online patches with ease.<br/>
-        One-time purchase, endless gaming freedom.
-      </p>
-      <p style="color:var(--text-light);">
-        We built this app to simplify how gamers interact with their collection,
-        adding support for genres, sizes, and download counts directly from our curated database.
-      </p>
-    </main>
+      <p class="about-tagline">Tool ini dibuat oleh local Malaysian developer! <strong>#SUPPORTLOCAL 🇲🇾</strong></p>
+
+      <!-- Image Preview Gallery -->
+      <div class="gallery">
+        <figure onclick="openImage('about_preview1.jpg')">
+          <img src="about_preview1.jpg" alt="App Screenshot 1" onerror="this.src='placeholder.jpg'">
+          <figcaption>Modern Library View</figcaption>
+        </figure>
+        <figure onclick="openImage('about_preview2.jpg')">
+          <img src="about_preview2.jpg" alt="App Screenshot 2" onerror="this.src='placeholder.jpg'">
+          <figcaption>Quick Search & Pagination</figcaption>
+        </figure>
+        <figure onclick="openImage('about_preview3.jpg')">
+          <img src="about_preview3.jpg" alt="App Screenshot 3" onerror="this.src='placeholder.jpg'">
+          <figcaption>Clean & Lightweight</figcaption>
+        </figure>
+      </div>
+
+      <!-- Steam-style Feature Lists -->
+      <div class="about-section">
+        <h3>What’s inside the package?</h3>
+        <ul class="about-list">
+          <li>Steam Unlock <strong>ONENNABE</strong> software 🔓</li>
+          <li>🆓 Free helper tools for online play (with certain bypass launchers)</li>
+          <li>♾️ <strong>Lifetime</strong> activation (eligible tiers)</li>
+          <li>♾️ Format PC? We’ll help reset CD Key — <strong>FREE reinstall</strong> (same motherboard)</li>
+          <li>⚙️ Super lightweight software</li>
+          <li>❎ No malware. No shady data capture — we respect your privacy</li>
+          <li>✅ 32,000+ Game & DLC entries supported</li>
+          <li>✅ Denuvo-protected titles support (where available)</li>
+          <li>✅ 18+ & VR titles support (on request)</li>
+          <li>✅ Sleek New UI Overhaul – Clean. Modern. Stylish.</li>
+          <li>✅ Auto Game Updates – Stay ahead, no manual hassle!</li>
+        </ul>
+        <p class="about-note">*Support scope depends on title/platform requirements and your chosen tier.</p>
+      </div>
+
+      <div class="about-section">
+        <h3>Featured Series You’ll Love</h3>
+        <ul class="about-list">
+          <li>✅ Call of Duty (BO1–3, MW2–MW3, classics)</li>
+          <li>✅ Grand Theft Auto Collection (GTA V & classics)</li>
+          <li>✅ Watch Dogs • Assassin’s Creed • Far Cry</li>
+          <li>✅ Red Dead Redemption 1 & 2 • Star Wars Jedi</li>
+          <li>…and MUCH MORE! 🚀</li>
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h3>Package Differences (Ringkas)</h3>
+        <h4 style="margin:6px 0;color:var(--accent);">LIFETIME</h4>
+        <ul class="about-list">
+          <li>1 CD Key → up to 2 PCs (Steam ID sama)</li>
+          <li>Lifetime reinstall (same motherboard)</li>
+          <li>PC change not allowed after linked</li>
+          <li>Unlimited supported Denuvo titles</li>
+        </ul>
+        <h4 style="margin:10px 0 6px;color:#e67e22;">ONE MONTH</h4>
+        <ul class="about-list">
+          <li>1 CD Key → up to 2 PCs (Steam ID sama)</li>
+          <li>1 month warranty reinstall (same motherboard)</li>
+          <li>Auto-removal after 1 month (features & titles)</li>
+          <li><strong>No</strong> Denuvo titles</li>
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h3>Limitations</h3>
+        <ul class="about-list">
+          <li>❌ EA App / Blizzard live-service titles are not supported</li>
+          <li>❌ Certain Ubisoft titles not supported (kecuali yang ada dalam tool bypass khusus)</li>
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h3>Why Us (vs others)?</h3>
+        <ul class="about-list">
+          <li>✅ Achievements supported (where applicable)</li>
+          <li>✅ Fewer content config issues — and cepat fix kalau ada</li>
+          <li>✅ Faster add-to-server pipeline</li>
+          <li>✅ Minimal dependency on external “steamless auto” flows</li>
+          <li>✅ Online helper tool included (free)</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <!-- Pricing Page -->
@@ -402,8 +543,12 @@
     function showPage(pageId){
       document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
       document.getElementById(pageId).classList.add('active');
-      // Optional: scroll to top when switching pages
       window.scrollTo({top:0, behavior:'smooth'});
+    }
+
+    // Simple image opener (new tab)
+    function openImage(src){
+      window.open(src, '_blank');
     }
 
     document.addEventListener('DOMContentLoaded', ()=>{
