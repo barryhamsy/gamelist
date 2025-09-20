@@ -66,21 +66,40 @@
       color: #2980b9;
     }
 
-    .purchase-link {
-      background: var(--secondary-color);
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 18px;
-      border-radius: 25px;
-      font-size: 0.95rem;
-      font-weight: bold;
-      transition: background 0.3s;
-      white-space: nowrap;
-    }
+.purchase-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 22px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 220px;
+}
 
-    .purchase-link:hover {
-      background: #2980b9;
-    }
+.purchase-main {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.purchase-sub {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #f5f7fa;
+}
+
+.purchase-link:hover {
+  transform: translateY(-3px) scale(1.05);
+  background: linear-gradient(135deg, #2ecc71, #3498db);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3), 0 0 12px rgba(52, 152, 219, 0.7);
+}
+
 
     .search-container {
       max-width: 600px;
@@ -262,19 +281,23 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo-title">
-      <img src="splashscreen.png" alt="Logo" />
-      <div>
-        <h1>Steam Unlock Onennabe/h1>
-        <nav>
-          <a href="#" onclick="showPage('home')">Home</a>
-          <a href="#" onclick="showPage('about')">About App</a>
-        </nav>
-      </div>
+<header>
+  <div class="logo-title">
+    <img src="splashscreen.png" alt="Logo" />
+    <div>
+      <h1>Steam Unlock Onennabe</h1>
+      <nav>
+        <a href="#" onclick="showPage('home')">Home</a>
+        <a href="#" onclick="showPage('about')">About App</a>
+      </nav>
     </div>
-    <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="purchase-link">Purchase</a>
-  </header>
+  </div>
+  <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="purchase-link">
+    <div class="purchase-main">Purchase App</div>
+    <div class="purchase-sub">Done browsing games? Unlock them all!</div>
+  </a>
+</header>
+
 
   <!-- Home Page -->
   <div id="home" class="page active">
