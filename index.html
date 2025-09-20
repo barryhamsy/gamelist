@@ -497,6 +497,84 @@
       color:#fff;
       cursor:pointer;
     }
+
+    /* Vertical pricing layout */
+.pricing-container-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.pricing-card-vertical {
+  position: relative;
+  background: var(--card-bg);
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  text-align: left;
+  transition: transform .3s, box-shadow .3s;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.pricing-card-vertical:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,.15);
+}
+
+.pricing-card-vertical h3 {
+  color: var(--primary-color);
+  margin: 0 0 10px;
+}
+
+.pricing-card-vertical .pricing-price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: var(--secondary-color);
+}
+
+.pricing-card-vertical p {
+  margin: 4px 0;
+  font-size: .95rem;
+  color: var(--text-light);
+}
+
+.pricing-card-vertical .note {
+  font-size: .85rem;
+  margin: 6px 0 0;
+  color: #999;
+}
+
+.pricing-card-vertical .buy-btn {
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.pricing-card-vertical.featured {
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#fff,#fff) padding-box,
+    linear-gradient(135deg, #3498db, #2ecc71) border-box;
+  box-shadow: 0 12px 30px rgba(0,0,0,.12), 0 0 0 6px rgba(155,231,255,.18);
+}
+
+.pricing-card-vertical.featured .badge-featured {
+  position: absolute;
+  top: -12px;
+  right: 15px;
+  background: linear-gradient(135deg,#f39c12,#f1c40f);
+  color: #2c3e50;
+  font-weight: 800;
+  font-size: .72rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  letter-spacing: .4px;
+  text-transform: uppercase;
+}
+
     .receipt-row button:hover{background:#2980b9}
   </style>
 </head>
@@ -655,37 +733,37 @@
   <div id="pricing" class="page">
     <div class="pricing-wrap">
       <h2>Pricing Plans</h2>
-      <div class="pricing-container">
-        <div class="pricing-card">
-          <h3>Monthly</h3>
-          <div class="pricing-price">RM35</div>
-          <p>1 SteamID per CD Key (1 month)</p>
-          <p style="font-size:0.85rem; color:var(--text-light);">Games revert to “Purchase” after expiry. No Denuvo. No online patch/launcher bypass.</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Monthly">Buy Now</a>
-        </div>
+<div class="pricing-container-vertical">
+  <div class="pricing-card-vertical">
+    <h3>Monthly</h3>
+    <div class="pricing-price">RM50</div>
+    <p>1 SteamID per CD Key (1 month)</p>
+    <p class="note">Games revert to “Purchase” after expiry.<br>No Denuvo.<br>No online patch/launcher bypass.</p>
+    <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Monthly">Buy Now</a>
+  </div>
 
-        <div class="pricing-card">
-          <h3>Basic</h3>
-          <div class="pricing-price">RM95</div>
-          <p>1 SteamID per CD Key (Lifetime)</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Basic">Buy Now</a>
-        </div>
+  <div class="pricing-card-vertical">
+    <h3>Basic</h3>
+    <div class="pricing-price">RM120</div>
+    <p>1 SteamID per CD Key (Lifetime)</p>
+    <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Basic">Buy Now</a>
+  </div>
 
-        <div class="pricing-card featured" aria-label="Most popular plan">
-          <span class="badge-featured">Most Popular</span>
-          <h3>Premium</h3>
-          <div class="pricing-price">RM250</div>
-          <p>3 SteamIDs per CD Key (Lifetime)</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Premium">Buy Now</a>
-        </div>
+  <div class="pricing-card-vertical">
+    <h3>Standard</h3>
+    <div class="pricing-price">RM150</div>
+    <p>2 SteamIDs per CD Key (Lifetime)</p>
+    <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Standard">Buy Now</a>
+  </div>
 
-        <div class="pricing-card">
-          <h3>Standard</h3>
-          <div class="pricing-price">RM150</div>
-          <p>2 SteamIDs per CD Key (Lifetime)</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Standard">Buy Now</a>
-        </div>
-      </div>
+  <div class="pricing-card-vertical featured" aria-label="Most popular plan">
+    <span class="badge-featured">Most Popular</span>
+    <h3>Premium</h3>
+    <div class="pricing-price">RM250</div>
+    <p>3 SteamIDs per CD Key (Lifetime)</p>
+    <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Premium">Buy Now</a>
+  </div>
+</div>
     </div>
   </div>
 
