@@ -1,21 +1,62 @@
 [
     {
-        "added_on": "2025-09-27T05:19:42",
-        "appid": "3296910",
-        "downloads": 0,
-        "name": "Stash",
+        "added_on": "2025-09-27T13:28:39",
+        "appid": "1234220",
+        "downloads": 2,
+        "name": "Paper Pirates",
         "new": true,
         "requires_membership": false,
-        "st_file": "3296910.lua",
+        "st_file": "1234220.lua",
         "online_supported": "No",
         "primary_genre": null,
         "content_descriptors": [],
         "size_gb": null
     },
     {
+        "added_on": "2025-09-27T11:52:45",
+        "appid": "3812660",
+        "downloads": 3,
+        "name": "Cladun X3",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3812660.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [
+            "5"
+        ],
+        "size_gb": "1.15 GB"
+    },
+    {
+        "added_on": "2025-09-27T11:51:19",
+        "appid": "3362960",
+        "downloads": 3,
+        "name": "Twinkleby",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3362960.lua",
+        "online_supported": "No",
+        "primary_genre": "4",
+        "content_descriptors": [],
+        "size_gb": "9.06 GB"
+    },
+    {
+        "added_on": "2025-09-27T05:19:42",
+        "appid": "3296910",
+        "downloads": 3,
+        "name": "Stash",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3296910.lua",
+        "online_supported": "No",
+        "primary_genre": "2",
+        "content_descriptors": [],
+        "size_gb": "1.33 GB"
+    },
+    {
         "added_on": "2025-09-27T05:18:17",
         "appid": "2291680",
-        "downloads": 3,
+        "downloads": 5,
         "name": "The Arrogant Kaiju Princess and The Detective Servant",
         "new": true,
         "requires_membership": false,
@@ -33,59 +74,64 @@
     {
         "added_on": "2025-09-27T05:15:19",
         "appid": "1232220",
-        "downloads": 0,
+        "downloads": 7,
         "name": "Professional Fishing 2",
         "new": true,
         "requires_membership": false,
         "st_file": "1232220.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "15.71 GB"
     },
     {
         "added_on": "2025-09-27T05:12:52",
         "appid": "3314790",
-        "downloads": 0,
+        "downloads": 2,
         "name": "CloverPit",
         "new": true,
         "requires_membership": false,
         "st_file": "3314790.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "0.37 GB"
     },
     {
         "added_on": "2025-09-27T05:11:21",
         "appid": "3045200",
-        "downloads": 0,
+        "downloads": 2,
         "name": "Beatblock",
         "new": true,
         "requires_membership": false,
         "st_file": "3045200.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "1.16 GB"
     },
     {
         "added_on": "2025-09-27T05:08:45",
         "appid": "3602290",
-        "downloads": 0,
+        "downloads": 6,
         "name": "FEMBOY FUTA HOUSE",
         "new": true,
         "requires_membership": false,
         "st_file": "3602290.lua",
         "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": null
+        "primary_genre": "25",
+        "content_descriptors": [
+            "1",
+            "3",
+            "4",
+            "5"
+        ],
+        "size_gb": "3.00 GB"
     },
     {
         "added_on": "2025-09-27T05:08:39",
         "appid": "2820700",
-        "downloads": 0,
+        "downloads": 2,
         "name": "A Gentlemen's Dispute",
         "new": true,
         "requires_membership": false,
@@ -98,7 +144,7 @@
     {
         "added_on": "2025-09-26T14:37:36",
         "appid": "2286600",
-        "downloads": 3,
+        "downloads": 4,
         "name": "HOTEL BARCELONA",
         "new": true,
         "requires_membership": false,
@@ -115,7 +161,7 @@
     {
         "added_on": "2025-09-26T14:37:15",
         "appid": "2324290",
-        "downloads": 6,
+        "downloads": 8,
         "name": "PAC-MAN WORLD 2 Re-PAC",
         "new": true,
         "requires_membership": false,
@@ -128,7 +174,7 @@
     {
         "added_on": "2025-09-26T14:36:15",
         "appid": "2943420",
-        "downloads": 2,
+        "downloads": 5,
         "name": "Amelie falls over and over again ~ An endless week in Magic University",
         "new": true,
         "requires_membership": false,
@@ -141,7 +187,7 @@
     {
         "added_on": "2025-09-26T14:36:02",
         "appid": "3150480",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Agatha Christie - Death on the Nile",
         "new": true,
         "requires_membership": false,
@@ -154,7 +200,7 @@
     {
         "added_on": "2025-09-26T14:15:48",
         "appid": "3689510",
-        "downloads": 2,
+        "downloads": 3,
         "name": "\u7409\u9690\u65e0\u754c",
         "new": true,
         "requires_membership": false,
@@ -167,33 +213,33 @@
     {
         "added_on": "2025-09-26T11:22:36",
         "appid": "1330430",
-        "downloads": 2,
+        "downloads": 4,
         "name": "Celestial Empire",
         "new": true,
         "requires_membership": false,
         "st_file": "1330430.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "29.46 GB"
     },
     {
         "added_on": "2025-09-26T05:39:32",
         "appid": "3259600",
-        "downloads": 14,
+        "downloads": 18,
         "name": "Atelier Resleriana: The Red Alchemist & the White Guardian",
         "new": true,
         "requires_membership": false,
         "st_file": "3259600.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "11.31 GB"
     },
     {
         "added_on": "2025-09-26T02:15:49",
         "appid": "2486820",
-        "downloads": 11,
+        "downloads": 12,
         "name": "Sonic Racing: CrossWorlds",
         "new": true,
         "requires_membership": true,
@@ -234,7 +280,7 @@
         "appid": "1757300",
         "downloads": 3,
         "name": "Jump Space",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1757300.lua",
         "online_supported": "No",
@@ -247,9 +293,9 @@
     {
         "added_on": "2025-09-25T13:45:27",
         "appid": "2877170",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Touhou Makuka Sai ~ Fantastic Danmaku Festival Part III",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2877170.lua",
         "online_supported": "No",
@@ -260,15 +306,15 @@
     {
         "added_on": "2025-09-25T13:45:27",
         "appid": "2738230",
-        "downloads": 5,
+        "downloads": 6,
         "name": "The House of Tesla",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2738230.lua",
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "16.16 GB"
+        "size_gb": "16.15 GB"
     },
     {
         "added_on": "2025-09-24T02:12:21",
@@ -288,7 +334,7 @@
     {
         "added_on": "2025-09-24T02:07:58",
         "appid": "3572580",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Hachishaku",
         "new": false,
         "requires_membership": false,
@@ -304,7 +350,7 @@
     {
         "added_on": "2025-09-23T18:44:55",
         "appid": "3189340",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Dungeons of Eternity",
         "new": false,
         "requires_membership": false,
@@ -343,7 +389,7 @@
     {
         "added_on": "2025-09-23T17:24:16",
         "appid": "2487150",
-        "downloads": 8,
+        "downloads": 9,
         "name": "Deconstruction Simulator",
         "new": false,
         "requires_membership": false,
@@ -369,7 +415,7 @@
     {
         "added_on": "2025-09-23T17:14:54",
         "appid": "3081840",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Chrono Gear: Warden of Time",
         "new": false,
         "requires_membership": false,
@@ -382,7 +428,7 @@
     {
         "added_on": "2025-09-23T17:14:54",
         "appid": "3327640",
-        "downloads": 4,
+        "downloads": 5,
         "name": "hololive Holo's Hanafuda",
         "new": false,
         "requires_membership": false,
@@ -403,12 +449,12 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "1.57 GB"
+        "size_gb": "1.61 GB"
     },
     {
         "added_on": "2025-09-23T09:08:06",
         "appid": "2947440",
-        "downloads": 79,
+        "downloads": 89,
         "name": "SILENT HILL f",
         "new": false,
         "requires_membership": false,
@@ -471,7 +517,7 @@
     {
         "added_on": "2025-09-21T06:35:15",
         "appid": "1163590",
-        "downloads": 9,
+        "downloads": 10,
         "name": "Bullet Girls Phantasia",
         "new": false,
         "requires_membership": false,
@@ -495,7 +541,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "4.69 GB"
+        "size_gb": "4.36 GB"
     },
     {
         "added_on": "2025-09-21T06:34:56",
@@ -508,7 +554,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "0.90 GB"
+        "size_gb": "0.91 GB"
     },
     {
         "added_on": "2025-09-21T06:34:51",
@@ -627,7 +673,7 @@
     {
         "added_on": "2025-09-19T11:07:03",
         "appid": "1793440",
-        "downloads": 13,
+        "downloads": 14,
         "name": "Shale Hill Secrets",
         "new": false,
         "requires_membership": false,
@@ -646,7 +692,7 @@
     {
         "added_on": "2025-09-19T08:10:41",
         "appid": "3375780",
-        "downloads": 36,
+        "downloads": 38,
         "name": "Trails in the Sky 1st Chapter",
         "new": false,
         "requires_membership": false,
@@ -672,7 +718,7 @@
     {
         "added_on": "2025-09-19T07:30:27",
         "appid": "2755480",
-        "downloads": 22,
+        "downloads": 23,
         "name": "The Censor DX Edition",
         "new": false,
         "requires_membership": false,
@@ -724,12 +770,12 @@
         "online_supported": "No",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "1.79 GB"
+        "size_gb": "1.81 GB"
     },
     {
         "added_on": "2025-09-18T17:56:48",
         "appid": "3008130",
-        "downloads": 137,
+        "downloads": 141,
         "name": "Dying Light: The Beast",
         "new": false,
         "requires_membership": false,
@@ -828,7 +874,7 @@
     {
         "added_on": "2025-09-17T07:43:08",
         "appid": "1538550",
-        "downloads": 10,
+        "downloads": 11,
         "name": "LEGO\u00ae Voyagers",
         "new": false,
         "requires_membership": false,
@@ -932,7 +978,7 @@
     {
         "added_on": "2025-09-15T13:55:34",
         "appid": "3625270",
-        "downloads": 17,
+        "downloads": 18,
         "name": "MateEngine",
         "new": false,
         "requires_membership": false,
@@ -1088,7 +1134,7 @@
     {
         "added_on": "2025-09-13T10:59:26",
         "appid": "3029750",
-        "downloads": 67,
+        "downloads": 68,
         "name": "TurretGirls",
         "new": false,
         "requires_membership": false,
@@ -1195,7 +1241,7 @@
     {
         "added_on": "2025-09-12T05:58:06",
         "appid": "1285190",
-        "downloads": 65,
+        "downloads": 66,
         "name": "Borderlands\u00ae 4",
         "new": false,
         "requires_membership": true,
@@ -1220,7 +1266,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "6.52 GB"
+        "size_gb": "6.56 GB"
     },
     {
         "added_on": "2025-09-11T13:53:49",
@@ -1290,7 +1336,7 @@
     {
         "added_on": "2025-09-11T13:51:24",
         "appid": "3149980",
-        "downloads": 13,
+        "downloads": 14,
         "name": "Love n Life: Happy Student",
         "new": false,
         "requires_membership": false,
@@ -1378,7 +1424,7 @@
     {
         "added_on": "2025-09-10T06:54:32",
         "appid": "3153770",
-        "downloads": 19,
+        "downloads": 20,
         "name": "Days with My Lonely Teacher",
         "new": false,
         "requires_membership": false,
@@ -1477,7 +1523,7 @@
     {
         "added_on": "2025-09-08T14:23:03",
         "appid": "3291310",
-        "downloads": 20,
+        "downloads": 21,
         "name": "Mutant College",
         "new": false,
         "requires_membership": false,
@@ -1528,7 +1574,7 @@
     {
         "added_on": "2025-09-08T08:00:31",
         "appid": "3824080",
-        "downloads": 25,
+        "downloads": 26,
         "name": "Grand Tits Adventure [18+]",
         "new": false,
         "requires_membership": false,
@@ -1613,7 +1659,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "5.23 GB"
+        "size_gb": "5.24 GB"
     },
     {
         "added_on": "2025-09-06T02:15:04",
@@ -1781,7 +1827,7 @@
     {
         "added_on": "2025-09-04T15:15:42",
         "appid": "1030300",
-        "downloads": 109,
+        "downloads": 111,
         "name": "Hollow Knight: Silksong",
         "new": false,
         "requires_membership": false,
@@ -1794,7 +1840,7 @@
     {
         "added_on": "2025-09-04T07:41:45",
         "appid": "2101960",
-        "downloads": 101,
+        "downloads": 102,
         "name": "Cronos: The New Dawn",
         "new": false,
         "requires_membership": false,
@@ -1886,7 +1932,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.62 GB"
+        "size_gb": "1.53 GB"
     },
     {
         "added_on": "2025-09-03T11:03:38",
@@ -2368,7 +2414,7 @@
     {
         "added_on": "2025-09-02T05:51:29",
         "appid": "3632040",
-        "downloads": 13,
+        "downloads": 14,
         "name": "Sex Prison: Block 69",
         "new": false,
         "requires_membership": false,
@@ -2386,7 +2432,7 @@
     {
         "added_on": "2025-09-02T05:48:26",
         "appid": "1620730",
-        "downloads": 85,
+        "downloads": 86,
         "name": "Hell is Us",
         "new": false,
         "requires_membership": false,
@@ -2518,7 +2564,7 @@
     {
         "added_on": "2025-09-01T11:23:25",
         "appid": "3652650",
-        "downloads": 8,
+        "downloads": 9,
         "name": "\u604b\u7231\u4ece\u79bb\u522b\u5f00\u59cb",
         "new": false,
         "requires_membership": false,
@@ -2622,7 +2668,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "0.18 GB"
+        "size_gb": "0.19 GB"
     },
     {
         "added_on": "2025-08-31T15:08:06",
@@ -2640,7 +2686,7 @@
     {
         "added_on": "2025-08-31T15:07:27",
         "appid": "3424900",
-        "downloads": 13,
+        "downloads": 14,
         "name": "LUST & MAGIC \u2728",
         "new": false,
         "requires_membership": false,
@@ -2766,12 +2812,12 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "16.89 GB"
+        "size_gb": "16.77 GB"
     },
     {
         "added_on": "2025-08-30T16:13:33",
         "appid": "3320410",
-        "downloads": 16,
+        "downloads": 17,
         "name": "Thot on Trial",
         "new": false,
         "requires_membership": false,
@@ -2823,7 +2869,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "7.45 GB"
+        "size_gb": "9.48 GB"
     },
     {
         "added_on": "2025-08-30T05:44:40",
@@ -2841,7 +2887,7 @@
     {
         "added_on": "2025-08-30T05:43:59",
         "appid": "1943730",
-        "downloads": 25,
+        "downloads": 26,
         "name": "Wicked Island",
         "new": false,
         "requires_membership": false,
@@ -3024,7 +3070,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "9.60 GB"
+        "size_gb": "9.59 GB"
     },
     {
         "added_on": "2025-08-27T16:42:42",
@@ -3154,7 +3200,7 @@
     {
         "added_on": "2025-08-26T16:03:59",
         "appid": "2417610",
-        "downloads": 208,
+        "downloads": 212,
         "name": "METAL GEAR SOLID \u0394: SNAKE EATER",
         "new": false,
         "requires_membership": false,
@@ -3187,7 +3233,7 @@
     {
         "added_on": "2025-08-25T14:45:38",
         "appid": "2799690",
-        "downloads": 18,
+        "downloads": 19,
         "name": "The Secret Atelier",
         "new": false,
         "requires_membership": false,
@@ -3513,7 +3559,7 @@
         "online_supported": "No",
         "primary_genre": "70",
         "content_descriptors": [],
-        "size_gb": "4.64 GB"
+        "size_gb": "4.65 GB"
     },
     {
         "added_on": "2025-08-24T15:36:45",
@@ -3576,7 +3622,7 @@
     {
         "added_on": "2025-08-24T15:35:24",
         "appid": "2757030",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Muse War",
         "new": false,
         "requires_membership": false,
@@ -3696,7 +3742,7 @@
     {
         "added_on": "2025-08-24T05:45:31",
         "appid": "1997440",
-        "downloads": 17,
+        "downloads": 19,
         "name": "Sex Change Contract and Molester Girl",
         "new": false,
         "requires_membership": false,
@@ -3852,7 +3898,7 @@
         "online_supported": "No",
         "primary_genre": "0",
         "content_descriptors": [],
-        "size_gb": "0.21 GB"
+        "size_gb": "0.23 GB"
     },
     {
         "added_on": "2025-08-22T20:02:39",
@@ -4011,7 +4057,7 @@
     {
         "added_on": "2025-08-20T10:35:18",
         "appid": "2432670",
-        "downloads": 27,
+        "downloads": 30,
         "name": "Sex Coach: Hot Yoga",
         "new": false,
         "requires_membership": false,
@@ -4029,7 +4075,7 @@
     {
         "added_on": "2025-08-20T10:35:04",
         "appid": "3478920",
-        "downloads": 20,
+        "downloads": 22,
         "name": "Getting Inside: Hentai Story",
         "new": false,
         "requires_membership": false,
@@ -4118,7 +4164,7 @@
     {
         "added_on": "2025-08-18T06:40:43",
         "appid": "3668560",
-        "downloads": 26,
+        "downloads": 27,
         "name": "Happy Island Fantasy",
         "new": false,
         "requires_membership": false,
@@ -4170,7 +4216,7 @@
         "online_supported": "Yes",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "18.91 GB"
+        "size_gb": "18.89 GB"
     },
     {
         "added_on": "2025-08-16T14:13:08",
@@ -4334,7 +4380,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "1.35 GB"
+        "size_gb": "1.49 GB"
     },
     {
         "added_on": "2025-08-14T15:47:17",
@@ -4444,7 +4490,7 @@
         "online_supported": "No",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "1.26 GB"
+        "size_gb": "1.29 GB"
     },
     {
         "added_on": "2025-08-13T14:17:41",
@@ -4588,7 +4634,7 @@
     {
         "added_on": "2025-08-12T09:46:39",
         "appid": "2651420",
-        "downloads": 22,
+        "downloads": 23,
         "name": "The Daily Life of Serving Doll",
         "new": false,
         "requires_membership": false,
@@ -4668,7 +4714,7 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "8.61 GB"
+        "size_gb": "8.71 GB"
     },
     {
         "added_on": "2025-08-12T04:39:05",
@@ -4926,7 +4972,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "0.32 GB"
+        "size_gb": "0.33 GB"
     },
     {
         "added_on": "2025-08-08T02:50:05",
@@ -4960,7 +5006,7 @@
     {
         "added_on": "2025-08-08T02:36:19",
         "appid": "1941540",
-        "downloads": 199,
+        "downloads": 200,
         "name": "Mafia: The Old Country",
         "new": false,
         "requires_membership": true,
@@ -5106,7 +5152,7 @@
     {
         "added_on": "2025-08-05T17:07:30",
         "appid": "2928600",
-        "downloads": 129,
+        "downloads": 130,
         "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
         "new": false,
         "requires_membership": true,
@@ -5522,7 +5568,7 @@
         "online_supported": "Yes",
         "primary_genre": "9",
         "content_descriptors": [],
-        "size_gb": "0.40 GB"
+        "size_gb": "0.41 GB"
     },
     {
         "added_on": "2025-07-29T06:55:24",
@@ -6174,7 +6220,7 @@
     {
         "added_on": "2025-07-17T09:55:29",
         "appid": "3401920",
-        "downloads": 195,
+        "downloads": 196,
         "name": "Upin & Ipin Universe",
         "new": false,
         "requires_membership": false,
@@ -6195,7 +6241,7 @@
         "online_supported": "No",
         "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": "4.69 GB"
+        "size_gb": "4.71 GB"
     },
     {
         "added_on": "2025-07-16T12:39:32",
@@ -6280,7 +6326,7 @@
     {
         "added_on": "2025-07-16T10:12:55",
         "appid": "3024040",
-        "downloads": 10,
+        "downloads": 11,
         "name": "Stronghold Crusader: Definitive Edition",
         "new": false,
         "requires_membership": false,
@@ -6675,7 +6721,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.48 GB"
+        "size_gb": "1.49 GB"
     },
     {
         "added_on": "2025-07-04T21:18:01",
@@ -7158,7 +7204,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "16.86 GB"
+        "size_gb": "17.42 GB"
     },
     {
         "added_on": "2025-07-04T16:53:26",
@@ -8446,7 +8492,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "2752220",
-        "downloads": 52,
+        "downloads": 53,
         "name": "Train Capacity 300% 2",
         "new": false,
         "requires_membership": false,
@@ -8725,7 +8771,7 @@
         "online_supported": "No",
         "primary_genre": "70",
         "content_descriptors": [],
-        "size_gb": "21.51 GB"
+        "size_gb": "21.49 GB"
     },
     {
         "added_on": "2025-07-04T16:53:26",
@@ -9534,7 +9580,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "3489700",
-        "downloads": 392,
+        "downloads": 394,
         "name": "Stellar Blade\u2122",
         "new": false,
         "requires_membership": true,
@@ -10545,7 +10591,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "2322560",
-        "downloads": 9,
+        "downloads": 10,
         "name": "\u5b8c\u86cb\uff01\u6211\u88ab\u7f8e\u5973\u5305\u56f4\u4e86\uff01",
         "new": false,
         "requires_membership": false,
@@ -10937,7 +10983,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.74 GB"
+        "size_gb": "1.79 GB"
     },
     {
         "added_on": "2025-07-04T16:53:26",
@@ -11041,7 +11087,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "1364780",
-        "downloads": 117,
+        "downloads": 118,
         "name": "Street Fighter\u2122 6",
         "new": false,
         "requires_membership": true,
@@ -11612,7 +11658,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "3393380",
-        "downloads": 7,
+        "downloads": 9,
         "name": "The Sex Curse \ud83d\udc8b",
         "new": false,
         "requires_membership": false,
@@ -13274,7 +13320,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "49.57 GB"
+        "size_gb": "49.64 GB"
     },
     {
         "added_on": "2025-07-04T16:53:26",
@@ -13511,7 +13557,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "3178350",
-        "downloads": 58,
+        "downloads": 59,
         "name": "WARRIORS: Abyss",
         "new": false,
         "requires_membership": false,
@@ -14778,7 +14824,7 @@
         "online_supported": "No",
         "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": "8.92 GB"
+        "size_gb": "8.43 GB"
     },
     {
         "added_on": "2025-07-04T16:53:26",
@@ -15526,7 +15572,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "16.13 GB"
+        "size_gb": "16.42 GB"
     },
     {
         "added_on": "2025-07-04T16:53:26",
@@ -16148,7 +16194,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "2.41 GB"
+        "size_gb": "2.43 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -19933,7 +19979,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "3358070",
-        "downloads": 3,
+        "downloads": 4,
         "name": "WARRIORS_ Abyss - _DYNASTY WARRIORS_ Costume Set",
         "new": false,
         "requires_membership": false,
@@ -23697,7 +23743,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "2258010",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Webcam Sex",
         "new": false,
         "requires_membership": false,
@@ -25692,7 +25738,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "17.07 GB"
+        "size_gb": "17.06 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -27017,7 +27063,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "4.74 GB"
+        "size_gb": "4.78 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -27647,7 +27693,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "3358100",
-        "downloads": 3,
+        "downloads": 4,
         "name": "WARRIORS: Abyss - SAMURAI WARRIORS Classic Costume Set",
         "new": false,
         "requires_membership": false,
@@ -28006,7 +28052,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "70.17 GB"
+        "size_gb": "71.57 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -34460,7 +34506,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "0.80 GB"
+        "size_gb": "0.81 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -35737,7 +35783,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "2951990",
-        "downloads": 47,
+        "downloads": 48,
         "name": "Warhammer 40,000: Rogue Trader - Void Shadows",
         "new": false,
         "requires_membership": false,
@@ -39923,7 +39969,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "9.06 GB"
+        "size_gb": "9.33 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -42168,7 +42214,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "6.57 GB"
+        "size_gb": "6.54 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -42486,7 +42532,7 @@
         "online_supported": "No",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "0.38 GB"
+        "size_gb": "1.05 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -42631,7 +42677,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "2186680",
-        "downloads": 61,
+        "downloads": 62,
         "name": "Warhammer 40,000: Rogue Trader",
         "new": false,
         "requires_membership": false,
@@ -46387,7 +46433,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "3358120",
-        "downloads": 0,
+        "downloads": 1,
         "name": "WARRIORS: Abyss - 5,000 Karma Embers",
         "new": false,
         "requires_membership": false,
@@ -51451,7 +51497,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "2305760",
-        "downloads": 0,
+        "downloads": 1,
         "name": "\u4eba\u9593\u7267\u5834 Residence",
         "new": false,
         "requires_membership": false,
@@ -58475,7 +58521,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "3.79 GB"
+        "size_gb": "3.81 GB"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -58666,7 +58712,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "687920",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Tropical Liquor",
         "new": false,
         "requires_membership": false,
@@ -62403,7 +62449,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "4.70 GB"
+        "size_gb": "4.71 GB"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -63293,7 +63339,7 @@
         "online_supported": "Yes",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "6.82 GB"
+        "size_gb": "6.96 GB"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -64255,7 +64301,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "2878960",
-        "downloads": 144,
+        "downloads": 146,
         "name": "WWE 2K25",
         "new": false,
         "requires_membership": false,
@@ -64886,7 +64932,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "3358110",
-        "downloads": 0,
+        "downloads": 1,
         "name": "WARRIORS: Abyss - 3,000 Karma Embers",
         "new": false,
         "requires_membership": false,
@@ -70484,7 +70530,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "292030",
-        "downloads": 21,
+        "downloads": 23,
         "name": "The Witcher 3: Wild Hunt",
         "new": false,
         "requires_membership": false,
@@ -73008,7 +73054,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "0.75 GB"
+        "size_gb": "0.77 GB"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -73041,7 +73087,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "3358090",
-        "downloads": 2,
+        "downloads": 3,
         "name": "WARRIORS: Abyss - DYNASTY WARRIORS Classic Costume Set",
         "new": false,
         "requires_membership": false,
@@ -78883,7 +78929,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "3358080",
-        "downloads": 2,
+        "downloads": 3,
         "name": "WARRIORS: Abyss - Hack'n'Dash Legendary Costume Set",
         "new": false,
         "requires_membership": false,
@@ -81530,7 +81576,7 @@
     {
         "added_on": "2025-07-04T16:53:23",
         "appid": "489830",
-        "downloads": 17,
+        "downloads": 18,
         "name": "The Elder Scrolls V: Skyrim Special Edition",
         "new": false,
         "requires_membership": false,
@@ -83540,7 +83586,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "9.03 GB"
+        "size_gb": "9.05 GB"
     },
     {
         "added_on": "2025-07-04T16:53:23",
@@ -88894,7 +88940,7 @@
         "online_supported": "Yes",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "5.57 GB"
+        "size_gb": "2.81 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -90583,7 +90629,7 @@
         "online_supported": "No",
         "primary_genre": "29",
         "content_descriptors": [],
-        "size_gb": "28.28 GB"
+        "size_gb": "28.34 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -93293,7 +93339,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "2294660",
-        "downloads": 0,
+        "downloads": 1,
         "name": "The Quinfall",
         "new": false,
         "requires_membership": false,
@@ -93885,7 +93931,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "0.03 GB"
+        "size_gb": "0.04 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -97514,7 +97560,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "2634950",
-        "downloads": 4,
+        "downloads": 6,
         "name": "Tokyo Xtreme Racer",
         "new": false,
         "requires_membership": false,
@@ -97522,7 +97568,7 @@
         "online_supported": "No",
         "primary_genre": "9",
         "content_descriptors": [],
-        "size_gb": "7.76 GB"
+        "size_gb": "10.48 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -98043,7 +98089,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "0.08 GB"
+        "size_gb": "0.09 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -108177,7 +108223,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "1351240",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Taxi Life: A City Driving Simulator",
         "new": false,
         "requires_membership": false,
@@ -109024,7 +109070,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "2.53 GB"
+        "size_gb": "2.65 GB"
     },
     {
         "added_on": "2025-07-04T16:53:21",
@@ -109260,7 +109306,7 @@
         "online_supported": "No",
         "primary_genre": "70",
         "content_descriptors": [],
-        "size_gb": "22.34 GB"
+        "size_gb": "22.29 GB"
     },
     {
         "added_on": "2025-07-04T16:53:21",
@@ -111237,7 +111283,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "1.49 GB"
+        "size_gb": "1.56 GB"
     },
     {
         "added_on": "2025-07-04T16:53:21",
@@ -112765,7 +112811,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "1.80 GB"
+        "size_gb": "1.81 GB"
     },
     {
         "added_on": "2025-07-04T16:53:21",
@@ -115009,7 +115055,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "1932640",
-        "downloads": 51,
+        "downloads": 54,
         "name": "Suikoden I&II HD Remaster Gate Rune and Dunan Unification Wars",
         "new": false,
         "requires_membership": false,
@@ -117195,7 +117241,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "2001120",
-        "downloads": 87,
+        "downloads": 90,
         "name": "Split Fiction",
         "new": false,
         "requires_membership": false,
@@ -121428,7 +121474,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "1332010",
-        "downloads": 62,
+        "downloads": 64,
         "name": "Stray",
         "new": false,
         "requires_membership": false,
@@ -121652,7 +121698,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "1778820",
-        "downloads": 109,
+        "downloads": 110,
         "name": "TEKKEN 8",
         "new": false,
         "requires_membership": false,
@@ -122997,7 +123043,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "3285790",
-        "downloads": 4,
+        "downloads": 5,
         "name": "SpyLens: Sex in focus",
         "new": false,
         "requires_membership": false,
@@ -123256,7 +123302,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "2842040",
-        "downloads": 87,
+        "downloads": 88,
         "name": "Star Wars Outlaws",
         "new": false,
         "requires_membership": false,
@@ -124065,7 +124111,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "3346870",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Taiwan Love Story\u2075 Artbook",
         "new": false,
         "requires_membership": false,
@@ -145360,7 +145406,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "3.71 GB"
+        "size_gb": "3.74 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -145914,7 +145960,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "1.16 GB"
+        "size_gb": "1.17 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -146868,7 +146914,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "13.10 GB"
+        "size_gb": "13.46 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -153859,7 +153905,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1698480",
-        "downloads": 5,
+        "downloads": 6,
         "name": "A Sex Slave's  Love Story",
         "new": false,
         "requires_membership": false,
@@ -154758,7 +154804,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "18.06 GB"
+        "size_gb": "19.34 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -157456,7 +157502,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "2976870",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Taiwan Love Story\u2075",
         "new": false,
         "requires_membership": false,
@@ -157556,7 +157602,7 @@
         "online_supported": "Yes",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "25.17 GB"
+        "size_gb": "25.18 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -158797,7 +158843,7 @@
         "online_supported": "No",
         "primary_genre": "0",
         "content_descriptors": [],
-        "size_gb": "47.36 GB"
+        "size_gb": "47.37 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -163896,7 +163942,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "0.13 GB"
+        "size_gb": "0.26 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -164599,7 +164645,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1975280",
-        "downloads": 55,
+        "downloads": 56,
         "name": "Between Two Worlds",
         "new": false,
         "requires_membership": false,
@@ -166753,7 +166799,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "741150",
-        "downloads": 5,
+        "downloads": 6,
         "name": "ArtPose Pro",
         "new": false,
         "requires_membership": false,
@@ -166845,7 +166891,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "0.82 GB"
+        "size_gb": "0.89 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -167650,7 +167696,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "5.78 GB"
+        "size_gb": "5.86 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -168026,7 +168072,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "2.19 GB"
+        "size_gb": "5.61 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -168372,7 +168418,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "2397250",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Big Helmet Heroes",
         "new": false,
         "requires_membership": false,
@@ -168403,7 +168449,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "284160",
-        "downloads": 56,
+        "downloads": 57,
         "name": "BeamNG.drive",
         "new": false,
         "requires_membership": false,
@@ -168411,7 +168457,7 @@
         "online_supported": "Yes",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "60.43 GB"
+        "size_gb": "60.42 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -168617,7 +168663,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "3159330",
-        "downloads": 131,
+        "downloads": 132,
         "name": "Assassin's Creed Shadows",
         "new": false,
         "requires_membership": true,
@@ -168744,7 +168790,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "530940",
-        "downloads": 4,
+        "downloads": 5,
         "name": "BIOHAZARD 7 resident evil \u30b0\u30ed\u30c6\u30b9\u30afVer.",
         "new": false,
         "requires_membership": false,
@@ -169550,7 +169596,7 @@
         "online_supported": "No",
         "primary_genre": null,
         "content_descriptors": [],
-        "size_gb": "0.29 GB"
+        "size_gb": "0.30 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -169810,7 +169856,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "242050",
-        "downloads": 9,
+        "downloads": 10,
         "name": "Assassin's Creed IV Black Flag",
         "new": false,
         "requires_membership": false,
@@ -169896,7 +169942,7 @@
         "online_supported": "No",
         "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": "48.87 GB"
+        "size_gb": "49.39 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -170800,7 +170846,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1086940",
-        "downloads": 60,
+        "downloads": 62,
         "name": "Baldur's Gate 3",
         "new": false,
         "requires_membership": false,
@@ -171735,7 +171781,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "22.21 GB"
+        "size_gb": "22.22 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -173070,7 +173116,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1257290",
-        "downloads": 10,
+        "downloads": 11,
         "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy",
         "new": false,
         "requires_membership": false,
@@ -177463,7 +177509,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "3.49 GB"
+        "size_gb": "3.50 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -178114,7 +178160,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "3123410",
-        "downloads": 72,
+        "downloads": 73,
         "name": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
         "new": false,
         "requires_membership": false,
@@ -178122,7 +178168,7 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "18.40 GB"
+        "size_gb": "18.69 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -178491,7 +178537,7 @@
         "online_supported": "Yes",
         "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": "5.98 GB"
+        "size_gb": "5.99 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -179123,7 +179169,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "812140",
-        "downloads": 16,
+        "downloads": 17,
         "name": "Assassin's Creed Odyssey",
         "new": false,
         "requires_membership": false,
@@ -180375,7 +180421,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "22.31 GB"
+        "size_gb": "27.40 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -182115,7 +182161,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "1.07 GB"
+        "size_gb": "1.09 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -182297,7 +182343,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "582160",
-        "downloads": 9,
+        "downloads": 10,
         "name": "Assassin's Creed Origins",
         "new": false,
         "requires_membership": false,
@@ -189525,7 +189571,7 @@
         "online_supported": "Yes",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "31.49 GB"
+        "size_gb": "31.52 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -194380,7 +194426,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "15.07 GB"
+        "size_gb": "15.25 GB"
     },
     {
         "added_on": "2025-07-04T16:53:18",
@@ -198920,7 +198966,7 @@
         "online_supported": "No",
         "primary_genre": "9",
         "content_descriptors": [],
-        "size_gb": "8.45 GB"
+        "size_gb": "8.46 GB"
     },
     {
         "added_on": "2025-07-04T16:53:18",
@@ -201571,7 +201617,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "13.84 GB"
+        "size_gb": "13.85 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -202288,7 +202334,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "211420",
-        "downloads": 2,
+        "downloads": 3,
         "name": "DARK SOULS_ Prepare To Die Edition",
         "new": false,
         "requires_membership": false,
@@ -202500,7 +202546,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "9.55 GB"
+        "size_gb": "9.58 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -202704,7 +202750,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2708950",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Corruption Town",
         "new": false,
         "requires_membership": false,
@@ -204756,7 +204802,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "934700",
-        "downloads": 19,
+        "downloads": 20,
         "name": "Dead Island 2",
         "new": false,
         "requires_membership": false,
@@ -205970,7 +206016,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2059530",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Dawn of Defiance",
         "new": false,
         "requires_membership": false,
@@ -206400,7 +206446,7 @@
         "online_supported": "No",
         "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": "97.57 GB"
+        "size_gb": "97.69 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -206844,7 +206890,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "2.15 GB"
+        "size_gb": "3.13 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -208280,7 +208326,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1903340",
-        "downloads": 174,
+        "downloads": 175,
         "name": "Clair Obscur: Expedition 33",
         "new": false,
         "requires_membership": false,
@@ -211262,7 +211308,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2899050",
-        "downloads": 13,
+        "downloads": 14,
         "name": "Desert Stalker",
         "new": false,
         "requires_membership": false,
@@ -213207,7 +213253,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1963570",
-        "downloads": 8,
+        "downloads": 9,
         "name": "Cuisineer",
         "new": false,
         "requires_membership": false,
@@ -214495,7 +214541,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "41.69 GB"
+        "size_gb": "58.46 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -215217,7 +215263,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "7.54 GB"
+        "size_gb": "8.79 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -216780,7 +216826,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "58.41 GB"
+        "size_gb": "59.48 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -217575,7 +217621,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "2.70 GB"
+        "size_gb": "2.67 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -221229,7 +221275,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1091500",
-        "downloads": 164,
+        "downloads": 167,
         "name": "Cyberpunk 2077",
         "new": false,
         "requires_membership": false,
@@ -221650,7 +221696,7 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "31.14 GB"
+        "size_gb": "31.66 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -222744,7 +222790,7 @@
         "online_supported": "No",
         "primary_genre": "51",
         "content_descriptors": [],
-        "size_gb": "0.18 GB"
+        "size_gb": "0.19 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -225699,7 +225745,7 @@
         "online_supported": "No",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "2.88 GB"
+        "size_gb": "2.86 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -226751,7 +226797,7 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "0.54 GB"
+        "size_gb": "0.56 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -229434,7 +229480,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2701660",
-        "downloads": 3,
+        "downloads": 4,
         "name": "DRAGON QUEST III HD-2D Remake",
         "new": false,
         "requires_membership": false,
@@ -230563,7 +230609,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "766370",
-        "downloads": 12,
+        "downloads": 13,
         "name": "Dying Light_ Bad Blood",
         "new": false,
         "requires_membership": false,
@@ -231312,7 +231358,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "38.29 GB"
+        "size_gb": "38.28 GB"
     },
     {
         "added_on": "2025-07-04T16:53:16",
@@ -234044,7 +234090,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "1245620",
-        "downloads": 94,
+        "downloads": 95,
         "name": "ELDEN RING",
         "new": false,
         "requires_membership": false,
@@ -242357,7 +242403,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "1811260",
-        "downloads": 9,
+        "downloads": 10,
         "name": "EA SPORTS\u2122 FIFA 23",
         "new": false,
         "requires_membership": false,
@@ -243128,7 +243174,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "239140",
-        "downloads": 38,
+        "downloads": 39,
         "name": "Dying Light",
         "new": false,
         "requires_membership": false,
@@ -244025,7 +244071,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2344520",
-        "downloads": 50,
+        "downloads": 51,
         "name": "Diablo\u00ae IV",
         "new": false,
         "requires_membership": false,
@@ -245938,7 +245984,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "534380",
-        "downloads": 86,
+        "downloads": 87,
         "name": "Dying Light 2: Reloaded Edition",
         "new": false,
         "requires_membership": false,
@@ -251647,7 +251693,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "29.02 GB"
+        "size_gb": "29.71 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -252645,7 +252691,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "552520",
-        "downloads": 16,
+        "downloads": 18,
         "name": "Far Cry 5",
         "new": false,
         "requires_membership": false,
@@ -256441,7 +256487,7 @@
         "online_supported": "No",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "4.84 GB"
+        "size_gb": "4.85 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -257970,7 +258016,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "3.08 GB"
+        "size_gb": "3.52 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -258718,7 +258764,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1551360",
-        "downloads": 134,
+        "downloads": 135,
         "name": "Forza Horizon 5",
         "new": false,
         "requires_membership": false,
@@ -261534,7 +261580,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "131.88 GB"
+        "size_gb": "131.95 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -264019,8 +264065,11 @@
         "st_file": "1265820.lua",
         "online_supported": "No",
         "primary_genre": "2",
-        "content_descriptors": [],
-        "size_gb": "2.12 GB"
+        "content_descriptors": [
+            "2",
+            "5"
+        ],
+        "size_gb": "2.20 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -264208,7 +264257,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2215430",
-        "downloads": 113,
+        "downloads": 114,
         "name": "Ghost of Tsushima DIRECTOR'S CUT",
         "new": false,
         "requires_membership": false,
@@ -265308,7 +265357,7 @@
         "online_supported": "Yes",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "1.99 GB"
+        "size_gb": "2.03 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -265751,7 +265800,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "0.25 GB"
+        "size_gb": "0.29 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -267153,7 +267202,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "807770",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Frequent Flyer_ A Long Distance Love Story",
         "new": false,
         "requires_membership": false,
@@ -270634,7 +270683,7 @@
         "online_supported": "No",
         "primary_genre": "70",
         "content_descriptors": [],
-        "size_gb": "27.83 GB"
+        "size_gb": "22.61 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -272405,7 +272454,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "0.80 GB"
+        "size_gb": "0.79 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -274436,7 +274485,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "899480",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Girls Dance",
         "new": false,
         "requires_membership": false,
@@ -278693,7 +278742,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2909400",
-        "downloads": 155,
+        "downloads": 157,
         "name": "FINAL FANTASY VII REBIRTH",
         "new": false,
         "requires_membership": false,
@@ -280212,7 +280261,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1462040",
-        "downloads": 110,
+        "downloads": 112,
         "name": "FINAL FANTASY VII REMAKE INTERGRADE",
         "new": false,
         "requires_membership": false,
@@ -281818,7 +281867,7 @@
         "online_supported": "No",
         "primary_genre": "70",
         "content_descriptors": [],
-        "size_gb": "2.88 GB"
+        "size_gb": "2.89 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -282319,7 +282368,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1761390",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Hatsune Miku: Project DIVA Mega Mix+",
         "new": false,
         "requires_membership": true,
@@ -285105,7 +285154,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "2.32 GB"
+        "size_gb": "2.02 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -285241,7 +285290,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "0.68 GB"
+        "size_gb": "0.69 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -285970,7 +286019,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "2727440",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Hot Office: Sex Story \ud83d\udd1e",
         "new": false,
         "requires_membership": false,
@@ -287814,7 +287863,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "553850",
-        "downloads": 79,
+        "downloads": 80,
         "name": "HELLDIVERS\u2122 2",
         "new": false,
         "requires_membership": false,
@@ -291200,7 +291249,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "611790",
-        "downloads": 64,
+        "downloads": 65,
         "name": "House Party",
         "new": false,
         "requires_membership": false,
@@ -291382,7 +291431,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1145350",
-        "downloads": 73,
+        "downloads": 75,
         "name": "Hades II",
         "new": false,
         "requires_membership": false,
@@ -291390,7 +291439,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "16.47 GB"
+        "size_gb": "21.27 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -291480,7 +291529,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "1.89 GB"
+        "size_gb": "1.90 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -294680,7 +294729,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "3167180",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Hello Love: 18 Again",
         "new": false,
         "requires_membership": false,
@@ -295503,7 +295552,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1145360",
-        "downloads": 79,
+        "downloads": 80,
         "name": "Hades",
         "new": false,
         "requires_membership": false,
@@ -299162,7 +299211,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "3240220",
-        "downloads": 70,
+        "downloads": 71,
         "name": "Grand Theft Auto V Enhanced",
         "new": false,
         "requires_membership": false,
@@ -301712,7 +301761,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "881020",
-        "downloads": 73,
+        "downloads": 74,
         "name": "Granblue Fantasy: Relink",
         "new": false,
         "requires_membership": false,
@@ -302546,7 +302595,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "477160",
-        "downloads": 3,
+        "downloads": 5,
         "name": "Human Fall Flat",
         "new": false,
         "requires_membership": false,
@@ -302663,7 +302712,7 @@
         "online_supported": "Yes",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "0.73 GB"
+        "size_gb": "0.74 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -305308,7 +305357,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "705280",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Hakoniwa Explorer Plus",
         "new": false,
         "requires_membership": false,
@@ -307592,7 +307641,7 @@
         "requires_membership": false,
         "st_file": "523660.lua",
         "online_supported": "Yes",
-        "primary_genre": "1",
+        "primary_genre": "4",
         "content_descriptors": [],
         "size_gb": "30.88 GB"
     },
@@ -309880,7 +309929,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "3.29 GB"
+        "size_gb": "3.31 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -310496,7 +310545,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1426210",
-        "downloads": 86,
+        "downloads": 88,
         "name": "It Takes Two",
         "new": false,
         "requires_membership": false,
@@ -310642,7 +310691,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "2.25 GB"
+        "size_gb": "2.81 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -313103,7 +313152,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2655960",
-        "downloads": 19,
+        "downloads": 20,
         "name": "Lust Academy Season 3",
         "new": false,
         "requires_membership": false,
@@ -316024,7 +316073,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1837230",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Jerez's Arena II",
         "new": false,
         "requires_membership": false,
@@ -316738,7 +316787,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "0.39 GB"
+        "size_gb": "0.46 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -319929,7 +319978,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1333360",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Jerez's Arena",
         "new": false,
         "requires_membership": false,
@@ -320790,7 +320839,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1909140",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Lust Academy - Wizard Pack",
         "new": false,
         "requires_membership": false,
@@ -324078,7 +324127,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "2.00 GB"
+        "size_gb": "1.93 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -325545,9 +325594,9 @@
         "requires_membership": false,
         "st_file": "1725860.lua",
         "online_supported": "No",
-        "primary_genre": "28",
+        "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "5.12 GB"
+        "size_gb": "6.14 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -326549,7 +326598,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "51.05 GB"
+        "size_gb": "51.07 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -327292,7 +327341,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "5.04 GB"
+        "size_gb": "6.18 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -329052,7 +329101,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "829110",
-        "downloads": 7,
+        "downloads": 8,
         "name": "LEGO\u00ae DC Super-Villains",
         "new": false,
         "requires_membership": false,
@@ -329812,7 +329861,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1846920",
-        "downloads": 8,
+        "downloads": 9,
         "name": "Lust Academy",
         "new": false,
         "requires_membership": false,
@@ -331619,7 +331668,7 @@
         "online_supported": "Yes",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "19.07 GB"
+        "size_gb": "20.56 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -332615,7 +332664,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "38.03 GB"
+        "size_gb": "38.41 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -335373,7 +335422,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "3.50 GB"
+        "size_gb": "4.22 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -336132,7 +336181,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "5.27 GB"
+        "size_gb": "5.13 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -340512,7 +340561,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "2.67 GB"
+        "size_gb": "2.74 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -341192,7 +341241,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1594940",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Little Witch in the Woods",
         "new": false,
         "requires_membership": false,
@@ -341200,7 +341249,7 @@
         "online_supported": "No",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "8.04 GB"
+        "size_gb": "7.94 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -345396,7 +345445,7 @@
         "online_supported": "No",
         "primary_genre": "70",
         "content_descriptors": [],
-        "size_gb": "7.46 GB"
+        "size_gb": "7.77 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -346682,7 +346731,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "4.35 GB"
+        "size_gb": "4.37 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -348009,7 +348058,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2914180",
-        "downloads": 18,
+        "downloads": 19,
         "name": "Lust Academy Season 3 - Forbidden Fantasies",
         "new": false,
         "requires_membership": false,
@@ -349275,7 +349324,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2126680",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Lust Academy Season 2",
         "new": false,
         "requires_membership": false,
@@ -350359,7 +350408,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "35.83 GB"
+        "size_gb": "36.14 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -351599,7 +351648,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "10.83 GB"
+        "size_gb": "11.63 GB"
     },
     {
         "added_on": "2025-07-04T16:53:12",
@@ -358623,7 +358672,7 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "0.62 GB"
+        "size_gb": "0.78 GB"
     },
     {
         "added_on": "2025-07-04T16:53:12",
@@ -361468,7 +361517,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "0.86 GB"
+        "size_gb": "0.93 GB"
     },
     {
         "added_on": "2025-07-04T16:53:12",
@@ -362353,7 +362402,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "0.67 GB"
+        "size_gb": "0.68 GB"
     },
     {
         "added_on": "2025-07-04T16:53:12",
@@ -364410,7 +364459,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "633230",
-        "downloads": 5,
+        "downloads": 6,
         "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
         "new": false,
         "requires_membership": false,
@@ -366593,7 +366642,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "448510",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Overcooked",
         "new": false,
         "requires_membership": false,
@@ -369490,7 +369539,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1971650",
-        "downloads": 56,
+        "downloads": 57,
         "name": "OCTOPATH TRAVELER II",
         "new": false,
         "requires_membership": false,
@@ -369524,7 +369573,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "5.70 GB"
+        "size_gb": "5.69 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -372254,7 +372303,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "2579730",
-        "downloads": 65,
+        "downloads": 66,
         "name": "My Bimbo Dream",
         "new": false,
         "requires_membership": false,
@@ -378948,7 +378997,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "22.40 GB"
+        "size_gb": "22.54 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -382435,7 +382484,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "10.59 GB"
+        "size_gb": "10.07 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -382933,7 +382982,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "24.56 GB"
+        "size_gb": "24.59 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -384105,7 +384154,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1020790",
-        "downloads": 70,
+        "downloads": 72,
         "name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
         "new": false,
         "requires_membership": false,
@@ -384917,7 +384966,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "5.72 GB"
+        "size_gb": "5.71 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -386402,7 +386451,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "6.31 GB"
+        "size_gb": "6.30 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -387000,7 +387049,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "921570",
-        "downloads": 49,
+        "downloads": 50,
         "name": "OCTOPATH TRAVELER",
         "new": false,
         "requires_membership": false,
@@ -389722,7 +389771,7 @@
         "online_supported": "No",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "5.15 GB"
+        "size_gb": "5.16 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -392220,7 +392269,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1236300",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Resident Evil Re_Verse",
         "new": false,
         "requires_membership": false,
@@ -392759,7 +392808,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "952070",
-        "downloads": 5,
+        "downloads": 6,
         "name": "RESIDENT EVIL RESISTANCE",
         "new": false,
         "requires_membership": false,
@@ -393276,7 +393325,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "418370",
-        "downloads": 10,
+        "downloads": 11,
         "name": "Resident Evil 7 Biohazard",
         "new": false,
         "requires_membership": false,
@@ -398352,7 +398401,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "287290",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Resident Evil Revelations 2",
         "new": false,
         "requires_membership": false,
@@ -398528,7 +398577,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "222480",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Resident Evil Revelations",
         "new": false,
         "requires_membership": false,
@@ -399692,7 +399741,7 @@
         "online_supported": "No",
         "primary_genre": "9",
         "content_descriptors": [],
-        "size_gb": "75.50 GB"
+        "size_gb": "75.25 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -401253,7 +401302,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1687950",
-        "downloads": 63,
+        "downloads": 64,
         "name": "Persona 5 Royal",
         "new": false,
         "requires_membership": true,
@@ -401509,7 +401558,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "21.79 GB"
+        "size_gb": "22.29 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -401963,7 +402012,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.42 GB"
+        "size_gb": "1.57 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -405420,7 +405469,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "0.37 GB"
+        "size_gb": "0.35 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -407742,7 +407791,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "0.36 GB"
+        "size_gb": "0.46 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -408052,7 +408101,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1174180",
-        "downloads": 121,
+        "downloads": 122,
         "name": "Red Dead Redemption 2",
         "new": false,
         "requires_membership": false,
@@ -413218,7 +413267,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "4.95 GB"
+        "size_gb": "4.99 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -415287,7 +415336,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "221040",
-        "downloads": 10,
+        "downloads": 11,
         "name": "Resident Evil 6",
         "new": false,
         "requires_membership": false,
@@ -415308,7 +415357,7 @@
         "online_supported": "No",
         "primary_genre": null,
         "content_descriptors": [],
-        "size_gb": "50.59 GB"
+        "size_gb": "50.49 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -417631,7 +417680,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "21690",
-        "downloads": 11,
+        "downloads": 12,
         "name": "Resident Evil 5",
         "new": false,
         "requires_membership": false,
@@ -418512,7 +418561,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "254700",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Resident Evil 4 (2005)",
         "new": false,
         "requires_membership": false,
@@ -420737,7 +420786,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2073250",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Rift of the NecroDancer",
         "new": false,
         "requires_membership": false,
@@ -421650,7 +421699,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "7.84 GB"
+        "size_gb": "7.69 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -421699,7 +421748,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "648800",
-        "downloads": 55,
+        "downloads": 56,
         "name": "Raft",
         "new": false,
         "requires_membership": false,
@@ -422777,7 +422826,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "880940",
-        "downloads": 3,
+        "downloads": 5,
         "name": "Pummel Party",
         "new": false,
         "requires_membership": false,
@@ -424871,7 +424920,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1088790",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Rebel Inc: Escalation",
         "new": false,
         "requires_membership": false,
@@ -425346,7 +425395,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "4.11 GB"
+        "size_gb": "4.32 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -432070,7 +432119,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2962480",
-        "downloads": 8,
+        "downloads": 9,
         "name": "Isekai Sex Boutique",
         "new": false,
         "requires_membership": false,
@@ -437521,7 +437570,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2690010",
-        "downloads": 20,
+        "downloads": 21,
         "name": "Handyman Fantasy",
         "new": false,
         "requires_membership": false,
@@ -438378,7 +438427,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "3044740",
-        "downloads": 89,
+        "downloads": 90,
         "name": "V-LOVER!",
         "new": false,
         "requires_membership": false,
@@ -441534,7 +441583,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2875610",
-        "downloads": 55,
+        "downloads": 56,
         "name": "JerezArena \u2162 ",
         "new": false,
         "requires_membership": false,
@@ -442736,7 +442785,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "7.84 GB"
+        "size_gb": "7.85 GB"
     },
     {
         "added_on": "2025-07-04T16:53:09",
