@@ -1,5 +1,18 @@
 [
     {
+        "added_on": "2025-10-03T18:47:17",
+        "appid": "3543570",
+        "downloads": 0,
+        "name": "\u3084\u304c\u3066\u6563\u308a\u3086\u304f\u93e1\u306e\u82b1\u3078",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3543570.lua",
+        "online_supported": "No",
+        "primary_genre": null,
+        "content_descriptors": [],
+        "size_gb": null
+    },
+    {
         "added_on": "2025-10-03T18:41:00",
         "appid": "1292460",
         "downloads": 0,
@@ -279,7 +292,7 @@
         "appid": "2506530",
         "downloads": 2,
         "name": "It Has My Face",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2506530.lua",
         "online_supported": "No",
@@ -366137,7 +366150,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "516750",
-        "downloads": 1,
+        "downloads": 2,
         "name": "My Summer Car",
         "new": false,
         "requires_membership": false,
