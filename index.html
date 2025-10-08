@@ -3,195 +3,162 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Steam Unlock Onennabe</title>
+  <title>Steam Unlock Onennabe — Dark</title>
   <style>
+    /*
+      Dark theme + purple accent
+      - Images forced to 2:3 (600x900) aspect ratio for grid covers
+    */
     :root{
-      --primary-color:#2c3e50;
-      --secondary-color:#3498db;
-      --background-color:#f5f7fa;
-      --card-bg:#ffffff;
-      --text-color:#333;
-      --text-light:#7f8c8d;
-      --denuvo-color:#e74c3c;
-      --badge-new:#27ae60;
-      --accent:#2ecc71;
-      --glow:#9be7ff;
+      --primary-color:#c4b5fd;           /* text accent */
+      --secondary-color:#8b5cf6;         /* buttons/links */
+      --background-color:#0b0f1a;        /* page bg */
+      --card-bg:#111827;                 /* card bg */
+      --card-elev:#0f172a;               /* alt card */
+      --text-color:#e5e7eb;              /* main text */
+      --text-light:#9ca3af;              /* muted text */
+      --denuvo-color:#ef4444;            /* red */
+      --badge-new:#22c55e;               /* green */
+      --accent:#a78bfa;                  /* glow */
+      --accent-2:#7c3aed;                /* deeper purple */
+      --border:#1f2937;                  /* borders */
+      --input:#0f172a;                   /* inputs */
+      --shadow:0 6px 24px rgba(0,0,0,.35);
     }
 
     *{box-sizing:border-box}
 
     body{
       background:var(--background-color);
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color:var(--text-color);
-      padding:20px;
-      margin:0;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding:20px; margin:0;
     }
+
+    a{ color:var(--secondary-color); }
 
     header{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      margin-bottom:20px;
-      flex-wrap:wrap;
-      gap:15px;
+      position:relative; z-index:10;
+      display:flex; justify-content:space-between; align-items:center;
+      margin-bottom:20px; gap:15px; flex-wrap:wrap;
     }
 
-    .logo-title{display:flex; align-items:center; gap:12px;}
-    .logo-title img{height:50px; width:auto;}
+    .logo-title{display:flex; align-items:center; gap:14px;}
+    .logo-title img{height:56px; width:auto; filter:drop-shadow(0 4px 12px rgba(0,0,0,.35));}
 
-    h1{color:var(--primary-color); font-size:2rem; margin:0;}
+    h1{color:var(--primary-color); font-size:2rem; margin:0; letter-spacing:.5px}
 
-    nav{margin-top:8px; display:flex; gap:15px; flex-wrap:wrap;}
+    nav{margin-top:8px; display:flex; gap:16px; flex-wrap:wrap;}
     nav a{
-      text-decoration:none; font-weight:bold; color:var(--secondary-color);
-      transition:color .3s;
+      text-decoration:none; font-weight:600; color:var(--secondary-color);
+      padding:6px 10px; border-radius:8px; transition:all .2s ease; border:1px solid transparent;
     }
-    nav a:hover{color:#2980b9}
+    nav a:hover{ background:rgba(139,92,246,.12); border-color:rgba(139,92,246,.35); }
 
-    .search-container{max-width:600px; margin:20px auto 40px; display:flex; gap:10px;}
+    /* Search */
+    .search-container{max-width:780px; margin:20px auto 36px; display:flex; gap:10px;}
     .search-input{
-      flex:1; padding:12px 15px; border:1px solid #ddd; border-radius:25px; font-size:1rem; outline:none;
-      transition:border-color .3s;
+      flex:1; padding:12px 16px; border:1px solid var(--border); border-radius:14px; font-size:1rem; outline:none;
+      background:var(--input); color:var(--text-color);
+      transition:border-color .2s, box-shadow .2s;
     }
-    .search-input:focus{border-color:var(--secondary-color)}
+    .search-input::placeholder{ color:#6b7280; }
+    .search-input:focus{ border-color:var(--secondary-color); box-shadow:0 0 0 4px rgba(139,92,246,.18); }
     .search-button{
-      padding:12px 20px; background:var(--secondary-color); border:none; color:#fff; border-radius:25px; cursor:pointer; transition:background .3s;
+      padding:12px 18px; background:linear-gradient(135deg, var(--secondary-color), var(--accent-2));
+      border:none; color:#fff; border-radius:12px; cursor:pointer; transition:transform .15s ease, filter .2s;
+      box-shadow:var(--shadow);
     }
-    .search-button:hover{background:#2980b9}
+    .search-button:hover{ filter:brightness(1.1); transform:translateY(-1px); }
 
+    /* Games grid */
     .games-container{
-      display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
-      gap:25px; max-width:1400px; margin:0 auto;
+      display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));
+      gap:20px; max-width:1400px; margin:0 auto;
     }
-
     .game-card{
-      background:var(--card-bg); border-radius:15px; overflow:hidden;
-      box-shadow:0 5px 15px rgba(0,0,0,.1);
-      transition:transform .3s ease, box-shadow .3s ease;
+      background:var(--card-bg); border-radius:16px; overflow:hidden; border:1px solid var(--border);
+      box-shadow:var(--shadow); transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
       display:flex; flex-direction:column;
     }
-    .game-card:hover{transform:translateY(-8px); box-shadow:0 12px 25px rgba(0,0,0,.15);}
-    .game-image{width:100%; height:200px; object-fit:cover; display:block;}
-    .game-info{padding:18px; flex:1; display:flex; flex-direction:column; gap:8px;}
-    .game-title{font-size:1.3rem; font-weight:bold; color:var(--primary-color); margin-bottom:6px; display:flex; align-items:center; gap:10px;}
-    .badge-new{background:var(--badge-new); color:#fff; font-size:.7rem; font-weight:bold; padding:3px 8px; border-radius:12px; text-transform:uppercase;}
-    .game-tags{display:flex; flex-wrap:wrap; gap:6px;}
-    .game-id,.denuvo-tag{padding:4px 10px; border-radius:20px; font-size:.8rem; color:#fff; display:inline-block;}
-    .game-id{background:var(--secondary-color)} .denuvo-tag{background:var(--denuvo-color)}
-    .game-meta{font-size:.9rem; color:var(--text-light); line-height:1.4;}
-    .steam-link{margin-top:10px; text-decoration:none; color:var(--secondary-color); font-weight:bold; transition:color .3s; align-self:flex-start;}
-    .steam-link:hover{color:#2980b9; text-decoration:underline}
+    .game-card:hover{ transform:translateY(-4px); box-shadow:0 12px 36px rgba(0,0,0,.45); border-color:rgba(139,92,246,.45); }
 
-    .pagination{display:flex; justify-content:center; gap:10px; margin-top:30px; flex-wrap:wrap;}
+    /* Force 600x900 aspect ratio (2:3). If source is 600x900, it'll be pixel-perfect scaled. */
+    .game-image{ width:100%; aspect-ratio:2/3; object-fit:cover; display:block; image-rendering:-webkit-optimize-contrast; }
+
+    .game-info{ padding:16px; flex:1; display:flex; flex-direction:column; gap:10px; }
+    .game-title{font-size:1.05rem; font-weight:700; color:#f3f4f6; display:flex; align-items:center; gap:10px;}
+    .badge-new{background:var(--badge-new); color:#052e16; font-size:.68rem; font-weight:800; padding:3px 8px; border-radius:999px; text-transform:uppercase; letter-spacing:.5px}
+
+    .game-tags{display:flex; flex-wrap:wrap; gap:8px;}
+    .game-id,.denuvo-tag{padding:4px 10px; border-radius:999px; font-size:.78rem; color:#fff; display:inline-block;}
+    .game-id{ background:linear-gradient(135deg, var(--secondary-color), var(--accent)); }
+    .denuvo-tag{ background:var(--denuvo-color); }
+
+    .game-meta{font-size:.9rem; color:var(--text-light); line-height:1.5;}
+    .steam-link{margin-top:10px; text-decoration:none; color:var(--primary-color); font-weight:700; align-self:flex-start;}
+    .steam-link:hover{text-decoration:underline;}
+
+    /* Pagination */
+    .pagination{display:flex; justify-content:center; gap:8px; margin-top:24px; flex-wrap:wrap;}
     .pagination button{
-      padding:8px 15px; border:none; border-radius:5px; background:var(--secondary-color); color:#fff; cursor:pointer; transition:background .3s;
+      padding:8px 14px; border:1px solid var(--border); border-radius:10px; background:var(--card-elev); color:#e5e7eb;
+      cursor:pointer; transition:all .2s ease;
     }
-    .pagination button:hover:not(:disabled){background:#2980b9}
-    .pagination button:disabled{background:#95a5a6; cursor:not-allowed}
-    .pagination .is-active{background:#2c3e50}
-    .pagination-info{text-align:center; margin-top:15px; font-size:.9rem; color:var(--text-light);}
+    .pagination button:hover:not(:disabled){ border-color:var(--secondary-color); box-shadow:0 0 0 3px rgba(139,92,246,.2); }
+    .pagination button:disabled{ opacity:.5; cursor:not-allowed; }
+    .pagination .is-active{ background:linear-gradient(135deg, var(--secondary-color), var(--accent-2)); border-color:transparent; }
+    .pagination-info{text-align:center; margin-top:12px; font-size:.92rem; color:var(--text-light);}
 
     .page{display:none} .page.active{display:block}
 
-    /* About page gallery */
+    /* About page gallery — also 2:3 aspect */
     .about-wrap{max-width:1000px; margin:0 auto; text-align:center;}
+    .about-wrap h2{ color:#f3f4f6; }
     .about-tagline{color:var(--text-light); margin-bottom:20px;}
-    .gallery{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px; margin:22px 0 10px;}
+    .gallery{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin:22px 0 10px;}
     .gallery figure{
-      margin:0; background:var(--card-bg); border-radius:12px; overflow:hidden;
-      box-shadow:0 4px 12px rgba(0,0,0,.08); transition:transform .25s ease, box-shadow .25s ease; cursor:pointer;
+      margin:0; background:var(--card-bg); border-radius:12px; overflow:hidden; border:1px solid var(--border);
+      box-shadow:var(--shadow); transition:transform .2s ease, box-shadow .2s ease; cursor:pointer;
     }
-    .gallery figure:hover{transform:translateY(-4px); box-shadow:0 10px 22px rgba(0,0,0,.12);}
-    .gallery img{width:100%; height:160px; object-fit:cover; display:block;}
-    .gallery figcaption{padding:10px 12px; font-size:.9rem; color:var(--text-light); text-align:left;}
+    .gallery figure:hover{ transform:translateY(-3px); box-shadow:0 10px 30px rgba(0,0,0,.45); }
+    .gallery img{ width:100%; aspect-ratio:2/3; object-fit:cover; display:block; }
+    .gallery figcaption{ padding:10px 12px; font-size:.9rem; color:var(--text-light); text-align:left; }
 
     .about-section{
-      text-align:left; background:var(--card-bg); border-radius:12px; padding:18px;
-      box-shadow:0 4px 12px rgba(0,0,0,.08); margin-top:18px;
+      text-align:left; background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:18px;
+      box-shadow:var(--shadow); margin-top:18px; color:#e5e7eb;
     }
-    .about-section h3{margin:0 0 8px; color:var(--primary-color);}
+    .about-section h3{margin:0 0 8px; color:#f3f4f6;}
     .about-list{margin:0; padding-left:18px; line-height:1.6;}
     .about-note{color:var(--text-light); font-size:.9rem; margin-top:8px;}
 
     /* Comparison table */
-    .package-table{width:100%; border-collapse:collapse; margin-top:15px; font-size:.95rem}
-    .package-table th,.package-table td{border:1px solid #ddd; padding:10px 14px; text-align:left}
-    .package-table th{background:var(--secondary-color); color:#fff; text-align:center}
-    .package-table tr:nth-child(even) td{background:#f9fbfd}
-    .package-table td:nth-child(2){text-align:center; color:#e74c3c; font-weight:600}
-    .package-table td:nth-child(3){text-align:center; color:#27ae60; font-weight:600}
-
-    /* Pricing layout: horizontal tall rectangles */
-    .pricing-wrap{max-width:1100px; margin:20px auto 0; text-align:center;}
-    .pricing-container{
-      max-width:1100px; margin:20px auto 40px;
-      display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:20px;
-    }
-    .pricing-card{
-      position:relative; display:flex; flex-direction:column; justify-content:space-between;
-      min-height:380px; height:100%;
-      background:var(--card-bg); padding:25px; border-radius:15px;
-      box-shadow:0 5px 15px rgba(0,0,0,.1); text-align:center;
-      transition:transform .3s, box-shadow .3s; border:1px solid rgba(0,0,0,0.06);
-    }
-    .pricing-card:hover{transform:translateY(-6px); box-shadow:0 14px 28px rgba(0,0,0,.15);}
-    .pricing-card h3{color:var(--primary-color); margin:0 0 10px}
-    .pricing-price{font-size:1.8rem; font-weight:bold; margin:15px 0; color:var(--secondary-color);}
-    .pricing-card p{font-size:.95rem; color:var(--text-light); margin:6px 0;}
-    .buy-btn{
-      display:inline-block; margin-top:auto; padding:10px 20px;
-      background:linear-gradient(135deg,#3498db,#2ecc71); color:#fff; font-weight:bold; border-radius:25px; text-decoration:none;
-      transition:all .3s ease; box-shadow:0 3px 10px rgba(0,0,0,.15);
-      align-self:center;
-    }
-    .buy-btn:hover{background:linear-gradient(135deg,#2ecc71,#3498db); transform:translateY(-3px); box-shadow:0 6px 15px rgba(0,0,0,.25);}
-    .pricing-card.featured{
-      border:2px solid transparent;
-      background:linear-gradient(#fff,#fff) padding-box, linear-gradient(135deg, #3498db, #2ecc71) border-box;
-      box-shadow:0 12px 30px rgba(0,0,0,.12), 0 0 0 6px rgba(155,231,255,.18);
-    }
-    .badge-featured{
-      position:absolute; top:-12px; left:50%; transform:translateX(-50%);
-      background:linear-gradient(135deg,#f39c12,#f1c40f);
-      color:#2c3e50; font-weight:800; font-size:.72rem; padding:6px 12px; border-radius:6px;
-      box-shadow:0 4px 12px rgba(0,0,0,.15); letter-spacing:.4px; text-transform:uppercase;
-    }
+    .package-table{width:100%; border-collapse:collapse; margin-top:15px; font-size:.95rem;}
+    .package-table th,.package-table td{border:1px solid var(--border); padding:10px 14px; text-align:left}
+    .package-table th{background:linear-gradient(135deg, var(--secondary-color), var(--accent-2)); color:#fff; text-align:center}
+    .package-table tr:nth-child(even) td{background:#0f172a}
+    .package-table td:nth-child(2){text-align:center; color:#f87171; font-weight:600}
+    .package-table td:nth-child(3){text-align:center; color:#34d399; font-weight:600}
 
     /* Payment page */
     .pay-wrap{max-width:1000px; margin:0 auto;}
-    .pay-grid{
-      display:grid; grid-template-columns:1.1fr .9fr; gap:22px; align-items:start;
-    }
-    @media (max-width:860px){ .pay-grid{grid-template-columns:1fr; } }
+    .pay-wrap h2{ color:#f3f4f6; }
+    .pay-grid{ display:grid; grid-template-columns:1.1fr .9fr; gap:22px; align-items:start; }
+    @media (max-width:860px){ .pay-grid{grid-template-columns:1fr;} }
 
-    .pay-card{
-      background:var(--card-bg); border-radius:12px; padding:18px;
-      box-shadow:0 4px 12px rgba(0,0,0,.08);
-    }
-    .pay-card h3{margin:0 0 8px; color:var(--primary-color);}
+    .pay-card{ background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:18px; box-shadow:var(--shadow); }
+    .pay-card h3{margin:0 0 8px; color:#f3f4f6;}
     .pay-note{font-size:.9rem; color:var(--text-light); margin-top:6px;}
 
-    .paypal-box{
-      background:#fbfdff; border:1px dashed #cfe6ff; padding:18px; border-radius:12px;
-    }
-    .paypal-placeholder{
-      display:flex; gap:12px; align-items:center; padding:10px 0 0; color:var(--text-light); font-size:.9rem;
-    }
-    .paypal-placeholder code{background:#f3f6fb; padding:2px 6px; border-radius:6px;}
+    .paypal-box{ background:var(--card-elev); border:1px dashed rgba(139,92,246,.45); padding:18px; border-radius:12px; }
+    .paypal-placeholder{ display:flex; gap:12px; align-items:center; padding:10px 0 0; color:var(--text-light); font-size:.9rem; }
+    .paypal-placeholder code{background:#0b1220; padding:2px 6px; border-radius:6px; color:#c7d2fe;}
 
-    .qr-grid{
-      display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px;
-      margin-top:10px;
-    }
-    .qr-card{
-      text-align:center; background:#fff; border:1px solid #eee; border-radius:12px; padding:12px;
-      box-shadow:0 2px 8px rgba(0,0,0,.06);
-    }
-    .qr-card img{
-      width:100%; height:260px; object-fit:contain; image-rendering:-webkit-optimize-contrast;
-    }
-    .qr-card h4{margin:10px 0 4px; color:var(--primary-color);}
+    .qr-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-top:10px; }
+    .qr-card{ text-align:center; background:var(--card-elev); border:1px solid var(--border); border-radius:12px; padding:12px; box-shadow:var(--shadow); }
+    .qr-card img{ width:100%; height:260px; object-fit:contain; image-rendering:-webkit-optimize-contrast; }
+    .qr-card h4{margin:10px 0 4px; color:#f3f4f6;}
     .qr-card p{margin:0; font-size:.9rem; color:var(--text-light);}
 
     footer{margin-top:40px; text-align:center; color:var(--text-light); font-size:.9rem;}
@@ -200,32 +167,32 @@
     .purchase-link{
       position:fixed; bottom:25px; right:25px; z-index:1000;
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
-      padding:14px 22px; border-radius:15px; background:linear-gradient(135deg,#3498db,#2ecc71); color:#fff; font-weight:bold; text-decoration:none;
-      transition:all .3s ease; box-shadow:0 4px 12px rgba(0,0,0,.2); max-width:240px; animation:pulse 4s ease-in-out infinite;
+      padding:14px 22px; border-radius:15px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:bold; text-decoration:none;
+      transition:all .2s ease; box-shadow:0 10px 30px rgba(124,58,237,.45); max-width:240px; animation:pulse 4s ease-in-out infinite;
     }
-    .purchase-main{font-size:1.1rem; margin-bottom:4px}
-    .purchase-sub{font-size:.8rem; font-weight:normal; color:#f5f7fa}
-    .purchase-link:hover{transform:translateY(-3px) scale(1.05); background:linear-gradient(135deg,#2ecc71,#3498db); box-shadow:0 8px 20px rgba(0,0,0,.3), 0 0 12px rgba(52,152,219,.7); animation:none;}
-    @keyframes pulse{0%{transform:translateY(0) scale(1)} 50%{transform:translateY(-2px) scale(1.02)} 100%{transform:translateY(0) scale(1)}}
+    .purchase-main{font-size:1.08rem; margin-bottom:4px}
+    .purchase-sub{font-size:.82rem; font-weight:normal; color:#eae6ff}
+    .purchase-link:hover{transform:translateY(-2px) scale(1.03); box-shadow:0 14px 40px rgba(124,58,237,.55); animation:none;}
+    @keyframes pulse{0%{transform:translateY(0) scale(1)} 50%{transform:translateY(-1px) scale(1.02)} 100%{transform:translateY(0) scale(1)}}
     @media (max-width:480px){ .purchase-link{right:15px; left:15px; bottom:15px; max-width:unset} }
 
     .whatsapp-btn{
       position:fixed; bottom:120px; right:25px; z-index:2000;
-      background:#25D366; color:#fff; font-weight:bold; text-decoration:none; padding:12px 20px; border-radius:25px; font-size:.95rem;
-      box-shadow:0 4px 12px rgba(0,0,0,.2); transition:all .3s ease;
+      background:#25D366; color:#052e16; font-weight:800; text-decoration:none; padding:12px 20px; border-radius:25px; font-size:.95rem;
+      box-shadow:0 8px 24px rgba(0,0,0,.45); transition:all .2s ease;
     }
-    .whatsapp-btn:hover{background:#20b955; transform:translateY(-3px); box-shadow:0 8px 20px rgba(0,0,0,.3);}
+    .whatsapp-btn:hover{ background:#22c55e; transform:translateY(-2px); }
     @media (max-width:480px){ .whatsapp-btn{right:15px; bottom:110px;} }
 
     .receipt-toast{
-      position:fixed; bottom:160px; right:25px; z-index:1100; background:#ffffff; border:1px solid #e1e5ea;
-      box-shadow:0 8px 22px rgba(0,0,0,.12); border-radius:12px; padding:10px; display:none; width:260px;
+      position:fixed; bottom:160px; right:25px; z-index:1100; background:var(--card-bg); border:1px solid var(--border);
+      box-shadow:var(--shadow); border-radius:12px; padding:10px; display:none; width:260px; color:#e5e7eb;
     }
-    .receipt-toast h4{margin:0 0 8px; font-size:.95rem; color:var(--primary-color);}
+    .receipt-toast h4{margin:0 0 8px; font-size:.95rem; color:#f3f4f6;}
     .receipt-row{display:flex; gap:8px;}
-    .receipt-row input{flex:1; padding:8px 10px; border:1px solid #dcdfe3; border-radius:8px; font-size:.9rem;}
-    .receipt-row button{padding:8px 10px; border:none; border-radius:8px; background:var(--secondary-color); color:#fff; cursor:pointer;}
-    .receipt-row button:hover{background:#2980b9}
+    .receipt-row input{flex:1; padding:8px 10px; border:1px solid var(--border); border-radius:8px; font-size:.9rem; background:var(--input); color:#e5e7eb;}
+    .receipt-row button{padding:8px 10px; border:none; border-radius:8px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; cursor:pointer;}
+    .receipt-row button:hover{filter:brightness(1.1)}
   </style>
 </head>
 <body>
@@ -267,7 +234,7 @@
       <h2>About Our App</h2>
       <p class="about-tagline">Built by an independent local developer. Support innovation!</p>
 
-      <!-- Image Preview Gallery -->
+      <!-- Image Preview Gallery (2:3) -->
       <div class="gallery">
         <figure onclick="openImage('about_preview1.jpg')">
           <img src="about_preview1.jpg" alt="App Screenshot 1" onerror="this.src='placeholder.jpg'">
@@ -360,35 +327,35 @@
   <div id="pricing" class="page">
     <div class="pricing-wrap">
       <h2>Pricing Plans</h2>
-      <div class="pricing-container">
-        <div class="pricing-card">
-          <h3>Monthly</h3>
-          <div class="pricing-price">RM35</div>
-          <p>1 SteamID per CD Key (1 month)</p>
-          <p style="font-size:0.85rem; color:var(--text-light);">Games revert to “Purchase” after expiry. No Denuvo. No online patch/launcher bypass.</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Monthly">Buy Now</a>
+      <div class="pricing-container" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:20px; max-width:1100px; margin:20px auto 0;">
+        <div class="pricing-card" style="background:var(--card-bg); border:1px solid var(--border); border-radius:15px; padding:24px; box-shadow:var(--shadow); text-align:center; min-height:360px;">
+          <h3 style="color:#f3f4f6; margin:0 0 10px">Monthly</h3>
+          <div class="pricing-price" style="font-size:1.8rem; font-weight:800; margin:15px 0; color:var(--primary-color);">RM35</div>
+          <p style="color:var(--text-light)">1 SteamID per CD Key (1 month)</p>
+          <p style="font-size:.85rem; color:var(--text-light);">Games revert to “Purchase” after expiry. No Denuvo. No online patch/launcher bypass.</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Monthly" style="display:inline-block; margin-top:auto; padding:10px 20px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:700; border-radius:999px; text-decoration:none;">Buy Now</a>
         </div>
 
-        <div class="pricing-card">
-          <h3>Basic</h3>
-          <div class="pricing-price">RM95</div>
-          <p>1 SteamID per CD Key (Lifetime)</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Basic">Buy Now</a>
+        <div class="pricing-card" style="background:var(--card-bg); border:1px solid var(--border); border-radius:15px; padding:24px; box-shadow:var(--shadow); text-align:center; min-height:360px;">
+          <h3 style="color:#f3f4f6; margin:0 0 10px">Basic</h3>
+          <div class="pricing-price" style="font-size:1.8rem; font-weight:800; margin:15px 0; color:var(--primary-color);">RM95</div>
+          <p style="color:var(--text-light)">1 SteamID per CD Key (Lifetime)</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Basic" style="display:inline-block; margin-top:auto; padding:10px 20px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:700; border-radius:999px; text-decoration:none;">Buy Now</a>
         </div>
 
-        <div class="pricing-card featured" aria-label="Most popular plan">
-          <span class="badge-featured">Most Popular</span>
-          <h3>Premium</h3>
-          <div class="pricing-price">RM250</div>
-          <p>3 SteamIDs per CD Key (Lifetime)</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Premium">Buy Now</a>
+        <div class="pricing-card" style="position:relative; background:var(--card-bg); border:2px solid transparent; border-radius:15px; padding:24px; box-shadow:0 12px 30px rgba(124,58,237,.35), 0 0 0 6px rgba(124,58,237,.15); text-align:center; min-height:360px; background-image:linear-gradient(var(--card-bg),var(--card-bg)), linear-gradient(135deg, var(--secondary-color), var(--accent-2)); background-origin:border-box; background-clip:padding-box, border-box;">
+          <span class="badge-featured" style="position:absolute; top:-12px; left:50%; transform:translateX(-50%); background:linear-gradient(135deg,#f59e0b,#fbbf24); color:#1f2937; font-weight:800; font-size:.72rem; padding:6px 12px; border-radius:6px; box-shadow:0 4px 12px rgba(0,0,0,.35); letter-spacing:.4px; text-transform:uppercase;">Most Popular</span>
+          <h3 style="color:#f3f4f6; margin:0 0 10px">Premium</h3>
+          <div class="pricing-price" style="font-size:1.8rem; font-weight:800; margin:15px 0; color:var(--primary-color);">RM250</div>
+          <p style="color:var(--text-light)">3 SteamIDs per CD Key (Lifetime)</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Premium" style="display:inline-block; margin-top:auto; padding:10px 20px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:700; border-radius:999px; text-decoration:none;">Buy Now</a>
         </div>
 
-        <div class="pricing-card">
-          <h3>Standard</h3>
-          <div class="pricing-price">RM150</div>
-          <p>2 SteamIDs per CD Key (Lifetime)</p>
-          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Standard">Buy Now</a>
+        <div class="pricing-card" style="background:var(--card-bg); border:1px solid var(--border); border-radius:15px; padding:24px; box-shadow:var(--shadow); text-align:center; min-height:360px;">
+          <h3 style="color:#f3f4f6; margin:0 0 10px">Standard</h3>
+          <div class="pricing-price" style="font-size:1.8rem; font-weight:800; margin:15px 0; color:var(--primary-color);">RM150</div>
+          <p style="color:var(--text-light)">2 SteamIDs per CD Key (Lifetime)</p>
+          <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Standard" style="display:inline-block; margin-top:auto; padding:10px 20px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:700; border-radius:999px; text-decoration:none;">Buy Now</a>
         </div>
       </div>
     </div>
@@ -532,14 +499,12 @@
           paypal.Buttons({
             style: { layout: 'vertical', color: 'gold', shape: 'rect', label: 'pay' },
             createOrder: (data, actions) => {
-              // Example order – you can override or pass dynamic amount/description
               return actions.order.create({
                 purchase_units: [{ amount: { value: '35.00', currency_code: 'MYR' }, description: 'Steam Unlock Onennabe' }]
               });
             },
             onApprove: async (data, actions) => {
               const details = await actions.order.capture();
-              // Prefer transaction/ID if available
               const tx = details?.id || data?.orderID || '';
               localStorage.setItem('lastReceipt', tx);
               updateWhatsAppLink(tx, localStorage.getItem('lastPlan')||'');
@@ -550,9 +515,7 @@
               alert('PayPal error. You can try the QR options or contact us on WhatsApp.');
             }
           }).render('#paypal-button-container');
-        }catch(e){
-          console.warn('PayPal render error:', e);
-        }
+        }catch(e){ console.warn('PayPal render error:', e); }
       }
     });
 
@@ -568,7 +531,7 @@
         .catch(err=>{
           console.error('Error loading:', err);
           document.getElementById('gamesContainer').innerHTML =
-            "<p style='color:red;text-align:center; grid-column:1/-1;'>Failed to load games.</p>";
+            "<p style='color:#f87171;text-align:center; grid-column:1/-1;'>Failed to load games.</p>";
         });
     }
 
@@ -668,13 +631,13 @@
 
       if(start > 1){
         addButton('1', 1, false, currentPage === 1);
-        if(start > 2){ const span = document.createElement('span'); span.textContent = '...'; span.style.padding = '8px'; controls.appendChild(span); }
+        if(start > 2){ const span = document.createElement('span'); span.textContent = '...'; span.style.padding = '8px'; span.style.color = '#9ca3af'; controls.appendChild(span); }
       }
 
       for(let i=start; i<=end; i++){ addButton(String(i), i, false, i === currentPage); }
 
       if(end < totalPages){
-        if(end < totalPages - 1){ const span = document.createElement('span'); span.textContent = '...'; span.style.padding = '8px'; controls.appendChild(span); }
+        if(end < totalPages - 1){ const span = document.createElement('span'); span.textContent = '...'; span.style.padding = '8px'; span.style.color = '#9ca3af'; controls.appendChild(span); }
         addButton(String(totalPages), totalPages, false, currentPage === totalPages);
       }
 
