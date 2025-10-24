@@ -1,13 +1,52 @@
 [
     {
+        "added_on": "2025-10-24T03:35:04",
+        "appid": "2687400",
+        "downloads": 2,
+        "name": "GODBREAKERS",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2687400.lua",
+        "online_supported": "Yes",
+        "primary_genre": "1",
+        "content_descriptors": [],
+        "size_gb": "13.18 GB"
+    },
+    {
+        "added_on": "2025-10-24T03:34:57",
+        "appid": "2968420",
+        "downloads": 2,
+        "name": "PowerWash Simulator 2",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2968420.lua",
+        "online_supported": "Yes",
+        "primary_genre": "28",
+        "content_descriptors": [],
+        "size_gb": "8.81 GB"
+    },
+    {
+        "added_on": "2025-10-24T03:34:40",
+        "appid": "3232040",
+        "downloads": 2,
+        "name": "BodyRecords",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3232040.lua",
+        "online_supported": "Yes",
+        "primary_genre": "25",
+        "content_descriptors": [],
+        "size_gb": "15.94 GB"
+    },
+    {
         "added_on": "2025-10-24T01:43:11",
         "appid": "2119830",
-        "downloads": 0,
+        "downloads": 1,
         "name": "MISERY",
         "new": true,
         "requires_membership": false,
         "st_file": "2119830.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "1",
         "content_descriptors": [],
         "size_gb": "5.90 GB"
@@ -15,7 +54,7 @@
     {
         "added_on": "2025-10-24T01:41:28",
         "appid": "2464280",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Tormented Souls 2",
         "new": true,
         "requires_membership": false,
@@ -32,7 +71,7 @@
     {
         "added_on": "2025-10-23T15:19:12",
         "appid": "2651440",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Fallen Elf Freya",
         "new": true,
         "requires_membership": false,
@@ -50,7 +89,7 @@
     {
         "added_on": "2025-10-23T15:18:57",
         "appid": "2989760",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Busty Idol Manor",
         "new": true,
         "requires_membership": false,
@@ -68,7 +107,7 @@
     {
         "added_on": "2025-10-23T15:18:39",
         "appid": "3128220",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Nerd Simulator",
         "new": true,
         "requires_membership": false,
@@ -81,7 +120,7 @@
     {
         "added_on": "2025-10-23T15:18:32",
         "appid": "3696410",
-        "downloads": 5,
+        "downloads": 6,
         "name": "FULL METAL SCHOOLGIRL",
         "new": true,
         "requires_membership": false,
@@ -97,7 +136,7 @@
     {
         "added_on": "2025-10-23T13:50:29",
         "appid": "3838290",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Refate: Echoes of Desire",
         "new": true,
         "requires_membership": false,
@@ -113,7 +152,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2788460",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Party Party Time 2",
         "new": true,
         "requires_membership": false,
@@ -126,7 +165,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2844310",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Minigames Mayhem",
         "new": true,
         "requires_membership": false,
@@ -141,7 +180,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2244520",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Hoop Fighters",
         "new": true,
         "requires_membership": false,
@@ -154,7 +193,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "1951780",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Jumping Jazz Cats",
         "new": true,
         "requires_membership": false,
@@ -167,7 +206,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "1815290",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Hitmen Party",
         "new": true,
         "requires_membership": false,
@@ -209,7 +248,7 @@
     {
         "added_on": "2025-10-22T16:22:57",
         "appid": "2592160",
-        "downloads": 30,
+        "downloads": 31,
         "name": "Dispatch",
         "new": true,
         "requires_membership": false,
@@ -251,9 +290,9 @@
     {
         "added_on": "2025-10-21T16:31:22",
         "appid": "532790",
-        "downloads": 41,
+        "downloads": 42,
         "name": "Vampire: The Masquerade - Bloodlines 2",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "532790.lua",
         "online_supported": "No",
@@ -270,7 +309,7 @@
         "appid": "2300120",
         "downloads": 17,
         "name": "Painkiller",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2300120.lua",
         "online_supported": "No",
@@ -286,7 +325,7 @@
         "appid": "2154820",
         "downloads": 8,
         "name": "EL PASO, NIGHTMARE",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2154820.lua",
         "online_supported": "No",
@@ -28051,7 +28090,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "650500",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Wolfenstein II: The New Colossus German Edition",
         "new": false,
         "requires_membership": false,
@@ -30240,7 +30279,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1056960",
-        "downloads": 11,
+        "downloads": 12,
         "name": "Wolfenstein: Youngblood",
         "new": false,
         "requires_membership": false,
@@ -32399,7 +32438,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "354830",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Wolfenstein: The Old Blood German Edition",
         "new": false,
         "requires_membership": false,
@@ -60266,7 +60305,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "288570",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Wolfenstein: The New Order German Edition",
         "new": false,
         "requires_membership": false,
@@ -71120,7 +71159,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "612880",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Wolfenstein II: The New Colossus",
         "new": false,
         "requires_membership": false,
@@ -75207,7 +75246,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "1056970",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Wolfenstein: Cyberpilot",
         "new": false,
         "requires_membership": false,
@@ -77386,7 +77425,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "350080",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Wolfenstein: The Old Blood ",
         "new": false,
         "requires_membership": false,
@@ -168131,7 +168170,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "200260",
-        "downloads": 23,
+        "downloads": 24,
         "name": "Batman: Arkham City GOTY",
         "new": false,
         "requires_membership": false,
@@ -169646,7 +169685,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "498240",
-        "downloads": 68,
+        "downloads": 69,
         "name": "Batman - The Telltale Series",
         "new": false,
         "requires_membership": false,
@@ -174838,7 +174877,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "208650",
-        "downloads": 33,
+        "downloads": 34,
         "name": "Batman\u2122: Arkham Knight",
         "new": false,
         "requires_membership": false,
@@ -175123,7 +175162,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "57400",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Batman: Arkham City\u2122",
         "new": false,
         "requires_membership": false,
@@ -177949,7 +177988,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "35010",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Batman: Arkham Asylum",
         "new": false,
         "requires_membership": false,
@@ -178618,7 +178657,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "267490",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Batman\u2122: Arkham Origins Blackgate - Deluxe Edition",
         "new": false,
         "requires_membership": false,
@@ -180720,7 +180759,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "35140",
-        "downloads": 8,
+        "downloads": 9,
         "name": "Batman: Arkham Asylum GOTY Edition",
         "new": false,
         "requires_membership": false,
@@ -188357,7 +188396,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "209000",
-        "downloads": 9,
+        "downloads": 10,
         "name": "Batman\u2122: Arkham Origins",
         "new": false,
         "requires_membership": false,
@@ -194058,7 +194097,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "675260",
-        "downloads": 15,
+        "downloads": 16,
         "name": "Batman: The Enemy Within - The Telltale Series",
         "new": false,
         "requires_membership": false,
@@ -235899,7 +235938,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "1245620",
-        "downloads": 137,
+        "downloads": 138,
         "name": "ELDEN RING",
         "new": false,
         "requires_membership": false,
@@ -238330,7 +238369,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2622380",
-        "downloads": 169,
+        "downloads": 170,
         "name": "ELDEN RING NIGHTREIGN",
         "new": false,
         "requires_membership": false,
@@ -359362,7 +359401,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "1726570",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Minecraft Dungeons Ultimate Edition Digital Artwork",
         "new": false,
         "requires_membership": false,
