@@ -1,8 +1,107 @@
 [
     {
+        "added_on": "2025-10-25T01:55:36",
+        "appid": "3478650",
+        "downloads": 4,
+        "name": "FreshWomen - Season 2",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3478650.lua",
+        "online_supported": "No",
+        "primary_genre": "25",
+        "content_descriptors": [
+            "1",
+            "3",
+            "4",
+            "5"
+        ],
+        "size_gb": "24.77 GB"
+    },
+    {
+        "added_on": "2025-10-25T01:55:12",
+        "appid": "2289750",
+        "downloads": 1,
+        "name": "Super Fantasy Kingdom",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2289750.lua",
+        "online_supported": "No",
+        "primary_genre": "2",
+        "content_descriptors": [],
+        "size_gb": "0.71 GB"
+    },
+    {
+        "added_on": "2025-10-25T01:54:38",
+        "appid": "3364070",
+        "downloads": 0,
+        "name": "The Jackbox Party Pack 11",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3364070.lua",
+        "online_supported": "No",
+        "primary_genre": null,
+        "content_descriptors": [],
+        "size_gb": null
+    },
+    {
+        "added_on": "2025-10-25T01:53:49",
+        "appid": "3721890",
+        "downloads": 0,
+        "name": "Maid of Salvation",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3721890.lua",
+        "online_supported": "No",
+        "primary_genre": null,
+        "content_descriptors": [],
+        "size_gb": null
+    },
+    {
+        "added_on": "2025-10-25T01:52:38",
+        "appid": "1449110",
+        "downloads": 4,
+        "name": "The Outer Worlds 2",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1449110.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [
+            "2",
+            "5"
+        ],
+        "size_gb": "90.33 GB"
+    },
+    {
+        "added_on": "2025-10-25T01:49:12",
+        "appid": "2370570",
+        "downloads": 7,
+        "name": "Standable: Full Body Estimation",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2370570.lua",
+        "online_supported": "No",
+        "primary_genre": "57",
+        "content_descriptors": [],
+        "size_gb": "0.03 GB"
+    },
+    {
+        "added_on": "2025-10-24T16:54:01",
+        "appid": "1575940",
+        "downloads": 5,
+        "name": "Sins of a Solar Empire II",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1575940.lua",
+        "online_supported": "No",
+        "primary_genre": "2",
+        "content_descriptors": [],
+        "size_gb": "19.34 GB"
+    },
+    {
         "added_on": "2025-10-24T03:35:04",
         "appid": "2687400",
-        "downloads": 2,
+        "downloads": 7,
         "name": "GODBREAKERS",
         "new": true,
         "requires_membership": false,
@@ -15,7 +114,7 @@
     {
         "added_on": "2025-10-24T03:34:57",
         "appid": "2968420",
-        "downloads": 2,
+        "downloads": 9,
         "name": "PowerWash Simulator 2",
         "new": true,
         "requires_membership": false,
@@ -28,7 +127,7 @@
     {
         "added_on": "2025-10-24T03:34:40",
         "appid": "3232040",
-        "downloads": 2,
+        "downloads": 4,
         "name": "BodyRecords",
         "new": true,
         "requires_membership": false,
@@ -41,7 +140,7 @@
     {
         "added_on": "2025-10-24T01:43:11",
         "appid": "2119830",
-        "downloads": 1,
+        "downloads": 6,
         "name": "MISERY",
         "new": true,
         "requires_membership": false,
@@ -54,7 +153,7 @@
     {
         "added_on": "2025-10-24T01:41:28",
         "appid": "2464280",
-        "downloads": 2,
+        "downloads": 6,
         "name": "Tormented Souls 2",
         "new": true,
         "requires_membership": false,
@@ -71,7 +170,7 @@
     {
         "added_on": "2025-10-23T15:19:12",
         "appid": "2651440",
-        "downloads": 6,
+        "downloads": 13,
         "name": "Fallen Elf Freya",
         "new": true,
         "requires_membership": false,
@@ -89,7 +188,7 @@
     {
         "added_on": "2025-10-23T15:18:57",
         "appid": "2989760",
-        "downloads": 6,
+        "downloads": 10,
         "name": "Busty Idol Manor",
         "new": true,
         "requires_membership": false,
@@ -107,7 +206,7 @@
     {
         "added_on": "2025-10-23T15:18:39",
         "appid": "3128220",
-        "downloads": 4,
+        "downloads": 6,
         "name": "Nerd Simulator",
         "new": true,
         "requires_membership": false,
@@ -120,7 +219,7 @@
     {
         "added_on": "2025-10-23T15:18:32",
         "appid": "3696410",
-        "downloads": 6,
+        "downloads": 7,
         "name": "FULL METAL SCHOOLGIRL",
         "new": true,
         "requires_membership": false,
@@ -136,7 +235,7 @@
     {
         "added_on": "2025-10-23T13:50:29",
         "appid": "3838290",
-        "downloads": 8,
+        "downloads": 12,
         "name": "Refate: Echoes of Desire",
         "new": true,
         "requires_membership": false,
@@ -152,7 +251,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2788460",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Party Party Time 2",
         "new": true,
         "requires_membership": false,
@@ -165,7 +264,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2844310",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Minigames Mayhem",
         "new": true,
         "requires_membership": false,
@@ -180,7 +279,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2244520",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Hoop Fighters",
         "new": true,
         "requires_membership": false,
@@ -193,9 +292,9 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "1951780",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Jumping Jazz Cats",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1951780.lua",
         "online_supported": "No",
@@ -206,9 +305,9 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "1815290",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Hitmen Party",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1815290.lua",
         "online_supported": "No",
@@ -219,9 +318,9 @@
     {
         "added_on": "2025-10-23T01:33:31",
         "appid": "3231520",
-        "downloads": 3,
+        "downloads": 4,
         "name": "The Bleakest Keep",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3231520.lua",
         "online_supported": "No",
@@ -235,9 +334,9 @@
     {
         "added_on": "2025-10-22T16:41:20",
         "appid": "3575980",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Fantasy Maiden Wars - DREAM OF THE STRAY DREAMER -",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3575980.lua",
         "online_supported": "No",
@@ -248,9 +347,9 @@
     {
         "added_on": "2025-10-22T16:22:57",
         "appid": "2592160",
-        "downloads": 31,
+        "downloads": 41,
         "name": "Dispatch",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2592160.lua",
         "online_supported": "No",
@@ -264,9 +363,9 @@
     {
         "added_on": "2025-10-22T16:21:41",
         "appid": "3949040",
-        "downloads": 9,
+        "downloads": 12,
         "name": "RV There Yet?",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3949040.lua",
         "online_supported": "Yes",
@@ -277,9 +376,9 @@
     {
         "added_on": "2025-10-22T02:25:29",
         "appid": "2073910",
-        "downloads": 4,
+        "downloads": 5,
         "name": "A Webbing Journey",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2073910.lua",
         "online_supported": "No",
@@ -290,7 +389,7 @@
     {
         "added_on": "2025-10-21T16:31:22",
         "appid": "532790",
-        "downloads": 42,
+        "downloads": 46,
         "name": "Vampire: The Masquerade - Bloodlines 2",
         "new": false,
         "requires_membership": false,
@@ -349,7 +448,7 @@
     {
         "added_on": "2025-10-21T14:31:55",
         "appid": "2958130",
-        "downloads": 16,
+        "downloads": 17,
         "name": "Jurassic World Evolution 3",
         "new": false,
         "requires_membership": true,
@@ -362,7 +461,7 @@
     {
         "added_on": "2025-10-21T11:04:45",
         "appid": "3478200",
-        "downloads": 24,
+        "downloads": 27,
         "name": "Trilogy of the Moon",
         "new": false,
         "requires_membership": false,
@@ -391,7 +490,7 @@
     {
         "added_on": "2025-10-21T01:54:14",
         "appid": "2627260",
-        "downloads": 49,
+        "downloads": 57,
         "name": "Ninja Gaiden 4",
         "new": false,
         "requires_membership": false,
@@ -407,7 +506,7 @@
     {
         "added_on": "2025-10-21T01:44:29",
         "appid": "2000950",
-        "downloads": 31,
+        "downloads": 35,
         "name": "Call of Duty\u00ae: Modern Warfare\u00ae",
         "new": false,
         "requires_membership": false,
@@ -581,7 +680,7 @@
     {
         "added_on": "2025-10-18T12:41:42",
         "appid": "646910",
-        "downloads": 20,
+        "downloads": 21,
         "name": "The Crew 2",
         "new": false,
         "requires_membership": false,
@@ -666,7 +765,7 @@
     {
         "added_on": "2025-10-17T10:34:01",
         "appid": "1169040",
-        "downloads": 19,
+        "downloads": 20,
         "name": "Necesse",
         "new": false,
         "requires_membership": false,
@@ -695,7 +794,7 @@
     {
         "added_on": "2025-10-16T14:22:24",
         "appid": "3167020",
-        "downloads": 35,
+        "downloads": 37,
         "name": "Escape from Duckov",
         "new": false,
         "requires_membership": false,
@@ -721,7 +820,7 @@
     {
         "added_on": "2025-10-16T05:51:26",
         "appid": "3375780",
-        "downloads": 87,
+        "downloads": 88,
         "name": "Trails in the Sky 1st Chapter",
         "new": false,
         "requires_membership": false,
@@ -777,7 +876,7 @@
     {
         "added_on": "2025-10-15T16:07:50",
         "appid": "3436140",
-        "downloads": 43,
+        "downloads": 44,
         "name": "Freestyle Man in Office",
         "new": false,
         "requires_membership": false,
@@ -826,7 +925,7 @@
     {
         "added_on": "2025-10-15T03:17:23",
         "appid": "3372710",
-        "downloads": 15,
+        "downloads": 16,
         "name": "Noble Legacy",
         "new": false,
         "requires_membership": false,
@@ -1051,7 +1150,7 @@
     {
         "added_on": "2025-10-15T02:48:32",
         "appid": "3771570",
-        "downloads": 13,
+        "downloads": 14,
         "name": "Snow x Hime",
         "new": false,
         "requires_membership": false,
@@ -1231,7 +1330,7 @@
     {
         "added_on": "2025-10-14T03:27:22",
         "appid": "3575730",
-        "downloads": 16,
+        "downloads": 17,
         "name": "MERRY BUNNY GARDEN",
         "new": false,
         "requires_membership": false,
@@ -1435,7 +1534,7 @@
     {
         "added_on": "2025-10-12T03:05:14",
         "appid": "3902390",
-        "downloads": 33,
+        "downloads": 34,
         "name": "Tokyo Hotel",
         "new": false,
         "requires_membership": false,
@@ -1614,7 +1713,7 @@
     {
         "added_on": "2025-10-10T01:45:59",
         "appid": "1392860",
-        "downloads": 65,
+        "downloads": 66,
         "name": "Little Nightmares III",
         "new": false,
         "requires_membership": false,
@@ -1668,7 +1767,7 @@
     {
         "added_on": "2025-10-09T11:11:09",
         "appid": "3259040",
-        "downloads": 17,
+        "downloads": 19,
         "name": "Office Affairs : Executive Decisions",
         "new": false,
         "requires_membership": false,
@@ -1757,7 +1856,7 @@
     {
         "added_on": "2025-10-08T08:03:23",
         "appid": "2778850",
-        "downloads": 32,
+        "downloads": 37,
         "name": "One Iced Latte With Your Breast Milk, Please!",
         "new": false,
         "requires_membership": false,
@@ -1882,7 +1981,7 @@
     {
         "added_on": "2025-10-07T03:30:39",
         "appid": "3259600",
-        "downloads": 74,
+        "downloads": 75,
         "name": "Atelier Resleriana: The Red Alchemist & the White Guardian",
         "new": false,
         "requires_membership": false,
@@ -1921,7 +2020,7 @@
     {
         "added_on": "2025-10-06T14:12:27",
         "appid": "3060250",
-        "downloads": 21,
+        "downloads": 22,
         "name": "Tropical Monster Girls",
         "new": false,
         "requires_membership": false,
@@ -2155,7 +2254,7 @@
     {
         "added_on": "2025-10-03T01:54:44",
         "appid": "1984270",
-        "downloads": 154,
+        "downloads": 157,
         "name": "Digimon Story Time Stranger",
         "new": false,
         "requires_membership": true,
@@ -2353,7 +2452,7 @@
     {
         "added_on": "2025-10-01T13:04:22",
         "appid": "3181220",
-        "downloads": 49,
+        "downloads": 50,
         "name": "AV Director Life!",
         "new": false,
         "requires_membership": false,
@@ -2493,7 +2592,7 @@
     {
         "added_on": "2025-09-27T17:20:43",
         "appid": "2890150",
-        "downloads": 25,
+        "downloads": 27,
         "name": "u4ia",
         "new": false,
         "requires_membership": false,
@@ -2511,7 +2610,7 @@
     {
         "added_on": "2025-09-27T16:53:09",
         "appid": "3411670",
-        "downloads": 25,
+        "downloads": 26,
         "name": "Dreams of Amelia",
         "new": false,
         "requires_membership": false,
@@ -2547,7 +2646,7 @@
     {
         "added_on": "2025-09-27T16:52:51",
         "appid": "3207780",
-        "downloads": 23,
+        "downloads": 24,
         "name": "Love Mansion",
         "new": false,
         "requires_membership": false,
@@ -2676,7 +2775,7 @@
     {
         "added_on": "2025-09-27T05:08:45",
         "appid": "3602290",
-        "downloads": 28,
+        "downloads": 29,
         "name": "FEMBOY FUTA HOUSE",
         "new": false,
         "requires_membership": false,
@@ -2724,7 +2823,7 @@
     {
         "added_on": "2025-09-26T14:37:15",
         "appid": "2324290",
-        "downloads": 19,
+        "downloads": 20,
         "name": "PAC-MAN WORLD 2 Re-PAC",
         "new": false,
         "requires_membership": false,
@@ -2828,7 +2927,7 @@
     {
         "added_on": "2025-09-25T13:45:28",
         "appid": "1757300",
-        "downloads": 22,
+        "downloads": 23,
         "name": "Jump Space",
         "new": false,
         "requires_membership": false,
@@ -3004,7 +3103,7 @@
     {
         "added_on": "2025-09-23T09:08:06",
         "appid": "2947440",
-        "downloads": 181,
+        "downloads": 182,
         "name": "SILENT HILL f",
         "new": false,
         "requires_membership": false,
@@ -3096,7 +3195,7 @@
     {
         "added_on": "2025-09-21T06:34:56",
         "appid": "3405340",
-        "downloads": 45,
+        "downloads": 48,
         "name": "Megabonk",
         "new": false,
         "requires_membership": false,
@@ -3312,7 +3411,7 @@
     {
         "added_on": "2025-09-18T17:56:48",
         "appid": "3008130",
-        "downloads": 242,
+        "downloads": 245,
         "name": "Dying Light: The Beast",
         "new": false,
         "requires_membership": false,
@@ -3658,7 +3757,7 @@
     {
         "added_on": "2025-09-13T12:34:39",
         "appid": "2508780",
-        "downloads": 116,
+        "downloads": 117,
         "name": "STORY OF SEASONS: Grand Bazaar",
         "new": false,
         "requires_membership": false,
@@ -3979,7 +4078,7 @@
     {
         "added_on": "2025-09-09T19:21:47",
         "appid": "2456420",
-        "downloads": 18,
+        "downloads": 19,
         "name": "HUNTER\u00d7HUNTER NEN\u00d7IMPACT",
         "new": false,
         "requires_membership": false,
@@ -4005,7 +4104,7 @@
     {
         "added_on": "2025-09-09T10:05:37",
         "appid": "3478050",
-        "downloads": 28,
+        "downloads": 29,
         "name": "Road To Empress",
         "new": false,
         "requires_membership": false,
@@ -4060,7 +4159,7 @@
     {
         "added_on": "2025-09-08T14:23:03",
         "appid": "3291310",
-        "downloads": 28,
+        "downloads": 29,
         "name": "Mutant College",
         "new": false,
         "requires_membership": false,
@@ -4320,7 +4419,7 @@
     {
         "added_on": "2025-09-05T07:22:09",
         "appid": "2677660",
-        "downloads": 164,
+        "downloads": 165,
         "name": "Indiana Jones and the Great Circle",
         "new": false,
         "requires_membership": false,
@@ -4364,7 +4463,7 @@
     {
         "added_on": "2025-09-04T15:15:42",
         "appid": "1030300",
-        "downloads": 158,
+        "downloads": 159,
         "name": "Hollow Knight: Silksong",
         "new": false,
         "requires_membership": false,
@@ -4989,7 +5088,7 @@
     {
         "added_on": "2025-09-01T13:00:05",
         "appid": "3595230",
-        "downloads": 74,
+        "downloads": 75,
         "name": "Call of Duty\u00ae: Modern Warfare\u00ae II",
         "new": false,
         "requires_membership": false,
@@ -5005,7 +5104,7 @@
     {
         "added_on": "2025-09-01T12:28:55",
         "appid": "3595270",
-        "downloads": 61,
+        "downloads": 62,
         "name": "Call of Duty\u00ae: Modern Warfare\u00ae III",
         "new": false,
         "requires_membership": false,
@@ -5151,19 +5250,6 @@
         "primary_genre": "28",
         "content_descriptors": [],
         "size_gb": "3.53 GB"
-    },
-    {
-        "added_on": "2025-08-31T19:40:53",
-        "appid": "2370570",
-        "downloads": 6,
-        "name": "Standable: Full Body Estimation",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2370570.lua",
-        "online_supported": "No",
-        "primary_genre": "57",
-        "content_descriptors": [],
-        "size_gb": "0.03 GB"
     },
     {
         "added_on": "2025-08-31T15:08:45",
@@ -5653,7 +5739,7 @@
     {
         "added_on": "2025-08-27T14:40:49",
         "appid": "2523720",
-        "downloads": 50,
+        "downloads": 51,
         "name": "Gears of War: Reloaded",
         "new": false,
         "requires_membership": false,
@@ -5708,7 +5794,7 @@
     {
         "added_on": "2025-08-26T16:03:59",
         "appid": "2417610",
-        "downloads": 281,
+        "downloads": 287,
         "name": "METAL GEAR SOLID \u0394: SNAKE EATER",
         "new": false,
         "requires_membership": false,
@@ -5933,7 +6019,7 @@
     {
         "added_on": "2025-08-25T10:21:37",
         "appid": "3059520",
-        "downloads": 34,
+        "downloads": 35,
         "name": "F1\u00ae 25",
         "new": false,
         "requires_membership": true,
@@ -6411,7 +6497,7 @@
     {
         "added_on": "2025-08-22T20:02:39",
         "appid": "2790330",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Blood Typers",
         "new": false,
         "requires_membership": false,
@@ -6552,7 +6638,7 @@
     {
         "added_on": "2025-08-20T10:35:18",
         "appid": "2432670",
-        "downloads": 38,
+        "downloads": 39,
         "name": "Sex Coach: Hot Yoga",
         "new": false,
         "requires_membership": false,
@@ -6823,7 +6909,7 @@
     {
         "added_on": "2025-08-15T13:35:15",
         "appid": "476600",
-        "downloads": 43,
+        "downloads": 44,
         "name": "Call of Duty: WWII",
         "new": false,
         "requires_membership": false,
@@ -6938,7 +7024,7 @@
     {
         "added_on": "2025-08-14T09:20:10",
         "appid": "2212670",
-        "downloads": 13,
+        "downloads": 14,
         "name": "MakeRoom",
         "new": false,
         "requires_membership": false,
@@ -7003,7 +7089,7 @@
     {
         "added_on": "2025-08-13T12:24:34",
         "appid": "3516180",
-        "downloads": 31,
+        "downloads": 33,
         "name": "Don't Fool Me, Beauties!",
         "new": false,
         "requires_membership": false,
@@ -7019,7 +7105,7 @@
     {
         "added_on": "2025-08-13T10:38:50",
         "appid": "2821610",
-        "downloads": 43,
+        "downloads": 44,
         "name": "Echoes of the End",
         "new": false,
         "requires_membership": false,
@@ -7501,7 +7587,7 @@
     {
         "added_on": "2025-08-08T02:36:19",
         "appid": "1941540",
-        "downloads": 246,
+        "downloads": 247,
         "name": "Mafia: The Old Country",
         "new": false,
         "requires_membership": true,
@@ -7647,7 +7733,7 @@
     {
         "added_on": "2025-08-05T17:07:30",
         "appid": "2928600",
-        "downloads": 160,
+        "downloads": 161,
         "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
         "new": false,
         "requires_membership": true,
@@ -7730,7 +7816,7 @@
     {
         "added_on": "2025-08-04T05:55:46",
         "appid": "1154030",
-        "downloads": 101,
+        "downloads": 102,
         "name": "Titan Quest II",
         "new": false,
         "requires_membership": false,
@@ -8257,7 +8343,7 @@
     {
         "added_on": "2025-07-24T04:01:37",
         "appid": "2277560",
-        "downloads": 264,
+        "downloads": 267,
         "name": "WUCHANG: Fallen Feathers",
         "new": false,
         "requires_membership": false,
@@ -8538,7 +8624,7 @@
     {
         "added_on": "2025-07-20T03:40:53",
         "appid": "3207400",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Silent Still",
         "new": false,
         "requires_membership": false,
@@ -9180,7 +9266,7 @@
     {
         "added_on": "2025-07-05T05:06:16",
         "appid": "1313140",
-        "downloads": 86,
+        "downloads": 87,
         "name": "Cult of the Lamb",
         "new": false,
         "requires_membership": false,
@@ -12069,7 +12155,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "3489700",
-        "downloads": 473,
+        "downloads": 476,
         "name": "Stellar Blade\u2122",
         "new": false,
         "requires_membership": true,
@@ -16454,7 +16540,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "2731870",
-        "downloads": 64,
+        "downloads": 65,
         "name": "Ys X: Nordics",
         "new": false,
         "requires_membership": false,
@@ -17135,7 +17221,7 @@
     {
         "added_on": "2025-07-04T16:53:26",
         "appid": "1601570",
-        "downloads": 96,
+        "downloads": 97,
         "name": "The Alters",
         "new": false,
         "requires_membership": false,
@@ -22693,7 +22779,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1938010",
-        "downloads": 5,
+        "downloads": 6,
         "name": "WILD HEARTS\u2122",
         "new": false,
         "requires_membership": false,
@@ -25812,7 +25898,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1235140",
-        "downloads": 73,
+        "downloads": 74,
         "name": "Yakuza: Like a Dragon",
         "new": false,
         "requires_membership": true,
@@ -36472,7 +36558,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1259970",
-        "downloads": 3,
+        "downloads": 5,
         "name": "eFootball PES 2021 SEASON UPDATE",
         "new": false,
         "requires_membership": false,
@@ -61879,7 +61965,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "1570510",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Undernauts: Labyrinth of Yomi",
         "new": false,
         "requires_membership": false,
@@ -63881,7 +63967,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "1659420",
-        "downloads": 126,
+        "downloads": 127,
         "name": "UNCHARTED\u2122: Legacy of Thieves Collection",
         "new": false,
         "requires_membership": false,
@@ -64152,7 +64238,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "837470",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Untitled Goose Game",
         "new": false,
         "requires_membership": false,
@@ -66577,7 +66663,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "2878960",
-        "downloads": 180,
+        "downloads": 183,
         "name": "WWE 2K25",
         "new": false,
         "requires_membership": false,
@@ -68818,7 +68904,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "431960",
-        "downloads": 141,
+        "downloads": 143,
         "name": "Wallpaper Engine",
         "new": false,
         "requires_membership": false,
@@ -70751,7 +70837,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "1942660",
-        "downloads": 4,
+        "downloads": 5,
         "name": "WWE 2K23",
         "new": false,
         "requires_membership": false,
@@ -72776,7 +72862,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "292030",
-        "downloads": 33,
+        "downloads": 35,
         "name": "The Witcher 3: Wild Hunt",
         "new": false,
         "requires_membership": false,
@@ -74758,7 +74844,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "2456740",
-        "downloads": 119,
+        "downloads": 121,
         "name": "inZOI",
         "new": false,
         "requires_membership": false,
@@ -90473,7 +90559,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "1017180",
-        "downloads": 4,
+        "downloads": 5,
         "name": "The Long Drive",
         "new": false,
         "requires_membership": false,
@@ -92255,7 +92341,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "2531310",
-        "downloads": 137,
+        "downloads": 139,
         "name": "The Last of Us\u2122 Part II Remastered",
         "new": false,
         "requires_membership": false,
@@ -93754,7 +93840,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "1888930",
-        "downloads": 120,
+        "downloads": 122,
         "name": "The Last of Us\u2122 Part I",
         "new": false,
         "requires_membership": false,
@@ -97164,7 +97250,7 @@
     {
         "added_on": "2025-07-04T16:53:22",
         "appid": "828070",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Treasure Hunter Claire",
         "new": false,
         "requires_membership": false,
@@ -116152,7 +116238,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "2649970",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Steps of Debauchery",
         "new": false,
         "requires_membership": false,
@@ -118702,7 +118788,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "213670",
-        "downloads": 12,
+        "downloads": 13,
         "name": "South Park\u2122: The Stick of Truth\u2122",
         "new": false,
         "requires_membership": false,
@@ -118814,7 +118900,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "413150",
-        "downloads": 14,
+        "downloads": 15,
         "name": "Stardew Valley",
         "new": false,
         "requires_membership": false,
@@ -119377,7 +119463,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "2001120",
-        "downloads": 118,
+        "downloads": 121,
         "name": "Split Fiction",
         "new": false,
         "requires_membership": false,
@@ -122426,7 +122512,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "848450",
-        "downloads": 15,
+        "downloads": 16,
         "name": "Subnautica: Below Zero",
         "new": false,
         "requires_membership": false,
@@ -123428,7 +123514,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "1694750",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Start11 v2",
         "new": false,
         "requires_membership": false,
@@ -123811,7 +123897,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "1778820",
-        "downloads": 162,
+        "downloads": 164,
         "name": "TEKKEN 8",
         "new": false,
         "requires_membership": false,
@@ -130472,7 +130558,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1543030",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Sword and Fairy 7",
         "new": false,
         "requires_membership": false,
@@ -131491,7 +131577,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1487390",
-        "downloads": 2,
+        "downloads": 3,
         "name": "ANVIL",
         "new": false,
         "requires_membership": false,
@@ -133366,7 +133452,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "205270",
-        "downloads": 5,
+        "downloads": 6,
         "name": "3DMark 11",
         "new": false,
         "requires_membership": false,
@@ -135026,7 +135112,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "2343790",
-        "downloads": 2,
+        "downloads": 3,
         "name": "A Little to the Left: Cupboards & Drawers",
         "new": false,
         "requires_membership": false,
@@ -139385,7 +139471,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1029690",
-        "downloads": 81,
+        "downloads": 82,
         "name": "Sniper Elite 5",
         "new": false,
         "requires_membership": true,
@@ -139962,7 +140048,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "488790",
-        "downloads": 14,
+        "downloads": 15,
         "name": "South Park The Fractured But Whole",
         "new": false,
         "requires_membership": true,
@@ -140640,7 +140726,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1222700",
-        "downloads": 91,
+        "downloads": 93,
         "name": "A Way Out",
         "new": false,
         "requires_membership": false,
@@ -144274,7 +144360,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "12250",
-        "downloads": 6,
+        "downloads": 8,
         "name": "12250 Grand Theft Auto_ San Andreas",
         "new": false,
         "requires_membership": false,
@@ -146621,7 +146707,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "1629520",
-        "downloads": 6,
+        "downloads": 7,
         "name": "A Little to the Left",
         "new": false,
         "requires_membership": false,
@@ -151305,7 +151391,7 @@
     {
         "added_on": "2025-07-04T16:53:20",
         "appid": "289070",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Sid Meier's Civilization VI",
         "new": false,
         "requires_membership": false,
@@ -156827,19 +156913,6 @@
         "primary_genre": "23",
         "content_descriptors": [],
         "size_gb": "19.55 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:20",
-        "appid": "1575940",
-        "downloads": 0,
-        "name": "Sins of a Solar Empire II",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1575940.lua",
-        "online_supported": "No",
-        "primary_genre": "2",
-        "content_descriptors": [],
-        "size_gb": "19.34 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -165957,7 +166030,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1238860",
-        "downloads": 11,
+        "downloads": 12,
         "name": "Battlefield 4\u2122 ",
         "new": false,
         "requires_membership": false,
@@ -169542,7 +169615,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1238840",
-        "downloads": 62,
+        "downloads": 63,
         "name": "Battlefield\u2122 1",
         "new": false,
         "requires_membership": false,
@@ -170457,7 +170530,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "284160",
-        "downloads": 72,
+        "downloads": 73,
         "name": "BeamNG.drive",
         "new": false,
         "requires_membership": false,
@@ -170671,7 +170744,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "3159330",
-        "downloads": 195,
+        "downloads": 198,
         "name": "Assassin's Creed Shadows",
         "new": false,
         "requires_membership": true,
@@ -171158,7 +171231,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1689620",
-        "downloads": 75,
+        "downloads": 80,
         "name": "BLEACH Rebirth of Souls",
         "new": false,
         "requires_membership": false,
@@ -172320,7 +172393,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "293760",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Automation - The Car Company Tycoon Game",
         "new": false,
         "requires_membership": false,
@@ -172854,7 +172927,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1086940",
-        "downloads": 90,
+        "downloads": 91,
         "name": "Baldur's Gate 3",
         "new": false,
         "requires_membership": false,
@@ -174180,7 +174253,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "2208920",
-        "downloads": 94,
+        "downloads": 95,
         "name": "Assassin's Creed Valhalla",
         "new": false,
         "requires_membership": false,
@@ -178884,7 +178957,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "2672610",
-        "downloads": 96,
+        "downloads": 97,
         "name": "Black Myth: Wukong Deluxe Edition Upgrade",
         "new": false,
         "requires_membership": false,
@@ -179168,7 +179241,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "2358720",
-        "downloads": 342,
+        "downloads": 343,
         "name": "Black Myth: Wukong",
         "new": false,
         "requires_membership": true,
@@ -181159,7 +181232,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "812140",
-        "downloads": 30,
+        "downloads": 31,
         "name": "Assassin's Creed Odyssey",
         "new": false,
         "requires_membership": false,
@@ -184307,7 +184380,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "582160",
-        "downloads": 23,
+        "downloads": 24,
         "name": "Assassin's Creed Origins",
         "new": false,
         "requires_membership": false,
@@ -187421,7 +187494,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1238810",
-        "downloads": 9,
+        "downloads": 11,
         "name": "Battlefield\u2122 V",
         "new": false,
         "requires_membership": false,
@@ -202585,7 +202658,7 @@
     {
         "added_on": "2025-07-04T16:53:18",
         "appid": "1114150",
-        "downloads": 74,
+        "downloads": 75,
         "name": "CarX Street",
         "new": false,
         "requires_membership": false,
@@ -203750,7 +203823,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2644410",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Quiet and love to be pampered, Bookworm GP-01",
         "new": false,
         "requires_membership": false,
@@ -204350,7 +204423,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2881120",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Soft Cuddly Girl GP-01",
         "new": false,
         "requires_membership": false,
@@ -204622,7 +204695,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2750440",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Character EX Pack Cunning",
         "new": false,
         "requires_membership": false,
@@ -204987,7 +205060,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2377850",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2.5+X0 with Kiss Character Edit System",
         "new": false,
         "requires_membership": false,
@@ -205159,7 +205232,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2254840",
-        "downloads": 4,
+        "downloads": 5,
         "name": "CUSTOM ORDER MAID 3D2 Its a Night Magic Lucky Bag Ver.Live",
         "new": false,
         "requires_membership": false,
@@ -205172,7 +205245,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1931550",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 The Extreme Sadist queen who arouses the hearts of masochists GP-02",
         "new": false,
         "requires_membership": false,
@@ -206343,7 +206416,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2205760",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Black Friday Special All in Pack",
         "new": false,
         "requires_membership": false,
@@ -206444,7 +206517,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2351670",
-        "downloads": 1,
+        "downloads": 2,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Fresh Spring Special All in Pack",
         "new": false,
         "requires_membership": false,
@@ -206749,7 +206822,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "934700",
-        "downloads": 25,
+        "downloads": 27,
         "name": "Dead Island 2",
         "new": false,
         "requires_membership": false,
@@ -206991,7 +207064,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1266700",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Destroy All Humans! 2 - Reprobed",
         "new": false,
         "requires_membership": false,
@@ -207095,7 +207168,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2325580",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Naturally sadistic, Sweet Little Devil GP-01fb",
         "new": false,
         "requires_membership": false,
@@ -207973,7 +208046,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2261960",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Traditional Japanese Special All in Pack",
         "new": false,
         "requires_membership": false,
@@ -208224,7 +208297,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2408830",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Guarded, Blunt Girl GP-01",
         "new": false,
         "requires_membership": false,
@@ -208880,7 +208953,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3174100",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2&2.5+ X1+Vol.02",
         "new": false,
         "requires_membership": false,
@@ -209243,7 +209316,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2605450",
-        "downloads": 4,
+        "downloads": 5,
         "name": "CUSTOM ORDER MAID 3D2 Overbearing and preppy girl maid GP-01",
         "new": false,
         "requires_membership": false,
@@ -209367,7 +209440,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1827350",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Welcome Master Set Vol.02",
         "new": false,
         "requires_membership": false,
@@ -209635,7 +209708,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2881140",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Soft Cuddly Girl GP-02",
         "new": false,
         "requires_membership": false,
@@ -209872,7 +209945,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2674800",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Love Hotel Karaoke All in Pack",
         "new": false,
         "requires_membership": false,
@@ -210050,7 +210123,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3074650",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Just Around the Summer ALL in ONE Pack",
         "new": false,
         "requires_membership": false,
@@ -210249,7 +210322,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1101730",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic R18 patch",
         "new": false,
         "requires_membership": false,
@@ -210267,7 +210340,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1903340",
-        "downloads": 228,
+        "downloads": 229,
         "name": "Clair Obscur: Expedition 33",
         "new": false,
         "requires_membership": false,
@@ -210583,7 +210656,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1978030",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Overbearing and preppy girl maid",
         "new": false,
         "requires_membership": false,
@@ -210791,7 +210864,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2545120",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Overly Serious and Reserved Proper Lady DLX edition",
         "new": false,
         "requires_membership": false,
@@ -211164,7 +211237,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1768610",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic \"Welcome Master Set Vol.01\"",
         "new": false,
         "requires_membership": false,
@@ -211727,7 +211800,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2737700",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Its a Night Magic Lucky Bag Ver. Karaoke Paradise",
         "new": false,
         "requires_membership": false,
@@ -211794,7 +211867,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1931540",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 The Extreme Sadist queen who arouses the hearts of masochists GP-01",
         "new": false,
         "requires_membership": false,
@@ -211988,7 +212061,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2111780",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Welcome Master Set Vol.04",
         "new": false,
         "requires_membership": false,
@@ -212167,7 +212240,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2605470",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Overbearing and preppy girl maid GP-02",
         "new": false,
         "requires_membership": false,
@@ -212231,7 +212304,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1769710",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic +GP02",
         "new": false,
         "requires_membership": false,
@@ -212403,7 +212476,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1988710",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 The Extreme Sadist queen who arouses the hearts of masochists GP-01fb",
         "new": false,
         "requires_membership": false,
@@ -212624,7 +212697,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1222140",
-        "downloads": 99,
+        "downloads": 100,
         "name": "Detroit: Become Human",
         "new": false,
         "requires_membership": false,
@@ -212705,7 +212778,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2510840",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Friendly and Slightly Naughty Woman DLX edition",
         "new": false,
         "requires_membership": false,
@@ -213136,7 +213209,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2325560",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Naturally sadistic, Sweet Little Devil GP-02",
         "new": false,
         "requires_membership": false,
@@ -213198,7 +213271,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2171230",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Soft Cuddly Girl",
         "new": false,
         "requires_membership": false,
@@ -213216,7 +213289,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2605460",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Overbearing and preppy girl maid GP-01fb",
         "new": false,
         "requires_membership": false,
@@ -213488,7 +213561,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2644530",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Quiet and love to be pampered, Bookworm GP-02",
         "new": false,
         "requires_membership": false,
@@ -214299,7 +214372,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2799580",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Beauty Hair Set SP All in One Pack",
         "new": false,
         "requires_membership": false,
@@ -214802,7 +214875,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1914810",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 \u00d7 NEKO WORKS: NEKOPARA - Vanilla maid clothes set",
         "new": false,
         "requires_membership": false,
@@ -214909,7 +214982,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2644510",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Quiet and love to be pampered, Bookworm GP-01fb",
         "new": false,
         "requires_membership": false,
@@ -215070,7 +215143,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3097050",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2&2.5+ X1+Vol.01",
         "new": false,
         "requires_membership": false,
@@ -215255,7 +215328,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1450460",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 it's a Night Magic + GP01",
         "new": false,
         "requires_membership": false,
@@ -215769,7 +215842,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2254880",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Its a Night Magic Lucky Bag Ver.PureLove",
         "new": false,
         "requires_membership": false,
@@ -215860,7 +215933,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1097580",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic",
         "new": false,
         "requires_membership": false,
@@ -216220,7 +216293,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2225660",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Christmas Special All in Pack",
         "new": false,
         "requires_membership": false,
@@ -216795,7 +216868,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3052230",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Character EX Pack Gyaru",
         "new": false,
         "requires_membership": false,
@@ -217041,7 +217114,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1914960",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 \u00d7 NEKO WORKS: NEKOPARA - Cinnamon casual clothes & maid clothes set",
         "new": false,
         "requires_membership": false,
@@ -217080,7 +217153,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1845230",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Naturally sadistic, Sweet little devil",
         "new": false,
         "requires_membership": false,
@@ -217703,7 +217776,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2461350",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2&2.5+X1",
         "new": false,
         "requires_membership": false,
@@ -218433,7 +218506,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "990050",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Death end re;Quest",
         "new": false,
         "requires_membership": false,
@@ -218939,7 +219012,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2752640",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Shogatsu Gifts ALL in PACK",
         "new": false,
         "requires_membership": false,
@@ -219092,7 +219165,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2684990",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Sexy and Ladylike Woman GP-02",
         "new": false,
         "requires_membership": false,
@@ -219162,7 +219235,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3187910",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Lingering Scent of Summer ALL in ONE Pack",
         "new": false,
         "requires_membership": false,
@@ -219457,7 +219530,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2961470",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic the Change of Seasons ALL in ONE Pack",
         "new": false,
         "requires_membership": false,
@@ -219651,7 +219724,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2744180",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Its a Night Magic Lucky Bag Ver. ECC High Poly Body Edition",
         "new": false,
         "requires_membership": false,
@@ -219940,7 +220013,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1266220",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Death end re;Quest 2",
         "new": false,
         "requires_membership": false,
@@ -219970,7 +220043,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1914760",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 \u00d7 NEKO WORKS: NEKOPARA - Dance SWEET\u00d7SWEET",
         "new": false,
         "requires_membership": false,
@@ -220094,7 +220167,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3216120",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2&2.5+ X1 Dark+",
         "new": false,
         "requires_membership": false,
@@ -220112,7 +220185,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2926590",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Mature, Level-Headed, and Dependable Secretary Maid GP-01fb",
         "new": false,
         "requires_membership": false,
@@ -220156,7 +220229,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1914880",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 \u00d7 NEKO WORKS: NEKOPARA - Chocolat maid clothes set",
         "new": false,
         "requires_membership": false,
@@ -220362,7 +220435,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2081010",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Sexy and ladylike woman",
         "new": false,
         "requires_membership": false,
@@ -220380,7 +220453,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2926570",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Mature, Level-Headed, and Dependable Secretary Maid GP-01",
         "new": false,
         "requires_membership": false,
@@ -220637,7 +220710,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2626320",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Trick and Trick Halloween All in Pack",
         "new": false,
         "requires_membership": false,
@@ -220923,7 +220996,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1133140",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 -NEKO WORKs collaboration-",
         "new": false,
         "requires_membership": false,
@@ -221441,7 +221514,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2408910",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Guarded, Blunt Girl GP-01Fb",
         "new": false,
         "requires_membership": false,
@@ -221485,7 +221558,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2325520",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Naturally sadistic, Sweet Little Devil GP-01",
         "new": false,
         "requires_membership": false,
@@ -221788,7 +221861,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2881130",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Soft Cuddly Girl GP-01fb",
         "new": false,
         "requires_membership": false,
@@ -221806,7 +221879,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2987420",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Sweet, Affectionate, and Devoted Long-lost Friend GP-01",
         "new": false,
         "requires_membership": false,
@@ -222712,7 +222785,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2426870",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Forbidden Yotogi All in Pack",
         "new": false,
         "requires_membership": false,
@@ -222790,7 +222863,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2987440",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Sweet, Affectionate, and Devoted Long-lost Friend GP-02",
         "new": false,
         "requires_membership": false,
@@ -223182,7 +223255,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1091500",
-        "downloads": 241,
+        "downloads": 244,
         "name": "Cyberpunk 2077",
         "new": false,
         "requires_membership": false,
@@ -223538,7 +223611,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2254930",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Its a Night Magic Lucky Bag Ver.Dark",
         "new": false,
         "requires_membership": false,
@@ -224041,7 +224114,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2848600",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic the Arrival of Spring ALL in Pack",
         "new": false,
         "requires_membership": false,
@@ -224100,7 +224173,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2306760",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Sweet, Affectionate, and Devoted Long-lost Friend",
         "new": false,
         "requires_membership": false,
@@ -224507,7 +224580,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1959550",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 \u00d7 NEKO WORKS: NEKOPARA - Taiyou Paradise Dance",
         "new": false,
         "requires_membership": false,
@@ -224770,7 +224843,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3137210",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Midsummer Maid's Dream ALL in ONE Pack",
         "new": false,
         "requires_membership": false,
@@ -225010,7 +225083,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2238610",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Mature, Level-Headed, and Dependable Secretary Maid",
         "new": false,
         "requires_membership": false,
@@ -225710,7 +225783,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "3016740",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Step in Summer ALL in ONE Pack",
         "new": false,
         "requires_membership": false,
@@ -225932,7 +226005,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2684960",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Sexy and Ladylike Woman GP-01",
         "new": false,
         "requires_membership": false,
@@ -225992,7 +226065,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2737710",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Its a Night Magic Lucky Bag Ver. Empire Costume Collection",
         "new": false,
         "requires_membership": false,
@@ -226034,7 +226107,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1931490",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 The Extreme Sadist queen who arouses the hearts of masochists",
         "new": false,
         "requires_membership": false,
@@ -226266,7 +226339,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1802950",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic +GP01Fb",
         "new": false,
         "requires_membership": false,
@@ -226318,7 +226391,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2053930",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It\u2019s a Night Magic Personality Pack Quiet and love to be pampered, Bookworm",
         "new": false,
         "requires_membership": false,
@@ -227098,7 +227171,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2926580",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Mature, Level-Headed, and Dependable Secretary Maid GP-02",
         "new": false,
         "requires_membership": false,
@@ -227129,7 +227202,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2712560",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Dancing Night, Merry Night ALL in PACK",
         "new": false,
         "requires_membership": false,
@@ -227305,7 +227378,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2468860",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2&2.5+X1 Dark",
         "new": false,
         "requires_membership": false,
@@ -227406,7 +227479,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1914800",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 \u00d7 NEKO WORKS: NEKOPARA  - Maple casual clothes & maid clothes set",
         "new": false,
         "requires_membership": false,
@@ -228228,7 +228301,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2685040",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Sexy and Ladylike Woman GP-01fb",
         "new": false,
         "requires_membership": false,
@@ -228416,7 +228489,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2144620",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Welcome Master Set Vol.05",
         "new": false,
         "requires_membership": false,
@@ -228499,7 +228572,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2728880",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Character EX Pack Perverted Extreme Masochist",
         "new": false,
         "requires_membership": false,
@@ -228609,7 +228682,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2737690",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 Its a Night Magic Lucky Bag Ver. Luxury Adult",
         "new": false,
         "requires_membership": false,
@@ -229578,7 +229651,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2585090",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Fashionable Maid Autumn All in Pack",
         "new": false,
         "requires_membership": false,
@@ -229711,7 +229784,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1913840",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 \u00d7 NEKO WORKS: NEKOPARA - Coconut casual clothes & maid clothes set",
         "new": false,
         "requires_membership": false,
@@ -229737,7 +229810,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1875640",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Personality Pack Guarded, Blunt Girl",
         "new": false,
         "requires_membership": false,
@@ -229934,7 +230007,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2011580",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Welcome Master Set Vol.03",
         "new": false,
         "requires_membership": false,
@@ -230315,7 +230388,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1914840",
-        "downloads": 0,
+        "downloads": 1,
         "name": "CUSTOM ORDER MAID 3D2 \u00d7 NEKO WORKS: NEKOPARA - Azuki casual clothes & maid clothes set",
         "new": false,
         "requires_membership": false,
@@ -230500,7 +230573,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2911100",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Spring Full Swing All in One Pack",
         "new": false,
         "requires_membership": false,
@@ -230860,7 +230933,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "2987430",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Sweet, Affectionate, and Devoted Long-lost Friend GP-01fb",
         "new": false,
         "requires_membership": false,
@@ -231137,7 +231210,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1992950",
-        "downloads": 3,
+        "downloads": 4,
         "name": "CUSTOM ORDER MAID 3D2 Guarded, Blunt Girl GP-02",
         "new": false,
         "requires_membership": false,
@@ -231344,7 +231417,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2701660",
-        "downloads": 11,
+        "downloads": 12,
         "name": "DRAGON QUEST III HD-2D Remake",
         "new": false,
         "requires_membership": false,
@@ -231794,7 +231867,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2195250",
-        "downloads": 11,
+        "downloads": 12,
         "name": "EA SPORTS FC\u2122 24",
         "new": false,
         "requires_membership": false,
@@ -233290,7 +233363,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "454650",
-        "downloads": 12,
+        "downloads": 14,
         "name": "DRAGON BALL XENOVERSE 2",
         "new": false,
         "requires_membership": false,
@@ -234019,7 +234092,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2054970",
-        "downloads": 88,
+        "downloads": 89,
         "name": "Dragon's Dogma 2",
         "new": false,
         "requires_membership": true,
@@ -235846,7 +235919,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "574050",
-        "downloads": 3,
+        "downloads": 4,
         "name": "DRAGON QUEST HEROES\u2122 II",
         "new": false,
         "requires_membership": false,
@@ -238369,7 +238442,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2622380",
-        "downloads": 170,
+        "downloads": 171,
         "name": "ELDEN RING NIGHTREIGN",
         "new": false,
         "requires_membership": false,
@@ -241153,7 +241226,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "1812620",
-        "downloads": 16,
+        "downloads": 17,
         "name": "DSX",
         "new": false,
         "requires_membership": false,
@@ -242462,7 +242535,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "1295510",
-        "downloads": 83,
+        "downloads": 84,
         "name": "DRAGON QUEST XI S: Echoes of an Elusive Age \u2013 Definitive Edition",
         "new": false,
         "requires_membership": false,
@@ -244180,7 +244253,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "851850",
-        "downloads": 10,
+        "downloads": 11,
         "name": "DRAGON BALL Z: KAKAROT",
         "new": false,
         "requires_membership": false,
@@ -245887,7 +245960,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "2344520",
-        "downloads": 68,
+        "downloads": 71,
         "name": "Diablo\u00ae IV",
         "new": false,
         "requires_membership": false,
@@ -246770,7 +246843,7 @@
     {
         "added_on": "2025-07-04T16:53:16",
         "appid": "234820",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Driver Fusion",
         "new": false,
         "requires_membership": false,
@@ -249364,7 +249437,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "44360",
-        "downloads": 1,
+        "downloads": 2,
         "name": "F1 2011",
         "new": false,
         "requires_membership": false,
@@ -250416,7 +250489,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1080110",
-        "downloads": 4,
+        "downloads": 5,
         "name": "F1 2020",
         "new": false,
         "requires_membership": false,
@@ -254488,7 +254561,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "552520",
-        "downloads": 27,
+        "downloads": 28,
         "name": "Far Cry 5",
         "new": false,
         "requires_membership": false,
@@ -255416,7 +255489,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "928600",
-        "downloads": 1,
+        "downloads": 2,
         "name": "F1 2019",
         "new": false,
         "requires_membership": false,
@@ -260554,7 +260627,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1551360",
-        "downloads": 192,
+        "downloads": 196,
         "name": "Forza Horizon 5",
         "new": false,
         "requires_membership": false,
@@ -260634,7 +260707,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1044720",
-        "downloads": 7,
+        "downloads": 10,
         "name": "Farthest Frontier",
         "new": false,
         "requires_membership": false,
@@ -262500,7 +262573,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1692250",
-        "downloads": 2,
+        "downloads": 3,
         "name": "F1\u00ae 22",
         "new": false,
         "requires_membership": false,
@@ -265551,7 +265624,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "223670",
-        "downloads": 1,
+        "downloads": 2,
         "name": "F1 2013",
         "new": false,
         "requires_membership": false,
@@ -265869,7 +265942,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "286570",
-        "downloads": 1,
+        "downloads": 2,
         "name": "F1 2015",
         "new": false,
         "requires_membership": false,
@@ -266039,7 +266112,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2215430",
-        "downloads": 182,
+        "downloads": 189,
         "name": "Ghost of Tsushima DIRECTOR'S CUT",
         "new": false,
         "requires_membership": false,
@@ -267691,7 +267764,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "226580",
-        "downloads": 1,
+        "downloads": 2,
         "name": "F1 2014",
         "new": false,
         "requires_membership": false,
@@ -269416,7 +269489,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "737800",
-        "downloads": 2,
+        "downloads": 3,
         "name": "F1 2018",
         "new": false,
         "requires_membership": false,
@@ -270306,7 +270379,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1134570",
-        "downloads": 2,
+        "downloads": 3,
         "name": "F1 2021",
         "new": false,
         "requires_membership": false,
@@ -271376,7 +271449,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "391040",
-        "downloads": 1,
+        "downloads": 2,
         "name": "F1 2016",
         "new": false,
         "requires_membership": false,
@@ -272929,7 +273002,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "208500",
-        "downloads": 1,
+        "downloads": 2,
         "name": "F1 2012",
         "new": false,
         "requires_membership": false,
@@ -273536,7 +273609,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1506830",
-        "downloads": 69,
+        "downloads": 70,
         "name": "FIFA 22",
         "new": false,
         "requires_membership": false,
@@ -273969,7 +274042,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2108330",
-        "downloads": 2,
+        "downloads": 3,
         "name": "F1 23",
         "new": false,
         "requires_membership": false,
@@ -275358,7 +275431,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1350650",
-        "downloads": 81,
+        "downloads": 83,
         "name": "FreshWomen - Season 1",
         "new": false,
         "requires_membership": false,
@@ -276154,7 +276227,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "377160",
-        "downloads": 79,
+        "downloads": 80,
         "name": "Fallout 4",
         "new": false,
         "requires_membership": false,
@@ -280489,7 +280562,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "2909400",
-        "downloads": 200,
+        "downloads": 203,
         "name": "FINAL FANTASY VII REBIRTH",
         "new": false,
         "requires_membership": false,
@@ -282741,7 +282814,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1672500",
-        "downloads": 78,
+        "downloads": 79,
         "name": "GUNDAM BREAKER 4",
         "new": false,
         "requires_membership": false,
@@ -283876,7 +283949,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "2420110",
-        "downloads": 94,
+        "downloads": 96,
         "name": "Horizon Forbidden West\u2122 Complete Edition",
         "new": false,
         "requires_membership": false,
@@ -286398,7 +286471,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1770460",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Halloween SEX Party [18+]",
         "new": false,
         "requires_membership": false,
@@ -289670,7 +289743,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "2322010",
-        "downloads": 168,
+        "downloads": 173,
         "name": "God of War Ragnar\u00f6k",
         "new": false,
         "requires_membership": false,
@@ -290179,7 +290252,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "12210",
-        "downloads": 96,
+        "downloads": 97,
         "name": "Grand Theft Auto IV: The Complete Edition",
         "new": false,
         "requires_membership": false,
@@ -291511,7 +291584,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1151640",
-        "downloads": 66,
+        "downloads": 67,
         "name": "Horizon Zero Dawn\u2122 Complete Edition",
         "new": false,
         "requires_membership": false,
@@ -292215,7 +292288,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "990080",
-        "downloads": 138,
+        "downloads": 139,
         "name": "Hogwarts Legacy",
         "new": false,
         "requires_membership": true,
@@ -292751,7 +292824,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "2302660",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Homicipher:\u6587\u5b57\u5316\u5316",
         "new": false,
         "requires_membership": false,
@@ -296770,7 +296843,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "613100",
-        "downloads": 3,
+        "downloads": 4,
         "name": "House Flipper",
         "new": false,
         "requires_membership": false,
@@ -298644,7 +298717,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1583230",
-        "downloads": 69,
+        "downloads": 70,
         "name": "High On Life",
         "new": false,
         "requires_membership": false,
@@ -302037,7 +302110,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "322210",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Guns, Gore & Cannoli",
         "new": false,
         "requires_membership": false,
@@ -305244,7 +305317,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "1593500",
-        "downloads": 124,
+        "downloads": 126,
         "name": "God of War",
         "new": false,
         "requires_membership": false,
@@ -307904,7 +307977,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "525510",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Guns, Gore and Cannoli 2",
         "new": false,
         "requires_membership": false,
@@ -310112,7 +310185,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "12140",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Max Payne",
         "new": false,
         "requires_membership": false,
@@ -316537,7 +316610,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "319630",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Life is Strange\u2122",
         "new": false,
         "requires_membership": false,
@@ -316902,7 +316975,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1547890",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Let's Build a Zoo",
         "new": false,
         "requires_membership": false,
@@ -317648,7 +317721,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "899770",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Last Epoch",
         "new": false,
         "requires_membership": false,
@@ -318125,7 +318198,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "532210",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Life is Strange 2",
         "new": false,
         "requires_membership": false,
@@ -324837,7 +324910,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1817070",
-        "downloads": 115,
+        "downloads": 116,
         "name": "Marvel\u2019s Spider-Man Remastered",
         "new": false,
         "requires_membership": false,
@@ -329473,7 +329546,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2072450",
-        "downloads": 96,
+        "downloads": 97,
         "name": "Like a Dragon: Infinite Wealth",
         "new": false,
         "requires_membership": true,
@@ -333513,7 +333586,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "939400",
-        "downloads": 0,
+        "downloads": 1,
         "name": "LoveChoice \u62e3\u7231",
         "new": false,
         "requires_membership": false,
@@ -337866,7 +337939,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2651280",
-        "downloads": 227,
+        "downloads": 233,
         "name": "Marvel's Spider-Man 2",
         "new": false,
         "requires_membership": false,
@@ -338083,7 +338156,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "2550140",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Lust Island\ud83c\udf34[18+]",
         "new": false,
         "requires_membership": false,
@@ -340297,7 +340370,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1129580",
-        "downloads": 7,
+        "downloads": 10,
         "name": "Medieval Dynasty",
         "new": false,
         "requires_membership": false,
@@ -343115,7 +343188,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "627270",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Injustice\u2122 2",
         "new": false,
         "requires_membership": false,
@@ -347235,7 +347308,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1265930",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Life is Strange: Before the Storm Remastered",
         "new": false,
         "requires_membership": false,
@@ -347490,7 +347563,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "517630",
-        "downloads": 12,
+        "downloads": 13,
         "name": "Just Cause 4",
         "new": false,
         "requires_membership": true,
@@ -348238,7 +348311,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1817190",
-        "downloads": 92,
+        "downloads": 95,
         "name": "Marvel's Spider-Man: Miles Morales",
         "new": false,
         "requires_membership": false,
@@ -348749,7 +348822,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1265920",
-        "downloads": 8,
+        "downloads": 9,
         "name": "Life is Strange Remastered",
         "new": false,
         "requires_membership": false,
@@ -349229,7 +349302,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1895810",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Infinity Strash: DRAGON QUEST The Adventure of Dai",
         "new": false,
         "requires_membership": false,
@@ -355673,7 +355746,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "1590760",
-        "downloads": 5,
+        "downloads": 6,
         "name": "Metal Slug Tactics",
         "new": false,
         "requires_membership": false,
@@ -359271,7 +359344,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "2537590",
-        "downloads": 93,
+        "downloads": 94,
         "name": "Microsoft Flight Simulator 2024",
         "new": false,
         "requires_membership": false,
@@ -364847,7 +364920,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "314160",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Microsoft Flight Simulator X: Steam Edition",
         "new": false,
         "requires_membership": false,
@@ -365835,7 +365908,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1089090",
-        "downloads": 86,
+        "downloads": 87,
         "name": "ONE PIECE: PIRATE WARRIORS 4",
         "new": false,
         "requires_membership": false,
@@ -369603,7 +369676,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "17430",
-        "downloads": 13,
+        "downloads": 14,
         "name": "Need for Speed Undercover",
         "new": false,
         "requires_membership": false,
@@ -370563,7 +370636,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "3002570",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Nymphomaniac - Sex Addict",
         "new": false,
         "requires_membership": false,
@@ -371040,7 +371113,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1971650",
-        "downloads": 73,
+        "downloads": 75,
         "name": "OCTOPATH TRAVELER II",
         "new": false,
         "requires_membership": false,
@@ -372239,7 +372312,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1243830",
-        "downloads": 14,
+        "downloads": 15,
         "name": "Overcooked! All You Can Eat",
         "new": false,
         "requires_membership": false,
@@ -373606,7 +373679,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1057640",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Onirism",
         "new": false,
         "requires_membership": false,
@@ -375498,7 +375571,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "238320",
-        "downloads": 17,
+        "downloads": 20,
         "name": "Outlast",
         "new": false,
         "requires_membership": false,
@@ -376399,7 +376472,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "275850",
-        "downloads": 86,
+        "downloads": 87,
         "name": "No Man's Sky",
         "new": false,
         "requires_membership": false,
@@ -383335,7 +383408,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "733790",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Not Tonight",
         "new": false,
         "requires_membership": false,
@@ -383623,7 +383696,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "414700",
-        "downloads": 78,
+        "downloads": 79,
         "name": "Outlast 2",
         "new": false,
         "requires_membership": false,
@@ -384168,7 +384241,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "2694490",
-        "downloads": 11,
+        "downloads": 14,
         "name": "Path of Exile 2",
         "new": false,
         "requires_membership": false,
@@ -385007,7 +385080,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "524220",
-        "downloads": 30,
+        "downloads": 31,
         "name": "NieR:Automata\u2122",
         "new": false,
         "requires_membership": false,
@@ -386765,7 +386838,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "555160",
-        "downloads": 2,
+        "downloads": 3,
         "name": "Pavlov VR",
         "new": false,
         "requires_membership": false,
@@ -387676,7 +387749,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1113560",
-        "downloads": 38,
+        "downloads": 39,
         "name": "NieR Replicant ver.1.22474487139...",
         "new": false,
         "requires_membership": false,
@@ -388683,7 +388756,7 @@
     {
         "added_on": "2025-07-04T16:53:11",
         "appid": "1428420",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Nucleares",
         "new": false,
         "requires_membership": false,
@@ -400075,7 +400148,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2597580",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Porno Empire [18+]",
         "new": false,
         "requires_membership": false,
@@ -401327,7 +401400,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1517850",
-        "downloads": 8,
+        "downloads": 9,
         "name": "Quickie: A Love Hotel Story",
         "new": false,
         "requires_membership": false,
@@ -409514,7 +409587,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1174180",
-        "downloads": 175,
+        "downloads": 178,
         "name": "Red Dead Redemption 2",
         "new": false,
         "requires_membership": false,
@@ -414461,7 +414534,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1282100",
-        "downloads": 13,
+        "downloads": 14,
         "name": "Remnant II",
         "new": false,
         "requires_membership": false,
@@ -415069,7 +415142,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2703850",
-        "downloads": 0,
+        "downloads": 2,
         "name": "Rooftops & Alleys: The Parkour Game",
         "new": false,
         "requires_membership": false,
@@ -419536,7 +419609,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1155970",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Roadwarden",
         "new": false,
         "requires_membership": false,
@@ -423404,7 +423477,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2050650",
-        "downloads": 225,
+        "downloads": 227,
         "name": "Resident Evil 4",
         "new": false,
         "requires_membership": true,
@@ -426121,7 +426194,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1290000",
-        "downloads": 103,
+        "downloads": 104,
         "name": "PowerWash Simulator",
         "new": false,
         "requires_membership": false,
@@ -428301,7 +428374,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1545560",
-        "downloads": 9,
+        "downloads": 10,
         "name": "Shadow Gambit: The Cursed Crew",
         "new": false,
         "requires_membership": false,
@@ -428991,7 +429064,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1702010",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Sengoku Dynasty",
         "new": false,
         "requires_membership": false,
@@ -430966,7 +431039,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "814380",
-        "downloads": 122,
+        "downloads": 123,
         "name": "Sekiro\u2122: Shadows Die Twice",
         "new": false,
         "requires_membership": false,
@@ -431277,7 +431350,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1774580",
-        "downloads": 94,
+        "downloads": 95,
         "name": "STAR WARS Jedi: Survivor\u2122",
         "new": false,
         "requires_membership": false,
@@ -432157,7 +432230,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "728530",
-        "downloads": 21,
+        "downloads": 22,
         "name": "SD GUNDAM G GENERATION CROSS RAYS",
         "new": false,
         "requires_membership": false,
@@ -432374,7 +432447,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2124490",
-        "downloads": 131,
+        "downloads": 132,
         "name": "SILENT HILL 2",
         "new": false,
         "requires_membership": false,
@@ -433493,7 +433566,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2962480",
-        "downloads": 15,
+        "downloads": 16,
         "name": "Isekai Sex Boutique",
         "new": false,
         "requires_membership": false,
@@ -435439,7 +435512,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1509510",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Settlement Survival",
         "new": false,
         "requires_membership": false,
@@ -437206,7 +437279,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1155650",
-        "downloads": 1,
+        "downloads": 2,
         "name": "Shady Knight",
         "new": false,
         "requires_membership": false,
@@ -437486,7 +437559,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1532770",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Sex and the Furry Titty",
         "new": false,
         "requires_membership": false,
@@ -438811,7 +438884,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "3164500",
-        "downloads": 150,
+        "downloads": 153,
         "name": "Schedule I",
         "new": false,
         "requires_membership": false,
@@ -441826,7 +441899,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1750200",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Sex and the Furry Titty 2: Sins of the City",
         "new": false,
         "requires_membership": false,
@@ -442351,7 +442424,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1214650",
-        "downloads": 13,
+        "downloads": 14,
         "name": "SOUTH PARK: SNOW DAY!",
         "new": false,
         "requires_membership": false,
@@ -443545,7 +443618,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "2221840",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Sex and the Furry Titty 3: Come Inside, Sweety",
         "new": false,
         "requires_membership": false,
@@ -444310,7 +444383,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1623730",
-        "downloads": 109,
+        "downloads": 110,
         "name": "Palworld",
         "new": false,
         "requires_membership": false,
