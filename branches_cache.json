@@ -1,10 +1,331 @@
 [
     {
-        "added_on": "2025-10-25T01:55:36",
-        "appid": "3478650",
-        "downloads": 4,
-        "name": "FreshWomen - Season 2",
+        "added_on": "2025-10-27 17:26:54",
+        "appid": "2879840",
+        "downloads": 0,
+        "name": "Escape Simulator 2",
         "new": true,
+        "requires_membership": false,
+        "st_file": "2879840.lua",
+        "online_supported": "No",
+        "primary_genre": "25",
+        "content_descriptors": [],
+        "size_gb": "31.85 GB"
+    },
+    {
+        "added_on": "2025-10-27 16:52:47",
+        "appid": "1703610",
+        "downloads": 0,
+        "name": "I Just Want to be Single!!",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1703610.lua",
+        "online_supported": "No",
+        "primary_genre": "23",
+        "content_descriptors": [
+            "5"
+        ],
+        "size_gb": "4.94 GB"
+    },
+    {
+        "added_on": "2025-10-27 15:43:02",
+        "appid": "3498650",
+        "downloads": 0,
+        "name": "Cut that Wire",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3498650.lua",
+        "online_supported": "No",
+        "primary_genre": "23",
+        "content_descriptors": [
+            "2",
+            "5"
+        ],
+        "size_gb": "1.26 GB"
+    },
+    {
+        "added_on": "2025-10-27 15:42:53",
+        "appid": "3012220",
+        "downloads": 0,
+        "name": "Double Dragon Revive",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3012220.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [
+            "5"
+        ],
+        "size_gb": "13.87 GB"
+    },
+    {
+        "added_on": "2025-10-27 15:42:43",
+        "appid": "2827200",
+        "downloads": 0,
+        "name": "MIMESIS",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2827200.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [],
+        "size_gb": "2.72 GB"
+    },
+    {
+        "added_on": "2025-10-27 07:55:43",
+        "appid": "1926980",
+        "downloads": 0,
+        "name": "King of Meat",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1926980.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [],
+        "size_gb": "14.51 GB"
+    },
+    {
+        "added_on": "2025-10-27 07:55:33",
+        "appid": "2510490",
+        "downloads": 0,
+        "name": "The Crazy Hyper-Dungeon Chronicles",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2510490.lua",
+        "online_supported": "No",
+        "primary_genre": "3",
+        "content_descriptors": [],
+        "size_gb": "3.57 GB"
+    },
+    {
+        "added_on": "2025-10-27 07:51:17",
+        "appid": "1880620",
+        "downloads": 0,
+        "name": "Once Upon A KATAMARI",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1880620.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [],
+        "size_gb": "3.99 GB"
+    },
+    {
+        "added_on": "2025-10-27 03:06:15",
+        "appid": "4018200",
+        "downloads": 0,
+        "name": "You\u2019ve Got a Package",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "4018200.lua",
+        "online_supported": "No",
+        "primary_genre": "23",
+        "content_descriptors": [
+            "5"
+        ],
+        "size_gb": "3.54 GB"
+    },
+    {
+        "added_on": "2025-10-27 03:06:04",
+        "appid": "3654560",
+        "downloads": 0,
+        "name": "Plants vs. Zombies\u2122: Replanted",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3654560.lua",
+        "online_supported": "No",
+        "primary_genre": "2",
+        "content_descriptors": [],
+        "size_gb": "1.62 GB"
+    },
+    {
+        "added_on": "2025-10-26 11:02:14",
+        "appid": "2827960",
+        "downloads": 0,
+        "name": "House Builder 2",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2827960.lua",
+        "online_supported": "No",
+        "primary_genre": "28",
+        "content_descriptors": [],
+        "size_gb": "4.83 GB"
+    },
+    {
+        "added_on": "2025-10-26 06:08:45",
+        "appid": "2960490",
+        "downloads": 0,
+        "name": "Royal Revolt Survivors",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2960490.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [],
+        "size_gb": "5.40 GB"
+    },
+    {
+        "added_on": "2025-10-26 06:07:12",
+        "appid": "3358250",
+        "downloads": 0,
+        "name": "Loot of Baal",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3358250.lua",
+        "online_supported": "No",
+        "primary_genre": "4",
+        "content_descriptors": [],
+        "size_gb": "1.95 GB"
+    },
+    {
+        "added_on": "2025-10-25 18:56:04",
+        "appid": "3709810",
+        "downloads": 0,
+        "name": "Mind the Clown",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3709810.lua",
+        "online_supported": "No",
+        "primary_genre": "25",
+        "content_descriptors": [],
+        "size_gb": "0.55 GB"
+    },
+    {
+        "added_on": "2025-10-25 18:55:57",
+        "appid": "3229100",
+        "downloads": 0,
+        "name": "Teenage Mutant Ninja Turtles: Tactical Takedown",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3229100.lua",
+        "online_supported": "No",
+        "primary_genre": "2",
+        "content_descriptors": [],
+        "size_gb": "3.09 GB"
+    },
+    {
+        "added_on": "2025-10-25 18:55:50",
+        "appid": "2976490",
+        "downloads": 0,
+        "name": "The Stalked 2",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2976490.lua",
+        "online_supported": "No",
+        "primary_genre": "25",
+        "content_descriptors": [],
+        "size_gb": "7.38 GB"
+    },
+    {
+        "added_on": "2025-10-25 18:55:43",
+        "appid": "2116510",
+        "downloads": 0,
+        "name": "Creepy Redneck Dinosaur Mansion 3",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2116510.lua",
+        "online_supported": "No",
+        "primary_genre": "2",
+        "content_descriptors": [],
+        "size_gb": "4.60 GB"
+    },
+    {
+        "added_on": "2025-10-25 14:29:05",
+        "appid": "3687630",
+        "downloads": 0,
+        "name": "\u6709\u8fd9\u4e48\u4e00\u4e2a\u5bb6\u4f19",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3687630.lua",
+        "online_supported": "No",
+        "primary_genre": "3",
+        "content_descriptors": [
+            "1",
+            "5"
+        ],
+        "size_gb": "43.25 GB"
+    },
+    {
+        "added_on": "2025-10-25 12:04:06",
+        "appid": "3419290",
+        "downloads": 0,
+        "name": "\u795e\u5f03\u4e4b\u5730",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3419290.lua",
+        "online_supported": "No",
+        "primary_genre": "23",
+        "content_descriptors": [],
+        "size_gb": "4.73 GB"
+    },
+    {
+        "added_on": "2025-10-25 10:37:21",
+        "appid": "2472940",
+        "downloads": 0,
+        "name": "Wanderer: The Fragments of Fate",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2472940.lua",
+        "online_supported": "No",
+        "primary_genre": "25",
+        "content_descriptors": [
+            "5"
+        ],
+        "size_gb": "40.13 GB"
+    },
+    {
+        "added_on": "2025-10-25 10:16:04",
+        "appid": "3165830",
+        "downloads": 0,
+        "name": "JASON, Coming of Age",
+        "new": false,
+        "requires_membership": false,
+        "st_file": "3165830.lua",
+        "online_supported": "No",
+        "primary_genre": "25",
+        "content_descriptors": [
+            "1",
+            "3",
+            "4",
+            "5"
+        ],
+        "size_gb": "8.76 GB"
+    },
+    {
+        "added_on": "2025-10-25 09:46:05",
+        "appid": "2406370",
+        "downloads": 0,
+        "name": "Darkblade Ascent",
+        "new": false,
+        "requires_membership": false,
+        "st_file": "2406370.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [
+            "2",
+            "5"
+        ],
+        "size_gb": "14.00 GB"
+    },
+    {
+        "added_on": "2025-10-25 09:13:00",
+        "appid": "3631290",
+        "downloads": 0,
+        "name": "Slots & Daggers",
+        "new": false,
+        "requires_membership": false,
+        "st_file": "3631290.lua",
+        "online_supported": "No",
+        "primary_genre": "2",
+        "content_descriptors": [],
+        "size_gb": "0.47 GB"
+    },
+    {
+        "added_on": "2025-10-25 01:55:36",
+        "appid": "3478650",
+        "downloads": 7,
+        "name": "FreshWomen - Season 2",
+        "new": false,
         "requires_membership": false,
         "st_file": "3478650.lua",
         "online_supported": "No",
@@ -18,11 +339,11 @@
         "size_gb": "24.77 GB"
     },
     {
-        "added_on": "2025-10-25T01:55:12",
+        "added_on": "2025-10-25 01:55:12",
         "appid": "2289750",
-        "downloads": 1,
+        "downloads": 4,
         "name": "Super Fantasy Kingdom",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2289750.lua",
         "online_supported": "No",
@@ -31,37 +352,37 @@
         "size_gb": "0.71 GB"
     },
     {
-        "added_on": "2025-10-25T01:54:38",
+        "added_on": "2025-10-25 01:54:38",
         "appid": "3364070",
-        "downloads": 0,
+        "downloads": 2,
         "name": "The Jackbox Party Pack 11",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3364070.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "4.87 GB"
     },
     {
-        "added_on": "2025-10-25T01:53:49",
+        "added_on": "2025-10-25 01:53:49",
         "appid": "3721890",
-        "downloads": 0,
+        "downloads": 2,
         "name": "Maid of Salvation",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3721890.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "2.37 GB"
     },
     {
-        "added_on": "2025-10-25T01:52:38",
+        "added_on": "2025-10-25 01:52:38",
         "appid": "1449110",
-        "downloads": 4,
+        "downloads": 10,
         "name": "The Outer Worlds 2",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1449110.lua",
         "online_supported": "No",
@@ -73,11 +394,11 @@
         "size_gb": "90.33 GB"
     },
     {
-        "added_on": "2025-10-25T01:49:12",
+        "added_on": "2025-10-25 01:49:12",
         "appid": "2370570",
         "downloads": 7,
         "name": "Standable: Full Body Estimation",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2370570.lua",
         "online_supported": "No",
@@ -90,7 +411,7 @@
         "appid": "1575940",
         "downloads": 5,
         "name": "Sins of a Solar Empire II",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "1575940.lua",
         "online_supported": "No",
@@ -101,9 +422,9 @@
     {
         "added_on": "2025-10-24T03:35:04",
         "appid": "2687400",
-        "downloads": 7,
+        "downloads": 8,
         "name": "GODBREAKERS",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2687400.lua",
         "online_supported": "Yes",
@@ -114,9 +435,9 @@
     {
         "added_on": "2025-10-24T03:34:57",
         "appid": "2968420",
-        "downloads": 9,
+        "downloads": 11,
         "name": "PowerWash Simulator 2",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2968420.lua",
         "online_supported": "Yes",
@@ -127,9 +448,9 @@
     {
         "added_on": "2025-10-24T03:34:40",
         "appid": "3232040",
-        "downloads": 4,
+        "downloads": 5,
         "name": "BodyRecords",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3232040.lua",
         "online_supported": "Yes",
@@ -140,9 +461,9 @@
     {
         "added_on": "2025-10-24T01:43:11",
         "appid": "2119830",
-        "downloads": 6,
+        "downloads": 7,
         "name": "MISERY",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2119830.lua",
         "online_supported": "Yes",
@@ -153,9 +474,9 @@
     {
         "added_on": "2025-10-24T01:41:28",
         "appid": "2464280",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Tormented Souls 2",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2464280.lua",
         "online_supported": "No",
@@ -170,9 +491,9 @@
     {
         "added_on": "2025-10-23T15:19:12",
         "appid": "2651440",
-        "downloads": 13,
+        "downloads": 14,
         "name": "Fallen Elf Freya",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2651440.lua",
         "online_supported": "No",
@@ -188,9 +509,9 @@
     {
         "added_on": "2025-10-23T15:18:57",
         "appid": "2989760",
-        "downloads": 10,
+        "downloads": 11,
         "name": "Busty Idol Manor",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2989760.lua",
         "online_supported": "No",
@@ -206,9 +527,9 @@
     {
         "added_on": "2025-10-23T15:18:39",
         "appid": "3128220",
-        "downloads": 6,
+        "downloads": 7,
         "name": "Nerd Simulator",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3128220.lua",
         "online_supported": "No",
@@ -219,9 +540,9 @@
     {
         "added_on": "2025-10-23T15:18:32",
         "appid": "3696410",
-        "downloads": 7,
+        "downloads": 8,
         "name": "FULL METAL SCHOOLGIRL",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3696410.lua",
         "online_supported": "No",
@@ -235,9 +556,9 @@
     {
         "added_on": "2025-10-23T13:50:29",
         "appid": "3838290",
-        "downloads": 12,
+        "downloads": 13,
         "name": "Refate: Echoes of Desire",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3838290.lua",
         "online_supported": "No",
@@ -251,9 +572,9 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2788460",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Party Party Time 2",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2788460.lua",
         "online_supported": "No",
@@ -264,9 +585,9 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2844310",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Minigames Mayhem",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2844310.lua",
         "online_supported": "No",
@@ -279,9 +600,9 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "2244520",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Hoop Fighters",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2244520.lua",
         "online_supported": "No",
@@ -292,7 +613,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "1951780",
-        "downloads": 3,
+        "downloads": 4,
         "name": "Jumping Jazz Cats",
         "new": false,
         "requires_membership": false,
@@ -305,7 +626,7 @@
     {
         "added_on": "2025-10-23T13:36:04",
         "appid": "1815290",
-        "downloads": 4,
+        "downloads": 5,
         "name": "Hitmen Party",
         "new": false,
         "requires_membership": false,
@@ -318,7 +639,7 @@
     {
         "added_on": "2025-10-23T01:33:31",
         "appid": "3231520",
-        "downloads": 4,
+        "downloads": 5,
         "name": "The Bleakest Keep",
         "new": false,
         "requires_membership": false,
@@ -347,7 +668,7 @@
     {
         "added_on": "2025-10-22T16:22:57",
         "appid": "2592160",
-        "downloads": 41,
+        "downloads": 42,
         "name": "Dispatch",
         "new": false,
         "requires_membership": false,
@@ -371,7 +692,7 @@
         "online_supported": "Yes",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "3.34 GB"
+        "size_gb": "3.35 GB"
     },
     {
         "added_on": "2025-10-22T02:25:29",
@@ -448,7 +769,7 @@
     {
         "added_on": "2025-10-21T14:31:55",
         "appid": "2958130",
-        "downloads": 17,
+        "downloads": 18,
         "name": "Jurassic World Evolution 3",
         "new": false,
         "requires_membership": true,
@@ -456,7 +777,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "21.33 GB"
+        "size_gb": "21.32 GB"
     },
     {
         "added_on": "2025-10-21T11:04:45",
@@ -802,7 +1123,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "4.54 GB"
+        "size_gb": "4.59 GB"
     },
     {
         "added_on": "2025-10-16T10:39:28",
@@ -1368,7 +1689,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "6.31 GB"
     },
     {
         "added_on": "2025-10-13T10:10:06",
@@ -1503,7 +1824,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "4.01 GB"
+        "size_gb": "4.02 GB"
     },
     {
         "added_on": "2025-10-12T03:49:58",
@@ -1606,7 +1927,7 @@
     {
         "added_on": "2025-10-11T05:34:37",
         "appid": "3268520",
-        "downloads": 11,
+        "downloads": 12,
         "name": "Before Exit: Gas Station",
         "new": false,
         "requires_membership": false,
@@ -2120,7 +2441,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "5.13 GB"
+        "size_gb": "5.36 GB"
     },
     {
         "added_on": "2025-10-03T18:47:17",
@@ -2587,7 +2908,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "11.30 GB"
+        "size_gb": "11.67 GB"
     },
     {
         "added_on": "2025-09-27T17:20:43",
@@ -4396,7 +4717,7 @@
         "online_supported": "No",
         "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": "103.64 GB"
+        "size_gb": "103.96 GB"
     },
     {
         "added_on": "2025-09-05T07:22:20",
@@ -4568,7 +4889,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "4.12 GB"
+        "size_gb": "4.36 GB"
     },
     {
         "added_on": "2025-09-03T11:03:38",
@@ -5437,7 +5758,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "6.18 GB"
+        "size_gb": "6.22 GB"
     },
     {
         "added_on": "2025-08-30T10:44:54",
@@ -5463,7 +5784,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "8.03 GB"
+        "size_gb": "7.93 GB"
     },
     {
         "added_on": "2025-08-30T05:44:40",
@@ -7058,7 +7379,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "2.92 GB"
+        "size_gb": "2.93 GB"
     },
     {
         "added_on": "2025-08-13T16:06:24",
@@ -7715,7 +8036,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.49 GB"
+        "size_gb": "1.48 GB"
     },
     {
         "added_on": "2025-08-06T11:41:26",
@@ -7863,7 +8184,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "4.35 GB"
+        "size_gb": "4.38 GB"
     },
     {
         "added_on": "2025-08-03T07:52:04",
@@ -8716,7 +9037,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "2.07 GB"
+        "size_gb": "2.10 GB"
     },
     {
         "added_on": "2025-07-19T17:45:05",
@@ -11346,7 +11667,7 @@
         "online_supported": "No",
         "primary_genre": "70",
         "content_descriptors": [],
-        "size_gb": "21.47 GB"
+        "size_gb": "21.48 GB"
     },
     {
         "added_on": "2025-07-04T16:53:26",
@@ -18122,7 +18443,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "16.45 GB"
+        "size_gb": "16.47 GB"
     },
     {
         "added_on": "2025-07-04T16:53:26",
@@ -20807,7 +21128,7 @@
         "online_supported": "No",
         "primary_genre": "0",
         "content_descriptors": [],
-        "size_gb": "0.76 GB"
+        "size_gb": "0.88 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -25612,7 +25933,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "3.02 GB"
+        "size_gb": "3.39 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -37271,7 +37592,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "2464530",
-        "downloads": 2,
+        "downloads": 3,
         "name": "VOIN",
         "new": false,
         "requires_membership": false,
@@ -39305,9 +39626,9 @@
         "requires_membership": false,
         "st_file": "456610.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "14.95 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -44539,7 +44860,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1229490",
-        "downloads": 65,
+        "downloads": 66,
         "name": "ULTRAKILL",
         "new": false,
         "requires_membership": false,
@@ -49133,9 +49454,9 @@
         "requires_membership": false,
         "st_file": "1096300.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "16.66 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -56492,7 +56813,7 @@
     {
         "added_on": "2025-07-04T16:53:25",
         "appid": "1206560",
-        "downloads": 2,
+        "downloads": 3,
         "name": "WorldBox - God Simulator",
         "new": false,
         "requires_membership": false,
@@ -66997,7 +67318,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "6.14 GB"
+        "size_gb": "6.31 GB"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -68434,9 +68755,12 @@
         "requires_membership": false,
         "st_file": "1454890.lua",
         "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": null
+        "primary_genre": "1",
+        "content_descriptors": [
+            "2",
+            "5"
+        ],
+        "size_gb": "60.41 GB"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -74844,7 +75168,7 @@
     {
         "added_on": "2025-07-04T16:53:24",
         "appid": "2456740",
-        "downloads": 121,
+        "downloads": 122,
         "name": "inZOI",
         "new": false,
         "requires_membership": false,
@@ -75018,7 +75342,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "3.01 GB"
+        "size_gb": "3.04 GB"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -81834,7 +82158,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "20.29 GB"
+        "size_gb": "20.77 GB"
     },
     {
         "added_on": "2025-07-04T16:53:24",
@@ -91806,7 +92130,7 @@
         "online_supported": "No",
         "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": "0.90 GB"
+        "size_gb": "0.84 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -100700,7 +101024,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "0.74 GB"
+        "size_gb": "0.80 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -104114,7 +104438,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "956.63 GB"
+        "size_gb": "952.35 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -113462,7 +113786,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "629520",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Soundpad",
         "new": false,
         "requires_membership": false,
@@ -121916,7 +122240,7 @@
     {
         "added_on": "2025-07-04T16:53:21",
         "appid": "1326470",
-        "downloads": 72,
+        "downloads": 73,
         "name": "Sons Of The Forest",
         "new": false,
         "requires_membership": false,
@@ -122663,7 +122987,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "10.61 GB"
+        "size_gb": "10.67 GB"
     },
     {
         "added_on": "2025-07-04T16:53:21",
@@ -137489,7 +137813,7 @@
         "new": false,
         "requires_membership": false,
         "st_file": "375910.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "28",
         "content_descriptors": [],
         "size_gb": "36.80 GB"
@@ -139373,7 +139697,7 @@
         "online_supported": "Yes",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "23.65 GB"
+        "size_gb": "23.99 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -140360,7 +140684,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "31.75 GB"
+        "size_gb": "32.94 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -145878,7 +146202,7 @@
         "downloads": 65,
         "name": "Anno 1800",
         "new": false,
-        "requires_membership": false,
+        "requires_membership": true,
         "st_file": "916440.lua",
         "online_supported": "No",
         "primary_genre": "28",
@@ -148760,9 +149084,13 @@
         "requires_membership": false,
         "st_file": "1519310.lua",
         "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": null
+        "primary_genre": "3",
+        "content_descriptors": [
+            "1",
+            "2",
+            "5"
+        ],
+        "size_gb": "3.32 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -164590,7 +164918,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "1.11 GB"
+        "size_gb": "1.14 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -164948,7 +165276,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "107410",
-        "downloads": 64,
+        "downloads": 65,
         "name": "Arma 3",
         "new": false,
         "requires_membership": false,
@@ -171239,7 +171567,7 @@
         "online_supported": "Yes",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "78.52 GB"
+        "size_gb": "78.30 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -172015,7 +172343,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "3058630",
-        "downloads": 69,
+        "downloads": 70,
         "name": "Assetto Corsa EVO",
         "new": false,
         "requires_membership": false,
@@ -178957,7 +179285,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "2672610",
-        "downloads": 97,
+        "downloads": 98,
         "name": "Black Myth: Wukong Deluxe Edition Upgrade",
         "new": false,
         "requires_membership": false,
@@ -179361,7 +179689,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "1592190",
-        "downloads": 0,
+        "downloads": 1,
         "name": "BONELAB",
         "new": false,
         "requires_membership": false,
@@ -182393,7 +182721,7 @@
     {
         "added_on": "2025-07-04T16:53:19",
         "appid": "233800",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Arma 3 Tools",
         "new": false,
         "requires_membership": false,
@@ -205375,7 +205703,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1671210",
-        "downloads": 62,
+        "downloads": 63,
         "name": "DELTARUNE",
         "new": false,
         "requires_membership": false,
@@ -206827,13 +207155,13 @@
         "new": false,
         "requires_membership": false,
         "st_file": "934700.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "1",
         "content_descriptors": [
             "2",
             "5"
         ],
-        "size_gb": "159.72 GB"
+        "size_gb": "159.21 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -215650,7 +215978,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "949230",
-        "downloads": 97,
+        "downloads": 98,
         "name": "Cities: Skylines II",
         "new": false,
         "requires_membership": false,
@@ -216525,7 +216853,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "58.63 GB"
+        "size_gb": "59.91 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -223255,7 +223583,7 @@
     {
         "added_on": "2025-07-04T16:53:17",
         "appid": "1091500",
-        "downloads": 244,
+        "downloads": 245,
         "name": "Cyberpunk 2077",
         "new": false,
         "requires_membership": false,
@@ -229188,7 +229516,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "1.32 GB"
+        "size_gb": "1.34 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -238029,7 +238357,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "1.60 GB"
+        "size_gb": "1.65 GB"
     },
     {
         "added_on": "2025-07-04T16:53:16",
@@ -244113,7 +244441,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "14.97 GB"
+        "size_gb": "14.96 GB"
     },
     {
         "added_on": "2025-07-04T16:53:16",
@@ -246502,7 +246830,7 @@
         "online_supported": "No",
         "primary_genre": "0",
         "content_descriptors": [],
-        "size_gb": "17.69 GB"
+        "size_gb": "17.87 GB"
     },
     {
         "added_on": "2025-07-04T16:53:16",
@@ -254614,7 +254942,7 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "34.92 GB"
+        "size_gb": "38.91 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -254849,7 +255177,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "2.45 GB"
+        "size_gb": "2.38 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -259119,7 +259447,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "10.22 GB"
+        "size_gb": "10.21 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -265346,7 +265674,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "0.22 GB"
+        "size_gb": "0.23 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -275431,7 +275759,7 @@
     {
         "added_on": "2025-07-04T16:53:15",
         "appid": "1350650",
-        "downloads": 83,
+        "downloads": 84,
         "name": "FreshWomen - Season 1",
         "new": false,
         "requires_membership": false,
@@ -286310,7 +286638,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.40 GB"
+        "size_gb": "1.37 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -292139,7 +292467,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "4.61 GB"
+        "size_gb": "4.62 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -296545,7 +296873,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "7.55 GB"
+        "size_gb": "7.61 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -296843,7 +297171,7 @@
     {
         "added_on": "2025-07-04T16:53:14",
         "appid": "613100",
-        "downloads": 4,
+        "downloads": 5,
         "name": "House Flipper",
         "new": false,
         "requires_membership": false,
@@ -300898,7 +301226,7 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "6.51 GB"
+        "size_gb": "6.50 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -313742,7 +314070,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "1.27 GB"
+        "size_gb": "1.53 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -317844,7 +318172,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "2.64 GB"
+        "size_gb": "4.30 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -319851,7 +320179,7 @@
     {
         "added_on": "2025-07-04T16:53:13",
         "appid": "1895350",
-        "downloads": 0,
+        "downloads": 1,
         "name": "I Wani Hug that Gator!",
         "new": false,
         "requires_membership": false,
@@ -321975,7 +322303,7 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "6.76 GB"
+        "size_gb": "7.01 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -325434,9 +325762,14 @@
         "requires_membership": false,
         "st_file": "1722270.lua",
         "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": null
+        "primary_genre": "25",
+        "content_descriptors": [
+            "1",
+            "3",
+            "5",
+            "4"
+        ],
+        "size_gb": "1.91 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -327711,7 +328044,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "0.82 GB"
+        "size_gb": "0.95 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -328631,9 +328964,9 @@
         "requires_membership": false,
         "st_file": "1239520.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "44.10 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -332945,7 +333278,7 @@
         "online_supported": "Yes",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.01 GB"
+        "size_gb": "1.29 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -338305,9 +338638,11 @@
         "requires_membership": false,
         "st_file": "1890480.lua",
         "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": null
+        "primary_genre": "1",
+        "content_descriptors": [
+            "5"
+        ],
+        "size_gb": "2.03 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -345938,9 +346273,9 @@
         "requires_membership": false,
         "st_file": "1519350.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "49.13 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -347663,7 +347998,7 @@
         "requires_membership": false,
         "st_file": "280720.lua",
         "online_supported": "No",
-        "primary_genre": "2",
+        "primary_genre": "4",
         "content_descriptors": [],
         "size_gb": "3.78 GB"
     },
@@ -352144,7 +352479,7 @@
         "online_supported": "No",
         "primary_genre": "1",
         "content_descriptors": [],
-        "size_gb": "9.91 GB"
+        "size_gb": "10.12 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -354939,7 +355274,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.40 GB"
+        "size_gb": "1.41 GB"
     },
     {
         "added_on": "2025-07-04T16:53:12",
@@ -356019,7 +356354,7 @@
     {
         "added_on": "2025-07-04T16:53:12",
         "appid": "1250410",
-        "downloads": 7,
+        "downloads": 8,
         "name": "Microsoft Flight Simulator (2020)",
         "new": false,
         "requires_membership": false,
@@ -373687,7 +374022,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "46.89 GB"
+        "size_gb": "62.51 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -380707,7 +381042,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "0.90 GB"
+        "size_gb": "1.10 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -384236,7 +384571,7 @@
         "online_supported": "Yes",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "29.93 GB"
+        "size_gb": "29.92 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -390209,7 +390544,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "21.08 GB"
+        "size_gb": "26.75 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -391166,7 +391501,7 @@
         "online_supported": "No",
         "primary_genre": "2",
         "content_descriptors": [],
-        "size_gb": "1.37 GB"
+        "size_gb": "1.39 GB"
     },
     {
         "added_on": "2025-07-04T16:53:11",
@@ -394034,7 +394369,7 @@
         "online_supported": "No",
         "primary_genre": "28",
         "content_descriptors": [],
-        "size_gb": "17.54 GB"
+        "size_gb": "17.91 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -397446,7 +397781,7 @@
         "downloads": 6,
         "name": "Persona 4 Arena Ultimax",
         "new": false,
-        "requires_membership": false,
+        "requires_membership": true,
         "st_file": "1602010.lua",
         "online_supported": "No",
         "primary_genre": "1",
@@ -397948,7 +398283,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "703080",
-        "downloads": 11,
+        "downloads": 12,
         "name": "Planet Zoo",
         "new": false,
         "requires_membership": false,
@@ -399111,7 +399446,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "39.81 GB"
+        "size_gb": "39.79 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -399925,7 +400260,7 @@
         "new": false,
         "requires_membership": false,
         "st_file": "287290.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "25",
         "content_descriptors": [],
         "size_gb": "19.57 GB"
@@ -402551,7 +402886,7 @@
         "downloads": 5,
         "name": "Persona 3 Portable",
         "new": false,
-        "requires_membership": false,
+        "requires_membership": true,
         "st_file": "1809700.lua",
         "online_supported": "No",
         "primary_genre": "3",
@@ -405274,9 +405609,9 @@
         "requires_membership": false,
         "st_file": "1201940.lua",
         "online_supported": "No",
-        "primary_genre": null,
+        "primary_genre": "4",
         "content_descriptors": [],
-        "size_gb": null
+        "size_gb": "3.60 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -410719,7 +411054,7 @@
         "online_supported": "No",
         "primary_genre": "53",
         "content_descriptors": [],
-        "size_gb": "0.75 GB"
+        "size_gb": "0.80 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -411326,7 +411661,7 @@
         "online_supported": "No",
         "primary_genre": "18",
         "content_descriptors": [],
-        "size_gb": "60.24 GB"
+        "size_gb": "60.25 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -411917,7 +412252,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "1.11 GB"
+        "size_gb": "1.14 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -415030,7 +415365,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "2365810",
-        "downloads": 0,
+        "downloads": 1,
         "name": "Pseudoregalia",
         "new": false,
         "requires_membership": false,
@@ -416823,7 +417158,7 @@
         "online_supported": "No",
         "primary_genre": null,
         "content_descriptors": [],
-        "size_gb": "50.51 GB"
+        "size_gb": "50.88 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
@@ -418364,7 +418699,7 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1113000.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "3",
         "content_descriptors": [
             "1",
@@ -424496,12 +424831,12 @@
         "online_supported": "No",
         "primary_genre": "3",
         "content_descriptors": [],
-        "size_gb": "0.95 GB"
+        "size_gb": "0.94 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "108600",
-        "downloads": 11,
+        "downloads": 12,
         "name": "Project Zomboid",
         "new": false,
         "requires_membership": false,
@@ -426967,7 +427302,7 @@
     {
         "added_on": "2025-07-04T16:53:10",
         "appid": "1144200",
-        "downloads": 129,
+        "downloads": 130,
         "name": "Ready or Not",
         "new": false,
         "requires_membership": false,
@@ -428369,7 +428704,7 @@
         "online_supported": "No",
         "primary_genre": "25",
         "content_descriptors": [],
-        "size_gb": "135.57 GB"
+        "size_gb": "135.39 GB"
     },
     {
         "added_on": "2025-07-04T16:53:09",
@@ -429736,7 +430071,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "20.54 GB"
+        "size_gb": "20.55 GB"
     },
     {
         "added_on": "2025-07-04T16:53:09",
@@ -432191,7 +432526,7 @@
         "online_supported": "No",
         "primary_genre": "23",
         "content_descriptors": [],
-        "size_gb": "11.04 GB"
+        "size_gb": "11.06 GB"
     },
     {
         "added_on": "2025-07-04T16:53:09",
@@ -436365,7 +436700,7 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1237950.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "1",
         "content_descriptors": [],
         "size_gb": "97.17 GB"
@@ -439188,7 +439523,7 @@
         "new": false,
         "requires_membership": false,
         "st_file": "1237980.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "1",
         "content_descriptors": [],
         "size_gb": "56.37 GB"
@@ -442424,7 +442759,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1214650",
-        "downloads": 14,
+        "downloads": 15,
         "name": "SOUTH PARK: SNOW DAY!",
         "new": false,
         "requires_membership": false,
@@ -444383,7 +444718,7 @@
     {
         "added_on": "2025-07-04T16:53:09",
         "appid": "1623730",
-        "downloads": 110,
+        "downloads": 111,
         "name": "Palworld",
         "new": false,
         "requires_membership": false,
