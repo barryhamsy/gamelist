@@ -1,5 +1,141 @@
 [
     {
+        "added_on": "2025-10-30 09:19:28",
+        "appid": "3604560",
+        "downloads": 0,
+        "name": "Figure Shop Simulator",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3604560.lua",
+        "online_supported": "No",
+        "primary_genre": "28",
+        "content_descriptors": [],
+        "size_gb": "1.70 GB"
+    },
+    {
+        "added_on": "2025-10-30 02:45:45",
+        "appid": "3845600",
+        "downloads": 0,
+        "name": "Living with a Little Fox Girl",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3845600.lua",
+        "online_supported": "No",
+        "primary_genre": "28",
+        "content_descriptors": [],
+        "size_gb": "1.60 GB"
+    },
+    {
+        "added_on": "2025-10-29 15:33:29",
+        "appid": "3550490",
+        "downloads": 0,
+        "name": "Overcome Your Fears - Caretaker",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3550490.lua",
+        "online_supported": "No",
+        "primary_genre": "23",
+        "content_descriptors": [],
+        "size_gb": "3.63 GB"
+    },
+    {
+        "added_on": "2025-10-29 15:33:06",
+        "appid": "1507780",
+        "downloads": 0,
+        "name": "Space Warlord Organ Trading Simulator",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1507780.lua",
+        "online_supported": "No",
+        "primary_genre": "28",
+        "content_descriptors": [],
+        "size_gb": "1.25 GB"
+    },
+    {
+        "added_on": "2025-10-28 15:45:31",
+        "appid": "1598780",
+        "downloads": 0,
+        "name": "Silly Polly Beast",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1598780.lua",
+        "online_supported": "No",
+        "primary_genre": "1",
+        "content_descriptors": [
+            "2",
+            "5"
+        ],
+        "size_gb": "5.55 GB"
+    },
+    {
+        "added_on": "2025-10-28 15:28:23",
+        "appid": "2747330",
+        "downloads": 0,
+        "name": "Species: Unknown",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "2747330.lua",
+        "online_supported": "Yes",
+        "primary_genre": "1",
+        "content_descriptors": [
+            "2",
+            "5"
+        ],
+        "size_gb": "5.76 GB"
+    },
+    {
+        "added_on": "2025-10-28 13:24:47",
+        "appid": "3759910",
+        "downloads": 0,
+        "name": "Bunkered with Femboy",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "3759910.lua",
+        "online_supported": "No",
+        "primary_genre": "23",
+        "content_descriptors": [
+            "1",
+            "3",
+            "4",
+            "5"
+        ],
+        "size_gb": "0.47 GB"
+    },
+    {
+        "added_on": "2025-10-28 13:24:35",
+        "appid": "4047180",
+        "downloads": 0,
+        "name": "CyberPimp 2069",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "4047180.lua",
+        "online_supported": "No",
+        "primary_genre": "3",
+        "content_descriptors": [
+            "1",
+            "3",
+            "4",
+            "5"
+        ],
+        "size_gb": "14.14 GB"
+    },
+    {
+        "added_on": "2025-10-27 18:22:04",
+        "appid": "1857950",
+        "downloads": 0,
+        "name": "VEIN",
+        "new": true,
+        "requires_membership": false,
+        "st_file": "1857950.lua",
+        "online_supported": "Yes",
+        "primary_genre": "1",
+        "content_descriptors": [
+            "2",
+            "5"
+        ],
+        "size_gb": "119.02 GB"
+    },
+    {
         "added_on": "2025-10-27 17:26:54",
         "appid": "2879840",
         "downloads": 0,
@@ -7,7 +143,7 @@
         "new": true,
         "requires_membership": false,
         "st_file": "2879840.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "25",
         "content_descriptors": [],
         "size_gb": "31.85 GB"
@@ -66,7 +202,7 @@
         "new": true,
         "requires_membership": false,
         "st_file": "2827200.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "1",
         "content_descriptors": [],
         "size_gb": "2.72 GB"
@@ -156,7 +292,7 @@
         "appid": "2960490",
         "downloads": 0,
         "name": "Royal Revolt Survivors",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2960490.lua",
         "online_supported": "No",
@@ -169,7 +305,7 @@
         "appid": "3358250",
         "downloads": 0,
         "name": "Loot of Baal",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3358250.lua",
         "online_supported": "No",
@@ -182,7 +318,7 @@
         "appid": "3709810",
         "downloads": 0,
         "name": "Mind the Clown",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3709810.lua",
         "online_supported": "No",
@@ -195,7 +331,7 @@
         "appid": "3229100",
         "downloads": 0,
         "name": "Teenage Mutant Ninja Turtles: Tactical Takedown",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3229100.lua",
         "online_supported": "No",
@@ -208,7 +344,7 @@
         "appid": "2976490",
         "downloads": 0,
         "name": "The Stalked 2",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2976490.lua",
         "online_supported": "No",
@@ -221,7 +357,7 @@
         "appid": "2116510",
         "downloads": 0,
         "name": "Creepy Redneck Dinosaur Mansion 3",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2116510.lua",
         "online_supported": "No",
@@ -234,7 +370,7 @@
         "appid": "3687630",
         "downloads": 0,
         "name": "\u6709\u8fd9\u4e48\u4e00\u4e2a\u5bb6\u4f19",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3687630.lua",
         "online_supported": "No",
@@ -250,7 +386,7 @@
         "appid": "3419290",
         "downloads": 0,
         "name": "\u795e\u5f03\u4e4b\u5730",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "3419290.lua",
         "online_supported": "No",
@@ -263,7 +399,7 @@
         "appid": "2472940",
         "downloads": 0,
         "name": "Wanderer: The Fragments of Fate",
-        "new": true,
+        "new": false,
         "requires_membership": false,
         "st_file": "2472940.lua",
         "online_supported": "No",
@@ -359,7 +495,7 @@
         "new": false,
         "requires_membership": false,
         "st_file": "3364070.lua",
-        "online_supported": "No",
+        "online_supported": "Yes",
         "primary_genre": "4",
         "content_descriptors": [],
         "size_gb": "4.87 GB"
@@ -50854,19 +50990,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:25",
-        "appid": "282160",
-        "downloads": 0,
-        "name": "X Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "282160.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.00 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:25",
         "appid": "299460",
         "downloads": 0,
         "name": "Woodle Tree Adventures",
@@ -53735,19 +53858,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:25",
-        "appid": "299990",
-        "downloads": 1,
-        "name": "XCOM 2 Development Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "299990.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "70.44 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:25",
         "appid": "2168530",
         "downloads": 0,
         "name": "\u8d8a\u3048\u3056\u308b\u306f\u7d05\u3044\u82b1\uff5e\u5bfe\u306e\u6708\uff5e",
@@ -55912,19 +56022,6 @@
         "primary_genre": "1",
         "content_descriptors": [],
         "size_gb": "0.27 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:25",
-        "appid": "552890",
-        "downloads": 0,
-        "name": "Zombie Panic! Source Mod Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "552890.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.42 GB"
     },
     {
         "added_on": "2025-07-04T16:53:25",
@@ -83511,19 +83608,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:24",
-        "appid": "1765590",
-        "downloads": 0,
-        "name": "Workshop Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1765590.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": null
-    },
-    {
-        "added_on": "2025-07-04T16:53:24",
         "appid": "2135980",
         "downloads": 0,
         "name": "The Icon Battles",
@@ -99684,19 +99768,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:22",
-        "appid": "2321830",
-        "downloads": 0,
-        "name": "The Tenants Modding Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2321830.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.00 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:22",
         "appid": "2411770",
         "downloads": 0,
         "name": "The Twisting Trail of Clues",
@@ -100805,19 +100876,6 @@
         "primary_genre": "28",
         "content_descriptors": [],
         "size_gb": "1.24 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:22",
-        "appid": "1849580",
-        "downloads": 0,
-        "name": "The Riftbreaker - Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1849580.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "1.12 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -105528,19 +105586,6 @@
         "primary_genre": null,
         "content_descriptors": [],
         "size_gb": null
-    },
-    {
-        "added_on": "2025-07-04T16:53:22",
-        "appid": "1004490",
-        "downloads": 0,
-        "name": "Tools Up!",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1004490.lua",
-        "online_supported": "No",
-        "primary_genre": "4",
-        "content_descriptors": [],
-        "size_gb": "2.81 GB"
     },
     {
         "added_on": "2025-07-04T16:53:22",
@@ -111697,19 +111742,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:21",
-        "appid": "628250",
-        "downloads": 0,
-        "name": "Steel Division: Normandy 44 Modding Assets",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "628250.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "12.86 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:21",
         "appid": "1628000",
         "downloads": 0,
         "name": "Superpantsu Harematchii",
@@ -112446,19 +112478,6 @@
         "primary_genre": "0",
         "content_descriptors": [],
         "size_gb": "1.51 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:21",
-        "appid": "1104820",
-        "downloads": 0,
-        "name": "Steel Division 2 Modding Assets",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1104820.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "17.05 GB"
     },
     {
         "added_on": "2025-07-04T16:53:21",
@@ -132376,19 +132395,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:20",
-        "appid": "734880",
-        "downloads": 0,
-        "name": "A Hat in Time - Modding Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "734880.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "6.58 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:20",
         "appid": "2199970",
         "downloads": 0,
         "name": "Substance 3D Painter 2023",
@@ -144709,19 +144715,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:20",
-        "appid": "404350",
-        "downloads": 0,
-        "name": "Sid Meier's Civilization VI Development Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "404350.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.86 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:20",
         "appid": "1835810",
         "downloads": 0,
         "name": "Amelie",
@@ -148934,19 +148927,6 @@
             "5"
         ],
         "size_gb": "14.88 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:20",
-        "appid": "3172890",
-        "downloads": 0,
-        "name": "Sins of a Solar Empire II - Modding Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "3172890.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.09 GB"
     },
     {
         "added_on": "2025-07-04T16:53:20",
@@ -170926,19 +170906,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:19",
-        "appid": "1874910",
-        "downloads": 1,
-        "name": "Arma Reforger Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1874910.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.27 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:19",
         "appid": "1181774",
         "downloads": 0,
         "name": "Beat Saber - Dion Timmer \u2013 Shiawase",
@@ -171996,19 +171963,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:19",
-        "appid": "1890880",
-        "downloads": 0,
-        "name": "Arma Reforger Experimental Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1890880.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.30 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:19",
         "appid": "2641490",
         "downloads": 0,
         "name": "Blood Running",
@@ -172925,19 +172879,6 @@
         "primary_genre": "2",
         "content_descriptors": [],
         "size_gb": "0.94 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:19",
-        "appid": "382990",
-        "downloads": 0,
-        "name": "BrainBread 2 Mod Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "382990.lua",
-        "online_supported": "No",
-        "primary_genre": "0",
-        "content_descriptors": [],
-        "size_gb": "0.79 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -182717,19 +182658,6 @@
             "5"
         ],
         "size_gb": "4.98 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:19",
-        "appid": "233800",
-        "downloads": 1,
-        "name": "Arma 3 Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "233800.lua",
-        "online_supported": "No",
-        "primary_genre": "0",
-        "content_descriptors": [],
-        "size_gb": "0.42 GB"
     },
     {
         "added_on": "2025-07-04T16:53:19",
@@ -196450,19 +196378,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:18",
-        "appid": "455130",
-        "downloads": 1,
-        "name": "Call of Duty: Black Ops III \u2013 Mod Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "455130.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "132.66 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
         "appid": "2087810",
         "downloads": 1,
         "name": "Capcom Arcade 2nd Stadium: Mini-Album Track 15 - Street Fighter Alpha 3 - Who'll Be Your Double? (Character Select)",
@@ -201613,19 +201528,6 @@
             "5"
         ],
         "size_gb": "0.64 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:18",
-        "appid": "595900",
-        "downloads": 0,
-        "name": "Celestial Breach Modding SDK",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "595900.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "7.05 GB"
     },
     {
         "added_on": "2025-07-04T16:53:18",
@@ -206831,19 +206733,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:17",
-        "appid": "313220",
-        "downloads": 0,
-        "name": "Company of Heroes 2 Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "313220.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.20 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:17",
         "appid": "2351670",
         "downloads": 2,
         "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic Fresh Spring Special All in Pack",
@@ -206916,19 +206805,6 @@
         "primary_genre": "3",
         "content_descriptors": [],
         "size_gb": "0.06 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:17",
-        "appid": "379800",
-        "downloads": 0,
-        "name": "Company of Heroes 2 Tools Data",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "379800.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "24.14 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -215011,19 +214887,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:17",
-        "appid": "679870",
-        "downloads": 0,
-        "name": "Dawn of War III Mod Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "679870.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.07 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:17",
         "appid": "32620",
         "downloads": 0,
         "name": "Delta Force 1",
@@ -221628,19 +221491,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:17",
-        "appid": "2909700",
-        "downloads": 0,
-        "name": "DayZ Experimental Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2909700.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.54 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:17",
         "appid": "804490",
         "downloads": 0,
         "name": "Creed: Rise to Glory\u2122",
@@ -222045,19 +221895,6 @@
         "primary_genre": null,
         "content_descriptors": [],
         "size_gb": null
-    },
-    {
-        "added_on": "2025-07-04T16:53:17",
-        "appid": "830640",
-        "downloads": 0,
-        "name": "DayZ Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "830640.lua",
-        "online_supported": "No",
-        "primary_genre": "0",
-        "content_descriptors": [],
-        "size_gb": "0.55 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -230689,19 +230526,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:17",
-        "appid": "1481320",
-        "downloads": 0,
-        "name": "Coffee Talk - Modding Tool",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1481320.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.61 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:17",
         "appid": "304580",
         "downloads": 0,
         "name": "CITYCONOMY: Service for your City",
@@ -231356,19 +231180,6 @@
         "primary_genre": "2",
         "content_descriptors": [],
         "size_gb": "3.47 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:17",
-        "appid": "3064700",
-        "downloads": 0,
-        "name": "Darkest Dungeon\u00ae II: Mod Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "3064700.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "4.61 GB"
     },
     {
         "added_on": "2025-07-04T16:53:17",
@@ -238659,19 +238470,6 @@
         "primary_genre": "3",
         "content_descriptors": [],
         "size_gb": "5.90 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:16",
-        "appid": "245850",
-        "downloads": 0,
-        "name": "Don't Starve Mod Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "245850.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.42 GB"
     },
     {
         "added_on": "2025-07-04T16:53:16",
@@ -261138,19 +260936,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:15",
-        "appid": "2789700",
-        "downloads": 0,
-        "name": "Farthest Frontier Mod Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2789700.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.16 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:15",
         "appid": "508790",
         "downloads": 0,
         "name": "Flat Heroes",
@@ -268226,19 +268011,6 @@
         "primary_genre": "28",
         "content_descriptors": [],
         "size_gb": "5.25 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:15",
-        "appid": "2339410",
-        "downloads": 0,
-        "name": "Epic Fantasy Battle Simulator Modding Kit",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2339410.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "1.81 GB"
     },
     {
         "added_on": "2025-07-04T16:53:15",
@@ -286154,19 +285926,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:14",
-        "appid": "714570",
-        "downloads": 0,
-        "name": "Hidden Object - Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "714570.lua",
-        "online_supported": "No",
-        "primary_genre": "4",
-        "content_descriptors": [],
-        "size_gb": "0.10 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
         "appid": "2134630",
         "downloads": 0,
         "name": "Hot Cleopatra",
@@ -287397,19 +287156,6 @@
             "4"
         ],
         "size_gb": "28.00 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
-        "appid": "1695793",
-        "downloads": 0,
-        "name": "Halo: Reach Mod Tools - MCC",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1695793.lua",
-        "online_supported": "No",
-        "primary_genre": "1",
-        "content_descriptors": [],
-        "size_gb": "7.14 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -290328,19 +290074,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:14",
-        "appid": "1695791",
-        "downloads": 0,
-        "name": "Halo 3 Mod Tools - MCC",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1695791.lua",
-        "online_supported": "No",
-        "primary_genre": "1",
-        "content_descriptors": [],
-        "size_gb": "7.62 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
         "appid": "1534030",
         "downloads": 0,
         "name": "Graviteam Tactics: Cold Spring",
@@ -291209,19 +290942,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:14",
-        "appid": "1695792",
-        "downloads": 0,
-        "name": "Halo 4 Mod Tools - MCC",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1695792.lua",
-        "online_supported": "No",
-        "primary_genre": "1",
-        "content_descriptors": [],
-        "size_gb": "9.95 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
         "appid": "844750",
         "downloads": 0,
         "name": "Go-Kart Racing",
@@ -291294,19 +291014,6 @@
             "4"
         ],
         "size_gb": "0.06 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
-        "appid": "1718880",
-        "downloads": 0,
-        "name": "HUMANKIND\u2122 Mod Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1718880.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.09 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -291548,19 +291255,6 @@
         "primary_genre": "3",
         "content_descriptors": [],
         "size_gb": "0.81 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
-        "appid": "1613450",
-        "downloads": 0,
-        "name": "Halo 2 Mod Tools - MCC",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1613450.lua",
-        "online_supported": "No",
-        "primary_genre": "0",
-        "content_descriptors": [],
-        "size_gb": "5.72 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -301114,19 +300808,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:14",
-        "appid": "1695790",
-        "downloads": 0,
-        "name": "Halo 2 Anniversary MP Mod Tools - MCC",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1695790.lua",
-        "online_supported": "No",
-        "primary_genre": "1",
-        "content_descriptors": [],
-        "size_gb": "5.56 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
         "appid": "1645570",
         "downloads": 0,
         "name": "Greedy Bubble",
@@ -305258,19 +304939,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:14",
-        "appid": "1695794",
-        "downloads": 0,
-        "name": "Halo 3: ODST Mod Tools - MCC",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1695794.lua",
-        "online_supported": "No",
-        "primary_genre": "1",
-        "content_descriptors": [],
-        "size_gb": "7.42 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
         "appid": "446150",
         "downloads": 1,
         "name": "GUNS UP",
@@ -307274,19 +306942,6 @@
             "5"
         ],
         "size_gb": "3.30 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:14",
-        "appid": "1532190",
-        "downloads": 0,
-        "name": "Halo: CE Mod Tools - MCC",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "1532190.lua",
-        "online_supported": "No",
-        "primary_genre": "0",
-        "content_descriptors": [],
-        "size_gb": "1.07 GB"
     },
     {
         "added_on": "2025-07-04T16:53:14",
@@ -310240,19 +309895,6 @@
         "primary_genre": "4",
         "content_descriptors": [],
         "size_gb": "0.07 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:13",
-        "appid": "563",
-        "downloads": 0,
-        "name": "Left 4 Dead 2 Authoring Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "563.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.90 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -320571,19 +320213,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:13",
-        "appid": "869810",
-        "downloads": 0,
-        "name": "Jabroni Brawl: Episode 3 - Authoring Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "869810.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.06 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:13",
         "appid": "1217830",
         "downloads": 0,
         "name": "Khimera: Puzzle Island",
@@ -325783,19 +325412,6 @@
         "primary_genre": null,
         "content_descriptors": [],
         "size_gb": null
-    },
-    {
-        "added_on": "2025-07-04T16:53:13",
-        "appid": "2644900",
-        "downloads": 0,
-        "name": "Mazetools Soniface",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2644900.lua",
-        "online_supported": "No",
-        "primary_genre": "0",
-        "content_descriptors": [],
-        "size_gb": "2.56 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -345849,19 +345465,6 @@
         "primary_genre": "1",
         "content_descriptors": [],
         "size_gb": "1.66 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:13",
-        "appid": "513",
-        "downloads": 0,
-        "name": "Left 4 Dead Authoring Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "513.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.28 GB"
     },
     {
         "added_on": "2025-07-04T16:53:13",
@@ -376125,19 +375728,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:11",
-        "appid": "201890",
-        "downloads": 0,
-        "name": "Nuclear Dawn Authoring Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "201890.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.07 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:11",
         "appid": "475240",
         "downloads": 0,
         "name": "ORCS",
@@ -402448,19 +402038,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:10",
-        "appid": "2266250",
-        "downloads": 0,
-        "name": "Portal: Revolution Authoring Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2266250.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.39 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:10",
         "appid": "23700",
         "downloads": 0,
         "name": "Puzzle Kingdoms",
@@ -414676,19 +414253,6 @@
     },
     {
         "added_on": "2025-07-04T16:53:10",
-        "appid": "2465270",
-        "downloads": 0,
-        "name": "Pistol Mix - The Official Modding Tool for Pistol Whip",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "2465270.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.76 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:10",
         "appid": "2614480",
         "downloads": 0,
         "name": "PortalSnake",
@@ -423470,19 +423034,6 @@
         "primary_genre": "23",
         "content_descriptors": [],
         "size_gb": "0.11 GB"
-    },
-    {
-        "added_on": "2025-07-04T16:53:10",
-        "appid": "629",
-        "downloads": 0,
-        "name": "Portal 2 Authoring Tools",
-        "new": false,
-        "requires_membership": false,
-        "st_file": "629.lua",
-        "online_supported": "No",
-        "primary_genre": null,
-        "content_descriptors": [],
-        "size_gb": "0.12 GB"
     },
     {
         "added_on": "2025-07-04T16:53:10",
