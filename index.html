@@ -40,7 +40,7 @@
     header{
       position:relative; z-index:10;
       display:flex; justify-content:space-between; align-items:center;
-      margin-bottom:20px; gap:15px; flex-wrap:wrap;
+      margin-bottom:12px; gap:15px; flex-wrap:wrap;
     }
 
     .logo-title{display:flex; align-items:center; gap:14px;}
@@ -54,6 +54,44 @@
       padding:6px 10px; border-radius:8px; transition:all .2s ease; border:1px solid transparent;
     }
     nav a:hover{ background:rgba(139,92,246,.12); border-color:rgba(139,92,246,.35); }
+
+    /* Global promo banner (persistent across all tabs) */
+    .promo-banner{
+      max-width:1100px;
+      margin:0 auto 18px;
+      padding:12px 18px;
+      border-radius:14px;
+      background:linear-gradient(135deg, rgba(34,197,94,.18), rgba(129,140,248,.55));
+      border:1px solid rgba(129,140,248,.8);
+      color:#e5e7eb;
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      box-shadow:0 12px 32px rgba(0,0,0,.55);
+    }
+    .promo-main{
+      font-weight:800;
+      font-size:1rem;
+      color:#f9fafb;
+      letter-spacing:.4px;
+      text-transform:uppercase;
+    }
+    .promo-sub{
+      font-size:.9rem;
+      color:var(--text-light);
+    }
+    .promo-sub span{
+      color:#fbbf24;
+      font-weight:700;
+    }
+    @media (max-width:640px){
+      .promo-banner{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+    }
 
     /* Search */
     .search-container{max-width:780px; margin:20px auto 36px; display:flex; gap:10px;}
@@ -83,7 +121,7 @@
     }
     .game-card:hover{ transform:translateY(-4px); box-shadow:0 12px 36px rgba(0,0,0,.45); border-color:rgba(139,92,246,.45); }
 
-    /* Force 600x900 aspect ratio (2:3). If source is 600x900, it'll be pixel-perfect scaled. */
+    /* Force 600x900 aspect ratio (2:3). */
     .game-image{ width:100%; aspect-ratio:2/3; object-fit:cover; display:block; image-rendering:-webkit-optimize-contrast; }
 
     .game-info{ padding:16px; flex:1; display:flex; flex-direction:column; gap:10px; }
@@ -196,6 +234,41 @@
     .receipt-row input{flex:1; padding:8px 10px; border:1px solid var(--border); border-radius:8px; font-size:.9rem; background:var(--input); color:#e5e7eb;}
     .receipt-row button{padding:8px 10px; border:none; border-radius:8px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; cursor:pointer;}
     .receipt-row button:hover{filter:brightness(1.1)}
+
+    /* Pricing: old vs new price */
+    .pricing-card .pricing-price{
+      margin:15px 0;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:2px;
+    }
+    .pricing-card .old-price{
+  position:relative;
+  display:inline-block;
+  color:var(--text-light);
+  font-size:.9rem;
+  padding:0 4px;
+}
+
+.pricing-card .old-price::after{
+  content:"";
+  position:absolute;
+  left:-8%;
+  right:-8%;
+  top:50%;
+  height:2px;
+  background:#f97373;              /* slash color */
+  transform:rotate(-15deg);        /* slant angle */
+  transform-origin:center;
+  pointer-events:none;
+}
+
+    .pricing-card .new-price{
+      font-size:1.8rem;
+      font-weight:800;
+      color:var(--primary-color);
+    }
   </style>
 </head>
 <body>
@@ -213,6 +286,15 @@
       </div>
     </div>
   </header>
+
+  <!-- Persistent 30% OFF banner (shows on all tabs) -->
+  <div class="promo-banner">
+    <div class="promo-main">🎉 Limited-Time Launch Promo — 30% OFF all versions</div>
+    <div class="promo-sub">
+      Prices shown are <strong>before</strong> discount. Enjoy <span>30% OFF</span> any plan during this promotion.
+      Just mention the promo when you pay or contact us on WhatsApp.
+    </div>
+  </div>
 
   <!-- Home Page -->
   <div id="home" class="page active">
@@ -330,33 +412,50 @@
   <div id="pricing" class="page">
     <div class="pricing-wrap">
       <h2>Pricing Plans</h2>
+
       <div class="pricing-container" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:20px; max-width:1100px; margin:20px auto 0;">
+        <!-- Monthly -->
         <div class="pricing-card" style="background:var(--card-bg); border:1px solid var(--border); border-radius:15px; padding:24px; box-shadow:var(--shadow); text-align:center; min-height:360px;">
           <h3 style="color:#f3f4f6; margin:0 0 10px">Monthly</h3>
-          <div class="pricing-price" style="font-size:1.8rem; font-weight:800; margin:15px 0; color:var(--primary-color);">RM45</div>
+          <div class="pricing-price">
+            <span class="old-price">RM45</span>
+            <span class="new-price">RM31.50</span>
+          </div>
           <p style="color:var(--text-light)">1 SteamID per CD Key (1 month)</p>
           <p style="font-size:.85rem; color:var(--text-light);">Games revert to “Purchase” after expiry. No Denuvo. No online patch/launcher bypass.</p>
           <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Monthly" style="display:inline-block; margin-top:auto; padding:10px 20px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:700; border-radius:999px; text-decoration:none;">Buy Now</a>
         </div>
 
+        <!-- Basic -->
         <div class="pricing-card" style="background:var(--card-bg); border:1px solid var(--border); border-radius:15px; padding:24px; box-shadow:var(--shadow); text-align:center; min-height:360px;">
           <h3 style="color:#f3f4f6; margin:0 0 10px">Basic</h3>
-          <div class="pricing-price" style="font-size:1.8rem; font-weight:800; margin:15px 0; color:var(--primary-color);">RM120</div>
+          <div class="pricing-price">
+            <span class="old-price">RM120</span>
+            <span class="new-price">RM84.00</span>
+          </div>
           <p style="color:var(--text-light)">1 SteamID per CD Key (Lifetime)</p>
           <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Basic" style="display:inline-block; margin-top:auto; padding:10px 20px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:700; border-radius:999px; text-decoration:none;">Buy Now</a>
         </div>
 
+        <!-- Premium -->
         <div class="pricing-card" style="position:relative; background:var(--card-bg); border:2px solid transparent; border-radius:15px; padding:24px; box-shadow:0 12px 30px rgba(124,58,237,.35), 0 0 0 6px rgba(124,58,237,.15); text-align:center; min-height:360px; background-image:linear-gradient(var(--card-bg),var(--card-bg)), linear-gradient(135deg, var(--secondary-color), var(--accent-2)); background-origin:border-box; background-clip:padding-box, border-box;">
           <span class="badge-featured" style="position:absolute; top:-12px; left:50%; transform:translateX(-50%); background:linear-gradient(135deg,#f59e0b,#fbbf24); color:#1f2937; font-weight:800; font-size:.72rem; padding:6px 12px; border-radius:6px; box-shadow:0 4px 12px rgba(0,0,0,.35); letter-spacing:.4px; text-transform:uppercase;">Most Popular</span>
           <h3 style="color:#f3f4f6; margin:0 0 10px">Premium</h3>
-          <div class="pricing-price" style="font-size:1.8rem; font-weight:800; margin:15px 0; color:var(--primary-color);">RM250</div>
+          <div class="pricing-price">
+            <span class="old-price">RM250</span>
+            <span class="new-price">RM175.00</span>
+          </div>
           <p style="color:var(--text-light)">3 SteamIDs per CD Key (Lifetime)</p>
           <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Premium" style="display:inline-block; margin-top:auto; padding:10px 20px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:700; border-radius:999px; text-decoration:none;">Buy Now</a>
         </div>
 
+        <!-- Standard -->
         <div class="pricing-card" style="background:var(--card-bg); border:1px solid var(--border); border-radius:15px; padding:24px; box-shadow:var(--shadow); text-align:center; min-height:360px;">
           <h3 style="color:#f3f4f6; margin:0 0 10px">Standard</h3>
-          <div class="pricing-price" style="font-size:1.8rem; font-weight:800; margin:15px 0; color:var(--primary-color);">RM180</div>
+          <div class="pricing-price">
+            <span class="old-price">RM180</span>
+            <span class="new-price">RM126.00</span>
+          </div>
           <p style="color:var(--text-light)">2 SteamIDs per CD Key (Lifetime)</p>
           <a href="https://www.paypal.com/ncp/payment/HXJHP8F87YQC6" target="_blank" class="buy-btn" data-plan="Standard" style="display:inline-block; margin-top:auto; padding:10px 20px; background:linear-gradient(135deg,var(--secondary-color),var(--accent-2)); color:#fff; font-weight:700; border-radius:999px; text-decoration:none;">Buy Now</a>
         </div>
@@ -634,13 +733,25 @@
 
       if(start > 1){
         addButton('1', 1, false, currentPage === 1);
-        if(start > 2){ const span = document.createElement('span'); span.textContent = '...'; span.style.padding = '8px'; span.style.color = '#9ca3af'; controls.appendChild(span); }
+        if(start > 2){
+          const span = document.createElement('span');
+          span.textContent = '...';
+          span.style.padding = '8px';
+          span.style.color = '#9ca3af';
+          controls.appendChild(span);
+        }
       }
 
       for(let i=start; i<=end; i++){ addButton(String(i), i, false, i === currentPage); }
 
       if(end < totalPages){
-        if(end < totalPages - 1){ const span = document.createElement('span'); span.textContent = '...'; span.style.padding = '8px'; span.style.color = '#9ca3af'; controls.appendChild(span); }
+        if(end < totalPages - 1){
+          const span = document.createElement('span');
+          span.textContent = '...';
+          span.style.padding = '8px';
+          span.style.color = '#9ca3af';
+          controls.appendChild(span);
+        }
         addButton(String(totalPages), totalPages, false, currentPage === totalPages);
       }
 
