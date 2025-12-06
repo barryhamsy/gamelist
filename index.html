@@ -473,14 +473,9 @@
         <div class="pay-card">
           <h3>PayPal Checkout</h3>
           <div class="paypal-box">
-            <script src="https://www.paypal.com/sdk/js?client-id=AaAIsRRYfQ3IHossgNDvuh52PBqVRMGKufsl3kZLFWzdmuHHjqi90B3RhIhpUKWOlSmw_cfUDwcEe8gy&currency=MYR" data-sdk-integration-source="button-factory"></script>
-            <div id="paypal-button-container"></div>
+            <script src="https://www.paypal.com/sdk/js?client-id=BAAgLTWExkEmBYGTk4TaOHtkdRzIt_FsGMl8aioIz-7MMePhGrRXVd8RhQB2IZzPaFjdsuGOt9rEOZcJU4&components=hosted-buttons&disable-funding=venmo&currency=MYR" data-sdk-integration-source="button-factory"></script>
+            <div id="paypal-container-HXJHP8F87YQC6"></div>
             <div class="paypal-placeholder" id="paypal-fallback">
-              <span>⚙️</span>
-              <div>
-                Add your PayPal <code>client-id</code> to enable Smart Buttons.<br/>
-                Or use the “Purchase App” button / QR options.
-              </div>
             </div>
           </div>
           <p class="pay-note">Tip: After successful payment, your receipt/transaction ID can be auto-attached to WhatsApp for faster activation.</p>
@@ -782,5 +777,10 @@
     function showReceiptToast(){ const el = document.getElementById('receiptToast'); if(el) el.style.display = 'block'; }
     function hideReceiptToast(){ const el = document.getElementById('receiptToast'); if(el) el.style.display = 'none'; }
   </script>
+  <script>
+  paypal.HostedButtons({
+    hostedButtonId: "HXJHP8F87YQC6",
+  }).render("#paypal-container-HXJHP8F87YQC6")
+</script>
 </body>
 </html>
